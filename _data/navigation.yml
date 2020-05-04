@@ -1,0 +1,13 @@
+docs_list_title: Header
+docs:
+- title: Home
+  url: /index.html
+- title: About
+  url: /about.html
+- title: The Full List
+  url: /list.html
+- title: Momism Search
+  url: /search.html
+- title: Contribute a Momism
+  url: https://docs.google.com/forms/d/e/1FAIpQLSdfmzsR2Z4hB9AG-CfEiPwZClB78tSY3SPVOWi4XbDCeGZQog/viewform
+  target: newpage
