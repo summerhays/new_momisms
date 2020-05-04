@@ -1,0 +1,110 @@
+---
+---
+@import "colors.scss";
+
+html,body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-size: $body-font-size;
+	color: $body-color-text;
+	background-color: $body-color;
+	font-family: $font-sans;
+	align-items: center;
+	height: 100%;
+}
+
+header {
+	flex: 0 0 auto;
+}
+
+.banner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px
+}
+
+.main-nav {
+  display: flex;
+  flex: 0 0 auto;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.main-nav > li {
+	padding:  14px 20px;
+	font-size: $nav-font-size;
+	color: $nav-color-text;
+  }
+
+.active {
+	background-color: $color-active;
+}
+
+.title {
+	text-align: center;
+	text-decoration: none;
+}
+
+.banner .title {
+	font-size: $header-font-size;
+	color: $header-color-text;
+	font-family: $font-serif;
+}
+
+.nolink,.nolink:hover,.nolink:visited, .nolink:link {
+    text-decoration: none;
+   }
+
+/*body hr {
+	margin: 5px;
+	color: $nav-color-text;
+} */
+
+main { 
+	flex: 1 0 auto;
+	min-height: auto;
+	margin: 0;
+	padding: 0 40px;
+	text-align: left;
+	max-width: 100%;
+	width: $text-width;
+}
+
+.center {
+	text-align: center;
+	align-self: center;
+}
+
+footer {
+	flex-shrink: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-bottom {
+	background-color: $footer-bottom;
+	color: $footer-bottom-text;
+}
+
+@media all and (max-width: $mob-pixels) {
+
+  .main-nav {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .main-nav > li {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  main {
+	  padding: 0 15px;
+  }
+}
