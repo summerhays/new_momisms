@@ -1,0 +1,37 @@
+title: Momism of the Day (MOD)
+email: mom@summerhays.net
+description: >- # this means to ignore newlines until "baseurl:"
+        All 250+ momisms, all in one place
+keywords: momisms, mom, expressions
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://mom.summerhays.net" # the base hostname & protocol for your site, e.g. http://example.com
+icon: /assets/images/confused-smiley.png
+#twitter_username: jekyllrb
+#github_username:  jekyll
+github:
+  is_project_page: false
+
+# Build settings
+markdown: kramdown
+#theme: jekyll-theme-tactile
+#plugins:
+        #  - jekyll-feed
+
+tipue_search:
+  include:
+    pages: true
+  exclude:
+    files: [search.html]
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
