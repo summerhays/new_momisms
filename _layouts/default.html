@@ -10,7 +10,7 @@
   <html lang="en">
   <link rel="icon" type="image/jpg" href="/favicon.ico">
      <link rel="stylesheet" href="/assets/css/w3.css">
-     <link rel="stylesheet" href="/assets/css/all.min.css">
+     <link rel="stylesheet" href="/assets/css/all.css">
      <link rel="stylesheet" href="/assets/css/style.css">
      <title>{{ site.title }}</title>
 
@@ -27,12 +27,19 @@
   </head>
 
 <body>
+  <div id="main">
         <header>
-		<a href="/" class="nolink banner"><img src="{{ site.icon }}" height="25px" hspace="10px"><span class="title nolink">{{ site.title }}</span></a>
+	   <div class=topline>
+		   <div><i class="fas fa-bars fa-lg"></i></div>
+		<a href="/" class="nolink banner color-1-light"><img src="{{ site.icon }}" height="55px" hspace="10px"></a>
+		<div></div>
+	   </div>
+                <a href="/" class="nolink banner color-1"><div class="title nolink">{{ site.title }}</div></a>
 	<nav>
-          <ul class="main-nav">	
+          <ul class="main-nav" id="myNav">	
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 	     {% for each in site.data.navigation.docs %}
-	        <li><a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %}{% if page.url == each.url " %}class="active"{% endif %}>{{ each.title }}</a></li>
+	        <a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %} class="nolink {% if page.url == each.url %} active{% endif %}">{{ each.title }}</a>
              {% endfor %}
 	  </ul>
 	</nav>
@@ -45,8 +52,24 @@
         </main>
 	<footer>
 		<br>
+		<br>
 		Made with love by
-		<div class="footer-bottom"><a class=nolink href="https://summerhays.net">SummerhaySites</a></div>
+		<br>
+		<div class="footer-bottom"><a class=nolink href="https://summerhays.net">SummerSites</a></div>
 	</footer>
+  </div>
   </body>
 </html>
+
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "250px";
+  document.getElementById("content").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0";
+  document.getElementById("content").style.marginLeft= "0";
+}
+</script>

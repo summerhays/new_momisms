@@ -4,7 +4,10 @@ title: About
 permalink: /about.html
 id: about
 ---
+By Jove (momism ID [#47](/list.html#momism_id47)), son, a [searchable](search.html) list of [all {{ site.data.momisms.size }}](list.html) of mother's momisms!
 
-The dictionary defines a momism as _excessive adulation of the mother and undue dependence on maternal care or protection, resulting in absence or loss of maturity and independence._ But in our family, we know the true definition. A momism is a word that, as far as we know, only our mother says and, in any case, when we hear this word or phrase, our mother pops immediately to mind.
+But wait, isn't a momism _an undue dependence on maternal protection, resulting in loss of independence_? Most certainly not! In our family, we know the true definition. A momism is a word that only our mother says; or barring that, when we hear this word, our mother pops immediately to mind.
 
-This website contains a searchable list of {{ site.data.momisms.size }} momisms compiled by her children since 2009, with our good ears for language and our good fingers for typing.
+This website contains a [searchable](/search.html) list of [all {{ site.data.momisms.size }} momisms](/list.html) compiled by her children since 2009, with our good ears for language and our good fingers for typing (momism ID [#192](/list.html#momism_id192)).
+
+Our faces upon hearing a new momism: ![confused smiley]({{ site.icon }}){: height="25px" hspace=""}

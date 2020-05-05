@@ -1,17 +1,23 @@
 ---
-layout: default
-title: Home
 id: index
-permalink: /index.html
+layout: default
+permalink: index.html
 ---
-Momism of the Day. Finally, the [searchable](search.html) list of [all](list.html) {{ site.data.momisms.size }} of mother's momisms.
+{% comment %}# Momism of the Day
+{: class="title"}{% endcomment %}
 
-But wait, isn't a momism "an undue dependence on maternal protection, resulting in loss of independence"? Most certainly not! See our [about](about.html) page for the true definition.
+The Momism of the Day, <span id="today"></span>, is:
+<strong><span id="randomMom"></span></strong>
 
-We have been collecting momisms since 2009.
+<span id="defLabel">Definition: </span>
+<span id="randomDefinition"></span>
+<span id="exLabel">Example: : </span>
+<em><span id="randomExample"></span></em>
+<span id="mommLabel">Mommentary: </span>
+<span id="randomMommentary"></span>
 
-<hr>
+<span id="IDLabel">(Momism ID #</span>
+<span id="randomID"></span><span>)</span>
 
-## Momism of the Day:
-
-{% include mod.md %}
+<p></p>
+<script src="/assets/js/mod.js"></script>

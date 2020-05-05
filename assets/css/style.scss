@@ -4,6 +4,7 @@
 
 html,body {
 	height: 100%;
+	width: 100%
 }
 
 body {
@@ -18,7 +19,18 @@ body {
 }
 
 header {
-	flex: 0 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 auto;
+	width: 100%;
+}
+
+.topline {
+	display: flex;
+	justify-content: space-between;
+	background: $color-1-light;
+	align-items: center;
+	padding: 5px 16px;
 }
 
 .banner {
@@ -33,16 +45,56 @@ header {
   flex: 0 0 auto;
   list-style-type: none;
   justify-content: center;
+
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  //padding-top: 60px;
 }
 
-.main-nav > li {
+.main-nav > a {
 	padding:  14px 20px;
 	font-size: $nav-font-size;
 	color: $nav-color-text;
+  display: block;
+  transition: 0.3s;
   }
 
+.main-nav > a:hover {
+	border-bottom: 3px solid $color-1;
+}
+
+
+.sidenav {
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #818181;
+}
+
+.main-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+main,header,footer {
+  transition: margin-left .5s;
+}
+
+
 .active {
-	background-color: $color-active;
+	border-bottom: 3px solid $color-active;
 }
 
 .title {
@@ -53,7 +105,8 @@ header {
 .banner .title {
 	font-size: $header-font-size;
 	color: $header-color-text;
-	font-family: $font-serif;
+	font-family: $font-sans;
+	font-weight: bold;
 }
 
 .nolink,.nolink:hover,.nolink:visited, .nolink:link {
@@ -84,6 +137,7 @@ footer {
 	flex-shrink: 0;
 	width: 100%;
 	text-align: center;
+	background-color: $color-1;
 }
 
 .footer-bottom {
@@ -108,3 +162,50 @@ footer {
 	  padding: 0 15px;
   }
 }
+
+// Colors
+
+.color-1 {
+	background-color: $color-1;
+}
+
+.color-1-text {
+	color: $color-1;
+}
+
+.color-1-dark-text {
+	color: $color-1-dark;
+}
+
+.color-1-light {
+	background-color: $color-1-light;
+}
+
+
+.color-complement-text {
+	color: $color-complement;
+}
+
+.color-complement {
+	background-color: $color-complement;
+}
+
+.color-triad-1 {
+	//background-color: $color-triad-1;
+	color: $color-triad-1;
+}
+
+.gradient {
+	background: linear-gradient(to right, $color-1 0%, $color-1-light 100%)
+}
+
+.gradient:hover {
+	background: $color-1-light !important;
+}
+
+
+.textblack {
+	color: black;
+}
+
+

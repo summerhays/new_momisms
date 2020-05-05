@@ -1,19 +1,5 @@
-Today's Momism of the Day is:
-<strong><span id="randomMom"></span></strong>
-
-<span id="defLabel">Definition: </span>
-<span id="randomDefinition"></span>
-<span id="exLabel">Example: : </span>
-<em><span id="randomExample"></span></em>
-<br><br>
-<span id="mommLabel">Mommentary: </span>
-<span id="randomMommentary"></span>
-
-<span id="IDLabel">(Momism ID #: </span>
-<span id="randomID"></span><span>)</span>
-
-<p></p>
-<script> 
+---
+---
 var allMomisms = [
 {% for each in site.data.momisms %}
  {
@@ -23,7 +9,7 @@ var allMomisms = [
  {% if each.mommentary %} mommentary: "{{ each.mommentary }}",{% endif %}
   momism_id: "{{ each.order }}"
 },
-        {% endfor %} 
+        {% endfor %}
 ];
 
 var randomNum = [
@@ -35,8 +21,9 @@ var randomNum = [
   {% endfor %}
 ];
 
-today=new Date()
+var today=new Date();
 var randforToday = randomNum[daysIntoYear(today) - 1];
+var today_date = (today).toString().split(' ').splice(1,3).join(' ');
 
 // Making these all into variables to be easier to handle:
 var modFinal = allMomisms[randforToday.rand].momism;
@@ -72,7 +59,5 @@ if (typeof mommFinal === 'undefined') {
 } else {
   document.getElementById("randomMommentary").innerHTML = mommFinal;
 }
-
 document.getElementById("randomID").innerHTML = idFinal;
-
-</script>
+document.getElementById("today").innerHTML = today_date;
