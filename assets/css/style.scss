@@ -37,6 +37,7 @@ header {
 }
 
 
+
 @media all and (min-width: $mob-pixels) {
 .main-nav {
   height: 100%;
@@ -286,3 +287,14 @@ footer > a > .mobile_only {
 	text-align: center;
 	color: $color-triad-2-dark;
 }
+
+
+#hoverparent:hover #defLabel,#hoverparent:hover #randomDefinition,#hoverparent:hover #mommLabel,#hoverparent:hover #randomMommentary,#hoverparent:hover #exLabel,#hoverparent:hover #randomExample {
+	color: $smiley-color;
+}
+
+
+#hoverparent #defLabel,#hoverparent #randomDefinition,#hoverparent #mommLabel,#hoverparent #randomMommentary,#hoverparent #exLabel,#hoverparent #randomExample {
+	color: $color-triad-2-dark;
+}
+
