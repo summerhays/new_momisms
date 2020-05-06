@@ -10,4 +10,4 @@ But wait, isn't a momism [_an undue dependence on maternal protection, resulting
 
 This website contains a [searchable](/search.html) list of [all {{ site.data.momisms.size }} momisms](/list.html) compiled by her children since 2009, with our good ears for language and our good fingers for typing (momism ID [#192](/list.html#momism_id192)).
 
-Our faces upon hearing a new momism: ![confused smiley]({{ site.icon }}){: height="25px" hspace=""}
+Her children's faces upon hearing a new momism: ![confused smiley]({{ site.icon }}){: height="25px" hspace="" class="w3-spin"}

@@ -36,7 +36,24 @@ header {
 	padding: 10px
 }
 
+.resource_main {
+	width: 100%;
+	display: block;
+	position: relative;
+}
 
+.resource_main::after {
+  background: url('/assets/images/Florida_East_Coast_Railway.jpeg');
+#  background-repeat: no-repeat;
+#  background-attachment: fixed;  
+#  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  opacity: .5;
+}
 
 @media all and (min-width: $mob-pixels) {
 .main-nav {
@@ -73,7 +90,7 @@ header {
   right: 25px;
   font-size: 36px;
   margin-left: 70px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 }
 .menu {
@@ -123,6 +140,10 @@ main {
 	max-width: $text-width;
 }
 
+a:hover {
+   color: $color-1-dark;
+   }
+
 .center {
 	text-align: center;
 	align-self: center;
@@ -140,10 +161,22 @@ footer > a {
 	text-decoration: underline;
 }
 
+.footer-small {
+	font-size: 80%;
+}
+
 .footer-bottom {
 	background-color: $footer-bottom;
 	color: $footer-bottom-text;
 }
+
+footer > a:hover {
+   color: $smiley-color;
+   }
+
+.footer-bottom > a:hover {
+   color: $smiley-color;
+   }
 
 .mobile_only {
 	display: none;
@@ -195,7 +228,7 @@ footer > a > .mobile_only {
 	  display: none;
 }
 
-  main {
+ main {
 	  display: flex;
 	  justify-content: center;
 	  flex-direction: column;

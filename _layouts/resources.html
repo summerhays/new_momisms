@@ -31,7 +31,7 @@
         <header>
 	   <div class=topline>
 		   <div class="menu" onclick="openNav()"><i class="fas fa-bars fa-lg"></i></div>
-		   <a href="/" class="nolink banner {% unless page.id == "index" %}w3-animate-zoom{% endunless %}"><img src="{{ site.icon }}" height="55px" hspace="10px"></a>
+		<a href="/" class="nolink banner w3-animate-zoom"><img src="{{ site.icon }}" height="55px" hspace="10px"></a>
 		<div></div>
 	   </div>
                 <a href="/" class="nolink banner color-1"><div class="title nolink">{{ site.title }}</div></a>
@@ -44,7 +44,7 @@
 	  </div>
 	</nav>
         </header>
-	<main {% if page.id == "contribute" %}style="max-width: 100%; width: 100%;" {% endif %}>
+	<main class="resource_main" {% if page.id == "contribute" %}style="max-width: 100%; width: 100%;" {% endif %}>
 		{% unless page.id == "index" %}<h2 class="title">{{ page.title }}</h2>{% endunless %}
 		{% if page.description or page-description %}<h2 class="title">{{ page.description }}{{ page-description }}</h2>{% endif %}
           {{ content }}
@@ -57,7 +57,7 @@
              {% endfor %}
 
 		<br><br>
-	     <div class="footer-small">Made with love by:</div>
+	     <div>Made with love by</div>
 		<div class="footer-bottom"><a class=nolink href="https://summerhays.net">SummerSites.com</a></div>
 	</footer>
   </div>

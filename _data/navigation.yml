@@ -2,17 +2,22 @@ docs_list_title: Header
 docs:
 - title: Home
   url: /index.html
-  icon: <i class="fab fa-phoenix-framework fa-lg textblack"></i>&nbsp;
+  icon: <i class="fab fa-phoenix-framework fa-fw fa-lg textblack"></i>&nbsp;
 - title: About
   url: /about.html
-  icon: <i class="fas fa-address-book fa-lg textblack"></i>&nbsp;
+  icon: <i class="far fa-id-badge fa-fw fa-lg textblack"></i>&nbsp;
+  # <i class="fas fa-address-book fa-fw fa-lg textblack"></i>&nbsp; or address-card
 - title: The Full List <br class="mobile_only">
   url: /list.html
-  icon: <i class="fas fa-clipboard-list fa-lg textblack"></i>&nbsp;
+  icon: <i class="fas fa-list-ul fa-fw fa-lg textblack"></i>&nbsp;
+  # <i class="fas fa-list-ul"></i>
 - title: Momism Search
   url: /search.html
-  icon: <i class="fas fa-search fa-lg textblack"></i>&nbsp;
+  icon: <i class="fas fa-search fa-fw fa-lg textblack"></i>&nbsp;
 - title: Contribute a Momism
   url: /contribute.html
-  icon: <i class="fas fa-hand-holding-medical fa-lg textblack"></i>&nbsp;
+  icon: <i class="fas fa-hand-holding-medical fa-fw fa-lg textblack"></i>&nbsp;
   target: newpage
+- title: Resources
+  url: /resources.html
+  icon: <i class="far fa-lightbulb fa-fw fa-lg textblack"></i>&nbsp;
