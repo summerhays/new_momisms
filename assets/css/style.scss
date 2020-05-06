@@ -4,31 +4,27 @@
 
 html,body {
 	height: 100%;
-	width: 100%
+	max-width: 100%;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
 	font-size: $body-font-size;
 	color: $body-color-text;
 	background-color: $body-color;
 	font-family: $font-sans;
-	align-items: center;
-	height: 100%;
 }
 
 header {
 	display: flex;
 	flex-direction: column;
-	flex: 1 0 auto;
+	flex: 0 0 auto;
 	width: 100%;
 }
 
 .topline {
 	display: flex;
 	justify-content: space-between;
-	background: $color-1-light;
+//	background: $color-1-light;
 	align-items: center;
 	padding: 5px 16px;
 }
@@ -41,60 +37,57 @@ header {
 }
 
 .main-nav {
-  display: flex;
-  flex: 0 0 auto;
-  list-style-type: none;
-  justify-content: center;
-
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: $color-1-light;
   overflow-x: hidden;
   transition: 0.5s;
-  //padding-top: 60px;
+  padding-top: 60px;
 }
 
-.main-nav > a {
-	padding:  14px 20px;
-	font-size: $nav-font-size;
-	color: $nav-color-text;
+.main-nav > a:not(:first-child) {
+  padding:  14px 20px;
+  font-size: $nav-font-size;
+  overflow-x: hidden;
+  color: $nav-color-text;
   display: block;
-  transition: 0.3s;
-  }
+  white-space: nowrap;
+  border-bottom: 3px solid $color-1-light;
+}
 
-.main-nav > a:hover {
+.main-nav > a:not(:first-child):hover {
 	border-bottom: 3px solid $color-1;
 }
 
-
-.sidenav {
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  color: #818181;
-}
-
 .main-nav .closebtn {
+  visibility: hidden;
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 70px;
+  padding-top: 10px;
 }
 
-main,header,footer {
+.menu {
+	cursor: pointer;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   transition: margin-left .5s;
+  height: 100%;
 }
 
 
 .active {
-	border-bottom: 3px solid $color-active;
+	border-bottom: 3px solid $color-active !important;
 }
 
 .title {
@@ -124,8 +117,8 @@ main {
 	margin: 0;
 	padding: 0 40px;
 	text-align: left;
-	max-width: 100%;
-	width: $text-width;
+	
+	{% unless page.id == "contribute" %}  max-width: $text-width;{% endunless %}
 }
 
 .center {
@@ -140,6 +133,11 @@ footer {
 	background-color: $color-1;
 }
 
+footer > a {
+	padding: 10px 14px;
+	text-decoration: underline;
+}
+
 .footer-bottom {
 	background-color: $footer-bottom;
 	color: $footer-bottom-text;
@@ -152,14 +150,16 @@ footer {
     padding: 0;
   }
 
-  .main-nav > li {
+  .main-nav > a {
     flex-basis: 100%;
     text-align: center;
     font-size: 1em;
+    border-bottom: 3px solid $color-1-light;
   }
 
   main {
 	  padding: 0 15px;
+	  {% unless page.id == "contribute" %}  width: 100%; {% endunless %}
   }
 }
 
@@ -203,6 +203,9 @@ footer {
 	background: $color-1-light !important;
 }
 
+.smiley {
+	background: $smiley-color;
+}
 
 .textblack {
 	color: black;

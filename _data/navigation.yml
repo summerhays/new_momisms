@@ -1,13 +1,18 @@
 docs_list_title: Header
 docs:
-- title: <i class="fab fa-phoenix-framework fa-lg textblack"></i>&nbsp; Home
+- title: Home
   url: /index.html
-- title: <i class="fas fa-address-book fa-lg textblack"></i>&nbsp; About
+  icon: <i class="fab fa-phoenix-framework fa-lg textblack"></i>&nbsp;
+- title: About
   url: /about.html
-- title: <i class="fas fa-clipboard-list fa-lg textblack"></i>&nbsp; The Full List
+  icon: <i class="fas fa-address-book fa-lg textblack"></i>&nbsp;
+- title: The Full List
   url: /list.html
-- title: <i class="fas fa-search fa-lg textblack"></i>&nbsp; Momism Search
+  icon: <i class="fas fa-clipboard-list fa-lg textblack"></i>&nbsp;
+- title: Momism Search
   url: /search.html
-- title: <i class="fas fa-hand-holding-medical fa-lg textblack"></i>&nbsp; Contribute a Momism
-  url: https://docs.google.com/forms/d/e/1FAIpQLSdfmzsR2Z4hB9AG-CfEiPwZClB78tSY3SPVOWi4XbDCeGZQog/viewform
+  icon: <i class="fas fa-search fa-lg textblack"></i>&nbsp;
+- title: Contribute a Momism
+  url: /contribute.html
+  icon: <i class="fas fa-hand-holding-medical fa-lg textblack"></i>&nbsp;
   target: newpage
