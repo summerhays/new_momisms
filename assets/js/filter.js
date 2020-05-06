@@ -10,7 +10,7 @@ function filterFunction() {
       button[i].style.display = "";
     } else {
       button[i].style.display = "none";
-    button[i].className = button[i].className.replace("w3-grey", "w3-black");
+    button[i].className = button[i].className.replace("color-triad-2", "smiley");
 	    var z = button[i].nextElementSibling;
     z.className = z.className.replace(" w3-show", "");
 	    }
@@ -24,10 +24,10 @@ function openAccordion(id) {
   if (x.className.indexOf("w3-show") == -1/* && y.style.display == ""*/) {
     x.className += " w3-show";
     x.previousElementSibling.className =
-    x.previousElementSibling.className.replace("w3-black", "w3-grey");
+    x.previousElementSibling.className.replace("smiley", "color-triad-2");
   } else {
     x.className = x.className.replace(" w3-show", "");
     x.previousElementSibling.className =
-    x.previousElementSibling.className.replace("w3-grey", "w3-black");
+    x.previousElementSibling.className.replace("color-triad-2", "smiley");
   }
 }

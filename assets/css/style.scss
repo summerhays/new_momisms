@@ -43,10 +43,10 @@ header {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: $color-1-light;
+  background-color: $color-triad-2;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 86px;
 }
 
 .main-nav > a:not(:first-child) {
@@ -56,11 +56,11 @@ header {
   color: $nav-color-text;
   display: block;
   white-space: nowrap;
-  border-bottom: 3px solid $color-1-light;
+  border-bottom: 3px solid $color-triad-2;
 }
 
 .main-nav > a:not(:first-child):hover {
-	border-bottom: 3px solid $color-1;
+	background: $smiley-color;
 }
 
 .main-nav .closebtn {
@@ -87,7 +87,7 @@ header {
 
 
 .active {
-	border-bottom: 3px solid $color-active !important;
+    background: $smiley-color;
 }
 
 .title {
@@ -154,7 +154,7 @@ footer > a {
     flex-basis: 100%;
     text-align: center;
     font-size: 1em;
-    border-bottom: 3px solid $color-1-light;
+    border-bottom: 3px solid $color-triad-2;
   }
 
   main {
@@ -190,9 +190,9 @@ footer > a {
 	background-color: $color-complement;
 }
 
-.color-triad-1 {
-	//background-color: $color-triad-1;
-	color: $color-triad-1;
+.color-triad-2 {
+	background-color: $color-triad-2;
+	//color: $color-triad-1;
 }
 
 .gradient {
@@ -205,6 +205,10 @@ footer > a {
 
 .smiley {
 	background: $smiley-color;
+}
+
+.smiley:hover {
+	background-color: $color-triad-2 !important;
 }
 
 .textblack {
