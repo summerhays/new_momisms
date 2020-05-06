@@ -39,7 +39,7 @@
           <div class="main-nav" id="myNav">	
             <a href="javascript:void(0)" id="closeBtn" class="closebtn nolink" onclick="closeNav()">&times;</a>
 	     {% for each in site.data.navigation.docs %}
-	     <a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %} class="nolink {% if page.url == each.url %} active{% endif %}">{{ each.icon }} {{ each.title }}</a>
+	     <a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %} class="navLinks nolink {% if page.url == each.url %} active{% endif %}">{{ each.icon }} {{ each.title }}</a>
              {% endfor %}
 	  </div>
 	</nav>
@@ -51,8 +51,6 @@
 	<br><br>
         </main>
 	<footer>
-		<br>
-		<h2>Momism of the Day</h2>
 		<br>
 		{% for each in site.data.navigation.docs %}
                 <a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %} class="{% if page.url == each.url %}{% endif %}">{{ each.title }}</a>

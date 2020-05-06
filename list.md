@@ -16,7 +16,7 @@ Click to see definition, example, and Mommentary where available. If something's
       <input class="w3-input w3-border w3-round" type="text" placeholder="Filter by momism..." id="myInput" onkeyup="filterFunction()">
 {% for each in site.data.momisms %}
 {% assign counter = counter | plus: 1 %}
-<button id="momism_id{{ each.order }}" onclick="openAccordion('momism{{ counter }}')" class="w3-button w3-block smiley w3-left-align ">{{ each.momism }}</button>
+<button id="momism_id{{ each.order }}" onclick="openAccordion('momism{{ counter }}')" class="w3-button w3-block smiley turquoise w3-left-align ">{{ each.momism }}</button>
 <div id="momism{{ counter }}" class="w3-hide w3-container">
     <p>{% if each.definition %}{{ each.definition }}{% else %}<em>Definition unknown</em>{% endif %}</p>
     {% if each.example %}<p><em>{{ each.example }}</em></p>{% endif %}

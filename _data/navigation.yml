@@ -6,7 +6,7 @@ docs:
 - title: About
   url: /about.html
   icon: <i class="fas fa-address-book fa-lg textblack"></i>&nbsp;
-- title: The Full List
+- title: The Full List <br class="mobile_only">
   url: /list.html
   icon: <i class="fas fa-clipboard-list fa-lg textblack"></i>&nbsp;
 - title: Momism Search

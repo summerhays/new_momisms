@@ -36,6 +36,8 @@ header {
 	padding: 10px
 }
 
+
+@media all and (min-width: $mob-pixels) {
 .main-nav {
   height: 100%;
   width: 0;
@@ -72,7 +74,7 @@ header {
   margin-left: 70px;
   padding-top: 10px;
 }
-
+}
 .menu {
 	cursor: pointer;
 }
@@ -117,8 +119,7 @@ main {
 	margin: 0;
 	padding: 0 40px;
 	text-align: left;
-	
-	{% unless page.id == "contribute" %}  max-width: $text-width;{% endunless %}
+	max-width: $text-width;
 }
 
 .center {
@@ -143,23 +144,58 @@ footer > a {
 	color: $footer-bottom-text;
 }
 
+.mobile_only {
+	display: none;
+}
+
 @media all and (max-width: $mob-pixels) {
 
   .main-nav {
     flex-direction: column;
     padding: 0;
+  display: flex;
+  flex: 0 0 auto;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+
+.main-nav > a {
+    padding:  14px 20px;
+    font-size: $nav-font-size;
+    color: $nav-color-text;
+    flex-basis: 100%;
+    text-align: left;
+    font-size: 1em;
+    display: none;
   }
 
-  .main-nav > a {
-    flex-basis: 100%;
-    text-align: center;
-    font-size: 1em;
-    border-bottom: 3px solid $color-triad-2;
+
+footer > a > .mobile_only {
+	display: block;
+}
+
+.main-nav > a:not(:first-child):hover {
+        background: $smiley-color;
+}
+
+#closeBtn {
+        display: none;
+}
+
+.active {
+	background-color: $color-triad-2;
   }
+
+.main-nav > .mobile_only {
+	  display: none;
+}
 
   main {
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
 	  padding: 0 15px;
-	  {% unless page.id == "contribute" %}  width: 100%; {% endunless %}
+	  max-width: 100%;
   }
 }
 
@@ -195,6 +231,10 @@ footer > a {
 	//color: $color-triad-1;
 }
 
+.color-triad-2-text {
+	color: $color-triad-2;
+}
+
 .gradient {
 	background: linear-gradient(to right, $color-1 0%, $color-1-light 100%)
 }
@@ -207,12 +247,38 @@ footer > a {
 	background: $smiley-color;
 }
 
-.smiley:hover {
-	background-color: $color-triad-2 !important;
+.turquoise:hover {
+        background: $color-triad-2 !important;
 }
 
 .textblack {
 	color: black;
 }
 
+// MOD formatting
 
+#randomMom {
+	text-align: center;
+	font-weight: bold;
+	font-family: $font-serif;
+	align-self: center;
+        font-size: 160%;
+}
+
+
+#defLabel,#randomDefinition {
+	font-size: 110%;
+}
+#mommLabel,#randomMommentary {
+	font-weight: bold;
+}
+
+#exLabel,#randomExample {
+	font-style: italic;
+}
+
+#defLabel,#randomDefinition,#mommLabel,#randomMommentary,#exLabel,#randomExample {
+	max-width: 400px;
+	text-align: center;
+	color: $color-triad-2-dark;
+}
