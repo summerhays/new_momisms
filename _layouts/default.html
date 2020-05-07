@@ -47,6 +47,10 @@
 	<main {% if page.id == "contribute" %}style="max-width: 100%; width: 100%;" {% endif %}>
 		{% unless page.id == "index" %}<h2 class="title">{{ page.title }}</h2>{% endunless %}
 		{% if page.description or page-description %}<h2 class="title">{{ page.description }}{{ page-description }}</h2>{% endif %}
+
+<!-- Return to top button -->
+       <button title="Return to top of page" onclick="topFunction()" id="myBtn" class="w3-card-4 w3-circle" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+
           {{ content }}
 	<br><br>
         </main>
@@ -58,7 +62,7 @@
 
 		<br><br>
 	     <div class="footer-small">Made with love by:</div>
-		<div class="footer-bottom"><a class=nolink href="https://summerhays.net">SummerSites.com</a></div>
+		<div class="footer-bottom"><a class=nolink href="https://summerhays.net">SummerSites</a></div>
 	</footer>
   </div>
   </body>
@@ -66,3 +70,4 @@
 
 
 <script src="/assets/js/openNav.js"></script>
+<script src="/assets/js/scrollTop.js"></script>

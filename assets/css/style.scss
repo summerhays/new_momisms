@@ -36,63 +36,64 @@ header {
 	padding: 10px
 }
 
-.resource_main {
-	width: 100%;
-	display: block;
-	position: relative;
-}
-
-.resource_main::after {
-  background: url('/assets/images/Florida_East_Coast_Railway.jpeg');
-#  background-repeat: no-repeat;
-#  background-attachment: fixed;  
-#  background-size: cover;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  opacity: .5;
-}
-
-@media all and (min-width: $mob-pixels) {
-.main-nav {
-  height: 100%;
-  width: 0;
+/* scroll up button */
+#myBtn {
+  display: none;
   position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: $color-triad-2;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 86px;
+  bottom: 20px;
+  right: 30px;
+  z-index: 599;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: $color-1-dark;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
 }
 
-.main-nav > a:not(:first-child) {
-  padding:  14px 20px;
-  font-size: $nav-font-size;
-  overflow-x: hidden;
-  color: $nav-color-text;
-  display: block;
-  white-space: nowrap;
-  border-bottom: 3px solid $color-triad-2;
+
+// Wide screen
+@media all and (min-width: $mob-pixels) {
+   .main-nav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: $color-triad-2;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 86px;
+   }
+   
+   .main-nav > a:not(:first-child) {
+     padding:  14px 20px;
+     font-size: $nav-font-size;
+     overflow-x: hidden;
+     color: $nav-color-text;
+     display: block;
+     white-space: nowrap;
+     border-bottom: 3px solid $color-triad-2;
+   }
+   
+   .main-nav > a:not(:first-child):hover {
+   	background: $smiley-color;
+   }
+   
+   .main-nav .closebtn {
+     visibility: hidden;
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 70px;
+     padding-top: 15px;
+   }
 }
 
-.main-nav > a:not(:first-child):hover {
-	background: $smiley-color;
-}
 
-.main-nav .closebtn {
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 70px;
-  padding-top: 15px;
-}
-}
 .menu {
 	cursor: pointer;
 }
@@ -104,6 +105,7 @@ header {
   transition: margin-left .5s;
   height: 100%;
 }
+
 
 
 .active {
@@ -125,11 +127,6 @@ header {
 .nolink,.nolink:hover,.nolink:visited, .nolink:link {
     text-decoration: none;
    }
-
-/*body hr {
-	margin: 5px;
-	color: $nav-color-text;
-} */
 
 main { 
 	flex: 1 0 auto;
@@ -183,58 +180,59 @@ footer > a:hover {
 }
 
 @media all and (max-width: $mob-pixels) {
-
-  .main-nav {
-    flex-direction: column;
-    padding: 0;
-  display: flex;
-  flex: 0 0 auto;
-  list-style-type: none;
-  justify-content: flex-start;
-}
-
-.main-nav > a {
-    padding:  14px 20px;
-    font-size: $nav-font-size;
-    color: $nav-color-text;
-    background: $color-triad-2;
-    flex-basis: 100%;
-    text-align: left;
-    font-size: 1em;
-    display: none;
+  
+    .main-nav {
+      flex-direction: column;
+      padding: 0;
+    display: flex;
+    flex: 0 0 auto;
+    list-style-type: none;
+    justify-content: flex-start;
   }
-
-.main-nav > a:hover {
-    background: $smiley-color;
-  }
-
-.active {
-    background: $smiley-color !important;
+  
+  .main-nav > a {
+      padding:  14px 20px;
+      font-size: $nav-font-size;
+      color: $nav-color-text;
+      background: $color-triad-2;
+      flex-basis: 100%;
+      text-align: left;
+      font-size: 1em;
+      display: none;
     }
-
-footer > a > .mobile_only {
-	display: block;
-}
-
-.main-nav > a:not(:first-child):hover {
-        background: $smiley-color;
-}
-
-#closeBtn {
-        display: none;
-}
-
-.main-nav > .mobile_only {
-	  display: none;
-}
-
- main {
-	  display: flex;
-	  justify-content: center;
-	  flex-direction: column;
-	  padding: 0 15px;
-	  max-width: 100%;
+  
+  .main-nav > a:hover {
+      background: $smiley-color;
+    }
+  
+  .active {
+      background: $smiley-color !important;
+      }
+  
+  footer > a > .mobile_only {
+  	display: block;
   }
+  
+  .main-nav > a:not(:first-child):hover {
+          background: $smiley-color;
+  }
+  
+  #closeBtn {
+          display: none;
+  }
+  
+  .main-nav > .mobile_only {
+  	  display: none;
+  }
+  
+  
+   main {
+  	  display: flex;
+  	  justify-content: center;
+  	  flex-direction: column;
+  	  padding: 0 15px;
+  	  max-width: 100%;
+    }
 }
 
 // Colors
@@ -289,6 +287,10 @@ footer > a > .mobile_only {
         background: $color-triad-2 !important;
 }
 
+.randombtn:hover {
+        color: white;
+}
+
 .textblack {
 	color: black;
 }
@@ -301,11 +303,12 @@ footer > a > .mobile_only {
 	font-family: $font-serif;
 	align-self: center;
         font-size: 160%;
+	padding-bottom: 50px;
 }
 
 
 #defLabel,#randomDefinition {
-	font-size: 110%;
+	font-size: 120%;
 }
 #mommLabel,#randomMommentary {
 	font-weight: bold;
@@ -319,6 +322,7 @@ footer > a > .mobile_only {
 	max-width: 400px;
 	text-align: center;
 	color: $color-triad-2-dark;
+	padding-bottom: 10px;
 }
 
 

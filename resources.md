@@ -1,5 +1,5 @@
 ---
-title: Resources
+title: <i class="far fa-lightbulb"></i>&nbsp;Resources
 layout: default
 id: resources
 ---

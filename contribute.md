@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contribute a Momism
+title: <i class="fas fa-hand-holding-medical"></i>&nbsp;Contribute a Momism
 id: contribute
 ---
 <br>

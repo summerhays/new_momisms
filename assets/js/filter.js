@@ -1,3 +1,5 @@
+---
+---
 function filterFunction() {
   var input, filter, ul, li, a, i;
   input = document.getElementById("myInput");
@@ -31,3 +33,11 @@ function openAccordion(id) {
     x.previousElementSibling.className.replace("color-triad-2", "smiley");
   }
 }
+
+function randomMomism() {
+  var num = Math.floor(Math.random() * ({{ site.data.momisms.size }} - 1 + 1) + 1);
+	var randLink = 'http://localhost:4000/list.html#momism_id' + num;
+	  window.open(randLink,"_self");
+	console.log(num);
+}
+

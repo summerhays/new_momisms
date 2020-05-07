@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: <i class="far fa-id-badge"></i>&nbsp; About
 permalink: /about.html
 id: about
 ---
