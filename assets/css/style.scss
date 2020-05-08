@@ -76,10 +76,10 @@ header {
   height: 100%;
 }
 
-.fix_anchor {scroll-margin-top: 30.6px;}
+.fix_anchor {scroll-margin-top: 1.76em;}
 
 .fix_anchor:target {
-  border: 2px solid magenta;
+  border: .15em solid magenta;
 }
 
 .abc {
