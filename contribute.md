@@ -8,6 +8,6 @@ The momisms in the form below are all lacking definitions. Contribute a definiti
 <br>
 
 [Original form link](https://docs.google.com/forms/d/e/1FAIpQLSdfmzsR2Z4hB9AG-CfEiPwZClB78tSY3SPVOWi4XbDCeGZQog/viewform)
-{: style="text-align: center;"}
+{: style="text-align: center;" target="_blank"}
 
 {% include contribute.html %}
