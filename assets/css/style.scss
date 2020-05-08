@@ -79,9 +79,7 @@ header {
 .fix_anchor {scroll-margin-top: 30.6px;}
 
 .fix_anchor:target {
-  border-style: solid;
-  border-width: thick;
-  border-color: magenta;
+  border: 2px solid magenta;
 }
 
 .abc {
