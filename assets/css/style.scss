@@ -53,49 +53,19 @@ header {
 }
 
 
-// Wide screen
-@media all and (min-width: $mob-pixels) {
-   .main-nav {
-     height: 100%;
-     width: 0;
-     position: fixed;
-     z-index: 1;
-     top: 0;
-     left: 0;
-     background-color: $color-triad-2;
-     overflow-x: hidden;
-     transition: 0.5s;
-     padding-top: 86px;
-   }
-   
-   .main-nav > a:not(:first-child) {
-     padding:  14px 20px;
-     font-size: $nav-font-size;
-     overflow-x: hidden;
-     color: $nav-color-text;
-     display: block;
-     white-space: nowrap;
-     border-bottom: 3px solid $color-triad-2;
-   }
-   
-   .main-nav > a:not(:first-child):hover {
-   	background: $smiley-color;
-   }
-   
-   .main-nav .closebtn {
-     visibility: hidden;
-     position: absolute;
-     top: 0;
-     right: 25px;
-     font-size: 36px;
-     margin-left: 70px;
-     padding-top: 12px;
-   }
-}
-
 
 .menu {
 	cursor: pointer;
+}
+
+.down_a_bit {
+	vertical-align: sub;
+	position: relative;
+	bottom: 4px;
+}
+
+.down_a_bit_more {
+	vertical-align: sub;
 }
 
 #content {
@@ -106,7 +76,16 @@ header {
   height: 100%;
 }
 
+.sticky_anchor {position:relative;}
 
+.abc {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: $color-1;
+  font-family: $font-serif;
+  font-size: 120%;
+}
 
 .active {
     background: $smiley-color;
@@ -179,6 +158,48 @@ footer > a:hover {
 	display: none;
 }
 
+// Wide screen
+@media all and (min-width: $mob-pixels) {
+   .main-nav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: $color-triad-2;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 86px;
+   }
+   
+   .main-nav > a:not(:first-child) {
+     padding:  14px 20px;
+     font-size: $nav-font-size;
+     overflow-x: hidden;
+     color: $nav-color-text;
+     display: block;
+     white-space: nowrap;
+     border-bottom: 3px solid $color-triad-2;
+   }
+   
+   .main-nav > a:not(:first-child):hover {
+   	background: $smiley-color;
+   }
+   
+   .main-nav .closebtn {
+     visibility: hidden;
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 70px;
+     padding-top: 12px;
+   }
+}
+// Wide screen end
+
+// Narrow screen
 @media all and (max-width: $mob-pixels) {
   
     .main-nav {
@@ -234,6 +255,7 @@ footer > a:hover {
   	  max-width: 100%;
     }
 }
+// Narrow screen end
 
 // Colors
 
@@ -285,6 +307,10 @@ footer > a:hover {
 
 .turquoise:hover {
         background: $color-triad-2 !important;
+}
+
+.wrap {
+	white-space: normal;
 }
 
 .randombtn:hover {

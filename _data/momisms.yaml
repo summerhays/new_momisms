@@ -1,11 +1,3 @@
-- momism: "[Insert the blank] life" 
-  order: 152 
-  definition: "Good morning" 
-  example: "Post-adolescent life!"
-- momism: "[Insert the blank] lives" 
-  order: 153 
-  definition: "Someone is following their usual pattern" 
-  example: "*burp!* Fermenter-mom lives! "
 - momism: "A 'to-do'" 
   order: 99 
   definition: "A party" 
@@ -106,7 +98,7 @@
 - momism: "Bonkers" 
   order: 195 
   definition: "Crazy"
-- momism: "Bouncing Off the Walls" 
+- momism: "Bouncing off the walls" 
   order: 25 
   definition: "Hyperactive"
 - momism: "Bumbershoot" 
@@ -256,10 +248,10 @@
   order: 106
 - momism: "George the Lesser" 
   order: 37 
-  definition: "George W. Bush"
+  definition: "Refers to 43rd American president George W. Bush"
 - momism: "George the Younger" 
   order: 3 
-  definition: "Refers to George W. Bush"
+  definition: "Refers to 43rd American president George W. Bush"
 - momism: "Get boosted" 
   order: 224 
   definition: "Get up"
@@ -270,16 +262,16 @@
 - momism: "Give it the old college try" 
   order: 227 
   definition: "To attempt something difficult"
-- momism: "Going at a good clip" 
-  order: 170 
-  definition: "Moving quickly"
 - momism: "Go over like a lead balloon" 
   order: 230 
   definition: "Something did not go over well at all, not be well received, be unpopular, even resented" 
   example: "When I offered to share some of my hot sauce, it went over like a lead balloon"
+- momism: "Going at a good clip" 
+  order: 170 
+  definition: "Moving quickly"
 - momism: "Good enough for government work" 
   order: 98
-- momism: "Goodness Gracious" 
+- momism: "Goodness gracious" 
   order: 10 
   definition: "(Exclamation: surprise)"
 - momism: "Grass" 
@@ -317,6 +309,10 @@
 - momism: "Hold your horses" 
   order: 67 
   definition: "Imperative: calm down or be patient"
+- momism: "Holy smokes" 
+  order: 247 
+  definition: "(Exclamation)" 
+  example: "She's turning 50? Holy smokes!"
 - momism: "Honorable horrors" 
   order: 45 
   definition: "(Exclamation)"
@@ -330,17 +326,13 @@
 - momism: "Hot Diggity!" 
   order: 34 
   definition: "(Exclamation)"
-- momism: "Holy Smokes" 
-  order: 247 
-  definition: "(Exclamation)" 
-  example: "She's turning 50? Holy smokes!"
 - momism: "Huh-what" 
   order: 103 
   definition: "Mother's odd aspirated h on question words that only began when she 'discovered she does it' in linguistics grad school" 
   example: "But son, huh-why is huh-what a momism? Huh-where did you get that idea and huh-when? Huh-who's idea is this?"
-- momism: "Hunkey Dorey" 
+- momism: "Hunky-dory" 
   order: 150 
-  definition: "All is well"
+  definition: "Fine, all is well"
 - momism: "I have a yen for" 
   order: 91 
   definition: "Hankering"
@@ -379,6 +371,14 @@
   definition: "Someone is curious" 
   example: "Inquiring moms wish to know" 
   mommentary: "I didn't invent that, you know. It's a variant on 'inquiring minds wish to know'"
+- momism: "[Insert the blank] life" 
+  order: 152 
+  definition: "Good morning" 
+  example: "Post-adolescent life!"
+- momism: "[Insert the blank] lives" 
+  order: 153 
+  definition: "Someone is following their usual pattern" 
+  example: "*burp!* Fermenter-mom lives! "
 - momism: "Is dragging his/her anchor" 
   order: 82 
   definition: "Moving slowly"
@@ -386,7 +386,7 @@
   order: 131 
   definition: "Eye-rolling pun" 
   mommentary: "Mom dislikes goat cheese"
-- momism: "It takes 10-attaboys to make up for 1-aw-shit" 
+- momism: "It takes ten 'attaboys' to make up for one 'aw-shit'" 
   order: 137 
   definition: "It's easier to prevent mistakes than to clean them up" 
   mommentary: "Honorary grand-momism"
@@ -662,7 +662,7 @@
 - momism: "Suffice It To Say" 
   order: 24 
   definition: "It is enough to say this and no more, as in Suffice it to say that the judge was furious when the invitation was withdrawn"
-- momism: "Sure As God Made Little Green Apples" 
+- momism: "Sure as God made little green apples" 
   order: 5 
   definition: "Certain"
 - momism: "Sweet tooth" 
@@ -682,9 +682,10 @@
 - momism: "That's droll" 
   order: 74 
   definition: "Consulting the dictionary multiple times has not clarified this meaning"
-- momism: "The linguini listserv" 
+- momism: "The linguine listserv" 
   order: 112 
-  definition: "Mother's linguistic's department listserv"
+  definition: "Mother's linguistics nerd listserv" 
+  example: "I'm going to post that interesting link on Second Language Acquisition to the linguine listserv."
 - momism: "The photo hobby" 
   order: 226 
   definition: "Mother's love of photography"
@@ -730,7 +731,7 @@
   order: 245 
   definition: "Died" 
   example: "After they turned down the heat, all my orchids went belly up"
-- momism: "Went the Way of the Dodo" 
+- momism: "Went the way of the Dodo" 
   order: 19 
   definition: "Went extinct or obsolete"
 - momism: "Were you raised in a barn? Kidism: Yes!" 
@@ -767,14 +768,14 @@
   example: "I'm going to grab a quick wink"
 - momism: "Within an inch of his life" 
   order: 172
-- momism: "Wooze" 
-  order: 231 
-  definition: "Kidism for 'lose'" 
-  example: "Don’t wooze it"
 - momism: "Woo-wee-sa" 
   order: 232 
   definition: "Kidism for Louisa" 
   mommentary: "My daughter used to be very taken with our neighbor Louisa except she pronounced it Eww-eesa. Mom started imitating her, saying 'eww-wee-sa' but she crossly corrected mother to 'woo-wee-sa'. This same daughter also used to spell Emily’s name 'MOE'"
+- momism: "Wooze" 
+  order: 231 
+  definition: "Kidism for 'lose'" 
+  example: "Don’t wooze it"
 - momism: "Worrywart" 
   order: 61 
   definition: "Someone with a tendency to worry habitually, often needlessly"

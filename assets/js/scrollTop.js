@@ -10,7 +10,7 @@ window.onscroll = function() {buttonAppear()};
 var mybutton = document.getElementById("myBtn");
 
 function buttonAppear() {
-  if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+  if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";

@@ -9,7 +9,7 @@ docs:
   # <i class="fas fa-address-book fa-fw fa-lg textblack"></i>&nbsp; or address-card
 - title: The Full List <br class="mobile_only">
   url: /list.html
-  icon: <i class="fas fa-list-ul fa-fw fa-lg textblack"></i>&nbsp;
+  icon: <i class="fas fa-list-ul fa-fw fa-lg textblack down_a_bit_more"></i>&nbsp;
   # <i class="fas fa-list-ul"></i>
 - title: Momism Search
   url: /search.html
