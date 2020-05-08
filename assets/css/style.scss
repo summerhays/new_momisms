@@ -76,7 +76,13 @@ header {
   height: 100%;
 }
 
-.sticky_anchor {position:relative;}
+.fix_anchor {scroll-margin-top: 30.6px;}
+
+.fix_anchor:target {
+  border-style: solid;
+  border-width: thick;
+  border-color: magenta;
+}
 
 .abc {
   position: sticky;
@@ -85,6 +91,10 @@ header {
   background: $color-1;
   font-family: $font-serif;
   font-size: 120%;
+}
+
+.larger_font {
+	font-size: 120%;
 }
 
 .active {
@@ -198,6 +208,13 @@ footer > a:hover {
    }
 }
 // Wide screen end
+//
+//	.extra_div {display: none};
+//
+//@media all and (min-width: 850px) {
+//	.menu {position: fixed};
+//	.extra_div {display: block};
+//}
 
 // Narrow screen
 @media all and (max-width: $mob-pixels) {
