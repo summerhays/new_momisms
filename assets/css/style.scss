@@ -76,8 +76,6 @@ header {
   height: 100%;
 }
 
-.fix_anchor {scroll-margin-top: 1.76em;}
-
 .fix_anchor:target {
   border: .15em solid magenta;
 }
@@ -93,6 +91,7 @@ header {
 
 .larger_font {
 	font-size: 120%;
+	font-family: $font-mono;
 }
 
 .active {
@@ -204,6 +203,8 @@ footer > a:hover {
      margin-left: 70px;
      padding-top: 12px;
    }
+
+   .fix_anchor {scroll-margin-top: 1.76rem;}
 }
 // Wide screen end
 //
@@ -269,6 +270,8 @@ footer > a:hover {
   	  padding: 0 15px;
   	  max-width: 100%;
     }
+
+    .fix_anchor {scroll-margin-top: 1.76rem;}
 }
 // Narrow screen end
 

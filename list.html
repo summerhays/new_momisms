@@ -12,9 +12,9 @@ id: list
 {% for each in site.data.momisms %}
 {% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
 {% unless nowslice == abc %}{% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
-<a class="larger_font" href="#{{ abc }}">{{ abc }}</a>{% if abc == "L" %}<br>{% endif %}{% unless abc == "Z" or abc == "L" %}<span>&nbsp; | &nbsp;</span>{% endunless %}{% endunless %}
+<a class="larger_font" href="#{{ abc }}">{{ abc }}</a>{% if abc == "G" or abc == "U" or abc == "N" %}<br>{% endif %}{% unless abc == "Z" or abc == "N" or abc == "U" or abc == "G" %}<span>&nbsp; | &nbsp;</span>{% endunless %}{% endunless %}
 {% endfor %}</div>
-<br>
+<div>&nbsp;</div>
 {% assign counter = 0 %}
 {% assign abc = "m" %}
 {% assign nowslice = "n" %}
