@@ -6,11 +6,7 @@ id: list
 ### All momisms ({{ site.data.momisms.size }}) and their definitions (where known...)
 {: class="center"}
 
-(The old version of this page is [here](/old_list.html)).
-
-Click to see definition, example, and Mommentary where available. If something's missing, [contribute or correct a momism here](https://docs.google.com/forms/d/e/1FAIpQLSdfmzsR2Z4hB9AG-CfEiPwZClB78tSY3SPVOWi4XbDCeGZQog/viewform){: target="_blank"}.
-
-Or click <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">here</button> to view a random momism.
+Click to see definition, example, and Mommentary where available (if unavailable, [contribute](/contribute.html) one). Or click <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">here</button> to view a momism at random.
 <br>
 
 {% assign counter = 0 %}
