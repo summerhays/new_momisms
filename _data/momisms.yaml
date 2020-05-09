@@ -428,7 +428,7 @@
 - momism: "Let's get this show on the road" 
   order: 68 
   definition: "Let's go" 
-  example: "Don't get cross with me!"
+  example: "Don't get cross with me! "
 - momism: "Lickety-split" 
   order: 162 
   definition: "Right away"
@@ -573,6 +573,10 @@
   order: 205 
   definition: "Awake and moving around the house" 
   example: "I could hear him rattling around long after I turned into a pumpkin"
+- momism: "Quit it" 
+  order: 252 
+  definition: "Stop that" 
+  example: "Quit it, your squabbling is driving me bonkers"
 - momism: "Recipe for disaster" 
   order: 213 
   definition: "Something that is likely to result in disaster"

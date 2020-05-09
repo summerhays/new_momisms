@@ -1,1098 +1,1464 @@
 - day: 1 
-  rand: 57 
-  dup: 
-- day: 2 
-  rand: 107 
-  dup: 
-- day: 3 
-  rand: 243 
-  dup: 
-- day: 4 
-  rand: 141 
-  dup: 
-- day: 5 
-  rand: 179 
-  dup: 
-- day: 6 
-  rand: 134 
-  dup: 
-- day: 7 
-  rand: 23 
-  dup: 
-- day: 8 
-  rand: 212 
-  dup: 
-- day: 9 
-  rand: 227 
-  dup: 
-- day: 10 
-  rand: 102 
-  dup: 
-- day: 11 
-  rand: 79 
-  dup: 
-- day: 12 
-  rand: 230 
-  dup: 
-- day: 13 
-  rand: 103 
-  dup: 
-- day: 14 
-  rand: 111 
-  dup: 
-- day: 15 
-  rand: 149 
-  dup: 
-- day: 16 
-  rand: 220 
-  dup: 
-- day: 17 
-  rand: 217 
-  dup: 
-- day: 18 
-  rand: 152 
-  dup: 
-- day: 19 
-  rand: 50 
-  dup: 
-- day: 20 
-  rand: 66 
-  dup: 
-- day: 21 
-  rand: 190 
-  dup: 
-- day: 22 
-  rand: 229 
-  dup: 
-- day: 23 
-  rand: 168 
-  dup: 
-- day: 24 
-  rand: 16 
-  dup: 
-- day: 25 
-  rand: 100 
-  dup: 
-- day: 26 
-  rand: 205 
-  dup: 
-- day: 27 
-  rand: 209 
-  dup: 
-- day: 28 
-  rand: 83 
-  dup: 
-- day: 29 
-  rand: 75 
-  dup: 
-- day: 30 
-  rand: 12 
-  dup: 
-- day: 31 
-  rand: 224 
-  dup: 
-- day: 32 
-  rand: 33 
-  dup: 
-- day: 33 
-  rand: 167 
-  dup: 
-- day: 34 
-  rand: 189 
-  dup: 
-- day: 35 
-  rand: 245 
-  dup: 
-- day: 36 
-  rand: 147 
-  dup: 
-- day: 37 
-  rand: 242 
-  dup: 
-- day: 38 
-  rand: 56 
-  dup: 
-- day: 39 
-  rand: 206 
-  dup: 
-- day: 40 
-  rand: 8 
-  dup: 
-- day: 41 
-  rand: 2 
-  dup: 
-- day: 42 
-  rand: 188 
-  dup: 
-- day: 43 
-  rand: 122 
-  dup: 
-- day: 44 
-  rand: 180 
-  dup: 
-- day: 45 
-  rand: 166 
-  dup: 
-- day: 46 
-  rand: 133 
-  dup: 
-- day: 47 
-  rand: 214 
-  dup: 
-- day: 48 
-  rand: 91 
-  dup: 
-- day: 49 
-  rand: 65 
-  dup: 
-- day: 50 
-  rand: 164 
-  dup: 
-- day: 51 
-  rand: 48 
-  dup: 
-- day: 52 
-  rand: 231 
-  dup: 
-- day: 53 
-  rand: 31 
-  dup: 
-- day: 54 
-  rand: 193 
-  dup: 
-- day: 55 
-  rand: 95 
-  dup: 
-- day: 56 
-  rand: 126 
-  dup: 
-- day: 57 
-  rand: 47 
-  dup: 
-- day: 58 
-  rand: 207 
-  dup: 
-- day: 59 
-  rand: 138 
-  dup: 
-- day: 60 
-  rand: 97 
-  dup: 
-- day: 61 
-  rand: 210 
-  dup: 
-- day: 62 
-  rand: 177 
-  dup: 
-- day: 63 
-  rand: 235 
-  dup: 
-- day: 64 
-  rand: 15 
-  dup: 
-- day: 65 
-  rand: 192 
-  dup: 
-- day: 66 
-  rand: 62 
-  dup: 
-- day: 67 
-  rand: 129 
-  dup: 
-- day: 68 
-  rand: 115 
-  dup: 
-- day: 69 
-  rand: 131 
-  dup: 
-- day: 70 
-  rand: 162 
-  dup: 
-- day: 71 
-  rand: 195 
-  dup: 
-- day: 72 
-  rand: 1 
-  dup: 
-- day: 73 
-  rand: 199 
-  dup: 
-- day: 74 
-  rand: 221 
-  dup: 
-- day: 75 
-  rand: 219 
-  dup: 
-- day: 76 
-  rand: 19 
-  dup: 
-- day: 77 
-  rand: 87 
-  dup: 
-- day: 78 
-  rand: 5 
-  dup: 
-- day: 79 
-  rand: 20 
-  dup: 
-- day: 80 
   rand: 194 
-  dup: 
-- day: 81 
-  rand: 53 
-  dup: 
-- day: 82 
-  rand: 41 
-  dup: 
-- day: 83 
-  rand: 253 
-  dup: 
-- day: 84 
-  rand: 35 
-  dup: 
-- day: 85 
-  rand: 160 
-  dup: 
-- day: 86 
-  rand: 17 
-  dup: 
-- day: 87 
-  rand: 89 
-  dup: 
-- day: 88 
-  rand: 158 
-  dup: 
-- day: 89 
-  rand: 76 
-  dup: 
-- day: 90 
-  rand: 4 
-  dup: 
-- day: 91 
+  dup: yes 
+  time: first
+- day: 2 
+  rand: 248 
+  dup: yes 
+  time: first
+- day: 3 
+  rand: 183 
+  dup: no 
+  time: first
+- day: 4 
+  rand: 33 
+  dup: yes 
+  time: first
+- day: 5 
+  rand: 163 
+  dup: no 
+  time: first
+- day: 6 
+  rand: 225 
+  dup: no 
+  time: first
+- day: 7 
+  rand: 238 
+  dup: no 
+  time: first
+- day: 8 
   rand: 120 
-  dup: 
-- day: 92 
-  rand: 216 
-  dup: 
-- day: 93 
-  rand: 117 
-  dup: 
-- day: 94 
-  rand: 252 
-  dup: 
-- day: 95 
-  rand: 145 
-  dup: 
-- day: 96 
-  rand: 69 
-  dup: 
-- day: 97 
-  rand: 211 
-  dup: 
-- day: 98 
-  rand: 237 
-  dup: 
-- day: 99 
-  rand: 226 
-  dup: 
-- day: 100 
+  dup: yes 
+  time: first
+- day: 9 
+  rand: 149 
+  dup: yes 
+  time: first
+- day: 10 
+  rand: 49 
+  dup: yes 
+  time: first
+- day: 11 
+  rand: 124 
+  dup: yes 
+  time: first
+- day: 12 
+  rand: 189 
+  dup: yes 
+  time: first
+- day: 13 
+  rand: 1 
+  dup: no 
+  time: first
+- day: 14 
+  rand: 100 
+  dup: no 
+  time: first
+- day: 15 
+  rand: 174 
+  dup: yes 
+  time: first
+- day: 16 
   rand: 72 
-  dup: 
-- day: 101 
-  rand: 71 
-  dup: 
-- day: 102 
-  rand: 213 
-  dup: 
-- day: 103 
-  rand: 110 
-  dup: 
-- day: 104 
-  rand: 82 
-  dup: 
-- day: 105 
-  rand: 84 
-  dup: 
-- day: 106 
-  rand: 3 
-  dup: 
-- day: 107 
-  rand: 175 
-  dup: 
-- day: 108 
-  rand: 45 
-  dup: 
-- day: 109 
+  dup: yes 
+  time: first
+- day: 17 
+  rand: 184 
+  dup: no 
+  time: first
+- day: 18 
+  rand: 228 
+  dup: no 
+  time: first
+- day: 19 
+  rand: 88 
+  dup: no 
+  time: first
+- day: 20 
+  rand: 19 
+  dup: yes 
+  time: first
+- day: 21 
+  rand: 218 
+  dup: yes 
+  time: first
+- day: 22 
+  rand: 14 
+  dup: no 
+  time: first
+- day: 23 
+  rand: 208 
+  dup: no 
+  time: first
+- day: 24 
+  rand: 122 
+  dup: no 
+  time: first
+- day: 25 
   rand: 108 
-  dup: 
-- day: 110 
-  rand: 37 
-  dup: 
-- day: 111 
-  rand: 191 
-  dup: 
-- day: 112 
-  rand: 70 
-  dup: 
-- day: 113 
+  dup: no 
+  time: first
+- day: 26 
+  rand: 102 
+  dup: yes 
+  time: first
+- day: 27 
+  rand: 90 
+  dup: yes 
+  time: first
+- day: 28 
+  rand: 232 
+  dup: yes 
+  time: first
+- day: 29 
+  rand: 242 
+  dup: no 
+  time: first
+- day: 30 
+  rand: 213 
+  dup: no 
+  time: first
+- day: 31 
+  rand: 162 
+  dup: yes 
+  time: first
+- day: 32 
+  rand: 95 
+  dup: no 
+  time: first
+- day: 33 
+  rand: 5 
+  dup: no 
+  time: first
+- day: 34 
+  rand: 241 
+  dup: yes 
+  time: first
+- day: 35 
+  rand: 65 
+  dup: yes 
+  time: first
+- day: 36 
+  rand: 169 
+  dup: no 
+  time: first
+- day: 37 
+  rand: 182 
+  dup: yes 
+  time: first
+- day: 38 
+  rand: 30 
+  dup: no 
+  time: first
+- day: 39 
+  rand: 175 
+  dup: yes 
+  time: first
+- day: 40 
+  rand: 13 
+  dup: yes 
+  time: first
+- day: 41 
+  rand: 80 
+  dup: no 
+  time: first
+- day: 42 
+  rand: 67 
+  dup: no 
+  time: first
+- day: 43 
+  rand: 9 
+  dup: no 
+  time: first
+- day: 44 
+  rand: 75 
+  dup: yes 
+  time: first
+- day: 45 
+  rand: 155 
+  dup: no 
+  time: first
+- day: 46 
+  rand: 29 
+  dup: yes 
+  time: first
+- day: 47 
+  rand: 34 
+  dup: no 
+  time: first
+- day: 48 
+  rand: 130 
+  dup: yes 
+  time: first
+- day: 49 
+  rand: 31 
+  dup: no 
+  time: first
+- day: 50 
+  rand: 109 
+  dup: no 
+  time: first
+- day: 51 
+  rand: 105 
+  dup: yes 
+  time: first
+- day: 52 
+  rand: 247 
+  dup: no 
+  time: first
+- day: 53 
+  rand: 188 
+  dup: yes 
+  time: first
+- day: 54 
+  rand: 222 
+  dup: yes 
+  time: first
+- day: 55 
+  rand: 143 
+  dup: yes 
+  time: first
+- day: 56 
+  rand: 68 
+  dup: no 
+  time: first
+- day: 57 
+  rand: 131 
+  dup: yes 
+  time: first
+- day: 58 
+  rand: 200 
+  dup: yes 
+  time: first
+- day: 59 
+  rand: 231 
+  dup: yes 
+  time: first
+- day: 60 
+  rand: 119 
+  dup: no 
+  time: first
+- day: 61 
+  rand: 116 
+  dup: no 
+  time: first
+- day: 62 
+  rand: 219 
+  dup: no 
+  time: first
+- day: 63 
+  rand: 3 
+  dup: no 
+  time: first
+- day: 64 
+  rand: 7 
+  dup: no 
+  time: first
+- day: 65 
+  rand: 250 
+  dup: no 
+  time: first
+- day: 66 
+  rand: 172 
+  dup: yes 
+  time: first
+- day: 67 
+  rand: 185 
+  dup: yes 
+  time: first
+- day: 68 
+  rand: 212 
+  dup: no 
+  time: first
+- day: 69 
+  rand: 178 
+  dup: yes 
+  time: first
+- day: 70 
+  rand: 69 
+  dup: no 
+  time: first
+- day: 71 
   rand: 114 
-  dup: 
+  dup: yes 
+  time: first
+- day: 72 
+  rand: 134 
+  dup: no 
+  time: first
+- day: 73 
+  rand: 35 
+  dup: no 
+  time: first
+- day: 74 
+  rand: 48 
+  dup: yes 
+  time: first
+- day: 75 
+  rand: 62 
+  dup: yes 
+  time: first
+- day: 76 
+  rand: 10 
+  dup: yes 
+  time: first
+- day: 77 
+  rand: 26 
+  dup: no 
+  time: first
+- day: 78 
+  rand: 201 
+  dup: no 
+  time: first
+- day: 79 
+  rand: 111 
+  dup: no 
+  time: first
+- day: 80 
+  rand: 121 
+  dup: yes 
+  time: first
+- day: 81 
+  rand: 11 
+  dup: no 
+  time: first
+- day: 82 
+  rand: 44 
+  dup: yes 
+  time: first
+- day: 83 
+  rand: 20 
+  dup: yes 
+  time: first
+- day: 84 
+  rand: 235 
+  dup: no 
+  time: first
+- day: 85 
+  rand: 97 
+  dup: yes 
+  time: first
+- day: 86 
+  rand: 158 
+  dup: yes 
+  time: first
+- day: 87 
+  rand: 161 
+  dup: yes 
+  time: first
+- day: 88 
+  rand: 17 
+  dup: no 
+  time: first
+- day: 89 
+  rand: 193 
+  dup: no 
+  time: first
+- day: 90 
+  rand: 96 
+  dup: no 
+  time: first
+- day: 91 
+  rand: 239 
+  dup: no 
+  time: first
+- day: 92 
+  rand: 38 
+  dup: no 
+  time: first
+- day: 93 
+  rand: 187 
+  dup: yes 
+  time: first
+- day: 94 
+  rand: 192 
+  dup: no 
+  time: first
+- day: 95 
+  rand: 179 
+  dup: yes 
+  time: first
+- day: 96 
+  rand: 234 
+  dup: yes 
+  time: first
+- day: 97 
+  rand: 127 
+  dup: yes 
+  time: first
+- day: 98 
+  rand: 81 
+  dup: no 
+  time: first
+- day: 99 
+  rand: 82 
+  dup: no 
+  time: first
+- day: 100 
+  rand: 152 
+  dup: yes 
+  time: first
+- day: 101 
+  rand: 153 
+  dup: no 
+  time: first
+- day: 102 
+  rand: 18 
+  dup: yes 
+  time: first
+- day: 103 
+  rand: 51 
+  dup: no 
+  time: first
+- day: 104 
+  rand: 52 
+  dup: no 
+  time: first
+- day: 105 
+  rand: 191 
+  dup: no 
+  time: first
+- day: 106 
+  rand: 141 
+  dup: yes 
+  time: first
+- day: 107 
+  rand: 243 
+  dup: no 
+  time: first
+- day: 108 
+  rand: 110 
+  dup: no 
+  time: first
+- day: 109 
+  rand: 214 
+  dup: no 
+  time: first
+- day: 110 
+  rand: 142 
+  dup: no 
+  time: first
+- day: 111 
+  rand: 79 
+  dup: no 
+  time: first
+- day: 112 
+  rand: 64 
+  dup: yes 
+  time: first
+- day: 113 
+  rand: 106 
+  dup: yes 
+  time: first
 - day: 114 
-  rand: 74 
-  dup: 
+  rand: 86 
+  dup: no 
+  time: first
 - day: 115 
-  rand: 151 
-  dup: 
+  rand: 137 
+  dup: no 
+  time: first
 - day: 116 
   rand: 85 
-  dup: 
+  dup: no 
+  time: first
 - day: 117 
-  rand: 24 
-  dup: 
-- day: 118 
-  rand: 59 
-  dup: 
-- day: 119 
-  rand: 52 
-  dup: 
-- day: 120 
-  rand: 198 
-  dup: 
-- day: 121 
-  rand: 96 
-  dup: 
-- day: 122 
-  rand: 80 
-  dup: 
-- day: 123 
-  rand: 22 
-  dup: 
-- day: 124 
-  rand: 239 
-  dup: 
-- day: 125 
-  rand: 109 
-  dup: 
-- day: 126 
-  rand: 178 
-  dup: 
-- day: 127 
-  rand: 90 
-  dup: 
-- day: 128 
-  rand: 14 
-  dup: 
-- day: 129 
-  rand: 215 
-  dup: 
-- day: 130 
-  rand: 64 
-  dup: 
-- day: 131 
-  rand: 119 
-  dup: 
-- day: 132 
-  rand: 13 
-  dup: 
-- day: 133 
-  rand: 165 
-  dup: 
-- day: 134 
-  rand: 140 
-  dup: 
-- day: 135 
-  rand: 49 
-  dup: 
-- day: 136 
-  rand: 174 
-  dup: 
-- day: 137 
-  rand: 240 
-  dup: 
-- day: 138 
-  rand: 128 
-  dup: 
-- day: 139 
-  rand: 146 
-  dup: 
-- day: 140 
-  rand: 9 
-  dup: 
-- day: 141 
-  rand: 228 
-  dup: 
-- day: 142 
-  rand: 153 
-  dup: 
-- day: 143 
-  rand: 181 
-  dup: 
-- day: 144 
-  rand: 244 
-  dup: 
-- day: 145 
-  rand: 7 
-  dup: 
-- day: 146 
-  rand: 68 
-  dup: 
-- day: 147 
-  rand: 18 
-  dup: 
-- day: 148 
-  rand: 143 
-  dup: 
-- day: 149 
-  rand: 81 
-  dup: 
-- day: 150 
-  rand: 157 
-  dup: 
-- day: 151 
-  rand: 222 
-  dup: 
-- day: 152 
-  rand: 26 
-  dup: 
-- day: 153 
-  rand: 98 
-  dup: 
-- day: 154 
-  rand: 223 
-  dup: 
-- day: 155 
-  rand: 93 
-  dup: 
-- day: 156 
-  rand: 200 
-  dup: 
-- day: 157 
-  rand: 170 
-  dup: 
-- day: 158 
-  rand: 10 
-  dup: 
-- day: 159 
-  rand: 88 
-  dup: 
-- day: 160 
-  rand: 106 
-  dup: 
-- day: 161 
-  rand: 183 
-  dup: 
-- day: 162 
-  rand: 130 
-  dup: 
-- day: 163 
-  rand: 36 
-  dup: 
-- day: 164 
-  rand: 63 
-  dup: 
-- day: 165 
-  rand: 30 
-  dup: 
-- day: 166 
-  rand: 43 
-  dup: 
-- day: 167 
-  rand: 38 
-  dup: 
-- day: 168 
-  rand: 234 
-  dup: 
-- day: 169 
   rand: 249 
-  dup: 
-- day: 170 
-  rand: 135 
-  dup: 
-- day: 171 
-  rand: 92 
-  dup: 
-- day: 172 
-  rand: 86 
-  dup: 
-- day: 173 
-  rand: 172 
-  dup: 
-- day: 174 
-  rand: 173 
-  dup: 
-- day: 175 
-  rand: 241 
-  dup: 
-- day: 176 
-  rand: 54 
-  dup: 
-- day: 177 
-  rand: 125 
-  dup: 
-- day: 178 
-  rand: 176 
-  dup: 
-- day: 179 
-  rand: 61 
-  dup: 
-- day: 180 
-  rand: 225 
-  dup: 
-- day: 181 
-  rand: 186 
-  dup: 
-- day: 182 
-  rand: 187 
-  dup: 
-- day: 183 
-  rand: 94 
-  dup: 
-- day: 184 
-  rand: 203 
-  dup: 
-- day: 185 
-  rand: 116 
-  dup: 
-- day: 186 
-  rand: 27 
-  dup: 
-- day: 187 
-  rand: 25 
-  dup: 
-- day: 188 
-  rand: 182 
-  dup: 
-- day: 189 
-  rand: 247 
-  dup: 
-- day: 190 
-  rand: 233 
-  dup: 
-- day: 191 
-  rand: 124 
-  dup: 
-- day: 192 
-  rand: 196 
-  dup: 
-- day: 193 
-  rand: 58 
-  dup: 
-- day: 194 
-  rand: 161 
-  dup: 
-- day: 195 
-  rand: 11 
-  dup: 
-- day: 196 
-  rand: 171 
-  dup: 
-- day: 197 
-  rand: 113 
-  dup: 
-- day: 198 
-  rand: 201 
-  dup: 
-- day: 199 
-  rand: 156 
-  dup: 
-- day: 200 
-  rand: 159 
-  dup: 
-- day: 201 
-  rand: 251 
-  dup: 
-- day: 202 
-  rand: 127 
-  dup: 
-- day: 203 
-  rand: 238 
-  dup: 
-- day: 204 
-  rand: 78 
-  dup: 
-- day: 205 
-  rand: 73 
-  dup: 
-- day: 206 
-  rand: 28 
-  dup: 
-- day: 207 
-  rand: 169 
-  dup: 
-- day: 208 
-  rand: 144 
-  dup: 
-- day: 209 
-  rand: 236 
-  dup: 
-- day: 210 
-  rand: 184 
-  dup: 
-- day: 211 
-  rand: 155 
-  dup: 
-- day: 212 
-  rand: 44 
-  dup: 
-- day: 213 
-  rand: 39 
-  dup: 
-- day: 214 
-  rand: 99 
-  dup: 
-- day: 215 
-  rand: 55 
-  dup: 
-- day: 216 
-  rand: 51 
-  dup: 
-- day: 217 
-  rand: 208 
-  dup: 
-- day: 218 
-  rand: 105 
-  dup: 
-- day: 219 
-  rand: 101 
-  dup: 
-- day: 220 
-  rand: 202 
-  dup: 
-- day: 221 
-  rand: 77 
-  dup: 
-- day: 222 
-  rand: 142 
-  dup: 
-- day: 223 
-  rand: 185 
-  dup: 
-- day: 224 
-  rand: 163 
-  dup: 
-- day: 225 
-  rand: 34 
-  dup: 
-- day: 226 
-  rand: 60 
-  dup: 
-- day: 227 
-  rand: 139 
-  dup: 
-- day: 228 
-  rand: 29 
-  dup: 
-- day: 229 
-  rand: 136 
-  dup: 
-- day: 230 
-  rand: 123 
-  dup: 
-- day: 231 
-  rand: 218 
-  dup: 
-- day: 232 
-  rand: 137 
-  dup: 
-- day: 233 
-  rand: 121 
-  dup: 
-- day: 234 
-  rand: 21 
-  dup: 
-- day: 235 
-  rand: 250 
-  dup: 
-- day: 236 
-  rand: 112 
-  dup: 
-- day: 237 
-  rand: 150 
-  dup: 
-- day: 238 
-  rand: 6 
-  dup: 
-- day: 239 
-  rand: 148 
-  dup: 
-- day: 240 
-  rand: 40 
-  dup: 
-- day: 241 
-  rand: 248 
-  dup: 
-- day: 242 
+  dup: no 
+  time: first
+- day: 118 
   rand: 118 
-  dup: 
-- day: 243 
-  rand: 46 
-  dup: 
-- day: 244 
-  rand: 67 
-  dup: 
-- day: 245 
-  rand: 232 
-  dup: 
-- day: 246 
-  rand: 154 
-  dup: 
-- day: 247 
-  rand: 42 
-  dup: 
-- day: 248 
-  rand: 32 
-  dup: 
-- day: 249 
-  rand: 104 
-  dup: 
-- day: 250 
-  rand: 132 
-  dup: 
-- day: 251 
-  rand: 204 
-  dup: 
-- day: 252 
-  rand: 246 
-  dup: 
-- day: 253 
+  dup: yes 
+  time: first
+- day: 119 
+  rand: 6 
+  dup: yes 
+  time: first
+- day: 120 
+  rand: 202 
+  dup: no 
+  time: first
+- day: 121 
+  rand: 70 
+  dup: no 
+  time: first
+- day: 122 
+  rand: 159 
+  dup: no 
+  time: first
+- day: 123 
+  rand: 180 
+  dup: no 
+  time: first
+- day: 124 
   rand: 197 
-  dup: 
-- day: 254 
-  rand: 22 
-  dup: yes
-- day: 255 
-  rand: 154 
-  dup: yes
-- day: 256 
-  rand: 166 
-  dup: yes
-- day: 257 
-  rand: 88 
-  dup: yes
-- day: 258 
-  rand: 75 
-  dup: yes
-- day: 259 
+  dup: no 
+  time: first
+- day: 125 
+  rand: 190 
+  dup: no 
+  time: first
+- day: 126 
+  rand: 92 
+  dup: yes 
+  time: first
+- day: 127 
+  rand: 66 
+  dup: yes 
+  time: first
+- day: 128 
+  rand: 21 
+  dup: yes 
+  time: first
+- day: 129 
   rand: 107 
-  dup: no
-- day: 260 
-  rand: 123 
-  dup: yes
-- day: 261 
-  rand: 174 
-  dup: yes
-- day: 262 
+  dup: yes 
+  time: first
+- day: 130 
+  rand: 76 
+  dup: yes 
+  time: first
+- day: 131 
+  rand: 245 
+  dup: yes 
+  time: first
+- day: 132 
+  rand: 224 
+  dup: no 
+  time: first
+- day: 133 
+  rand: 54 
+  dup: no 
+  time: first
+- day: 134 
+  rand: 47 
+  dup: no 
+  time: first
+- day: 135 
+  rand: 210 
+  dup: yes 
+  time: first
+- day: 136 
+  rand: 229 
+  dup: no 
+  time: first
+- day: 137 
+  rand: 237 
+  dup: yes 
+  time: first
+- day: 138 
+  rand: 89 
+  dup: no 
+  time: first
+- day: 139 
+  rand: 129 
+  dup: yes 
+  time: first
+- day: 140 
+  rand: 132 
+  dup: no 
+  time: first
+- day: 141 
+  rand: 226 
+  dup: no 
+  time: first
+- day: 142 
+  rand: 195 
+  dup: no 
+  time: first
+- day: 143 
+  rand: 117 
+  dup: no 
+  time: first
+- day: 144 
+  rand: 94 
+  dup: no 
+  time: first
+- day: 145 
+  rand: 73 
+  dup: no 
+  time: first
+- day: 146 
+  rand: 83 
+  dup: yes 
+  time: first
+- day: 147 
+  rand: 138 
+  dup: yes 
+  time: first
+- day: 148 
+  rand: 168 
+  dup: yes 
+  time: first
+- day: 149 
+  rand: 27 
+  dup: yes 
+  time: first
+- day: 150 
+  rand: 78 
+  dup: yes 
+  time: first
+- day: 151 
   rand: 115 
-  dup: yes
+  dup: no 
+  time: first
+- day: 152 
+  rand: 136 
+  dup: yes 
+  time: first
+- day: 153 
+  rand: 165 
+  dup: no 
+  time: first
+- day: 154 
+  rand: 123 
+  dup: yes 
+  time: first
+- day: 155 
+  rand: 45 
+  dup: yes 
+  time: first
+- day: 156 
+  rand: 207 
+  dup: no 
+  time: first
+- day: 157 
+  rand: 217 
+  dup: no 
+  time: first
+- day: 158 
+  rand: 61 
+  dup: yes 
+  time: first
+- day: 159 
+  rand: 144 
+  dup: no 
+  time: first
+- day: 160 
+  rand: 251 
+  dup: yes 
+  time: first
+- day: 161 
+  rand: 148 
+  dup: no 
+  time: first
+- day: 162 
+  rand: 186 
+  dup: yes 
+  time: first
+- day: 163 
+  rand: 40 
+  dup: no 
+  time: first
+- day: 164 
+  rand: 126 
+  dup: yes 
+  time: first
+- day: 165 
+  rand: 41 
+  dup: no 
+  time: first
+- day: 166 
+  rand: 2 
+  dup: yes 
+  time: first
+- day: 167 
+  rand: 133 
+  dup: no 
+  time: first
+- day: 168 
+  rand: 53 
+  dup: yes 
+  time: first
+- day: 169 
+  rand: 58 
+  dup: no 
+  time: first
+- day: 170 
+  rand: 56 
+  dup: no 
+  time: first
+- day: 171 
+  rand: 57 
+  dup: no 
+  time: first
+- day: 172 
+  rand: 55 
+  dup: yes 
+  time: first
+- day: 173 
+  rand: 25 
+  dup: no 
+  time: first
+- day: 174 
+  rand: 164 
+  dup: yes 
+  time: first
+- day: 175 
+  rand: 71 
+  dup: no 
+  time: first
+- day: 176 
+  rand: 170 
+  dup: no 
+  time: first
+- day: 177 
+  rand: 43 
+  dup: no 
+  time: first
+- day: 178 
+  rand: 112 
+  dup: no 
+  time: first
+- day: 179 
+  rand: 84 
+  dup: yes 
+  time: first
+- day: 180 
+  rand: 22 
+  dup: no 
+  time: first
+- day: 181 
+  rand: 252 
+  dup: yes 
+  time: first
+- day: 182 
+  rand: 160 
+  dup: no 
+  time: first
+- day: 183 
+  rand: 8 
+  dup: yes 
+  time: first
+- day: 184 
+  rand: 150 
+  dup: no 
+  time: first
+- day: 185 
+  rand: 233 
+  dup: no 
+  time: first
+- day: 186 
+  rand: 23 
+  dup: yes 
+  time: first
+- day: 187 
+  rand: 60 
+  dup: yes 
+  time: first
+- day: 188 
+  rand: 77 
+  dup: no 
+  time: first
+- day: 189 
+  rand: 128 
+  dup: yes 
+  time: first
+- day: 190 
+  rand: 236 
+  dup: yes 
+  time: first
+- day: 191 
+  rand: 216 
+  dup: no 
+  time: first
+- day: 192 
+  rand: 205 
+  dup: yes 
+  time: first
+- day: 193 
+  rand: 46 
+  dup: no 
+  time: first
+- day: 194 
+  rand: 181 
+  dup: no 
+  time: first
+- day: 195 
+  rand: 93 
+  dup: no 
+  time: first
+- day: 196 
+  rand: 177 
+  dup: yes 
+  time: first
+- day: 197 
+  rand: 204 
+  dup: no 
+  time: first
+- day: 198 
+  rand: 50 
+  dup: no 
+  time: first
+- day: 199 
+  rand: 74 
+  dup: yes 
+  time: first
+- day: 200 
+  rand: 230 
+  dup: no 
+  time: first
+- day: 201 
+  rand: 199 
+  dup: no 
+  time: first
+- day: 202 
+  rand: 125 
+  dup: no 
+  time: first
+- day: 203 
+  rand: 104 
+  dup: no 
+  time: first
+- day: 204 
+  rand: 151 
+  dup: no 
+  time: first
+- day: 205 
+  rand: 4 
+  dup: no 
+  time: first
+- day: 206 
+  rand: 42 
+  dup: yes 
+  time: first
+- day: 207 
+  rand: 223 
+  dup: yes 
+  time: first
+- day: 208 
+  rand: 63 
+  dup: yes 
+  time: first
+- day: 209 
+  rand: 209 
+  dup: yes 
+  time: first
+- day: 210 
+  rand: 87 
+  dup: no 
+  time: first
+- day: 211 
+  rand: 198 
+  dup: yes 
+  time: first
+- day: 212 
+  rand: 220 
+  dup: no 
+  time: first
+- day: 213 
+  rand: 16 
+  dup: yes 
+  time: first
+- day: 214 
+  rand: 91 
+  dup: no 
+  time: first
+- day: 215 
+  rand: 166 
+  dup: no 
+  time: first
+- day: 216 
+  rand: 145 
+  dup: no 
+  time: first
+- day: 217 
+  rand: 59 
+  dup: yes 
+  time: first
+- day: 218 
+  rand: 101 
+  dup: yes 
+  time: first
+- day: 219 
+  rand: 99 
+  dup: yes 
+  time: first
+- day: 220 
+  rand: 139 
+  dup: yes 
+  time: first
+- day: 221 
+  rand: 206 
+  dup: yes 
+  time: first
+- day: 222 
+  rand: 39 
+  dup: no 
+  time: first
+- day: 223 
+  rand: 244 
+  dup: yes 
+  time: first
+- day: 224 
+  rand: 113 
+  dup: yes 
+  time: first
+- day: 225 
+  rand: 12 
+  dup: no 
+  time: first
+- day: 226 
+  rand: 154 
+  dup: yes 
+  time: first
+- day: 227 
+  rand: 32 
+  dup: yes 
+  time: first
+- day: 228 
+  rand: 246 
+  dup: no 
+  time: first
+- day: 229 
+  rand: 28 
+  dup: no 
+  time: first
+- day: 230 
+  rand: 196 
+  dup: yes 
+  time: first
+- day: 231 
+  rand: 221 
+  dup: yes 
+  time: first
+- day: 232 
+  rand: 147 
+  dup: no 
+  time: first
+- day: 233 
+  rand: 135 
+  dup: yes 
+  time: first
+- day: 234 
+  rand: 146 
+  dup: no 
+  time: first
+- day: 235 
+  rand: 157 
+  dup: no 
+  time: first
+- day: 236 
+  rand: 98 
+  dup: no 
+  time: first
+- day: 237 
+  rand: 15 
+  dup: no 
+  time: first
+- day: 238 
+  rand: 215 
+  dup: no 
+  time: first
+- day: 239 
+  rand: 240 
+  dup: no 
+  time: first
+- day: 240 
+  rand: 171 
+  dup: no 
+  time: first
+- day: 241 
+  rand: 211 
+  dup: yes 
+  time: first
+- day: 242 
+  rand: 24 
+  dup: no 
+  time: first
+- day: 243 
+  rand: 176 
+  dup: no 
+  time: first
+- day: 244 
+  rand: 140 
+  dup: yes 
+  time: first
+- day: 245 
+  rand: 173 
+  dup: yes 
+  time: first
+- day: 246 
+  rand: 203 
+  dup: no 
+  time: first
+- day: 247 
+  rand: 103 
+  dup: yes 
+  time: first
+- day: 248 
+  rand: 227 
+  dup: no 
+  time: first
+- day: 249 
+  rand: 37 
+  dup: no 
+  time: first
+- day: 250 
+  rand: 36 
+  dup: no 
+  time: first
+- day: 251 
+  rand: 167 
+  dup: yes 
+  time: first
+- day: 252 
+  rand: 156 
+  dup: yes 
+  time: first
+- day: 253 
+  rand: 61 
+  dup: yes 
+  time: second
+- day: 254 
+  rand: 2 
+  dup: yes 
+  time: second
+- day: 255 
+  rand: 107 
+  dup: yes 
+  time: second
+- day: 256 
+  rand: 218 
+  dup: yes 
+  time: second
+- day: 257 
+  rand: 168 
+  dup: yes 
+  time: second
+- day: 258 
+  rand: 120 
+  dup: yes 
+  time: second
+- day: 259 
+  rand: 179 
+  dup: yes 
+  time: second
+- day: 260 
+  rand: 172 
+  dup: yes 
+  time: second
+- day: 261 
+  rand: 64 
+  dup: yes 
+  time: second
+- day: 262 
+  rand: 127 
+  dup: yes 
+  time: second
 - day: 263 
   rand: 237 
-  dup: yes
+  dup: yes 
+  time: second
 - day: 264 
-  rand: 124 
-  dup: yes
+  rand: 182 
+  dup: yes 
+  time: second
 - day: 265 
-  rand: 244 
-  dup: yes
+  rand: 72 
+  dup: yes 
+  time: second
 - day: 266 
-  rand: 231 
-  dup: yes
-- day: 267 
-  rand: 61 
-  dup: yes
-- day: 268 
-  rand: 128 
-  dup: yes
-- day: 269 
-  rand: 70 
-  dup: yes
-- day: 270 
-  rand: 93 
-  dup: yes
-- day: 271 
-  rand: 243 
-  dup: no
-- day: 272 
-  rand: 30 
-  dup: yes
-- day: 273 
-  rand: 241 
-  dup: yes
-- day: 274 
-  rand: 122 
-  dup: yes
-- day: 275 
-  rand: 188 
-  dup: yes
-- day: 276 
-  rand: 190 
-  dup: no
-- day: 277 
-  rand: 153 
-  dup: yes
-- day: 278 
-  rand: 235 
-  dup: yes
-- day: 279 
-  rand: 98 
-  dup: yes
-- day: 280 
-  rand: 90 
-  dup: yes
-- day: 281 
-  rand: 204 
-  dup: yes
-- day: 282 
-  rand: 10 
-  dup: yes
-- day: 283 
-  rand: 44 
-  dup: yes
-- day: 284 
-  rand: 104 
-  dup: yes
-- day: 285 
-  rand: 17 
-  dup: yes
-- day: 286 
-  rand: 164 
-  dup: yes
-- day: 287 
-  rand: 38 
-  dup: yes
-- day: 288 
-  rand: 191 
-  dup: yes
-- day: 289 
-  rand: 118 
-  dup: yes
-- day: 290 
-  rand: 238 
-  dup: yes
-- day: 291 
-  rand: 53 
-  dup: yes
-- day: 292 
-  rand: 55 
-  dup: yes
-- day: 293 
-  rand: 140 
-  dup: yes
-- day: 294 
-  rand: 96 
-  dup: yes
-- day: 295 
-  rand: 120 
-  dup: yes
-- day: 296 
-  rand: 223 
-  dup: yes
-- day: 297 
-  rand: 62 
-  dup: yes
-- day: 298 
-  rand: 102 
-  dup: no
-- day: 299 
-  rand: 229 
-  dup: no
-- day: 300 
-  rand: 200 
-  dup: yes
-- day: 301 
-  rand: 210 
-  dup: yes
-- day: 302 
-  rand: 69 
-  dup: yes
-- day: 303 
-  rand: 112 
-  dup: yes
-- day: 304 
-  rand: 41 
-  dup: yes
-- day: 305 
-  rand: 103 
-  dup: no
-- day: 306 
-  rand: 110 
-  dup: yes
-- day: 307 
-  rand: 211 
-  dup: yes
-- day: 308 
-  rand: 117 
-  dup: yes
-- day: 309 
-  rand: 14 
-  dup: yes
-- day: 310 
-  rand: 181 
-  dup: yes
-- day: 311 
-  rand: 73 
-  dup: yes
-- day: 312 
-  rand: 7 
-  dup: yes
-- day: 313 
-  rand: 233 
-  dup: yes
-- day: 314 
-  rand: 250 
-  dup: yes
-- day: 315 
-  rand: 121 
-  dup: yes
-- day: 316 
-  rand: 228 
-  dup: yes
-- day: 317 
-  rand: 203 
-  dup: yes
-- day: 318 
-  rand: 21 
-  dup: yes
-- day: 319 
-  rand: 81 
-  dup: yes
-- day: 320 
-  rand: 150 
-  dup: yes
-- day: 321 
-  rand: 85 
-  dup: yes
-- day: 322 
-  rand: 15 
-  dup: no
-- day: 323 
-  rand: 199 
-  dup: yes
-- day: 324 
-  rand: 218 
-  dup: yes
-- day: 325 
-  rand: 39 
-  dup: yes
-- day: 326 
-  rand: 54 
-  dup: yes
-- day: 327 
-  rand: 63 
-  dup: yes
-- day: 328 
-  rand: 220 
-  dup: no
-- day: 329 
-  rand: 71 
-  dup: yes
-- day: 330 
-  rand: 251 
-  dup: yes
-- day: 331 
-  rand: 45 
-  dup: yes
-- day: 332 
-  rand: 170 
-  dup: yes
-- day: 333 
-  rand: 76 
-  dup: yes
-- day: 334 
-  rand: 180 
-  dup: no
-- day: 335 
-  rand: 66 
-  dup: no
-- day: 336 
-  rand: 144 
-  dup: yes
-- day: 337 
-  rand: 25 
-  dup: yes
-- day: 338 
-  rand: 92 
-  dup: yes
-- day: 339 
-  rand: 86 
-  dup: yes
-- day: 340 
-  rand: 24 
-  dup: yes
-- day: 341 
-  rand: 80 
-  dup: yes
-- day: 342 
-  rand: 157 
-  dup: yes
-- day: 343 
-  rand: 131 
-  dup: no
-- day: 344 
-  rand: 245 
-  dup: no
-- day: 345 
-  rand: 16 
-  dup: no
-- day: 346 
-  rand: 83 
-  dup: no
-- day: 347 
-  rand: 209 
-  dup: no
-- day: 348 
-  rand: 247 
-  dup: yes
-- day: 349 
-  rand: 152 
-  dup: no
-- day: 350 
-  rand: 109 
-  dup: yes
-- day: 351 
-  rand: 171 
-  dup: yes
-- day: 352 
-  rand: 50 
-  dup: no
-- day: 353 
-  rand: 137 
-  dup: yes
-- day: 354 
-  rand: 206 
-  dup: no
-- day: 355 
-  rand: 19 
-  dup: no
-- day: 356 
-  rand: 242 
-  dup: no
-- day: 357 
-  rand: 194 
-  dup: no
-- day: 358 
-  rand: 40 
-  dup: yes
-- day: 359 
-  rand: 189 
-  dup: no
-- day: 360 
-  rand: 138 
-  dup: no
-- day: 361 
-  rand: 252 
-  dup: no
-- day: 362 
-  rand: 95 
-  dup: no
-- day: 363 
-  rand: 126 
-  dup: no
-- day: 364 
-  rand: 46 
-  dup: yes
-- day: 365 
   rand: 6 
-  dup: yes
+  dup: yes 
+  time: second
+- day: 267 
+  rand: 222 
+  dup: yes 
+  time: second
+- day: 268 
+  rand: 90 
+  dup: yes 
+  time: second
+- day: 269 
+  rand: 164 
+  dup: yes 
+  time: second
+- day: 270 
+  rand: 198 
+  dup: yes 
+  time: second
+- day: 271 
+  rand: 221 
+  dup: yes 
+  time: second
+- day: 272 
+  rand: 101 
+  dup: yes 
+  time: second
+- day: 273 
+  rand: 21 
+  dup: yes 
+  time: second
+- day: 274 
+  rand: 152 
+  dup: yes 
+  time: second
+- day: 275 
+  rand: 205 
+  dup: yes 
+  time: second
+- day: 276 
+  rand: 177 
+  dup: yes 
+  time: second
+- day: 277 
+  rand: 29 
+  dup: yes 
+  time: second
+- day: 278 
+  rand: 135 
+  dup: yes 
+  time: second
+- day: 279 
+  rand: 175 
+  dup: yes 
+  time: second
+- day: 280 
+  rand: 149 
+  dup: yes 
+  time: second
+- day: 281 
+  rand: 206 
+  dup: yes 
+  time: second
+- day: 282 
+  rand: 140 
+  dup: yes 
+  time: second
+- day: 283 
+  rand: 156 
+  dup: yes 
+  time: second
+- day: 284 
+  rand: 45 
+  dup: yes 
+  time: second
+- day: 285 
+  rand: 158 
+  dup: yes 
+  time: second
+- day: 286 
+  rand: 129 
+  dup: yes 
+  time: second
+- day: 287 
+  rand: 154 
+  dup: yes 
+  time: second
+- day: 288 
+  rand: 167 
+  dup: yes 
+  time: second
+- day: 289 
+  rand: 106 
+  dup: yes 
+  time: second
+- day: 290 
+  rand: 194 
+  dup: yes 
+  time: second
+- day: 291 
+  rand: 23 
+  dup: yes 
+  time: second
+- day: 292 
+  rand: 126 
+  dup: yes 
+  time: second
+- day: 293 
+  rand: 143 
+  dup: yes 
+  time: second
+- day: 294 
+  rand: 60 
+  dup: yes 
+  time: second
+- day: 295 
+  rand: 236 
+  dup: yes 
+  time: second
+- day: 296 
+  rand: 114 
+  dup: yes 
+  time: second
+- day: 297 
+  rand: 84 
+  dup: yes 
+  time: second
+- day: 298 
+  rand: 232 
+  dup: yes 
+  time: second
+- day: 299 
+  rand: 174 
+  dup: yes 
+  time: second
+- day: 300 
+  rand: 92 
+  dup: yes 
+  time: second
+- day: 301 
+  rand: 234 
+  dup: yes 
+  time: second
+- day: 302 
+  rand: 102 
+  dup: yes 
+  time: second
+- day: 303 
+  rand: 33 
+  dup: yes 
+  time: second
+- day: 304 
+  rand: 20 
+  dup: yes 
+  time: second
+- day: 305 
+  rand: 139 
+  dup: yes 
+  time: second
+- day: 306 
+  rand: 252 
+  dup: yes 
+  time: second
+- day: 307 
+  rand: 178 
+  dup: yes 
+  time: second
+- day: 308 
+  rand: 53 
+  dup: yes 
+  time: second
+- day: 309 
+  rand: 18 
+  dup: yes 
+  time: second
+- day: 310 
+  rand: 113 
+  dup: yes 
+  time: second
+- day: 311 
+  rand: 74 
+  dup: yes 
+  time: second
+- day: 312 
+  rand: 187 
+  dup: yes 
+  time: second
+- day: 313 
+  rand: 62 
+  dup: yes 
+  time: second
+- day: 314 
+  rand: 121 
+  dup: yes 
+  time: second
+- day: 315 
+  rand: 244 
+  dup: yes 
+  time: second
+- day: 316 
+  rand: 55 
+  dup: yes 
+  time: second
+- day: 317 
+  rand: 211 
+  dup: yes 
+  time: second
+- day: 318 
+  rand: 196 
+  dup: yes 
+  time: second
+- day: 319 
+  rand: 173 
+  dup: yes 
+  time: second
+- day: 320 
+  rand: 19 
+  dup: yes 
+  time: second
+- day: 321 
+  rand: 161 
+  dup: yes 
+  time: second
+- day: 322 
+  rand: 136 
+  dup: yes 
+  time: second
+- day: 323 
+  rand: 131 
+  dup: yes 
+  time: second
+- day: 324 
+  rand: 13 
+  dup: yes 
+  time: second
+- day: 325 
+  rand: 49 
+  dup: yes 
+  time: second
+- day: 326 
+  rand: 83 
+  dup: yes 
+  time: second
+- day: 327 
+  rand: 97 
+  dup: yes 
+  time: second
+- day: 328 
+  rand: 103 
+  dup: yes 
+  time: second
+- day: 329 
+  rand: 16 
+  dup: yes 
+  time: second
+- day: 330 
+  rand: 209 
+  dup: yes 
+  time: second
+- day: 331 
+  rand: 63 
+  dup: yes 
+  time: second
+- day: 332 
+  rand: 162 
+  dup: yes 
+  time: second
+- day: 333 
+  rand: 200 
+  dup: yes 
+  time: second
+- day: 334 
+  rand: 245 
+  dup: yes 
+  time: second
+- day: 335 
+  rand: 210 
+  dup: yes 
+  time: second
+- day: 336 
+  rand: 189 
+  dup: yes 
+  time: second
+- day: 337 
+  rand: 128 
+  dup: yes 
+  time: second
+- day: 338 
+  rand: 248 
+  dup: yes 
+  time: second
+- day: 339 
+  rand: 188 
+  dup: yes 
+  time: second
+- day: 340 
+  rand: 130 
+  dup: yes 
+  time: second
+- day: 341 
+  rand: 99 
+  dup: yes 
+  time: second
+- day: 342 
+  rand: 8 
+  dup: yes 
+  time: second
+- day: 343 
+  rand: 231 
+  dup: yes 
+  time: second
+- day: 344 
+  rand: 124 
+  dup: yes 
+  time: second
+- day: 345 
+  rand: 76 
+  dup: yes 
+  time: second
+- day: 346 
+  rand: 123 
+  dup: yes 
+  time: second
+- day: 347 
+  rand: 48 
+  dup: yes 
+  time: second
+- day: 348 
+  rand: 105 
+  dup: yes 
+  time: second
+- day: 349 
+  rand: 66 
+  dup: yes 
+  time: second
+- day: 350 
+  rand: 65 
+  dup: yes 
+  time: second
+- day: 351 
+  rand: 59 
+  dup: yes 
+  time: second
+- day: 352 
+  rand: 185 
+  dup: yes 
+  time: second
+- day: 353 
+  rand: 138 
+  dup: yes 
+  time: second
+- day: 354 
+  rand: 10 
+  dup: yes 
+  time: second
+- day: 355 
+  rand: 44 
+  dup: yes 
+  time: second
+- day: 356 
+  rand: 42 
+  dup: yes 
+  time: second
+- day: 357 
+  rand: 75 
+  dup: yes 
+  time: second
+- day: 358 
+  rand: 78 
+  dup: yes 
+  time: second
+- day: 359 
+  rand: 32 
+  dup: yes 
+  time: second
+- day: 360 
+  rand: 223 
+  dup: yes 
+  time: second
+- day: 361 
+  rand: 241 
+  dup: yes 
+  time: second
+- day: 362 
+  rand: 251 
+  dup: yes 
+  time: second
+- day: 363 
+  rand: 141 
+  dup: yes 
+  time: second
+- day: 364 
+  rand: 186 
+  dup: yes 
+  time: second
+- day: 365 
+  rand: 118 
+  dup: yes 
+  time: second
 - day: 366 
-  rand: 179 
-  dup: no
+  rand: 27 
+  dup: yes 
+  time: second
