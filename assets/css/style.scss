@@ -141,6 +141,10 @@ img {
     text-decoration: none;
    }
 
+.nohover:hover {
+	color: inherit;
+}
+
 main { 
 	flex: 1 0 auto;
 	min-height: auto;

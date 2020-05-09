@@ -3,19 +3,16 @@ layout: default
 title: <i class="fas fa-list-ul down_a_bit"></i>&nbsp;The Full List 
 id: list
 ---
-<h3 class=center>All momisms (<a href="/list.html" class="nolink nohover">{{ site.data.momisms.size }}</a>) and their definitions (where known...)</h3>
+<h3 class=center>All momisms ({{ site.data.momisms.size }}) and their definitions (where known...)</h3>
 <p>Click to see Mommentary, definitions, and examples where available (if unavailable, <a href="/contribute.html">contribute</a> one).</p>
-<p>Or hear a <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">random momism</button> (also known as the <em>mother conversation simulator</em>).</p>
-<div class="center">
-{% assign counter = 0 %}
+<p>Or hear a <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">random momism</button> (this approximates the experience of conversation with our mother).</p>
+<div class=center>
 {% assign nowslice = "x" %}
 {% assign abc = "z" %}
 {% for each in site.data.momisms %}
 {% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
-{% unless nowslice == abc %} 
-     {% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
-{% assign counter = counter | plus: 1 %}
-<a class="larger_font" href="#{{ abc }}">{{ abc }}</a>&nbsp; {% if counter == 8 %}<br class="mobile_only">{% assign counter = 0 %}{% endif %}{% endunless %}
+{% unless nowslice == abc %}{% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
+<a class="larger_font" href="#{{ abc }}">{{ abc }}</a>{% if abc == "G" or abc == "U" or abc == "N" %}<br>{% endif %}{% unless abc == "Z" or abc == "N" or abc == "U" or abc == "G" %}<span>&nbsp; | &nbsp;</span>{% endunless %}{% endunless %}
 {% endfor %}</div>
 <div>&nbsp;</div>
 {% assign counter = 0 %}
@@ -37,7 +34,7 @@ id: list
     {% if each.example %}<p><em>{{ each.example }}</em></p>{% endif %}
     {% if each.mommentary %}<p>Mommentary: {{ each.mommentary }}</p>{% endif %}
     {% if each.links %}<p>Evidence (that silly goose!):</p><p class="img_container">{{ each.links }}</p>{% endif %}
-    <p>Momism ID #<a href="/list.html#momism_id{{ each.order }}">{{ each.order }}</a></p>
+    <p>Momism ID #{{ each.order }}</p>
 </div>
 {% endfor %}
 <script src="/assets/js/filter.js"></script>
