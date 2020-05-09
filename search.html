@@ -10,12 +10,50 @@ id: search
 </div>
 <span class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{2,}" placeholder="Search..." title="At least 2 characters required"></span>
 <span style="clear: both; padding: 10px 15px;"> </span>
-</form>
+</form><br>
+<h4>Exact match <label class="switch">
+  <input id=wholecheck type="checkbox">
+  <span class="slider round"></span>
+	</label></h4>
 <br>
 <div id="tipue_search_content"></div>
 
 <script>
+  var checkbox = document.getElementById("wholecheck");
+  let istrue = localStorage.getItem('istrue');
+  if (typeof istrue === 'undefined') {istrue = 'false'};
+  if (istrue === "true") {
+	  var istruebool = true;
+  } else {
+	  var istruebool = false;
+  }
+  if (istruebool === true) {
+	 checkbox.checked = true;
+  };
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  checkbox.addEventListener('change', function () {
+    if (checkbox.checked) {
+      // do this
+	    localStorage.setItem('istrue','true');
+	    istrue = localStorage.getItem('istrue');
+	    istruebool = true;
+    } else {
+      // do that
+         localStorage.setItem('istrue','false');
+         istrue = localStorage.getItem('istrue');
+	 istruebool = false;
+    }
+  });
+});
+
+
+
 $(document).ready(function() {
-     $('#tipue_search_input').tipuesearch();
+	$('#tipue_search_input').tipuesearch({
+        'wholeWords': istruebool
+     });
+console.log(istrue + " hmm");
 });
 </script>
