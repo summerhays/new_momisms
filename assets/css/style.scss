@@ -139,6 +139,7 @@ img {
 
 .nolink,.nolink:hover,.nolink:visited, .nolink:link {
     text-decoration: none;
+    cursor: pointer;
    }
 
 .nohover:hover {
@@ -291,7 +292,10 @@ footer > a:hover {
   .main-nav > .mobile_only {
   	  display: none;
   }
-  
+ 
+  .larger_font ~ .mobile_only {
+	 display: block
+ } 
   
    main {
   	  display: flex;
@@ -364,6 +368,7 @@ footer > a:hover {
 
 .randombtn:hover {
         color: white;
+	cursor: pointer;
 }
 
 .textblack {

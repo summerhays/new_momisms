@@ -7,20 +7,12 @@ id: list
 <p>Click to see Mommentary, definitions, and examples where available (if unavailable, <a href="/contribute.html">contribute</a> one).</p>
 <p>Or hear a <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">random momism</button> (also known as the <em>conversation simulator</em>).</p>
 <div class="center">
-{% assign counter = 0 %}
-{% assign nowslice = "x" %}
-{% assign abc = "z" %}
-{% for each in site.data.momisms %}
-{% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
-{% unless nowslice == abc %} 
-     {% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
+{% assign counter = 0 %}{% for each in site.data.momisms %}{% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
+   {% unless nowslice == abc %}{% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
 {% assign counter = counter | plus: 1 %}
-<a class="larger_font" href="#{{ abc }}">{{ abc }}</a>&nbsp; {% if counter == 8 %}<br class="mobile_only">{% assign counter = 0 %}{% endif %}{% endunless %}
-{% endfor %}</div>
+<a class="larger_font" href="#{{ abc }}">{{ abc }}</a>&nbsp; {% if counter == 13 %}<br class="mobile_only">{% assign counter = 0 %}{% endif %}{% endunless %}{% endfor %}</div>
 <div>&nbsp;</div>
 {% assign counter = 0 %}
-{% assign abc = "m" %}
-{% assign nowslice = "n" %}
 <div id="myDropdown" class="dropdown-content">
       <input class="w3-input w3-border w3-round" type="text" placeholder="Filter by momism..." id="myInput" onkeyup="filterFunction()">
       <div>{% for each in site.data.momisms %}

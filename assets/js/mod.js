@@ -21,7 +21,7 @@ var defFinal =  allMomisms[randforToday.rand - 1].definition;
 var exFinal = allMomisms[randforToday.rand - 1].example;
 var mommFinal = allMomisms[randforToday.rand - 1].mommentary;
 var idFinal = allMomisms[randforToday.rand - 1].momism_id;
-
+var linkFinal = '/list.html#momism_id' + idFinal;
 
 function daysIntoYear(date){
     return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
@@ -51,3 +51,5 @@ if (typeof mommFinal === 'undefined') {
 }
 document.getElementById("randomID").innerHTML = idFinal;
 document.getElementById("today").innerHTML = today_date;
+document.getElementById("linkFinal").setAttribute("href", linkFinal)
+document.getElementById("linkFinal2").setAttribute("href", linkFinal)

@@ -38,6 +38,5 @@ function randomMomism() {
   var num = Math.floor(Math.random() * ({{ site.data.momisms.size }} - 1 + 1) + 1);
 	var randLink = '/list.html#momism_id' + num;
 	  window.open(randLink,"_self");
-	console.log(num);
 }
 
