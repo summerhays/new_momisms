@@ -41,7 +41,7 @@ img {
 }
 
 /* scroll up button */
-#myBtn {
+#topbtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -50,7 +50,7 @@ img {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: $color-1-dark;
+  // background-color: $color-triad-2-dark;
   color: white;
   cursor: pointer;
   padding: 5px 10px;
@@ -60,6 +60,11 @@ img {
 
 .menu {
 	cursor: pointer;
+}
+
+.menu:hover {
+	color: #e91e63;
+	transition: .4s;
 }
 
 .down_a_bit {
@@ -235,6 +240,11 @@ footer > a:hover {
      margin-left: 70px;
      padding-top: 15px;
    }
+
+   .main-nav .closebtn:hover {
+	   color: $smiley-color;
+	   transition: .3s;
+   }
 }
 
 // Wide screen end
@@ -347,11 +357,10 @@ footer > a:hover {
 }
 
 .gradient {
-	background: linear-gradient(to right, $color-1 0%, $color-1-light 100%)
-}
-
-.gradient:hover {
-	background: $color-1-light !important;
+	background: linear-gradient(to right, $color-1, $color-1-light);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: background .5s;
 }
 
 .smiley {

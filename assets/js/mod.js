@@ -51,5 +51,5 @@ if (typeof mommFinal === 'undefined') {
 }
 document.getElementById("randomID").innerHTML = idFinal;
 document.getElementById("today").innerHTML = today_date;
-document.getElementById("linkFinal").setAttribute("href", linkFinal)
-document.getElementById("linkFinal2").setAttribute("href", linkFinal)
+// document.getElementById("linkFinal").setAttribute("href", linkFinal)
+// document.getElementById("linkFinal2").setAttribute("href", linkFinal)

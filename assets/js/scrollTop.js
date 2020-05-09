@@ -7,13 +7,13 @@ window.onscroll = function() {buttonAppear()};
 
 // Return to top button: 
 //Get the button 
-var mybutton = document.getElementById("myBtn");
+var topbutton = document.getElementById("topbtn");
 
 function buttonAppear() {
   if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
-    mybutton.style.display = "block";
+    topbutton.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    topbutton.style.display = "none";
   }
 }
 
