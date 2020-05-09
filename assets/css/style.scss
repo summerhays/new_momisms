@@ -100,10 +100,16 @@ img {
   font-size: 120%;
 }
 
+.img_container {
+	//display: flex;
+}
+
 .img_small {
-	width: 55%;
+	width: 100%;
+	max-width: 400px;
+//	width: 55%;
 	margin: 0 auto;
-    display: block;
+//    display: block;
     padding: 15px;
 }
 
