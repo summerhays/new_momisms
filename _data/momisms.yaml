@@ -254,11 +254,7 @@
   definition: "Refers to 43rd American president George W. Bush"
 - momism: "Get boosted" 
   order: 224 
-  definition: "Get up"
-- momism: "Get launched" 
-  order: 251 
-  definition: "Get up" 
-  example: "It's time to launch your brother"
+  definition: "Get up, rouse"
 - momism: "Give it the old college try" 
   order: 227 
   definition: "To attempt something difficult"
@@ -425,10 +421,14 @@
 - momism: "Knickers in a knot" 
   order: 43 
   definition: "Upset"
+- momism: "Launch" 
+  order: 251 
+  definition: "Get up, rouse" 
+  example: "It's time to launch your brother"
 - momism: "Let's get this show on the road" 
   order: 68 
   definition: "Let's go" 
-  example: "Don't get cross with me! "
+  example: "Don't get cross with me!"
 - momism: "Lickety-split" 
   order: 162 
   definition: "Right away"
@@ -535,8 +535,8 @@
 - momism: "Photo hobby" 
   order: 226 
   definition: "Mother's love of photography" 
-  example: "You know me and my photo hobby"
-  links: "<img class='w3-image img_small' src='/assets/images/goose1.jpg' alt='St. Pats Goose'> <img class='w3-image img_small' src='/assets/images/goose2.jpg' alt='Jailbird'> <img src='/assets/images/goose3.jpg' alt='Medical worker' class='w3-image img_small'>"
+  example: "You know me and my photo hobby" 
+  links: "<img class='img_small' src='/assets/images/goose1.jpg' alt='St. Pats Goose'> <img class='img_small' src='/assets/images/goose2.jpg' alt='Jailbird'> <img src='/assets/images/goose3.jpg' alt='Medical worker' class='img_small'>"
 - momism: "Piece of work" 
   order: 90 
   definition: "Adjective meaning someone is unusually unpleasant, difficult, or behaves particularly badly" 
