@@ -10,7 +10,7 @@ id: list
 {% assign counter = 0 %}{% for each in site.data.momisms %}{% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
    {% unless nowslice == abc %}{% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
 {% assign counter = counter | plus: 1 %}
-<a class="larger_font" href="#{{ abc }}">{{ abc }}</a>&nbsp; {% if counter == 13 %}<br class="mobile_only">{% assign counter = 0 %}{% endif %}{% endunless %}{% endfor %}</div>
+<a class="larger_font darkturquoise" href="#{{ abc }}">{{ abc }}</a>&nbsp; {% if counter == 13 %}<br class="mobile_only">{% assign counter = 0 %}{% endif %}{% endunless %}{% endfor %}</div>
 <div>&nbsp;</div>
 {% assign counter = 0 %}
 <div id="myDropdown" class="dropdown-content">
@@ -22,7 +22,7 @@ id: list
 </div>
 <div class="sticky_anchor stanchor">
 <div>&nbsp;</div>
-	<div class="abc"><a name="{{ abc }}">&nbsp; {{ abc }}</a></div>{% endunless %}
+	<div class="abc"><a name="{{ abc }}" class="nohover textwhite">&nbsp; {{ abc }}</a></div>{% endunless %}
 <button id="momism_id{{ each.order }}" onclick="openAccordion('momism{{ counter }}')" class="list_button smiley turquoise wrap fix_anchor">{{ each.momism }}</button>
 <div id="momism{{ counter }}" class="w3-hide w3-container">
 	<p>{% if each.definition %}{{ each.definition }}{% else %}<em>Definition unknown. <a href="/contribute.html">Contribute</a> one</em>{% endif %}</p>

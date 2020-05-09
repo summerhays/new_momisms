@@ -134,11 +134,13 @@ input:checked + .slider:before {
 .down_a_bit {
 	vertical-align: sub;
 	position: relative;
-	bottom: 4px;
+	bottom: 7px;
 }
 
 .down_a_bit_more {
 	vertical-align: sub;
+	position: relative;
+	bottom: 2px;
 }
 
 #content {
@@ -165,7 +167,8 @@ input:checked + .slider:before {
   top: 0;
   width: 100%;
   background: $color-1;
-  font-family: $font-serif;
+  //font-family: $font-serif;
+  font-weight: bold;
   font-size: 120%;
 }
 
@@ -188,6 +191,7 @@ input:checked + .slider:before {
 .larger_font {
 	font-size: 120%;
 	font-family: $font-mono;
+	font-weight: bold;
 }
 
 .active {
@@ -444,6 +448,10 @@ footer > a:hover {
 	cursor: pointer;
 }
 
+.textwhite {
+	color: white;
+}
+
 .textblack {
 	color: black;
 }
@@ -484,7 +492,7 @@ footer > a:hover {
 }
 
 
-#hoverparent #defLabel,#hoverparent #randomDefinition,#hoverparent #mommLabel,#hoverparent #randomMommentary,#hoverparent #exLabel,#hoverparent #randomExample {
+#hoverparent #defLabel,#hoverparent #randomDefinition,#hoverparent #mommLabel,#hoverparent #randomMommentary,#hoverparent #exLabel,#hoverparent #randomExample,.darkturquoise {
 	color: $color-triad-2-dark;
 }
 
