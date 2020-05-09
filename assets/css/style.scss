@@ -122,6 +122,10 @@ input:checked + .slider:before {
 	cursor: pointer;
 }
 
+.pink-text {
+	color: $color-pink;
+}
+
 .menu:hover {
 	color: #e91e63;
 	transition: .4s;
