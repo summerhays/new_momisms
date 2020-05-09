@@ -19,9 +19,9 @@ id: list
 {% assign counter = counter | plus: 1 %}
 {% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
 {% unless nowslice == abc %}{% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
-<div>&nbsp;</div>
 </div>
 <div class="sticky_anchor stanchor">
+<div>&nbsp;</div>
 	<div class="abc"><a name="{{ abc }}">&nbsp; {{ abc }}</a></div>{% endunless %}
 <button id="momism_id{{ each.order }}" onclick="openAccordion('momism{{ counter }}')" class="list_button smiley turquoise wrap fix_anchor">{{ each.momism }}</button>
 <div id="momism{{ counter }}" class="w3-hide w3-container">
