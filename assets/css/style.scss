@@ -36,6 +36,10 @@ header {
 	padding: 10px
 }
 
+img {
+	max-width: 100%;
+}
+
 /* scroll up button */
 #myBtn {
   display: none;
@@ -95,6 +99,15 @@ header {
   font-family: $font-serif;
   font-size: 120%;
 }
+
+.img_small {
+	width: 55%;
+	margin: 0 auto;
+    display: block;
+    padding: 15px;
+}
+
+.fix_anchor {scroll-margin-top: 2.01rem;}
 
 .larger_font {
 	font-size: 120%;
@@ -210,11 +223,10 @@ footer > a:hover {
      margin-left: 70px;
      padding-top: 12px;
    }
-
-   .fix_anchor {scroll-margin-top: 2.01rem;}
 }
+
 // Wide screen end
-//
+
 //	.extra_div {display: none};
 //
 //@media all and (min-width: 850px) {
@@ -277,8 +289,6 @@ footer > a:hover {
   	  padding: 0 15px;
   	  max-width: 100%;
     }
-
-    .fix_anchor {scroll-margin-top: 2.01rem;}
 }
 // Narrow screen end
 

@@ -532,6 +532,11 @@
 - momism: "Persnickety" 
   order: 120 
   definition: "Picky"
+- momism: "Photo hobby" 
+  order: 226 
+  definition: "Mother's love of photography" 
+  example: "You know me and my photo hobby"
+  links: "<img class='img_small' src='/assets/images/goose1.jpg' alt='St. Pats Goose'> <img class='img_small' src='/assets/images/goose2.jpg' alt='Jailbird'> <img src='/assets/images/goose3.jpg' alt='Medical worker' class='img_small'>"
 - momism: "Piece of work" 
   order: 90 
   definition: "Adjective meaning someone is unusually unpleasant, difficult, or behaves particularly badly" 
@@ -686,9 +691,6 @@
   order: 112 
   definition: "Mother's linguistics nerd listserv" 
   example: "I'm going to post that interesting link on Second Language Acquisition to the linguine listserv."
-- momism: "The photo hobby" 
-  order: 226 
-  definition: "Mother's love of photography"
 - momism: "The US mule" 
   order: 218 
   definition: "The US Mail"
