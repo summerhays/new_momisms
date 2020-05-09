@@ -456,6 +456,19 @@ footer > a:hover {
 	color: black;
 }
 
+// Fonts
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/open_sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/open_sans/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+
 // MOD formatting
 
 #randomMom {
