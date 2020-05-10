@@ -37,7 +37,8 @@ header {
 }
 
 img {
-	max-width: 100%;
+	min-width: 100%;
+	max-width: $text-width;
 }
 
 /* scroll up button */
@@ -174,6 +175,7 @@ input:checked + .slider:before {
 
 .img_container {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .img_small {
