@@ -785,8 +785,10 @@
 - momism: "Worrywart" 
   order: 61 
   definition: "Someone with a tendency to worry habitually, often needlessly"
-- momism: "Ye gods and little catfish, or ye gods and little fishes" 
-  order: 85
+- momism: "Ye gods and little fishes" 
+  order: 85 
+  definition: "(Exclamation)"
+  example: "Ye gods and little catfish"
 - momism: "Yea high" 
   order: 233 
   definition: "Indicates that something is as high as mom is pointing, usually not very high" 

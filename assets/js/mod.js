@@ -28,10 +28,11 @@ function daysIntoYear(date){
 }
 
 document.getElementById("randomMom").innerHTML = modFinal;
-
 if (typeof defFinal === 'undefined') {
-  document.getElementById("randomDefinition").style.display = "none";
-  document.getElementById("defLabel").style.display = "none";
+  // document.getElementById("randomDefinition").style.display = "none";
+  // document.getElementById("defLabel").style.display = "none";
+  defFinal = 'Definition unknown';
+  document.getElementById("randomDefinition").innerHTML = defFinal;
 } else {
   document.getElementById("randomDefinition").innerHTML = defFinal;
 }
