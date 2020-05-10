@@ -10,4 +10,4 @@ But wait, isn't a momism [_an undue dependence on maternal protection, resulting
 
 Suffice it to say (#[24](/list.html#momism_id24)), in these parts (#[142](/list.html#momism_id142)), we know the true definition. A momism is a word that only our mother says; or barring that, when we hear this word, our mother pops immediately to mind.
 
-Our faces upon hearing a new momism: ![confused smiley]({{ site.icon }}){: height="25px" hspace="" class="w3-spin"}
+Our faces upon hearing a new momism: ![confused smiley]({{ site.icon }}){: height="25px" width="25px" class="w3-spin"}
