@@ -5,7 +5,7 @@ id: list
 ---
 <p>All momisms (<a href="/list.html" class="nolink nohover">{{ site.data.momisms.size }}</a>) and their definitions (where known...)</p>
 <p>Click to see Mommentary, definitions, and examples where available (if unavailable, <a href="/contribute.html">contribute</a> one).</p>
-<p>Or hear a <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">random momism</button> (also known as the <em>conversation simulator</em>).</p>
+<p>Or simulate conversation with our mother by hearing a <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">random momism</button></p>
 <div class="center">
 {% assign counter = 0 %}{% for each in site.data.momisms %}{% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
    {% unless nowslice == abc %}{% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
