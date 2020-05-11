@@ -498,8 +498,13 @@ footer > a:hover {
 	text-align: center;
 	color: $color-triad-2-dark;
 	padding-bottom: 10px;
+	align-self: center;
 }
 
+#hoverparent {
+	display: flex;
+	flex-direction: column;
+}
 
 #hoverparent:hover #defLabel,#hoverparent:hover #randomDefinition,#hoverparent:hover #mommLabel,#hoverparent:hover #randomMommentary,#hoverparent:hover #exLabel,#hoverparent:hover #randomExample {
 	color: $smiley-color;

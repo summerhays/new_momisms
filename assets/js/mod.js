@@ -9,7 +9,25 @@ var randomNum = [
 ];
 
 var today=new Date();
-var randforToday = randomNum[daysIntoYear(today) - 1];
+
+// Testing, run through all momisms
+//
+// var i = 1;
+// var x = 0;
+// var randforToday = 1;
+// setInterval(increase, 1000);
+// 
+// function increase() {
+//     if (i < {{ site.data.momisms.size }}) {
+//       i++;
+//       x = i;
+//     }
+
+// var x = 5;
+var x = daysIntoYear(today) - 1;
+
+var randforToday = randomNum[x];
+//
 // var randforToday = {day: 1, rand: 1,}; // Definition & example
 // var randforToday = {day: 1, rand: 16,}; // Definition & mommentary
 // var randforToday = {day: 1, rand: 18,}; // Definition, example, & mommentary
@@ -54,3 +72,8 @@ document.getElementById("randomID").innerHTML = idFinal;
 document.getElementById("today").innerHTML = today_date;
 // document.getElementById("linkFinal").setAttribute("href", linkFinal)
 // document.getElementById("linkFinal2").setAttribute("href", linkFinal)
+
+
+
+
+// }
