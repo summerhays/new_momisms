@@ -35,7 +35,8 @@
   example: "Phoebe was a feline after my own heart"
 - momism: "After someone about something" 
   order: 188 
-  definition: "To nag"
+  definition: "To nag" 
+  example: "I used to get after him about never adding salt"
 - momism: "Airdishconer" 
   order: 200 
   definition: "Air conditioner" 
@@ -267,6 +268,10 @@
   definition: "Moving quickly"
 - momism: "Good enough for government work" 
   order: 98
+- momism: "Good grief" 
+  order: 253 
+  definition: "(Exclamation)" 
+  example: "Good grief, it's cold out."
 - momism: "Goodness gracious" 
   order: 10 
   definition: "(Exclamation: surprise)"
@@ -557,6 +562,10 @@
 - momism: "Polish it off" 
   order: 180 
   definition: "Eat all of a dish"
+- momism: "Pop awake" 
+  order: 254 
+  definition: "Wake up" 
+  example: "I pop awake every morning at quarter to five."
 - momism: "Put a lid on it" 
   order: 198 
   definition: "Exclamation: to be quiet, shut up"
@@ -787,7 +796,7 @@
   definition: "Someone with a tendency to worry habitually, often needlessly"
 - momism: "Ye gods and little fishes" 
   order: 85 
-  definition: "(Exclamation)"
+  definition: "(Exclamation)" 
   example: "Ye gods and little catfish!"
 - momism: "Yea high" 
   order: 233 
