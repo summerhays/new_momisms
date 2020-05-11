@@ -33,17 +33,23 @@ var randforToday = randomNum[x];
 // var randforToday = {day: 1, rand: 18,}; // Definition, example, & mommentary
 var today_date = (today).toString().split(' ').splice(1,3).join(' ');
 
+var arrayFinal = allMomisms.find( ({ momism_id }) => momism_id == randforToday.rand);
+
 // Making these all into variables to be easier to handle:
-var modFinal = allMomisms[randforToday.rand - 1].momism;
-var defFinal =  allMomisms[randforToday.rand - 1].definition;
-var exFinal = allMomisms[randforToday.rand - 1].example;
-var mommFinal = allMomisms[randforToday.rand - 1].mommentary;
-var idFinal = allMomisms[randforToday.rand - 1].momism_id;
+// var modFinal = allMomisms[randforToday.rand - 1].momism;
+var modFinal = arrayFinal.momism;
+var defFinal =  arrayFinal.definition;
+var exFinal = arrayFinal.example;
+var mommFinal = arrayFinal.mommentary;
+var idFinal = arrayFinal.momism_id;
 var linkFinal = '/list.html#momism_id' + idFinal;
 
 function daysIntoYear(date){
     return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
 }
+
+var testdate = new Date(2020, 5, 1);
+console.log(daysIntoYear(testdate));
 
 document.getElementById("randomMom").innerHTML = modFinal;
 if (typeof defFinal === 'undefined') {
