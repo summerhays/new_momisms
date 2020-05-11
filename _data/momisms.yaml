@@ -96,6 +96,10 @@
   order: 125 
   definition: "A condescending phrase used to patronize someone for being foolish or not very bright" 
   example: "You failed the exam because you thought the sun was a planet? Aw, bless your pointy little head"
+- momism: "Blue eyes" 
+  order: 255 
+  definition: "Refers to her son" 
+  example: "Blue-eyed wonder."
 - momism: "Bonkers" 
   order: 195 
   definition: "Crazy"
