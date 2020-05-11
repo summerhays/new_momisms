@@ -512,7 +512,7 @@
   time: first
 - day: 129 
   rand: 107 
-  dup: yes 
+  dup: no 
   time: first
 - day: 130 
   rand: 76 
@@ -628,7 +628,7 @@
   time: first
 - day: 158 
   rand: 61 
-  dup: yes 
+  dup: no 
   time: first
 - day: 159 
   rand: 144 
@@ -660,7 +660,7 @@
   time: first
 - day: 166 
   rand: 2 
-  dup: yes 
+  dup: no 
   time: first
 - day: 167 
   rand: 133 
@@ -720,7 +720,7 @@
   time: first
 - day: 181 
   rand: 252 
-  dup: yes 
+  dup: no 
   time: first
 - day: 182 
   rand: 160 
@@ -891,133 +891,133 @@
   dup: yes 
   time: first
 - day: 224 
-  rand: 113 
-  dup: yes 
+  rand: 227 
+  dup: no 
   time: first
 - day: 225 
-  rand: 12 
-  dup: no 
-  time: first
-- day: 226 
-  rand: 154 
-  dup: yes 
-  time: first
-- day: 227 
-  rand: 32 
-  dup: yes 
-  time: first
-- day: 228 
-  rand: 246 
-  dup: no 
-  time: first
-- day: 229 
   rand: 28 
   dup: no 
   time: first
-- day: 230 
-  rand: 196 
-  dup: yes 
-  time: first
-- day: 231 
-  rand: 221 
-  dup: yes 
-  time: first
-- day: 232 
+- day: 226 
   rand: 147 
   dup: no 
   time: first
-- day: 233 
-  rand: 135 
+- day: 227 
+  rand: 221 
   dup: yes 
   time: first
+- day: 228 
+  rand: 203 
+  dup: no 
+  time: first
+- day: 229 
+  rand: 171 
+  dup: no 
+  time: first
+- day: 230 
+  rand: 154 
+  dup: yes 
+  time: first
+- day: 231 
+  rand: 24 
+  dup: no 
+  time: first
+- day: 232 
+  rand: 176 
+  dup: no 
+  time: first
+- day: 233 
+  rand: 254 
+  dup: no 
+  time: first
 - day: 234 
-  rand: 146 
-  dup: no 
-  time: first
-- day: 235 
-  rand: 157 
-  dup: no 
-  time: first
-- day: 236 
-  rand: 98 
-  dup: no 
-  time: first
-- day: 237 
-  rand: 15 
-  dup: no 
-  time: first
-- day: 238 
   rand: 215 
   dup: no 
   time: first
-- day: 239 
+- day: 235 
   rand: 240 
   dup: no 
   time: first
-- day: 240 
-  rand: 171 
+- day: 236 
+  rand: 36 
   dup: no 
+  time: first
+- day: 237 
+  rand: 103 
+  dup: yes 
+  time: first
+- day: 238 
+  rand: 157 
+  dup: no 
+  time: first
+- day: 239 
+  rand: 253 
+  dup: no 
+  time: first
+- day: 240 
+  rand: 140 
+  dup: yes 
   time: first
 - day: 241 
   rand: 211 
   dup: yes 
   time: first
 - day: 242 
-  rand: 24 
-  dup: no 
-  time: first
-- day: 243 
-  rand: 176 
-  dup: no 
-  time: first
-- day: 244 
-  rand: 140 
-  dup: yes 
-  time: first
-- day: 245 
-  rand: 173 
-  dup: yes 
-  time: first
-- day: 246 
-  rand: 203 
-  dup: no 
-  time: first
-- day: 247 
-  rand: 103 
-  dup: yes 
-  time: first
-- day: 248 
-  rand: 227 
-  dup: no 
-  time: first
-- day: 249 
   rand: 37 
   dup: no 
   time: first
-- day: 250 
-  rand: 36 
-  dup: no 
-  time: first
-- day: 251 
-  rand: 167 
+- day: 243 
+  rand: 173 
   dup: yes 
   time: first
-- day: 252 
+- day: 244 
+  rand: 32 
+  dup: yes 
+  time: first
+- day: 245 
+  rand: 98 
+  dup: no 
+  time: first
+- day: 246 
   rand: 156 
   dup: yes 
   time: first
+- day: 247 
+  rand: 167 
+  dup: yes 
+  time: first
+- day: 248 
+  rand: 12 
+  dup: no 
+  time: first
+- day: 249 
+  rand: 135 
+  dup: yes 
+  time: first
+- day: 250 
+  rand: 252 
+  dup: no 
+  time: first
+- day: 251 
+  rand: 246 
+  dup: no 
+  time: first
+- day: 252 
+  rand: 146 
+  dup: no 
+  time: first
 - day: 253 
-  rand: 61 
+  rand: 113 
   dup: yes 
-  time: second
+  time: first
 - day: 254 
-  rand: 2 
+  rand: 196 
   dup: yes 
-  time: second
+  time: first
 - day: 255 
-  rand: 107 
-  dup: yes 
-  time: second
+  rand: 15 
+  dup: no 
+  time: first
 - day: 256 
   rand: 218 
   dup: yes 
@@ -1220,7 +1220,7 @@
   time: second
 - day: 306 
   rand: 252 
-  dup: yes 
+  dup: no 
   time: second
 - day: 307 
   rand: 178 
