@@ -4,7 +4,7 @@ title: <i class="far fa-id-badge"></i>&nbsp; About
 permalink: /about.html
 id: about
 ---
-By Jove (momism ID #[47](/list.html#momism_id47)),  a [searchable](search.html) list of [all {{ site.data.momisms.size }}](list.html) of mother's momisms — the whole shebangdasium (#[141](/list.html#momism_id141)), compiled by her children (a.k.a. son (#[115](/list.html#momism_id115)) and baby doll (#[132](/list.html#momism_id132))), since 2009, thanks to our good ears for language and our great fingers for typing (momism ID [#191](/list.html#momism_id191)).
+By Jove (momism ID #[47](/list.html#momism_id47)),  a [searchable](search.html) list of [all {{ site.data.momisms.size }}](list.html) of mother's momisms — the whole shebangdasium (#[141](/list.html#momism_id141)), compiled by her children (a.k.a. son (#[115](/list.html#momism_id115)) and baby doll (#[132](/list.html#momism_id132))), since 2009, thanks to our good ears for language and our great fingers for typing (#[191](/list.html#momism_id191)).
 
 But wait, isn't a momism [_an undue dependence on maternal protection, resulting in loss of independence_](https://www.dictionary.com/browse/momism)? Certainly not! 
 
