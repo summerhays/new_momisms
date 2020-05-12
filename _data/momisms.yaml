@@ -4,7 +4,8 @@
   example: "Mom: They are really having a to-do up there. Me: That is so going on the list"
 - momism: "A bad 'cattitude'" 
   order: 165 
-  definition: "Improper orneriness with respect to the cat"
+  definition: "Improper orneriness with respect to the cat" 
+  mommentary: "I got this one from blue-eyes as well. I think the cat was playing in her water bowl and spilled it over one time too many."
 - momism: "A bug in his/her ear about something" 
   order: 81
 - momism: "A bunch of hooie" 
@@ -15,7 +16,8 @@
   definition: "A long distance away"
 - momism: "A hair past a freckle" 
   order: 225 
-  definition: "I don't have a watch on"
+  definition: "When you normally wear a watch and don't have it with you at that point in time." 
+  mommentary: "That definition comes from our mother"
 - momism: "A month of Sundays" 
   order: 122
 - momism: "A regular gulley-washer" 
@@ -40,7 +42,7 @@
 - momism: "Airdishconer" 
   order: 200 
   definition: "Air conditioner" 
-  mommentary: "Among my favorite kidisms"
+  mommentary: "Among my favorite kidisms. Comes from blue-eyes."
 - momism: "Albatross around one's neck" 
   order: 86 
   definition: "A heavy burden, an irritating obligation"
@@ -99,7 +101,8 @@
 - momism: "Blue-eyes" 
   order: 255 
   definition: "Refers to her son" 
-  example: "Blue-eyed wonder."
+  example: "Blue-eyed wonder." 
+  mommentary: "I used to look in the mirror with my brown eyes and wonder where his blue eyes came from."
 - momism: "Bonkers" 
   order: 195 
   definition: "Crazy"
@@ -125,7 +128,7 @@
   definition: "(Exclamation)"
 - momism: "Can't beat it with a stick!" 
   order: 156
-- momism: "Capice" 
+- momism: "Capisce" 
   order: 26 
   definition: "Mother's favorite Sicilian mafia reference, meaning 'Do you understand?'"
 - momism: "Cat, stop tenderizing me!" 
@@ -232,7 +235,7 @@
 - momism: "Fewidgewator" 
   order: 201 
   definition: "Refridgerator" 
-  mommentary: "Among my favorite kidisms"
+  mommentary: "Among my favorite kidisms; comes from blue-eyes."
 - momism: "Figment of my imagination" 
   order: 135 
   definition: "Imaginary"
@@ -352,9 +355,9 @@
   order: 109 
   example: "I'm gonna hang up my shingle and become a babysitter"
 - momism: "I'm not getting any younger" 
-  example: "Your sister just about did me in with that three-hour walk. I'm not getting any younger, you know"
   order: 32 
-  definition: "I'm getting so wise ;)"
+  definition: "I'm getting so wise ;)" 
+  example: "Your sister just about did me in with that three-hour walk. I'm not getting any younger, you know"
 - momism: "If you [insert the blank], your name is dog" 
   order: 42 
   definition: "Your name is mud (cat version)"
@@ -604,7 +607,8 @@
   example: "I'm looking for a bench upon which to roost" 
   mommentary: "Seems to me a perch is more temporary."
 - momism: "Rotten in Denmark" 
-  order: 49
+  order: 49 
+  mommentary: "That's from Shakespeare"
 - momism: "Ruffled his feathers" 
   order: 80 
   definition: "To have irritated or offended someone"
@@ -627,10 +631,6 @@
   order: 248 
   definition: "Worn, used, decrepit" 
   example: "Those socks have seen better days: they’re filled with holes."
-- momism: "Sell fwoop" 
-  order: 192 
-  definition: "A fell swoop" 
-  example: "I cleaned the yard and planted flowers in one swell foop"
 - momism: "She could talk the leaves off a tree" 
   order: 187 
   definition: "Someone often speaks at great length" 
@@ -670,7 +670,8 @@
   definition: "The person mom just mentioned has appeared"
 - momism: "Splinker" 
   order: 174 
-  definition: "Splinter, baby talk from the middle child"
+  definition: "Splinter" 
+  mommentary: "Baby talk from the middle child. I liked splinker a lot better than what it should've been, whatever that was"
 - momism: "Squabbling" 
   order: 133 
   definition: "To bicker, argue"
@@ -691,6 +692,10 @@
 - momism: "Sweet tooth" 
   order: 40 
   definition: "Love of sugar"
+- momism: "Swell foop" 
+  order: 192 
+  definition: "A fell swoop" 
+  example: "I cleaned the yard and planted flowers in one swell foop"
 - momism: "Take a long walk off a short dock" 
   order: 79 
   definition: "Imperative: leave" 
