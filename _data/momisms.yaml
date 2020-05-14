@@ -682,7 +682,8 @@
 - momism: "Stranger things have happened" 
   order: 215
 - momism: "String beans" 
-  order: 210
+  order: 210 
+  definition: "Green beans"
 - momism: "Suffice It To Say" 
   order: 24 
   definition: "It is enough to say this and no more, as in Suffice it to say that the judge was furious when the invitation was withdrawn"
