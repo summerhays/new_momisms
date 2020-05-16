@@ -194,6 +194,10 @@
 - momism: "Disaster waiting to happen" 
   order: 55 
   definition: "A risky plan or situation"
+- momism: "Do in" 
+  order: 258 
+  definition: "To kill or exhaust someone" 
+  example: "That walk with your sister just about did me in"
 - momism: "Doll" 
   order: 105 
   definition: "A dear or a hottie" 
@@ -242,6 +246,10 @@
 - momism: "Finicky" 
   order: 4 
   definition: "Synonym: picky, overly selective"
+- momism: "Finish off" 
+  order: 259 
+  definition: "To kill or exhaust" 
+  example: "That last hill just about finished me off"
 - momism: "For the birds!" 
   order: 206 
   definition: "Not good" 
@@ -273,6 +281,10 @@
 - momism: "Going at a good clip" 
   order: 170 
   definition: "Moving quickly"
+- momism: "Going on about" 
+  order: 256 
+  definition: "Saying, usually at some length." 
+  example: "What are you going on about, son?"
 - momism: "Good enough for government work" 
   order: 98
 - momism: "Good grief" 
@@ -409,6 +421,10 @@
 - momism: "Jimminy Cricket!" 
   order: 23 
   definition: "A mild exclamation of surprise, emotion, or awe"
+- momism: "Just about" 
+  order: 257 
+  definition: "Almost" 
+  example: "The walk just about did me in"
 - momism: "Ka-broken" 
   order: 124 
   definition: "Broken" 
@@ -586,14 +602,14 @@
   definition: "To cancel"
 - momism: "Put/grow hair on your chest" 
   order: 50
-- momism: "Rattling around" 
-  order: 205 
-  definition: "Awake and moving around the house" 
-  example: "I could hear him rattling around long after I turned into a pumpkin"
 - momism: "Quit it" 
   order: 252 
   definition: "Stop that" 
   example: "Quit it, your squabbling is driving me bonkers"
+- momism: "Rattling around" 
+  order: 205 
+  definition: "Awake and moving around the house" 
+  example: "I could hear him rattling around long after I turned into a pumpkin"
 - momism: "Recipe for disaster" 
   order: 213 
   definition: "Something that is likely to result in disaster"
