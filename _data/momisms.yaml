@@ -5,7 +5,8 @@
 - momism: "A bad 'cattitude'" 
   order: 165 
   definition: "Improper orneriness with respect to the cat" 
-  mommentary: "I got this one from blue-eyes as well. I think the cat was playing in her water bowl and spilled it over one time too many."
+  mommentary: "I got this one from blue-eyes as well. I think the cat was playing in her water bowl and spilled it over one time too many." 
+  links: "<img class='img_small' src='/assets/images/bad_cattitude.jpg' alt='A bad cattitude'>"
 - momism: "A bug in his/her ear about something" 
   order: 81
 - momism: "A bunch of hooie" 
@@ -264,10 +265,12 @@
   order: 106
 - momism: "George the Lesser" 
   order: 37 
-  definition: "Refers to 43rd American president George W. Bush"
+  definition: "Refers to 43rd American president George W. Bush" 
+  links: "<img class='img_small' src='/assets/images/gwbush.jpg' alt='George W. Bush'>"
 - momism: "George the Younger" 
   order: 3 
-  definition: "Refers to 43rd American president George W. Bush"
+  definition: "Refers to 43rd American president George W. Bush" 
+  links: "<img class='img_small' src='/assets/images/gwbush.jpg' alt='George W. Bush'>"
 - momism: "Get boosted" 
   order: 224 
   definition: "Get up, rouse"
@@ -277,7 +280,8 @@
 - momism: "Go over like a lead balloon" 
   order: 230 
   definition: "Something did not go over well at all, not be well received, be unpopular, even resented" 
-  example: "When I offered to share some of my hot sauce, it went over like a lead balloon"
+  example: "When I offered to share some of my hot sauce, it went over like a lead balloon" 
+  links: "<img class='img_small' src='/assets/images/lead_balloon.jpg' alt='Lead balloon'>"
 - momism: "Going at a good clip" 
   order: 170 
   definition: "Moving quickly"
@@ -311,7 +315,8 @@
   order: 177 
   definition: "Foolish scheme"
 - momism: "Head of steam" 
-  order: 149
+  order: 149 
+  links: "<img class='img_small' src='/assets/images/head_steam.jpg' alt='Head of steam'>"
 - momism: "Health adventure" 
   order: 181 
   definition: "An annoying and/or scary health saga"
@@ -418,9 +423,10 @@
   order: 249 
   definition: "Extremely unpleasant or boring" 
   example: "This COVID situation is really the pits"
-- momism: "Jimminy Cricket!" 
+- momism: "Jiminy Cricket!" 
   order: 23 
-  definition: "A mild exclamation of surprise, emotion, or awe"
+  definition: "A mild exclamation of surprise, emotion, or awe" 
+  links: "<img class='img_small' src='/assets/images/Jiminy_Cricket.png' alt='Jiminy Cricket'>"
 - momism: "Just about" 
   order: 257 
   definition: "Almost" 
@@ -429,6 +435,7 @@
   order: 124 
   definition: "Broken" 
   example: "My tea-kettle is ka-broken"
+  links: "<img class='img_small' src='/assets/images/kabroken.jpg' alt='Broken Pot'>"
 - momism: "Keel over" 
   order: 202 
   definition: "Fall as in fainting"

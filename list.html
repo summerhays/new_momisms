@@ -28,7 +28,7 @@ id: list
 	<p>{% if each.definition %}{{ each.definition }}{% else %}<em>Definition unknown. <a href="/contribute.html">Contribute</a> one</em>{% endif %}</p>
     {% if each.example %}<p><em>{{ each.example }}</em></p>{% endif %}
     {% if each.mommentary %}<p>Mommentary: {{ each.mommentary }}</p>{% endif %}
-    {% if each.links %}<p>Evidence (that silly goose!):</p>{% assign imgs = each.links | split: ", " %}{% for img in imgs %}<div class="w3-half">{{ img }}</div>{% endfor %}{% endif %}
+    {% if each.links %}{% assign imgs = each.links | split: ", " %}{% for img in imgs %}<div class="w3-half">{{ img }}</div>{% endfor %}{% endif %}
 
     <p class="w3-left">Momism ID #<a href="/list.html#momism_id{{ each.order }}">{{ each.order }}</a></p>
 </div>
