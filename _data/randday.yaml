@@ -555,7 +555,7 @@
   dup: yes 
   time: first
 - day: 140 
-  rand: 132 
+  rand: 240 
   dup: yes 
   time: first
 - day: 141 
@@ -584,7 +584,7 @@
   time: first
 - day: 147 
   rand: 132 
-  dup: yes 
+  dup: no 
   time: first
 - day: 148 
   rand: 168 
@@ -1036,8 +1036,8 @@
   time: first
 - day: 260 
   rand: 240 
-  dup: no 
-  time: first
+  dup: yes 
+  time: second
 - day: 261 
   rand: 64 
   dup: yes 
