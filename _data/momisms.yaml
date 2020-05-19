@@ -159,8 +159,8 @@
   example: "I think you're coming down with something / I think you might be coming down with a cold"
 - momism: "Conked out" 
   order: 240 
-  definition: "Asleep" 
-  example: "After all that cooing, that baby sure conked out! "
+  definition: "Fell asleep" 
+  example: "After all that cooing, that baby conked right out!"
 - momism: "Cool it" 
   order: 75 
   definition: "Stop that"
