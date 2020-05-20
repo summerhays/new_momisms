@@ -1,5 +1,5 @@
 ---
-title: <i class="far fa-lightbulb"></i>&nbsp;Learn More About Momisms
+title: <i class="far fa-lightbulb"></i>&nbsp; Momism Origins
 layout: default
 id: resources
 ---
