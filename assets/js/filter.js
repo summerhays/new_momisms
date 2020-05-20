@@ -1,11 +1,32 @@
 ---
 ---
 function filterFunction() {
-  var input, filter, ul, li, a, i;
+  var input, filter, ul, li, a, i, alpha;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
   div = document.getElementById("myDropdown");
   button = div.getElementsByTagName("button");
+	// Remove alpha headers
+  alpha = document.getElementsByClassName("abc");
+  filterbye = document.getElementsByClassName("filterbye");
+
+  if (filter.length > 1) {
+	    // make extra page stuff disappear
+	    for (var j=0;j<alpha.length;j+=1){
+               alpha[j].style.display = 'none';
+             }
+	    for (var k=0;k<filterbye.length;k+=1){
+               filterbye[k].style.display = 'none';
+             }
+  } else {
+	    // make extra page stuff reappear
+	    for (var j=0;j<alpha.length;j+=1){
+               alpha[j].style.display = 'block';
+             }
+	    for (var k=0;k<filterbye.length;k+=1){
+               filterbye[k].style.display = 'block';
+             }
+  }
   for (i = 0; i < button.length; i++) {
     txtValue = button[i].textContent || button[i].innerText;
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
