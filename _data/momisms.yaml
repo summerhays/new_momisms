@@ -391,6 +391,10 @@
   order: 204 
   definition: "In your hands" 
   example: "What channel shall I change to, now that I have the remote in my hot little hands?"
+- momism: "Indeed" 
+  order: 260 
+  definition: "Indeed, son. " 
+  mommentary: "An affirmative answer. Vaguely grumpy "
 - momism: "Inquiring moms wish to know" 
   order: 250 
   definition: "Someone is curious" 
@@ -619,6 +623,10 @@
   order: 205 
   definition: "Awake and moving around the house" 
   example: "I could hear him rattling around long after I turned into a pumpkin"
+- momism: "Rear" 
+  order: 261 
+  definition: "Your brother was a pain in the rear when he was little" 
+  mommentary: "The buttocks"
 - momism: "Recipe for disaster" 
   order: 213 
   definition: "Something that is likely to result in disaster"

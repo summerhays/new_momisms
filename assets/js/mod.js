@@ -1,11 +1,11 @@
 ---
 ---
 var allMomisms = [
-{% for each in site.data.momisms %} {  momism: "{{ each.momism }}", {% if each.definition %} definition: "{{ each.definition }}", {% endif %} {% if each.example %} example: "{{ each.example }}",{% endif %} {% if each.mommentary %} mommentary: "{{ each.mommentary }}",{% endif %}  momism_id: "{{ each.order }}"}, {% endfor %}
+{% for each in site.data.momisms %} {momism: "{{ each.momism }}",{% if each.definition %} definition: "{{ each.definition }}",{% endif %}{% if each.example %} example: "{{ each.example }}",{% endif %}{% if each.mommentary %} mommentary: "{{ each.mommentary }}",{% endif %} momism_id: "{{ each.order }}"},{% endfor %}
 ];
 
 var randomNum = [
-{% for each in site.data.randday %}{day: {{ each.day }}, rand: {{ each.rand }},},  {% endfor %}
+{% for each in site.data.randday %}{day: {{ each.day }}, rand: {% if each.rand > site.data.momisms.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}}, {% endfor %}
 ];
 
 var today=new Date();
@@ -24,6 +24,14 @@ var today=new Date();
 //     }
 
 // var x = 5;
+
+function daysIntoYear(date){
+    return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
+}
+
+// var testdate = new Date(2020, 5, 1);
+// console.log(daysIntoYear(testdate));
+
 var x = daysIntoYear(today) - 1;
 
 var randforToday = randomNum[x];
@@ -43,13 +51,6 @@ var exFinal = arrayFinal.example;
 var mommFinal = arrayFinal.mommentary;
 var idFinal = arrayFinal.momism_id;
 var linkFinal = '/list.html#momism_id' + idFinal;
-
-function daysIntoYear(date){
-    return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
-}
-
-var testdate = new Date(2020, 5, 1);
-console.log(daysIntoYear(testdate));
 
 document.getElementById("randomMom").innerHTML = modFinal;
 if (typeof defFinal === 'undefined') {

@@ -1,5 +1,5 @@
 ---
-title: <i class="far fa-lightbulb"></i>&nbsp; Momism Origins
+title: <i class="far fa-lightbulb"></i>&nbsp; Miami English
 layout: default
 id: resources
 ---
