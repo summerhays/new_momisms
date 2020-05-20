@@ -1,5 +1,5 @@
 ---
-title: <i class="far fa-lightbulb"></i>&nbsp;Learn More
+title: <i class="far fa-lightbulb"></i>&nbsp;Learn More About Momisms
 layout: default
 id: resources
 ---
