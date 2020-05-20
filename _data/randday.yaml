@@ -583,8 +583,8 @@
   dup: yes 
   time: first
 - day: 147 
-  rand: 132 
-  dup: no 
+  rand: 128 
+  dup: yes 
   time: first
 - day: 148 
   rand: 168 
@@ -751,8 +751,8 @@
   dup: no 
   time: first
 - day: 189 
-  rand: 128 
-  dup: yes 
+  rand: 132 
+  dup: no 
   time: first
 - day: 190 
   rand: 236 

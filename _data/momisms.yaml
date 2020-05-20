@@ -204,6 +204,10 @@
 - momism: "Downright nippy" 
   order: 65 
   definition: "Irritable, hostile, or aggressive"
+- momism: "Drag one's anchor" 
+  order: 82 
+  definition: "Moving slowly" 
+  example: "Your brother is really dragging his anchor this morning"
 - momism: "Droll" 
   order: 74 
   definition: "Consulting the dictionary multiple times has not clarified what this means" 
@@ -309,6 +313,9 @@
 - momism: "Hare brained (scheme)" 
   order: 177 
   definition: "Foolish scheme"
+- momism: "Have a yen for" 
+  order: 91 
+  definition: "A craving"
 - momism: "Head of steam" 
   order: 149 
   links: "<img class='img_small' src='/assets/images/head_steam.jpg' alt='Head of steam'>"
@@ -353,9 +360,6 @@
 - momism: "Hunky-dory" 
   order: 150 
   definition: "Fine, all is well"
-- momism: "I have a yen for" 
-  order: 91 
-  definition: "Hankering"
 - momism: "I wish this dang thing would stop taking pictures of my pocket. (*click*)" 
   order: 154 
   definition: "Mom's technological frustration at the camera in her pocket" 
@@ -400,9 +404,6 @@
   order: 153 
   definition: "Someone is following their usual pattern" 
   example: "*burp!* Fermenter-mom lives! "
-- momism: "Is dragging his/her anchor" 
-  order: 82 
-  definition: "Moving slowly"
 - momism: "Is that goat cheese? Ewe!" 
   order: 131 
   definition: "Eye-rolling pun" 
@@ -466,7 +467,7 @@
 - momism: "Like a dose of salts" 
   order: 118 
   definition: "To consume something quickly" 
-  example: "Mom: We'd better buy kefir. You go through it like a dose of salts. *pause* Mom: You'd better go put that on the list"
+  example: "We'd better buy kefir. You go through it like a dose of salts. *pause* Mom: You'd better go put that on the list"
 - momism: "Like a gemstone in a rock tumbler" 
   order: 221 
   definition: "Shaken but not stirred" 
@@ -489,15 +490,15 @@
 - momism: "Madder than a wet hen" 
   order: 101 
   definition: "I assume this means one is quite angry"
-- momism: "Made quick work" 
-  order: 197 
-  definition: "To consume or use up quickly" 
-  example: "Your sister made quick work of that sandwich"
 - momism: "Major-league pain in the butt" 
   order: 239 
   definition: "A major pain" 
   example: "A certain Quaker is a mixed blessing, sometimes pleasant and sometimes a major-league pain in the butt" 
   mommentary: "I guess other people don’t say that, come to think of it. I think I got that from my mom. "
+- momism: "Make quick work" 
+  order: 197 
+  definition: "To consume or use up quickly" 
+  example: "Your sister made quick work of that sandwich"
 - momism: "Make yourself scarce" 
   order: 77 
   definition: "Imperative: leave"
@@ -524,7 +525,7 @@
 - momism: "Nick of time" 
   order: 134 
   definition: "Just in time"
-- momism: "No Muss, No Fuss" 
+- momism: "No muss, no fuss" 
   order: 12 
   definition: "Simple, easy"
 - momism: "No spring chicken" 
@@ -533,7 +534,7 @@
 - momism: "Noggin" 
   order: 6 
   definition: "Head"
-- momism: "Not in Great Shape" 
+- momism: "Not in great shape" 
   order: 14 
   definition: "Not feeling well, not in good condition"
 - momism: "Not to be too much of a linguist" 
@@ -553,7 +554,7 @@
 - momism: "Ornery" 
   order: 11 
   definition: "Grumpy or irritable"
-- momism: "Out of Commission" 
+- momism: "Out of commission" 
   order: 16
 - momism: "Out of this world" 
   order: 63 
@@ -605,10 +606,10 @@
   order: 97 
   definition: "Consider that" 
   mommentary: "(Lowell-ism)"
-- momism: "Put the Kibosh On" 
+- momism: "Put the kibosh on" 
   order: 18 
   definition: "To cancel"
-- momism: "Put/grow hair on your chest" 
+- momism: "Put hair on your chest" 
   order: 50
 - momism: "Quit it" 
   order: 252 
@@ -711,7 +712,7 @@
 - momism: "String beans" 
   order: 210 
   definition: "Green beans"
-- momism: "Suffice It To Say" 
+- momism: "Suffice it to say" 
   order: 24 
   definition: "It is enough to say this and no more, as in Suffice it to say that the judge was furious when the invitation was withdrawn"
 - momism: "Sure as God made little green apples" 
@@ -747,7 +748,7 @@
   order: 35 
   definition: "A fake momism used to tease mother's strange sayings" 
   mommentary: "Apocryphal"
-- momism: "Tickled Pink" 
+- momism: "Tickled pink" 
   order: 7 
   definition: "Very amused"
 - momism: "To-do" 
