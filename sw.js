@@ -1,5 +1,3 @@
-console.log('Hello from sw.js');
-
 self.addEventListener('install', function(event) {
   // Perform install steps
 var CACHE_NAME = 'my-site-cache-v1';
