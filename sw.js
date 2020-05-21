@@ -8,7 +8,7 @@ var urlsToCache = [
   '/index.html',
   '/assets/images/',
   '/assets/css/style.css',
-  '/assets/js/navigation.js'
+  '/favicon.ico',
 ];
   event.waitUntil(
     caches.open(CACHE_NAME)
