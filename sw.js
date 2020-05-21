@@ -13,6 +13,8 @@ var urlsToCache = [
   '/search.html',
   '/assets/images/confused_smiley.jpg',
   '/assets/css/style.css',
+  '/assets/css/all.css',
+  '/assets/css/w3.css',
   '/favicon.ico',
 ];
   event.waitUntil(
