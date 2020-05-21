@@ -4,9 +4,14 @@ self.addEventListener('install', function(event) {
   // Perform install steps
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
+  '/assets/webfonts/fa-regular-400.woff2',
+  '/assets/webfonts/fa-brands-400.woff2',
   '/index.html',
-  '/assets/images/',
+  '/list.html',
+  '/about.html',
+  '/resources.html',
+  '/search.html',
+  '/assets/images/confused_smiley.jpg',
   '/assets/css/style.css',
   '/favicon.ico',
 ];
