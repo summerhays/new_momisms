@@ -10,6 +10,7 @@ var urlsToCache = [
   '/resources.html',
   '/search.html',
   '/assets/images/confused_smiley.jpg',
+  '/assets/js/mod.js',
   '/assets/css/style.css',
   '/assets/css/all.css',
   '/assets/css/w3.css',
