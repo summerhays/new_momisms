@@ -1,7 +1,7 @@
 ---
 title: <i class="far fa-lightbulb"></i>&nbsp; Miami English
-layout: default
 id: resources
+permalink: /resources.html
 ---
 Not to be too much of a linguist (#[104](https://mom.summerhays.net/list.html#momism_id104)), but here are some links about "Florida cracker" and Miami English:
 

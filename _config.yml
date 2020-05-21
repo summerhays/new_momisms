@@ -25,13 +25,16 @@ tipue_search:
   exclude:
     files: [search.html]
 
+include: ['_pages',".htaccess"]
+
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "_pages" # an empty string here means all files in the project
       type: "pages"
     values:
       layout: "default"
+      permalink: pretty
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
