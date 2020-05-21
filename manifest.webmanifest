@@ -11,7 +11,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "{{ site.url }}/?source=pwa",
+  "start_url": "{{ site.url }}/",
   "background_color": "#f5782a",
   "display": "standalone",
   "scope": "/",
