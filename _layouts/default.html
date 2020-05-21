@@ -7,11 +7,14 @@
   <meta name="keywords" content="{{ site.keywords }}">
   <meta name="author" content="{{ site.title }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffa959">
   <html lang="en">
   <link rel="icon" type="image/jpg" href="/favicon.ico">
      <link rel="stylesheet" href="/assets/css/w3.css">
      <link rel="stylesheet" href="/assets/css/all.css">
      <link rel="stylesheet" href="/assets/css/style.css">
+     <link rel="manifest" href="/manifest.webmanifest">
+     <link rel="apple-touch-icon" href="/favicon.ico">
      <title>{{ site.title }}</title>
 
   {% if page.tipue_search_active or layout.tipue_search_active %}
@@ -68,7 +71,23 @@
   </div>
   </body>
 </html>
-
-
+<!-- Call service worker -->
+	<script>
+		if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+	</script>
 <script src="/assets/js/openNav.js"></script>
 <script src="/assets/js/scrollTop.js"></script>
+<!-- Clicky tracking -->
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101253902);</script>
+<script async src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101253902ns.gif" /></p></noscript>

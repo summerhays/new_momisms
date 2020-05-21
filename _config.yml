@@ -5,6 +5,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 keywords: momisms, mom, expressions
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://mom.summerhays.net" # the base hostname & protocol for your site, e.g. http://example.com
+# For testing
+# url: localhost:4000
 icon: /assets/images/confused-smiley.png
 #twitter_username: jekyllrb
 #github_username:  jekyll
@@ -22,7 +24,6 @@ tipue_search:
     pages: true
   exclude:
     files: [search.html]
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

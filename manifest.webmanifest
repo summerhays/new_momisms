@@ -1,0 +1,19 @@
+---
+---
+{
+  "short_name": "Momisms",
+  "name": "Momism of the Day",
+  "description": "Momism of the Day website, with full momism list",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "{{ site.url }}/?source=pwa",
+  "background_color": "#f5782a",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffa959"
+}
