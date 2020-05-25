@@ -1,7 +1,6 @@
 ---
 title: <i class="fas fa-hand-holding-medical"></i>&nbsp;Contribute a Momism or add a definition
 id: contribute
-permalink: /contribute.html
 ---
 <br>
 

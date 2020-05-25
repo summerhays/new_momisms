@@ -8,7 +8,7 @@ var urlsToCache = [
   '/list.html',
   '/about.html',
   '/resources.html',
-  '/assets/images/confused_smiley.jpg',
+  '/assets/images/confused-smiley.png',
   '/assets/js/mod.js',
   '/assets/js/filter.js',
   '/assets/js/scrollTop.js',
