@@ -15,7 +15,7 @@ id: list
 {% assign counter = 0 %}
 <div id="myDropdown" class="dropdown-content">
 	{% comment %}This is the filter{% endcomment %}
-      <input label="Filter momism list" class="w3-input w3-border w3-round" type="text" placeholder="Filter by momism..." id="myInput" onkeyup="filterFunction()">
+      <input label="Filter momism list" class="w3-input w3-border w3-round" type="search" autocomplete=off placeholder="Filter by momism..." id="myInput" onkeyup="filterFunction(this)" onsearch="filterFunction(this)">
       <div>
 {% for each in site.data.momisms %}{% assign counter = counter | plus: 1 %}{% assign nowslice = each.momism | slice: 0 %}
 {% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}

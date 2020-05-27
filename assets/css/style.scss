@@ -21,6 +21,16 @@ header {
 	width: 100%;
 }
 
+h1,h2,h3,h4,h5,h6 {
+	font-family: $font-serif;
+}
+
+h2 {font-size:200%}
+h3 {font-size:160%}
+.larger {
+	font-size: 120%;
+}
+
 .topline {
 	display: flex;
 	justify-content: space-between;
@@ -54,6 +64,11 @@ img {
   color: white;
   cursor: pointer;
   padding: 10px 16px;
+  transition: background-color .3s;
+}
+
+#topbtn:hover {
+	background-color: $color-pink//$color-triad-2-dark;
 }
 
 // Toggle switch

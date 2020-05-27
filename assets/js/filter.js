@@ -1,6 +1,6 @@
 ---
 ---
-function filterFunction() {
+function filterFunction(input) {
   var input, filter, ul, li, a, i, alpha;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
