@@ -33,7 +33,7 @@
   definition: "Let's go" 
   example: "Enough talking, let's mush" 
   mommentary: "I think my dad made that one up, since I never heard anyone else say it" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/mush.jpg' alt='Mush'>"
 - momism: "Amscrez-vous" 
   order: 20 
   definition: "Pig French for scram" 
@@ -87,7 +87,7 @@
   order: 71 
   definition: "Infuriated, annoyed" 
   example: "She was all bent out of shape after hearing the president's speech" 
-  links: "<img class='img_small' src='/assets/images/Breaking technique.jpg' alt='Breaking blocks'>"
+  links: "<img class='img_small' src='/assets/images/Breaking_technique.jpg' alt='Breaking blocks'>"
 - momism: "Bickering" 
   order: 182 
   definition: "Fighting, arguing" 
@@ -141,7 +141,7 @@
 - momism: "By Jove" 
   order: 47 
   definition: "(Exclamation)" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/jove.jpg' alt='Jupiter'>"
 - momism: "Can't beat it with a stick!" 
   order: 155 
   links: ""

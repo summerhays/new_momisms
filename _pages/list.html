@@ -29,7 +29,7 @@ id: list
 	<p>{% if each.definition %}{{ each.definition }}{% else %}<em>Definition unknown. <a href="/contribute.html">Contribute</a> one</em>{% endif %}</p>
     {% if each.example %}<p><em>{{ each.example }}</em></p>{% endif %}
     {% if each.mommentary %}<p>Mommentary: {{ each.mommentary }}</p>{% endif %}
-    {% if each.links %}{% assign imgs = each.links | split: ", " %}{% for img in imgs %}<div class="w3-half">{{ img }}</div>{% endfor %}{% endif %}
+    {% if each.links and each.links != "" %}{% assign imgs = each.links | split: ", " %}{% for img in imgs %}<div class="w3-half">{{ img }}</div>{% endfor %}{% endif %}
     <p class="w3-left">Momism ID #{{ each.order }}<a id="id{{ each.order }}" href="/list.html#momism_id{{ each.order }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ each.order }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ each.order }}">Copy to clipboard</span></a>)</span></p>
 </div>
 {% endfor %}
