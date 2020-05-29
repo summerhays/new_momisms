@@ -23,7 +23,7 @@
   order: 200 
   definition: "Air conditioner" 
   mommentary: "Among my favorite kidisms. Comes from blue-eyes" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/airdish.jpg' alt='Air Dish'>"
 - momism: "Albatross around one's neck" 
   order: 86 
   definition: "A heavy burden, an irritating obligation" 
@@ -37,7 +37,7 @@
 - momism: "Amscrez-vous" 
   order: 20 
   definition: "Pig French for scram" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/pig_french.png' alt='Pig French'>"
 - momism: "As sure as God made little green apples" 
   order: 114 
   definition: "Certainly" 
@@ -53,7 +53,7 @@
 - momism: "Ay gavalt" 
   order: 28 
   definition: "Mom's Yiddish streak: expresses annoyance" 
-  links: "<img class='img_small' src='/assets/images/bagel.jpg' alt='Bagel'>"
+  links: "<img class='img_small' src='/assets/images/rabbi.jpg' alt='Rabbi'>"
 - momism: "Baby doll" 
   order: 132 
   definition: "Refers to her daughter" 
@@ -73,7 +73,7 @@
   links: ""
 - momism: "Bearding any goats" 
   order: 126 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/goat_beard.jpg' alt='Goat beard'>"
 - momism: "Bedtime for Bonzo" 
   order: 59 
   definition: "Bedtime for you" 
@@ -91,7 +91,7 @@
   order: 71 
   definition: "Infuriated, annoyed" 
   example: "She was all bent out of shape after hearing the president's speech" 
-  links: "<img class='img_small' src='/assets/images/Breaking_technique.jpg' alt='Breaking blocks'>"
+  links: "<img class='img_small' src='/assets/images/Breaking technique.jpg' alt='Breaking blocks'>"
 - momism: "Bickering" 
   order: 183 
   definition: "Fighting, arguing" 
@@ -114,9 +114,10 @@
 - momism: "Bouncing off the walls" 
   order: 25 
   definition: "Hyperactive" 
-  links: ""
-- momism: "Bug in his/her ear about something" 
+  links: "<img class='img_small' src='/assets/images/wall_bounce.jpg' alt='Wall bouncing'>"
+- momism: "Bug in their ear about something" 
   order: 81 
+  example: "We'll try to put a bug in his ear about that" 
   links: "<img class='img_small' src='/assets/images/earwig.jpg' alt='Earwig'>"
 - momism: "Bumbershoot" 
   order: 160 
@@ -136,7 +137,7 @@
   links: "<img class='img_small' src='/assets/images/butter_up.jpg' alt='Butter side up'>"
 - momism: "By any stretch of the imagination" 
   order: 203 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/dali.jpg' alt='Stretchy clocks'>"
 - momism: "By George" 
   order: 21 
   definition: "An exclamation used to express astonishment, approval, etc." 
@@ -192,7 +193,7 @@
 - momism: "Cool it" 
   order: 75 
   definition: "Stop that" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/ice.jpg' alt='Ice'>"
 - momism: "Cross" 
   order: 69 
   definition: "Angry and annoyed, snappish" 
@@ -201,7 +202,7 @@
 - momism: "Crotchety" 
   order: 9 
   definition: "Grumpy or irritable" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/crochet.jpg' alt='Crotchet'>"
 - momism: "Daft" 
   order: 175 
   definition: "Definition unknown, despite multiple dictionary consultations" 
@@ -286,6 +287,7 @@
 - momism: "Duds" 
   order: 263 
   definition: "Clothing" 
+  mommentary: "There used to be laundromats with names such as "Duds and Suds," back in the day" 
   links: ""
 - momism: "Dune buggy" 
   order: 129 
@@ -729,6 +731,7 @@
 - momism: "Out of the blue" 
   order: 262 
   definition: "Out of nowhere, suddenly" 
+  mommentary: "Idiom: a bolt from the blue?" 
   links: "<img class='img_small' src='/assets/images/Moonbeam_UFO.jpeg' alt='UFO'>"
 - momism: "Out of this world" 
   order: 63 
@@ -737,7 +740,7 @@
 - momism: "Oy vey" 
   order: 27 
   definition: "Mom's Yiddish streak: expresses annoyance" 
-  links: "<img class='img_small' src='/assets/images/bagel.jpg' alt='Bagel'>"
+  links: "<img class='img_small' src='/assets/images/rabbi.jpg' alt='Rabbi'>"
 - momism: "Pain in the neck" 
   order: 83 
   definition: "Irritating" 
@@ -945,7 +948,7 @@
 - momism: "Sure as God made little green apples" 
   order: 5 
   definition: "Certain" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/green_apple.jpg' alt='Green Apple'>"
 - momism: "Sweet tooth" 
   order: 40 
   definition: "Love of sugar" 
