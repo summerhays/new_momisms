@@ -217,11 +217,11 @@
 - momism: "Ding-a-ling" 
   order: 157 
   definition: "Fool" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/bell.jpg' alt='Bell'>"
 - momism: "Dingbat" 
   order: 219 
   definition: "Idiot" 
-  links: ""
+  links: "<img class='img_small' src='/assets/images/dingbat.jpg' alt='Dingbat'>"
 - momism: "Dinky" 
   order: 39 
   definition: "Little" 
