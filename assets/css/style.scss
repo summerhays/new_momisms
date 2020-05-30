@@ -363,11 +363,11 @@ footer > a:hover {
      font-size: 36px;
      margin-left: 70px;
      padding-top: 15px;
+     transition: .3s;
    }
 
    .main-nav .closebtn:hover {
 	   color: $smiley-color;
-	   transition: .3s;
    }
 }
 
