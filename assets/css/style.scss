@@ -135,6 +135,8 @@ input:checked + .slider:before {
 
 .menu {
 	cursor: pointer;
+	transition: color .5s;
+	color: $body-color-text;
 }
 
 .pink-text {
@@ -143,7 +145,6 @@ input:checked + .slider:before {
 
 .menu:hover {
 	color: #e91e63;
-	transition: .4s;
 }
 
 .down_a_bit {
