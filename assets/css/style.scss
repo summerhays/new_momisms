@@ -5,6 +5,7 @@
 html,body {
 	height: 100%;
 	max-width: 100%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -174,6 +175,13 @@ input:checked + .slider:before {
 	text-align: left;
 }
 
+.fix_anchor {
+        scroll-margin: 2.01rem 0 0 0;
+        scroll-padding: 2.01rem 0 0 0;
+        scroll-snap-margin: 2.01rem 0 0 0;
+        scroll-snap-padding: 2.01rem 0 0 0;
+}
+
 .fix_anchor:target {
   border: .15em solid magenta;
 }
@@ -240,12 +248,6 @@ input:checked + .slider:before {
 //    display: block;
     padding: 15px;
     text-align: center;
-}
-
-.fix_anchor {
-        scroll-margin: 2.01rem 0 0 0;
-        scroll-snap-margin: 2.01rem 0 0 0;
-
 }
 
 .larger_font {
