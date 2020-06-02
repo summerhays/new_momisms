@@ -242,7 +242,11 @@ input:checked + .slider:before {
     text-align: center;
 }
 
-.fix_anchor {scroll-margin-top: 2.01rem;}
+.fix_anchor {
+        scroll-margin: 2.01rem 0 0 0;
+        scroll-snap-margin: 2.01rem 0 0 0;
+
+}
 
 .larger_font {
 	font-size: 120%;
