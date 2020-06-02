@@ -175,6 +175,16 @@ input:checked + .slider:before {
 	text-align: left;
 }
 
+.abc {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: $color-1;
+  //font-family: $font-serif;
+  font-weight: bold;
+  font-size: 120%;
+}
+
 .fix_anchor {
         scroll-margin: 2.01rem 0 0 0;
         scroll-padding: 2.01rem 0 0 0;
@@ -186,14 +196,10 @@ input:checked + .slider:before {
   border: .15em solid magenta;
 }
 
-.abc {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  background: $color-1;
-  //font-family: $font-serif;
-  font-weight: bold;
-  font-size: 120%;
+.emtpydiv{position: relative}
+.emptydiv ~ .fix_anchor {
+	position: absolute;
+	top: -60px;
 }
 
 .tooltip {
