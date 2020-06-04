@@ -192,17 +192,17 @@ input:checked + .slider:before {
         scroll-snap-padding: 2.01rem 0 0 0;
 }
 
-.fix_anchor:before {
-	content:"";
-	background-color: $smiley-color;
-	color: black;
-	position:absolute;
-	display:block;
-	height:2rem;
-	margin:-4rem;
-//	height:590px;
-//	margin:-590px 0 0 0;
-}
+//.fix_anchor:before {
+//	content:"";
+//	background-color: $smiley-color;
+//	color: black;
+//	position:absolute;
+//	display:block;
+//	height:2rem;
+//	margin:-4rem;
+////	height:590px;
+////	margin:-590px 0 0 0;
+//}
 
 .fix_anchor:target {
   border: .15em solid magenta;
