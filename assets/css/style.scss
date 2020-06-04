@@ -5,6 +5,7 @@
 html,body {
 	height: 100%;
 	max-width: 100%;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -135,6 +136,8 @@ input:checked + .slider:before {
 
 .menu {
 	cursor: pointer;
+	transition: color .5s;
+	color: $body-color-text;
 }
 
 .pink-text {
@@ -143,7 +146,6 @@ input:checked + .slider:before {
 
 .menu:hover {
 	color: #e91e63;
-	transition: .4s;
 }
 
 .down_a_bit {
@@ -173,10 +175,6 @@ input:checked + .slider:before {
 	text-align: left;
 }
 
-.fix_anchor:target {
-  border: .15em solid magenta;
-}
-
 .abc {
   position: sticky;
   top: 0;
@@ -186,6 +184,35 @@ input:checked + .slider:before {
   font-weight: bold;
   font-size: 120%;
 }
+
+.fix_anchor {
+        scroll-margin: 2.01rem 0 0 0;
+        scroll-padding: 2.01rem 0 0 0;
+        scroll-snap-margin: 2.01rem 0 0 0;
+        scroll-snap-padding: 2.01rem 0 0 0;
+}
+
+.fix_anchor:before {
+	content:"";
+	background-color: $smiley-color;
+	color: black;
+	position:absolute;
+	display:block;
+	height:2rem;
+	margin:-4rem;
+//	height:590px;
+//	margin:-590px 0 0 0;
+}
+
+.fix_anchor:target {
+  border: .15em solid magenta;
+}
+
+// .emptydiv {position:relative}
+// .emptydiv ~ .fix_anchor {
+// 	position: absolute;
+// 	top: -60px;
+// }
 
 .tooltip {
   position: relative;
@@ -240,8 +267,6 @@ input:checked + .slider:before {
     padding: 15px;
     text-align: center;
 }
-
-.fix_anchor {scroll-margin-top: 2.01rem;}
 
 .larger_font {
 	font-size: 120%;
@@ -362,11 +387,11 @@ footer > a:hover {
      font-size: 36px;
      margin-left: 70px;
      padding-top: 15px;
+     transition: .3s;
    }
 
    .main-nav .closebtn:hover {
 	   color: $smiley-color;
-	   transition: .3s;
    }
 }
 
