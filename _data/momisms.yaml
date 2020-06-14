@@ -1,24 +1,22 @@
 - momism: "Abscond with" 
+- momism: "Abscond with" 
+- momism: "Abscond with" 
   order: 115 
-  definition: "To take" 
-  links: ""
+  definition: "To take"
 - momism: "Academic medicine" 
   order: 222 
   definition: "Medical research" 
   links: "<img class='img_small' src='/assets/images/chemical-1293762_1280.png' alt='Test tube'>"
 - momism: "According to conventional wisdom" 
-  order: 96 
-  links: ""
+  order: 96
 - momism: "After my own heart" 
   order: 237 
   definition: "A preferred style" 
-  example: "Phoebe was a feline after my own heart" 
-  links: ""
+  example: "Phoebe was a feline after my own heart"
 - momism: "After someone about something" 
   order: 187 
   definition: "To nag" 
-  example: "I used to get after him about never adding salt" 
-  links: ""
+  example: "I used to get after him about never adding salt"
 - momism: "Airdishconer" 
   order: 199 
   definition: "Air conditioner" 
@@ -26,8 +24,7 @@
   links: "<img class='img_small' src='/assets/images/airdish.jpg' alt='Air Dish'>"
 - momism: "Albatross around one's neck" 
   order: 86 
-  definition: "A heavy burden, an irritating obligation" 
-  links: ""
+  definition: "A heavy burden, an irritating obligation"
 - momism: "All right, let's mush" 
   order: 73 
   definition: "Let's go" 
@@ -40,24 +37,20 @@
   links: "<img class='img_small' src='/assets/images/pig_french.png' alt='Pig French'>"
 - momism: "Asking for it" 
   order: 56 
-  definition: "To fail to prevent or be partially responsible for something unpleasant happening" 
-  links: ""
+  definition: "To fail to prevent or be partially responsible for something unpleasant happening"
 - momism: "At the drop of a hat" 
   order: 94 
-  definition: "Without delay or good reason" 
-  links: ""
+  definition: "Without delay or good reason"
 - momism: "Ay gavalt" 
   order: 28 
   definition: "Mom's Yiddish streak: expresses annoyance" 
   links: "<img class='img_small' src='/assets/images/rabbi.jpg' alt='Rabbi'>"
 - momism: "Baby doll" 
   order: 131 
-  definition: "Refers to her daughter" 
-  links: ""
+  definition: "Refers to her daughter"
 - momism: "Back in a mo" 
   order: 189 
-  definition: "I'll be back in a moment" 
-  links: ""
+  definition: "I'll be back in a moment"
 - momism: "Bad cattitude" 
   order: 164 
   definition: "Improper orneriness with respect to the cat" 
@@ -65,24 +58,20 @@
   links: "<img class='img_small' src='/assets/images/bad_cattitude.jpg' alt='A bad cattitude'>"
 - momism: "Bass-ackwards" 
   order: 143 
-  definition: "Inverse of ass-backwards" 
-  links: ""
+  definition: "Inverse of ass-backwards"
 - momism: "Bearding any goats" 
   order: 125 
   links: "<img class='img_small' src='/assets/images/goat_beard.jpg' alt='Goat beard'>"
 - momism: "Bedtime for Bonzo" 
   order: 59 
   definition: "Bedtime for you" 
-  mommentary: "This was the title of a Ronald Reagan movie. I don't think I'd want to include it in a list of momisms, no matter how much or little I might have ever said those words" 
-  links: ""
+  mommentary: "This was the title of a Ronald Reagan movie. I don't think I'd want to include it in a list of momisms, no matter how much or little I might have ever said those words"
 - momism: "Believe you me" 
   order: 172 
-  definition: "Believe me" 
-  links: ""
+  definition: "Believe me"
 - momism: "Bend someone's ear" 
   order: 185 
-  definition: "Speak to someone at great length" 
-  links: ""
+  definition: "Speak to someone at great length"
 - momism: "Bent out of shape" 
   order: 71 
   definition: "Infuriated, annoyed" 
@@ -90,23 +79,19 @@
   links: "<img class='img_small' src='/assets/images/Breaking_technique.jpg' alt='Breaking blocks'>"
 - momism: "Bickering" 
   order: 182 
-  definition: "Fighting, arguing" 
-  links: ""
+  definition: "Fighting, arguing"
 - momism: "Bless your pointy little head" 
   order: 124 
   definition: "A condescending phrase used to patronize someone for being foolish or not very bright" 
-  example: "You failed the exam because you thought the sun was a planet? Aw, bless your pointy little head" 
-  links: ""
+  example: "You failed the exam because you thought the sun was a planet? Aw, bless your pointy little head"
 - momism: "Blue-eyes" 
   order: 254 
   definition: "Refers to her son" 
   example: "Blue-eyed wonder" 
-  mommentary: "I used to look in the mirror with my brown eyes and wonder where his blue eyes came from" 
-  links: ""
+  mommentary: "I used to look in the mirror with my brown eyes and wonder where his blue eyes came from"
 - momism: "Bonkers" 
   order: 194 
-  definition: "Crazy" 
-  links: ""
+  definition: "Crazy"
 - momism: "Bouncing off the walls" 
   order: 25 
   definition: "Hyperactive" 
@@ -117,17 +102,14 @@
   links: "<img class='img_small' src='/assets/images/earwig.jpg' alt='Earwig'>"
 - momism: "Bumbershoot" 
   order: 159 
-  definition: "Umbrella" 
-  links: ""
+  definition: "Umbrella"
 - momism: "Bunch of hooie" 
   order: 110 
-  definition: "Nonsense or bullshit" 
-  links: ""
+  definition: "Nonsense or bullshit"
 - momism: "Busybox" 
   order: 138 
   definition: "An object someone likes to play or tinker with" 
-  example: "My son is playing with his new busybox, the piano" 
-  links: ""
+  example: "My son is playing with his new busybox, the piano"
 - momism: "Butter-side-up" 
   order: 145 
   links: "<img class='img_small' src='/assets/images/butter_up.jpg' alt='Butter side up'>"
@@ -143,49 +125,40 @@
   definition: "(Exclamation)" 
   links: "<img class='img_small' src='/assets/images/jove.jpg' alt='Jupiter'>"
 - momism: "Can't beat it with a stick!" 
-  order: 155 
-  links: ""
+  order: 155
 - momism: "Capisce" 
   order: 26 
   definition: "Mother's favorite Sicilian mafia reference, meaning 'Do you understand?'" 
   links: "<img class='img_small' src='/assets/images/gotfather.jpg' alt='The Godfather'>"
 - momism: "Cat, stop tenderizing me!" 
   order: 147 
-  definition: "Stop poking me" 
-  links: ""
+  definition: "Stop poking me"
 - momism: "Chew someone out" 
   order: 184 
-  definition: "To criticize" 
-  links: ""
+  definition: "To criticize"
 - momism: "Chowhound" 
   order: 241 
   definition: "Big eater" 
-  example: "She's being a real chow hound--I think she might be in a growth spurt!" 
-  links: ""
+  example: "She's being a real chow hound--I think she might be in a growth spurt!"
 - momism: "Chup chup" 
   order: 156 
   definition: "An encouragement to move or hurry" 
   example: "Chup, chup! You cat" 
-  mommentary: "Pronounced choop" 
-  links: ""
+  mommentary: "Pronounced choop"
 - momism: "Clobber" 
   order: 211 
-  definition: "To strike heavily" 
-  links: ""
+  definition: "To strike heavily"
 - momism: "Come hell or high water" 
   order: 52 
-  definition: "Whatever it takes" 
-  links: ""
+  definition: "Whatever it takes"
 - momism: "Coming down with something" 
   order: 158 
   definition: "Contracting an illness" 
-  example: "I think you're coming down with something / I think you might be coming down with a cold" 
-  links: ""
+  example: "I think you're coming down with something / I think you might be coming down with a cold"
 - momism: "Conk out" 
   order: 239 
   definition: "To fall asleep" 
-  example: "After all that cooing, that baby conked right out!" 
-  links: ""
+  example: "After all that cooing, that baby conked right out!"
 - momism: "Cool it" 
   order: 75 
   definition: "Stop that" 
@@ -202,18 +175,15 @@
 - momism: "Daft" 
   order: 174 
   definition: "Definition unknown, despite multiple dictionary consultations" 
-  example: "Your friend is quite daft" 
-  links: ""
+  example: "Your friend is quite daft"
 - momism: "Death warmed over" 
   order: 93 
   definition: "Morbid or in extreme ill-health" 
-  example: "He came in looking like death warmed over; I think he's coming down with something" 
-  links: ""
+  example: "He came in looking like death warmed over; I think he's coming down with something"
 - momism: "Dim recollection" 
   order: 228 
   definition: "A vague or distant memory" 
-  example: "I had a dim recollection that you’d taken off with that meemer" 
-  links: ""
+  example: "I had a dim recollection that you’d taken off with that meemer"
 - momism: "Ding-a-ling" 
   order: 157 
   definition: "Fool" 
@@ -224,120 +194,93 @@
   links: "<img class='img_small' src='/assets/images/dingbat.jpg' alt='Dingbat'>"
 - momism: "Dinky" 
   order: 39 
-  definition: "Little" 
-  links: ""
+  definition: "Little"
 - momism: "Disaster waiting to happen" 
   order: 55 
-  definition: "A risky plan or situation" 
-  links: ""
+  definition: "A risky plan or situation"
 - momism: "Do in" 
   order: 257 
   definition: "To kill or exhaust someone" 
-  example: "That walk with your sister just about did me in" 
-  links: ""
+  example: "That walk with your sister just about did me in"
 - momism: "Doll" 
   order: 105 
   definition: "A dear or a hottie" 
-  example: "Jordan's a doll" 
-  links: ""
+  example: "Jordan's a doll"
 - momism: "Don't go away mad, just go away" 
   order: 78 
-  definition: "Imperative: leave" 
-  links: ""
+  definition: "Imperative: leave"
 - momism: "Doozie" 
   order: 122 
   definition: "Something large or excellent" 
-  example: "Doozie is a doozie, I'd say" 
-  links: ""
+  example: "Doozie is a doozie, I'd say"
 - momism: "Down the hatch" 
   order: 142 
   definition: "Swallowed" 
-  example: "Ok, down the hatch with this pill!" 
-  links: ""
+  example: "Ok, down the hatch with this pill!"
 - momism: "Down-side-up" 
   order: 144 
-  definition: "Upside down" 
-  links: ""
+  definition: "Upside down"
 - momism: "Downright nippy" 
   order: 65 
-  definition: "Irritable, hostile, or aggressive" 
-  links: ""
+  definition: "Irritable, hostile, or aggressive"
 - momism: "Drag one's anchor" 
   order: 82 
   definition: "Moving slowly" 
-  example: "Your brother is really dragging his anchor this morning" 
-  links: ""
+  example: "Your brother is really dragging his anchor this morning"
 - momism: "Droll" 
   order: 74 
   definition: "Consulting the dictionary multiple times has not clarified what this means" 
-  example: "That's droll" 
-  links: ""
+  example: "That's droll"
 - momism: "Dubious" 
   order: 221 
-  example: "She seems pretty dubious, in my view" 
-  links: ""
+  example: "She seems pretty dubious, in my view"
 - momism: "Ducks in a row" 
   order: 146 
-  definition: "In order, prepared" 
-  links: ""
+  definition: "In order, prepared"
 - momism: "Duds" 
   order: 262 
   definition: "Clothing" 
-  mommentary: "There used to be laundromats with names such as 'Duds and Suds,' back in the day" 
-  links: ""
+  mommentary: "There used to be laundromats with names such as 'Duds and Suds,' back in the day"
 - momism: "Dune buggy" 
-  order: 128 
-  links: ""
+  order: 128
 - momism: "Eat my hat" 
   order: 95 
   definition: "Be quite upset" 
   example: "If George the Younger gets elected, I'll eat my hat" 
-  mommentary: "My dad used to say that" 
-  links: ""
+  mommentary: "My dad used to say that"
 - momism: "Egad" 
-  order: 30 
-  links: ""
+  order: 30
 - momism: "Egg-shaped" 
-  order: 64 
-  links: ""
+  order: 64
 - momism: "Far cry from [insert the blank]" 
   order: 208 
-  definition: "A long distance away" 
-  links: ""
+  definition: "A long distance away"
 - momism: "Fewidgewator" 
   order: 200 
   definition: "Refridgerator" 
-  mommentary: "Among my favorite kidisms; comes from blue-eyes" 
-  links: ""
+  mommentary: "Among my favorite kidisms; comes from blue-eyes"
 - momism: "Figment of my imagination" 
   order: 134 
-  definition: "Imaginary" 
-  links: ""
+  definition: "Imaginary"
 - momism: "Finicky" 
   order: 4 
-  definition: "Synonym: picky, overly selective" 
-  links: ""
+  definition: "Synonym: picky, overly selective"
 - momism: "Finish off" 
   order: 258 
   definition: "To kill or exhaust" 
-  example: "That last hill just about finished me off" 
-  links: ""
-- momism: "For the birds!" 
+  example: "That last hill just about finished me off"
+- momism: "For the birds" 
   order: 205 
   definition: "Not good" 
   example: "This oatmeal is for the birds" 
-  mommentary: "A momism from a surprising source: dad" 
-  links: ""
+  mommentary: "A momism from a surprising source: dad"
 - momism: "Full of beans" 
   order: 76 
-  definition: "Silly" 
-  links: ""
+  definition: "Silly"
 - momism: "Gadzooks" 
-  order: 31 
-  links: ""
+  order: 31
 - momism: "Geegaw" 
-  order: 106 
-  links: ""
+  order: 106
 - momism: "George the Lesser" 
   order: 37 
   definition: "Refers to 43rd American president George W. Bush" 
@@ -348,12 +291,10 @@
   links: "<img class='img_small' src='/assets/images/gwbush.jpg' alt='George W. Bush'>"
 - momism: "Get boosted" 
   order: 223 
-  definition: "Get up, rouse" 
-  links: ""
+  definition: "Get up, rouse"
 - momism: "Give it the old college try" 
   order: 226 
-  definition: "To attempt something difficult" 
-  links: ""
+  definition: "To attempt something difficult"
 - momism: "Go over like a lead balloon" 
   order: 229 
   definition: "Something did not go over well at all, not be well received, be unpopular, even resented" 
@@ -361,192 +302,150 @@
   links: "<img class='img_small' src='/assets/images/lead_balloon.jpg' alt='Lead balloon'>"
 - momism: "Going at a good clip" 
   order: 169 
-  definition: "Moving quickly" 
-  links: ""
+  definition: "Moving quickly"
 - momism: "Going on about" 
   order: 255 
   definition: "Saying, usually at some length" 
-  example: "What are you going on about, son?" 
-  links: ""
+  example: "What are you going on about, son?"
 - momism: "Good enough for government work" 
-  order: 98 
-  links: ""
+  order: 98
 - momism: "Good grief" 
   order: 252 
   definition: "(Exclamation)" 
-  example: "Good grief, it's cold out" 
-  links: ""
+  example: "Good grief, it's cold out"
 - momism: "Goodness gracious" 
   order: 10 
-  definition: "(Exclamation: surprise)" 
-  links: ""
+  definition: "(Exclamation: surprise)"
 - momism: "Grass" 
   order: 235 
   definition: "Marijuana" 
-  mommentary: "I think that's a common euphemism among people in my age group, but I might be unusual in still using the word while others have moved on" 
-  links: ""
+  mommentary: "I think that's a common euphemism among people in my age group, but I might be unusual in still using the word while others have moved on"
 - momism: "Great zot" 
   order: 120 
-  definition: "(Exclamation)" 
-  links: ""
+  definition: "(Exclamation)"
 - momism: "Grungy" 
   order: 118 
-  definition: "Dirty, grimey" 
-  links: ""
+  definition: "Dirty, grimey"
 - momism: "Hair past a freckle" 
   order: 224 
   definition: "When you normally wear a watch and don't have it with you at that point in time" 
-  mommentary: "That definition comes from our mother" 
-  links: ""
+  mommentary: "That definition comes from our mother"
 - momism: "Hair raising experience" 
   order: 177 
-  definition: "A scary experience" 
-  links: ""
+  definition: "A scary experience"
 - momism: "Hare brained (scheme)" 
   order: 176 
-  definition: "Foolish scheme" 
-  links: ""
+  definition: "Foolish scheme"
 - momism: "Have a yen for" 
   order: 91 
-  definition: "A craving" 
-  links: ""
+  definition: "A craving"
 - momism: "Head of steam" 
   order: 148 
   links: "<img class='img_small' src='/assets/images/head_steam.jpg' alt='Head of steam'>"
 - momism: "Health adventure" 
   order: 180 
-  definition: "An annoying and/or scary health saga" 
-  links: ""
+  definition: "An annoying and/or scary health saga"
 - momism: "Heavenly days" 
   order: 46 
-  definition: "(Exclamation)" 
-  links: ""
+  definition: "(Exclamation)"
 - momism: "Heavens to Betsy" 
   order: 48 
-  definition: "(Exclamation)" 
-  links: ""
+  definition: "(Exclamation)"
 - momism: "Hell in a hand-basket" 
-  order: 53 
-  links: ""
+  order: 53
 - momism: "High-tail it" 
   order: 162 
-  definition: "To flee or leave quickly" 
-  links: ""
+  definition: "To flee or leave quickly"
 - momism: "Hold your horses" 
   order: 67 
-  definition: "Imperative: calm down or be patient" 
-  links: ""
+  definition: "Imperative: calm down or be patient"
 - momism: "Holy smokes" 
   order: 246 
   definition: "(Exclamation)" 
-  example: "She's turning 50? Holy smokes!" 
-  links: ""
+  example: "She's turning 50? Holy smokes!"
 - momism: "Honorable horrors" 
   order: 45 
-  definition: "(Exclamation)" 
-  links: ""
+  definition: "(Exclamation)"
 - momism: "Hooie ballooie" 
   order: 111 
-  definition: "Nonsense or bullshit" 
-  links: ""
+  definition: "Nonsense or bullshit"
 - momism: "Hoot" 
   order: 178 
   definition: "1.) Hilarious. 2) Don't care at all" 
-  example: "What a hoot! and I don't give a hoot!" 
-  links: ""
+  example: "What a hoot! and I don't give a hoot!"
 - momism: "Hot Diggity!" 
   order: 34 
-  definition: "(Exclamation)" 
-  links: ""
+  definition: "(Exclamation)"
 - momism: "Huh-what" 
   order: 103 
   definition: "Mother's odd aspirated h on question words that only began when she 'discovered she does it' in linguistics grad school" 
-  example: "But son, huh-why is huh-what a momism? Huh-where did you get that idea and huh-when? Huh-who's idea is this?" 
-  links: ""
+  example: "But son, huh-why is huh-what a momism? Huh-where did you get that idea and huh-when? Huh-who's idea is this?"
 - momism: "Hunky-dory" 
   order: 149 
-  definition: "Fine, all is well" 
-  links: ""
+  definition: "Fine, all is well"
 - momism: "I wish this dang thing would stop taking pictures of my pocket. (*click*)" 
   order: 153 
   definition: "Mom's technological frustration at the camera in her pocket" 
-  mommentary: "I wish it would quit taking pictures of the inside of my pocket, to be exact" 
-  links: ""
+  mommentary: "I wish it would quit taking pictures of the inside of my pocket, to be exact"
 - momism: "I'm gonna go turn into a pumpkin" 
   order: 44 
-  definition: "Go to sleep" 
-  links: ""
+  definition: "Go to sleep"
 - momism: "I'm gonna hang up my shingle" 
   order: 109 
-  example: "I'm gonna hang up my shingle and become a babysitter" 
-  links: ""
+  example: "I'm gonna hang up my shingle and become a babysitter"
 - momism: "I'm not getting any younger" 
   order: 32 
   definition: "I'm getting so wise ;)" 
-  example: "Your sister just about did me in with that three-hour walk. I'm not getting any younger, you know" 
-  links: ""
+  example: "Your sister just about did me in with that three-hour walk. I'm not getting any younger, you know"
 - momism: "If you [insert the blank], your name is dog" 
   order: 42 
-  definition: "Your name is mud (cat version)" 
-  links: ""
+  definition: "Your name is mud (cat version)"
 - momism: "If you ask me" 
   order: 107 
   definition: "In my opinion" 
-  example: "Your friend seems a little dubious, if you ask me" 
-  links: ""
+  example: "Your friend seems a little dubious, if you ask me"
 - momism: "In cahoots (with)" 
-  order: 165 
-  links: ""
+  order: 165
 - momism: "In my view" 
   order: 245 
   definition: "In my opinion" 
-  example: "Your friend seems a little daft, in my view" 
-  links: ""
+  example: "Your friend seems a little daft, in my view"
 - momism: "In your hot little hands" 
   order: 203 
   definition: "In your hands" 
-  example: "What channel shall I change to, now that I have the remote in my hot little hands?" 
-  links: ""
+  example: "What channel shall I change to, now that I have the remote in my hot little hands?"
 - momism: "Indeed" 
   order: 259 
-  definition: "Indeed, son" 
-  mommentary: "An affirmative answer. Vaguely grumpy" 
-  links: ""
+  definition: "An affirmative answer. Vaguely grumpy" 
+  example: "Indeed, son"
 - momism: "Inquiring moms wish to know" 
   order: 249 
   definition: "Someone is curious" 
   example: "Inquiring moms wish to know" 
-  mommentary: "I didn't invent that, you know. It's a variant on 'inquiring minds wish to know" 
-  links: ""
+  mommentary: "I didn't invent that, you know. It's a variant on 'inquiring minds wish to know"
 - momism: "[Insert the blank] life" 
   order: 151 
   definition: "Good morning" 
-  example: "Post-adolescent life!" 
-  links: ""
+  example: "Post-adolescent life!"
 - momism: "[Insert the blank] lives" 
   order: 152 
   definition: "Someone is following their usual pattern" 
-  example: "*burp!* Fermenter-mom lives!" 
-  links: ""
+  example: "*burp!* Fermenter-mom lives!"
 - momism: "Is that goat cheese? Ewe!" 
   order: 130 
   definition: "Eye-rolling pun" 
-  mommentary: "Mom dislikes goat cheese" 
-  links: ""
+  mommentary: "Mom dislikes goat cheese"
 - momism: "It takes ten 'attaboys' to make up for one 'aw-shit'" 
   order: 136 
   definition: "It's easier to prevent mistakes than to clean them up" 
-  mommentary: "Honorary grand-momism" 
-  links: ""
+  mommentary: "Honorary grand-momism"
 - momism: "It's been known to happen" 
   order: 206 
-  definition: "It's possible" 
-  links: ""
+  definition: "It's possible"
 - momism: "It's really the pits" 
   order: 248 
   definition: "Extremely unpleasant or boring" 
-  example: "This COVID situation is really the pits" 
-  links: ""
+  example: "This COVID situation is really the pits"
 - momism: "Jiminy Cricket!" 
   order: 23 
   definition: "A mild exclamation of surprise, emotion, or awe" 
@@ -554,8 +453,7 @@
 - momism: "Just about" 
   order: 256 
   definition: "Almost" 
-  example: "The walk just about did me in" 
-  links: ""
+  example: "The walk just about did me in"
 - momism: "Ka-broken" 
   order: 123 
   definition: "Broken" 
@@ -563,167 +461,128 @@
   links: "<img class='img_small' src='/assets/images/kabroken.jpg' alt='Broken Pot'>"
 - momism: "Keel over" 
   order: 201 
-  definition: "Fall as in fainting" 
-  links: ""
+  definition: "Fall as in fainting"
 - momism: "Keep your eyes peeled" 
   order: 181 
-  definition: "Be on the lookout" 
-  links: ""
+  definition: "Be on the lookout"
 - momism: "Keep your shirt on" 
   order: 70 
-  definition: "Imperative: calm down or be patient" 
-  links: ""
+  definition: "Imperative: calm down or be patient"
 - momism: "Kerfuffle" 
   order: 36 
-  definition: "A conflict" 
-  links: ""
+  definition: "A conflict"
 - momism: "Kiddely / kididely" 
   order: 195 
-  definition: "Kids" 
-  links: ""
+  definition: "Kids"
 - momism: "Killer baby" 
   order: 127 
-  definition: "Refers to her daughter 90% of the time, the other 10% refers to another killer baby who reminds her of her daughter as a baby" 
-  links: ""
+  definition: "Refers to her daughter 90% of the time, the other 10% refers to another killer baby who reminds her of her daughter as a baby"
 - momism: "Knickers in a knot" 
   order: 43 
-  definition: "Upset" 
-  links: ""
+  definition: "Upset"
 - momism: "Launch" 
   order: 250 
   definition: "Get up, rouse" 
-  example: "It's time to launch your brother" 
-  links: ""
+  example: "It's time to launch your brother"
 - momism: "Let's get this show on the road" 
   order: 68 
   definition: "Let's go" 
-  example: "Don't get cross with me!" 
-  links: ""
+  example: "Don't get cross with me!"
 - momism: "Lickety-split" 
   order: 161 
-  definition: "Right away" 
-  links: ""
+  definition: "Right away"
 - momism: "Like a dose of salts" 
   order: 117 
   definition: "To consume something quickly" 
-  example: "We'd better buy kefir. You go through it like a dose of salts. *pause* Mom: You'd better go put that on the list" 
-  links: ""
+  example: "We'd better buy kefir. You go through it like a dose of salts. *pause* Mom: You'd better go put that on the list"
 - momism: "Like a gemstone in a rock tumbler" 
   order: 220 
   definition: "Shaken but not stirred" 
   example: "On that flight, I was like a gemstone in a rock tumbler" 
-  mommentary: "Mom just made it up but it was good. N.B. mom gets motion sickness easily" 
-  links: ""
+  mommentary: "Mom just made it up but it was good. N.B. mom gets motion sickness easily"
 - momism: "Like gangbusters" 
   order: 175 
   definition: "With great speed, intensity, vigour, impact, or success" 
-  example: "Don't worry, at restaurants, I tip like gangbusters" 
-  links: ""
+  example: "Don't worry, at restaurants, I tip like gangbusters"
 - momism: "Linguine listserv" 
   order: 112 
   definition: "Mother's linguistics nerd listserv" 
-  example: "I'm going to post that interesting link on Second Language Acquisition to the linguine listserv" 
-  links: ""
+  example: "I'm going to post that interesting link on Second Language Acquisition to the linguine listserv"
 - momism: "Lord love a duck" 
   order: 72 
-  definition: "(Exclamation)" 
-  links: ""
+  definition: "(Exclamation)"
 - momism: "Lovey" 
   order: 213 
-  definition: "Refers to her daughter" 
-  links: ""
+  definition: "Refers to her daughter"
 - momism: "Madder than a wet hen" 
   order: 101 
-  definition: "I assume this means one is quite angry" 
-  links: ""
+  definition: "I assume this means one is quite angry"
 - momism: "Major-league pain in the butt" 
   order: 238 
   definition: "A major pain" 
   example: "A certain Quaker is a mixed blessing, sometimes pleasant and sometimes a major-league pain in the butt" 
-  mommentary: "I guess other people don’t say that, come to think of it. I think I got that from my mom" 
-  links: ""
+  mommentary: "I guess other people don’t say that, come to think of it. I think I got that from my mom"
 - momism: "Make quick work" 
   order: 196 
   definition: "To consume or use up quickly" 
-  example: "Your sister made quick work of that sandwich" 
-  links: ""
+  example: "Your sister made quick work of that sandwich"
 - momism: "Make yourself scarce" 
   order: 77 
-  definition: "Imperative: leave" 
-  links: ""
+  definition: "Imperative: leave"
 - momism: "Making a ruckus" 
   order: 33 
-  definition: "Making a lot of noise" 
-  links: ""
+  definition: "Making a lot of noise"
 - momism: "Meemer" 
   order: 170 
-  definition: "Vacuum cleaner (baby talk)" 
-  links: ""
+  definition: "Vacuum cleaner (baby talk)"
 - momism: "Mid-section" 
   order: 207 
-  definition: "Waist" 
-  links: ""
+  definition: "Waist"
 - momism: "Month of Sundays" 
-  order: 121 
-  links: ""
+  order: 121
 - momism: "More power to you, (son!)" 
   order: 193 
-  definition: "The usual definition is that one approves of what someone is doing and hopes it will be successful. However, in mom's case, there is also a skepticism that the scheme will be successful" 
-  links: ""
+  definition: "The usual definition is that one approves of what someone is doing and hopes it will be successful. However, in mom's case, there is also a skepticism that the scheme will be successful"
 - momism: "My brain went whiffle" 
   order: 215 
-  definition: "Synonym: I had a senior moment" 
-  links: ""
+  definition: "Synonym: I had a senior moment"
 - momism: "Neck of the woods" 
   order: 88 
-  definition: "Area, neighbourhood" 
-  links: ""
+  definition: "Area, neighbourhood"
 - momism: "Nick of time" 
   order: 133 
-  definition: "Just in time" 
-  links: ""
+  definition: "Just in time"
 - momism: "No muss, no fuss" 
   order: 12 
-  definition: "Simple, easy" 
-  links: ""
+  definition: "Simple, easy"
 - momism: "No spring chicken" 
   order: 38 
-  definition: "Old" 
-  links: ""
+  definition: "Old"
 - momism: "Noggin" 
   order: 6 
-  definition: "Head" 
-  links: ""
+  definition: "Head"
 - momism: "Not in great shape" 
   order: 14 
-  definition: "Not feeling well, not in good condition" 
-  links: ""
+  definition: "Not feeling well, not in good condition"
 - momism: "Not to be too much of a linguist" 
   order: 104 
   definition: "Mother is definitely too much of a linguist" 
-  example: "Not to be too much of a linguist but what a diphtong!" 
-  links: ""
+  example: "Not to be too much of a linguist but what a diphtong!"
 - momism: "Nothing left of [someone] but a grease spot" 
-  order: 60 
-  links: ""
+  order: 60
 - momism: "Oldie but a goodie" 
   order: 167 
-  definition: "A classic" 
-  links: ""
+  definition: "A classic"
 - momism: "On a jag" 
-  order: 150 
-  links: ""
+  order: 150
 - momism: "On the horn" 
   order: 218 
-  definition: "On the phone" 
-  links: ""
+  definition: "On the phone"
 - momism: "Ornery" 
   order: 11 
-  definition: "Grumpy or irritable" 
-  links: ""
+  definition: "Grumpy or irritable"
 - momism: "Out of commission" 
-  order: 16 
-  links: ""
+  order: 16
 - momism: "Out of the blue" 
   order: 261 
   definition: "Out of nowhere, suddenly" 
@@ -731,126 +590,98 @@
   links: "<img class='img_small' src='/assets/images/Moonbeam_UFO.jpeg' alt='UFO'>"
 - momism: "Out of this world" 
   order: 63 
-  definition: "Excellent" 
-  links: ""
+  definition: "Excellent"
 - momism: "Oy vey" 
   order: 27 
   definition: "Mom's Yiddish streak: expresses annoyance" 
   links: "<img class='img_small' src='/assets/images/rabbi.jpg' alt='Rabbi'>"
 - momism: "Pain in the neck" 
   order: 83 
-  definition: "Irritating" 
-  links: ""
+  definition: "Irritating"
 - momism: "Perfunctory" 
-  order: 102 
-  links: ""
+  order: 102
 - momism: "Persnickety" 
   order: 119 
-  definition: "Picky" 
-  links: ""
+  definition: "Picky"
 - momism: "Photo hobby" 
   order: 225 
   definition: "Mother's love of photography" 
-  example: "You know me and my photo hobby" 
-  links: "<img class='img_small' src='/assets/images/goose1.jpg' alt='St. Pats Goose'>, <img class='img_small' src='/assets/images/goose2.jpg' alt='Jailbird'>, <img src='/assets/images/goose3.jpg' alt='Medical worker' class='img_small'>, <img class='img_small' src='/assets/images/goose4.jpg' alt='Strawbirdy'>, <img class='img_small' src='/assets/images/goose5.jpg' alt='Patriot goose'>, <img class='img_small' src='/assets/images/goose6.jpg' alt='Dunno goose'>"
+  example: "You know me and my photo hobby"
 - momism: "Piece of work" 
   order: 90 
   definition: "Adjective meaning someone is unusually unpleasant, difficult, or behaves particularly badly" 
-  example: "You're a piece of work, lovey" 
-  links: ""
+  example: "You're a piece of work, lovey"
 - momism: "Pipe down" 
   order: 198 
-  definition: "Quiet down" 
-  links: ""
+  definition: "Quiet down"
 - momism: "Pitching a fit" 
   order: 137 
-  definition: "Become extremely upset or angry in a loud and uncontrolled way, having a tantrum, making a scene" 
-  links: ""
+  definition: "Become extremely upset or angry in a loud and uncontrolled way, having a tantrum, making a scene"
 - momism: "Poke around" 
   order: 15 
   definition: "To look around, to look through things, to investigate" 
-  example: "I'm going to go poke around the Chalet" 
-  links: ""
+  example: "I'm going to go poke around the Chalet"
 - momism: "Pole-axed" 
   order: 210 
-  definition: "Exhausted" 
-  links: ""
+  definition: "Exhausted"
 - momism: "Polish it off" 
   order: 179 
-  definition: "Eat all of a dish" 
-  links: ""
+  definition: "Eat all of a dish"
 - momism: "Pop awake" 
   order: 253 
   definition: "Wake up" 
-  example: "I pop awake every morning at quarter to five" 
-  links: ""
+  example: "I pop awake every morning at quarter to five"
 - momism: "Put a lid on it" 
   order: 197 
-  definition: "Exclamation: to be quiet, shut up" 
-  links: ""
+  definition: "Exclamation: to be quiet, shut up"
 - momism: "Put that into your equation" 
   order: 97 
   definition: "Consider that" 
-  mommentary: "(Lowell-ism)" 
-  links: ""
+  mommentary: "(Lowell-ism)"
 - momism: "Put the kibosh on" 
   order: 18 
-  definition: "To cancel" 
-  links: ""
+  definition: "To cancel"
 - momism: "Put hair on your chest" 
-  order: 50 
-  links: ""
+  order: 50
 - momism: "Quit it" 
   order: 251 
   definition: "Stop that" 
-  example: "Quit it, your squabbling is driving me bonkers" 
-  links: ""
+  example: "Quit it, your squabbling is driving me bonkers"
 - momism: "Rattling around" 
   order: 204 
   definition: "Awake and moving around the house" 
-  example: "I could hear him rattling around long after I turned into a pumpkin" 
-  links: ""
+  example: "I could hear him rattling around long after I turned into a pumpkin"
 - momism: "Rear" 
   order: 260 
   definition: "Your brother was a pain in the rear when he was little" 
-  mommentary: "The buttocks" 
-  links: ""
+  mommentary: "The buttocks"
 - momism: "Recipe for disaster" 
   order: 212 
-  definition: "Something that is likely to result in disaster" 
-  links: ""
+  definition: "Something that is likely to result in disaster"
 - momism: "Regular gulley-washer" 
   order: 100 
-  definition: "A powerful rainstorm" 
-  links: ""
+  definition: "A powerful rainstorm"
 - momism: "Roaring Around" 
-  order: 2 
-  links: ""
+  order: 2
 - momism: "Roll up your pants, it's too late to save your shoes" 
-  order: 54 
-  links: ""
+  order: 54
 - momism: "Roost" 
   order: 227 
   definition: "To sit, rest" 
   example: "I'm looking for a bench upon which to roost" 
-  mommentary: "Seems to me a perch is more temporary" 
-  links: ""
+  mommentary: "Seems to me a perch is more temporary"
 - momism: "Rotten in Denmark" 
   order: 49 
-  mommentary: "That's from Shakespeare" 
-  links: ""
+  mommentary: "That's from Shakespeare"
 - momism: "Ruffled his feathers" 
   order: 80 
-  definition: "To have irritated or offended someone" 
-  links: ""
+  definition: "To have irritated or offended someone"
 - momism: "Sanford Sharpie" 
   order: 87 
-  definition: "A permanent marker" 
-  links: ""
+  definition: "A permanent marker"
 - momism: "Scarcer than hen's teeth" 
   order: 89 
-  definition: "Extremely rare, nonexistent" 
-  links: ""
+  definition: "Extremely rare, nonexistent"
 - momism: "Schlep" 
   order: 22 
   definition: "Mom's Yiddish streak: it means to carry something heavy or bulky" 
@@ -861,276 +692,216 @@
   links: "<img class='img_small' src='/assets/images/bagel.jpg' alt='Bagel'>"
 - momism: "Scream bloody murder" 
   order: 129 
-  definition: "Scream loudly" 
-  links: ""
+  definition: "Scream loudly"
 - momism: "Seen better days" 
   order: 247 
   definition: "Worn, used, decrepit" 
-  example: "Those socks have seen better days: they’re filled with holes" 
-  links: ""
+  example: "Those socks have seen better days: they’re filled with holes"
 - momism: "She could talk the leaves off a tree" 
   order: 186 
   definition: "Someone often speaks at great length" 
-  mommentary: "That comes from Debbie Hotch, college roommate" 
-  links: ""
+  mommentary: "That comes from Debbie Hotch, college roommate"
 - momism: "Skedaddle" 
   order: 8 
-  definition: "Leave rapidly" 
-  links: ""
+  definition: "Leave rapidly"
 - momism: "Smack dab in the middle" 
   order: 160 
-  definition: "Exactly in the middle" 
-  links: ""
+  definition: "Exactly in the middle"
 - momism: "Smart cookie" 
   order: 192 
-  definition: "Noun, an intelligent person" 
-  links: ""
+  definition: "Noun, an intelligent person"
 - momism: "Snatching defeat from the jaws of victory" 
   order: 58 
   definition: "A play on the inverse phrase (snatching victory from the jaws of defeat), this momism means losing something that was nearly won" 
-  mommentary: "That phrase was popular with respect to Duke basketball in the days before the present - successful - coach Mike Krzyzewski" 
-  links: ""
+  mommentary: "That phrase was popular with respect to Duke basketball in the days before the present - successful - coach Mike Krzyzewski"
 - momism: "Snippy" 
-  order: 57 
-  links: ""
+  order: 57
 - momism: "Snorkel" 
   order: 135 
   definition: "To nuzzle" 
-  example: "Cat, quit snorkeling me!" 
-  links: ""
+  example: "Cat, quit snorkeling me!"
 - momism: "Snuffocate" 
   order: 240 
   definition: "Suffocate" 
-  example: "Get me out of here before I snuffocate!" 
-  links: ""
+  example: "Get me out of here before I snuffocate!"
 - momism: "Soccer slides" 
   order: 166 
-  definition: "Slip-on sandals" 
-  links: ""
+  definition: "Slip-on sandals"
 - momism: "Sonnnn" 
   order: 114 
   definition: "Son, with extended n sound" 
-  example: "Sonnnn, why did you wake me from my nap?" 
-  links: ""
+  example: "Sonnnn, why did you wake me from my nap?"
 - momism: "Speak of the devil" 
   order: 51 
-  definition: "The person mom just mentioned has appeared" 
-  links: ""
+  definition: "The person mom just mentioned has appeared"
 - momism: "Splinker" 
   order: 173 
   definition: "Splinter" 
-  mommentary: "Baby talk from the middle child. I liked splinker a lot better than what it should've been, whatever that was" 
-  links: ""
+  mommentary: "Baby talk from the middle child. I liked splinker a lot better than what it should've been, whatever that was"
 - momism: "Squabbling" 
   order: 132 
-  definition: "To bicker, argue" 
-  links: ""
+  definition: "To bicker, argue"
 - momism: "Stinker" 
   order: 234 
   definition: "A contemptible or very unpleasant person or thing" 
-  example: "That little stinker took off with my socks!" 
-  links: ""
+  example: "That little stinker took off with my socks!"
 - momism: "Stranger things have happened" 
-  order: 214 
-  links: ""
+  order: 214
 - momism: "String beans" 
   order: 209 
-  definition: "Green beans" 
-  links: ""
+  definition: "Green beans"
 - momism: "Suffice it to say" 
   order: 24 
-  definition: "It is enough to say this and no more, as in Suffice it to say that the judge was furious when the invitation was withdrawn" 
-  links: ""
+  definition: "It is enough to say this and no more, as in Suffice it to say that the judge was furious when the invitation was withdrawn"
 - momism: "Sure as God made little green apples" 
   order: 5 
   definition: "Certain" 
   links: "<img class='img_small' src='/assets/images/green_apple.jpg' alt='Green Apple'>"
 - momism: "Sweet tooth" 
   order: 40 
-  definition: "Love of sugar" 
-  links: ""
+  definition: "Love of sugar"
 - momism: "Swell foop" 
   order: 191 
   definition: "A fell swoop" 
-  example: "I cleaned the yard and planted flowers in one swell foop" 
-  links: ""
+  example: "I cleaned the yard and planted flowers in one swell foop"
 - momism: "Take a long walk off a short dock" 
   order: 79 
   definition: "Imperative: leave" 
-  mommentary: "From mom's mom" 
-  links: ""
+  mommentary: "From mom's mom"
 - momism: "Take off with" 
   order: 113 
-  definition: "To take" 
-  links: ""
+  definition: "To take"
 - momism: "Taken with" 
   order: 233 
   definition: "To like" 
-  example: "My daughter was quite taken with 'woo-wee-sa'" 
-  links: ""
+  example: "My daughter was quite taken with 'woo-wee-sa'"
 - momism: "Thee and me" 
-  order: 62 
-  links: ""
+  order: 62
 - momism: "These parts" 
   order: 141 
-  definition: "This area or neighbourhood" 
-  links: ""
+  definition: "This area or neighbourhood"
 - momism: "They get along like a house afire" 
   order: 116 
-  definition: "They get along well" 
-  links: ""
+  definition: "They get along well"
 - momism: "Three eggs in a basket is finer 'en fourteen in the chicken coop! (apocryphal)" 
   order: 35 
   definition: "A fake momism used to tease mother's strange sayings" 
-  mommentary: "Apocryphal" 
-  links: ""
+  mommentary: "Apocryphal"
 - momism: "Tickled pink" 
   order: 7 
-  definition: "Very amused" 
-  links: ""
+  definition: "Very amused"
 - momism: "To-do" 
   order: 99 
   definition: "A party" 
-  example: "Mom: They are really having a to-do up there. Me: That is so going on the list" 
-  links: ""
+  example: "Mom: They are really having a to-do up there. Me: That is so going on the list"
 - momism: "Tougher than boiled owl" 
   order: 66 
-  definition: "Very hard to chew" 
-  links: ""
+  definition: "Very hard to chew"
 - momism: "Trouper" 
   order: 1 
-  definition: "A loyal, dependable worker or participant in an undertaking" 
-  links: ""
+  definition: "A loyal, dependable worker or participant in an undertaking"
 - momism: "Turkey" 
   order: 13 
   definition: "An inept person, usually related to mom's road rage" 
-  example: "Who let that turkey drive" 
-  links: ""
+  example: "Who let that turkey drive"
 - momism: "Umpteenth time" 
   order: 17 
   definition: "So many times it's impossible to count" 
-  example: "He has played that Adagio for Strings umteen times now" 
-  links: ""
+  example: "He has played that Adagio for Strings umteen times now"
 - momism: "Up the wazoo" 
   order: 243 
   definition: "A lot of something" 
-  example: "We have tea up the wazoo!" 
-  links: ""
+  example: "We have tea up the wazoo!"
 - momism: "US mule" 
   order: 217 
   definition: "The US Mail" 
-  mommentary: "Did you know that I got the US mule from a cartoon when I was a kid; it was called Li'l Abner. It is political satire" 
-  links: ""
+  mommentary: "Did you know that I got the US mule from a cartoon when I was a kid; it was called Li'l Abner. It is political satire"
 - momism: "Volunteer" 
   order: 263 
   definition: "A plant that grows spontaneously in the garden" 
   example: "I planted these and those, but those mystery flowers and the tomatoes are both volunteers!" 
-  mommentary: "'Volunteers' is (or was) just ordinary gardening jargon. I have no idea how commonly used the word is in the modern era, especially outside the south..." 
+  mommentary: "Volunteers' is (or was) just ordinary gardening jargon. I have no idea how commonly used the word is in the modern era, especially outside the south..." 
   links: "<img class='img_small' src='/assets/images/volunteer.png' alt='Volunteer anyone?'>"
 - momism: "Went belly-up" 
   order: 244 
   definition: "Died" 
-  example: "After they turned down the heat, all my orchids went belly up" 
-  links: ""
+  example: "After they turned down the heat, all my orchids went belly up"
 - momism: "Went the way of the Dodo" 
   order: 19 
-  definition: "Went extinct or obsolete" 
-  links: ""
+  definition: "Went extinct or obsolete"
 - momism: "Were you raised in a barn? Kidism: Yes!" 
-  order: 163 
-  links: ""
+  order: 163
 - momism: "What have you gotten into" 
   order: 183 
   definition: "What have you opened or taken from?" 
-  example: "Who got into the cookies?" 
-  links: ""
+  example: "Who got into the cookies?"
 - momism: "What-all" 
   order: 236 
   definition: "Plural of what" 
-  example: "I have no clue as to what-all you-all saw" 
-  links: ""
+  example: "I have no clue as to what-all you-all saw"
 - momism: "Whifflebrain" 
   order: 216 
-  definition: "Airhead" 
-  links: ""
+  definition: "Airhead"
 - momism: "White knuckle trip" 
   order: 84 
-  definition: "A terrifying journey" 
-  links: ""
+  definition: "A terrifying journey"
 - momism: "Who-all" 
   order: 242 
   definition: "Plural of who" 
   example: "Who-all did you go to France with?" 
-  mommentary: "Referring to the likelihood that the answer to the question has several parts" 
-  links: ""
+  mommentary: "Referring to the likelihood that the answer to the question has several parts"
 - momism: "Whole kit and kaboodle" 
-  order: 139 
-  links: ""
+  order: 139
 - momism: "Whole shebangdasium" 
-  order: 140 
-  links: ""
+  order: 140
 - momism: "Whole shooting match" 
   order: 108 
   definition: "The whole thing" 
   example: "With my terrific niece and nephews I've got it all, the whole shooting match!" 
-  mommentary: "Because I caught myself saying it the other day, then mom said it today :)" 
-  links: ""
+  mommentary: "Because I caught myself saying it the other day, then mom said it today :)"
 - momism: "Winks" 
   order: 188 
   definition: "A brief nap" 
-  example: "I'm going to grab a quick wink" 
-  links: ""
+  example: "I'm going to grab a quick wink"
 - momism: "Within an inch of his life" 
-  order: 171 
-  links: ""
+  order: 171
 - momism: "Woo-wee-sa" 
   order: 231 
   definition: "Kidism for Louisa" 
-  mommentary: "My daughter used to be very taken with our neighbor Louisa except she pronounced it Eww-eesa. Mom started imitating her, saying 'eww-wee-sa' but she crossly corrected mother to 'woo-wee-sa'. This same daughter also used to spell Emily’s name 'MOE'" 
-  links: ""
+  mommentary: "My daughter used to be very taken with our neighbor Louisa except she pronounced it Eww-eesa. Mom started imitating her, saying 'eww-wee-sa' but she crossly corrected mother to 'woo-wee-sa'. This same daughter also used to spell Emily’s name 'MOE'"
 - momism: "Wooze" 
   order: 230 
   definition: "Kidism for 'lose'" 
-  example: "Here's my pen but don’t wooze it" 
-  links: ""
+  example: "Here's my pen but don’t wooze it"
 - momism: "Worrywart" 
   order: 61 
-  definition: "Someone with a tendency to worry habitually, often needlessly" 
-  links: ""
+  definition: "Someone with a tendency to worry habitually, often needlessly"
 - momism: "Ye gods and little fishes" 
   order: 85 
   definition: "(Exclamation)" 
-  example: "Ye gods and little catfish!" 
-  links: ""
+  example: "Ye gods and little catfish!"
 - momism: "Yea high" 
   order: 232 
   definition: "Indicates that something is as high as mom is pointing, usually not very high" 
-  example: "That cat went past the wall about yea high [mom points] with that paintbrush in her mouth" 
-  links: ""
+  example: "That cat went past the wall about yea high [mom points] with that paintbrush in her mouth"
 - momism: "Yes, cat. no, cat. maybe, cat" 
   order: 154 
-  definition: "Expression of sarcastic subordination to the cat" 
-  links: ""
+  definition: "Expression of sarcastic subordination to the cat"
 - momism: "You have such a good [body part] for [task]" 
   order: 190 
   definition: "Mother's preferred momism for describing an extraordinary skill" 
-  example: "Dearheart, you have such a good eye for composition / Son, you have a great ear for idiosyncrasy" 
-  links: ""
+  example: "Dearheart, you have such a good eye for composition / Son, you have a great ear for idiosyncrasy"
 - momism: "Your name is mud" 
   order: 41 
-  definition: "You're in trouble" 
-  links: ""
+  definition: "You're in trouble"
 - momism: "Zonked" 
   order: 92 
   definition: "Tired" 
-  example: "That (sleeping) baby is zonked!" 
-  links: ""
+  example: "That (sleeping) baby is zonked!"
 - momism: "Zories" 
   order: 168 
   definition: "Japanese-style flip-flops, often made of woven rice straw, sort of like tatamis you can wear on your feet" 
-  mommentary: "Zories were a fad back when I was young. I haven't seen them in years" 
-  links: ""
+  mommentary: "Zories were a fad back when I was young. I haven't seen them in years"
 - momism: "Zowie" 
   order: 126 
-  definition: "(Exclamation)" 
-  links: ""
+  definition: "(Exclamation)"
