@@ -388,6 +388,7 @@
 - momism: "I'm gonna go turn into a pumpkin" 
   definition: "Go to sleep" 
   order: 44
+  links: "<img class='img_small' src='/assets/images/pumpkin.jpg' alt='Pumpkin'>"
 - momism: "I'm gonna hang up my shingle" 
   example: "I'm gonna hang up my shingle and become a babysitter" 
   order: 109
