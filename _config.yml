@@ -19,6 +19,10 @@ markdown: kramdown
 #plugins:
         #  - jekyll-feed
 
+source 'https://rubygems.org'
+
+gem 'jekyll', '~> 4.0'
+
 tipue_search:
   include:
     pages: true
