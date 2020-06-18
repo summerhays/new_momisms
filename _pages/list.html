@@ -23,7 +23,7 @@ id: list
 </div>
 <div class="sticky_anchor stanchor">
 <div class="filterbye">&nbsp;</div>
-<div class="abc"><a name="{{ abc }}" class="nohover textwhite">&nbsp; {{ abc }}</a></div>{% endunless %}
+<div class="abc"><a name="{{ abc }}" class="nohover textwhite">&nbsp; {{ abc }}</a></div></div>{% endunless %}
 <button id="momism_id{{ each.order }}" onclick="openAccordion('momism{{ counter }}')" class="list_button smiley turquoise wrap fix_anchor">{{ each.momism }}</button>
 <div id="momism{{ counter }}" class="w3-hide w3-container">
 	<p>{% if each.definition %}{{ each.definition }}{% else %}<em>Definition unknown. <a href="/contribute.html">Contribute</a> one</em>{% endif %}</p>
