@@ -160,6 +160,10 @@ input:checked + .slider:before {
 	bottom: 2px;
 }
 
+.bit_left {
+	margin: 0 0 0 -3px;
+}
+
 #content {
   display: flex;
   flex-direction: column;
