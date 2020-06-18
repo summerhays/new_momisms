@@ -5,6 +5,11 @@ id: list
 <p>All momisms (<a href="/list.html" class="nolink nohover">{{ site.data.momisms.size }}</a>) and their definitions (where known...)</p>
 <p>Click to see Mommentary, definitions, and examples where available (if unavailable, <a href="/contribute.html">contribute</a> one).</p>
 <p>Or simulate conversation with our mother by hearing a <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">random momism</button></p>
+<div class=center>
+  <span><button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="openAll()">Open all</button>&nbsp;
+  <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="closeAll()">Close all</button>&nbsp;
+<div>&nbsp;</div>
+</div>
 <div class="center">
 	{% comment %}The code below is the alphabet link at the top{% endcomment %}
 {% assign counter = 0 %}{% for each in site.data.momisms %}{% assign nowslice = each.momism | slice: 0 %}{% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
@@ -24,8 +29,8 @@ id: list
 <div class="sticky_anchor stanchor">
 <div class="filterbye">&nbsp;</div>
 <div class="abc"><a name="{{ abc }}" class="nohover textwhite">&nbsp; {{ abc }}</a></div>{% endunless %}
-<button id="momism_id{{ each.order }}" onclick="openAccordion('momism{{ counter }}')" class="list_button smiley turquoise wrap fix_anchor">{{ each.momism }}</button>
-<div id="momism{{ counter }}" class="w3-hide w3-container">
+<button id="momism_id{{ each.order }}" onclick="toggleAccordion('{{ each.order }}')" class="list_button smiley turquoise wrap fix_anchor"><i id="caret{{ each.order }}" class="fas fa-caret-right caret"></i> &nbsp;&nbsp;{{ each.momism }}</button>
+<div id="momism{{ each.order }}" class="w3-hide w3-container list_div">
 	<p>{% if each.definition %}{{ each.definition }}{% else %}<em>Definition unknown. <a href="/contribute.html">Contribute</a> one</em>{% endif %}</p>
     {% if each.example %}<p><em>{{ each.example }}</em></p>{% endif %}
     {% if each.mommentary %}<p>Mommentary: {{ each.mommentary }}</p>{% endif %}
