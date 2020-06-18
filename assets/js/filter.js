@@ -48,7 +48,7 @@ function filterFunction(input) {
 function openAll() {
   for (i = 1; i < (list_button.length + 1); i++) {
       var x = document.getElementById("momism" + i); // The div
-    if (x.className.indexOf("w3-hide") > -1) {
+    if (x.className.indexOf("w3-show") == -1) {
           toggleAccordion(i); 
     }
   }
