@@ -66,7 +66,8 @@ function randomMomism() {
   var num = Math.floor(Math.random() * ({{ site.data.momisms.size }} - 1 + 1));
 	var randLink = '/list.html#momism_id' + num;
 	  window.open(randLink,"_self");
-	if (list_div[num].className.indexOf("w3-hide") > -1) {
+        var x = document.getElementById("momism" + num); // The div
+	if (x.className.indexOf("w3-show") == -1) {
 		toggleAccordion(num);
 	}
 }
