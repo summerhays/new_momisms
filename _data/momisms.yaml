@@ -387,7 +387,7 @@
   order: 153
 - momism: "I'm gonna go turn into a pumpkin" 
   definition: "Go to sleep" 
-  order: 44
+  order: 44 
   links: "<img class='img_small' src='/assets/images/pumpkin.jpg' alt='Pumpkin'>"
 - momism: "I'm gonna hang up my shingle" 
   example: "I'm gonna hang up my shingle and become a babysitter" 
@@ -467,6 +467,11 @@
 - momism: "Keep your shirt on" 
   definition: "Imperative: calm down or be patient" 
   order: 70
+- momism: "Kerblooie" 
+  definition: "Interjection, used to represent an explosion; a mix of kaboom and kerflooie" 
+  example: "Before my computer goes kerblooie" 
+  mommentary: "Mom identified this momism" 
+  order: 265
 - momism: "Kerfuffle" 
   definition: "A conflict" 
   order: 36
@@ -551,6 +556,11 @@
 - momism: "Nick of time" 
   definition: "Just in time" 
   order: 133
+- momism: "Nervous Nellie" 
+  definition: "Someone who is often nervous" 
+  example: "I don't mean to be a nervous Nellie about my operating system." 
+  mommentary: "Mom identified this momism" 
+  order: 264
 - momism: "No muss, no fuss" 
   definition: "Simple, easy" 
   order: 12
