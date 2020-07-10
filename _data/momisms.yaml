@@ -331,6 +331,11 @@
 - momism: "Hair raising experience" 
   definition: "A scary experience" 
   order: 177
+- momism: "Halloooo" 
+  definition: "Hello" 
+  example: "Allooo-hay son! That was pig latin for halloooooo." 
+  mommentary: "Momisms in pig latin are even harder to fathom" 
+  order: 266
 - momism: "Hare brained (scheme)" 
   definition: "A foolish scheme" 
   order: 176
