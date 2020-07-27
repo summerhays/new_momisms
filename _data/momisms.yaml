@@ -267,6 +267,14 @@
   definition: "To kill or exhaust" 
   example: "That last hill just about finished me off" 
   order: 258
+- momism: "Floridian in me" 
+  definition: "When mom attributes an opinion on a topic to having grown up in Florida" 
+  example: "The Floridian in me will never get used to this nippy weather!" 
+  order: 268
+- momism: "Foggiest" 
+  definition: "I don't know" 
+  example: ""Mom, where's my blender?" "I haven't the foggiest, son"" 
+  order: 269
 - momism: "For the birds" 
   definition: "Not good" 
   example: "This oatmeal is for the birds" 
@@ -277,6 +285,10 @@
   order: 76
 - momism: "Gadzooks" 
   order: 31
+- momism: "Garden variety" 
+  definition: "Ordinary" 
+  example: "A garden variety stroller" 
+  order: 267
 - momism: "Geegaw" 
   order: 106
 - momism: "George the Lesser" 
@@ -403,7 +415,8 @@
   order: 32
 - momism: "If you [insert the blank], your name is dog" 
   definition: "Your name is mud (cat version)" 
-  order: 42
+  order: 42 
+  links: "<img class='img_small' src='/assets/images/name-mud.jpg' alt='Person submerged in mud'>"
 - momism: "If you ask me" 
   definition: "In my opinion" 
   example: "Your friend seems a little dubious, if you ask me" 
@@ -596,6 +609,8 @@
   definition: "Grumpy or irritable" 
   order: 11
 - momism: "Out of commission" 
+  definition: "Not working, out of order" 
+  example: "The internet is out of commission until my router gets fixed." 
   order: 16
 - momism: "Out of the blue" 
   definition: "Out of nowhere, suddenly" 
