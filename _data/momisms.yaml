@@ -273,8 +273,9 @@
   order: 268
 - momism: "Foggiest" 
   definition: "I don't know" 
-  example: "Mom, where's my blender?' 'I haven't the foggiest, son'"
-  order: 269
+  example: "Mom, where's my blender?' 'I haven't the foggiest, son'" 
+  order: 269 
+  links: "<img class='img_small' src='/assets/images/fog.jpg' alt='Fog'>"
 - momism: "For the birds" 
   definition: "Not good" 
   example: "This oatmeal is for the birds" 
@@ -288,7 +289,8 @@
 - momism: "Garden variety" 
   definition: "Ordinary" 
   example: "A garden variety stroller" 
-  order: 267
+  order: 267 
+  links: "<img class='img_small' src='/assets/images/bean.jpg' alt='Beans'>"
 - momism: "Geegaw" 
   order: 106
 - momism: "George the Lesser" 
@@ -635,7 +637,8 @@
 - momism: "Photo hobby" 
   definition: "Mother's love of photography" 
   example: "You know me and my photo hobby" 
-  order: 225
+  order: 225 
+  links: "<img class='img_small' src='/assets/images/goose1.jpg' alt='St. Pats Goose'>, <img class='img_small' src='/assets/images/goose2.jpg' alt='Jailbird'>, <img src='/assets/images/goose3.jpg' alt='Medical worker' class='img_small'>, <img class='img_small' src='/assets/images/goose4.jpg' alt='Strawbirdy'>, <img class='img_small' src='/assets/images/goose5.jpg' alt='Patriot goose'>, <img class='img_small' src='/assets/images/goose6.jpg' alt='Dunno goose'>"
 - momism: "Piece of work" 
   definition: "Adjective meaning someone is unusually unpleasant, difficult, or behaves particularly badly" 
   example: "You're a piece of work, lovey" 
