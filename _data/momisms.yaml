@@ -508,6 +508,10 @@
   definition: "Get up, rouse" 
   example: "It's time to launch your brother" 
   order: 250
+- momism: "Law-yer" 
+  definition: "A lawyer, pronounced literally law-yer, as opposed to loy-yer" 
+  example: "You would make a great, law-yer, son" 
+  order: 270
 - momism: "Let's get this show on the road" 
   definition: "Let's go" 
   example: "Don't get cross with me!" 
@@ -535,6 +539,10 @@
 - momism: "Lord love a duck" 
   definition: "(Exclamation)" 
   order: 72
+- momism: "Lost your mind" 
+  definition: "(Exclamation) Are you crazy?" 
+  example: "You planted Rose of Sharon -- are you out of your mind?" 
+  order: 271
 - momism: "Lovey" 
   definition: "Refers to her daughter" 
   order: 213
