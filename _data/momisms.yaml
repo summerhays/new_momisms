@@ -131,6 +131,10 @@
 - momism: "Cat, stop tenderizing me!" 
   definition: "Stop poking me" 
   order: 147
+- momism: "Cat that ate the canary" 
+  definition: "Someone proud of their accomplishments" 
+  example: "After Anne beat that kid in three moves, she looked like the cat that ate the canary" 
+  order: 272
 - momism: "Chew someone out" 
   definition: "To criticize" 
   order: 184
@@ -335,6 +339,14 @@
 - momism: "Great zot" 
   definition: "(Exclamation)" 
   order: 120
+- momism: "Growing" 
+  definition: "Eating an impressive amount" 
+  example: "Another piece of chicken? You must be growing." 
+  order: 
+- momism: "Growth spurt" 
+  definition: "A sudden increase in height, usually related to a sudden increase in hunger" 
+  example: "I could buy you these shoes, but they wouldn't fit you by your next growth spurt." 
+  order: 275
 - momism: "Grungy" 
   definition: "Dirty, grimey" 
   order: 118
@@ -423,6 +435,10 @@
   definition: "In my opinion" 
   example: "Your friend seems a little dubious, if you ask me" 
   order: 107
+- momism: "Iffy" 
+  definition: "Dubious, uncertain" 
+  example: "My new phone is a little iffy" 
+  order: 273
 - momism: "In cahoots (with)" 
   order: 165
 - momism: "In my view" 
@@ -440,7 +456,7 @@
 - momism: "Inquiring moms wish to know" 
   definition: "Someone is curious" 
   example: "Inquiring moms wish to know" 
-  mommentary: "I didn't invent that, you know. It's a variant on 'inquiring minds wish to know" 
+  mommentary: "I didn't invent that, you know. It's a variant on 'inquiring minds wish to know'" 
   order: 249
 - momism: "[Insert the blank] life" 
   definition: "Good morning" 
@@ -541,7 +557,7 @@
   order: 72
 - momism: "Lost your mind" 
   definition: "(Exclamation) Are you crazy?" 
-  example: "You planted Rose of Sharon -- are you out of your mind?" 
+  example: "You planted Rose of Sharon -- have you lost your mind?" 
   order: 271
 - momism: "Lovey" 
   definition: "Refers to her daughter" 
@@ -664,8 +680,9 @@
 - momism: "Pole-axed" 
   definition: "Exhausted" 
   order: 210
-- momism: "Polish it off" 
-  definition: "Eat all of a dish" 
+- momism: "Polish off" 
+  definition: "Eat the rest of a dish" 
+  example: "Your brother polished off those bagels in one sitting." 
   order: 179
 - momism: "Pop awake" 
   definition: "Wake up" 
@@ -888,12 +905,14 @@
   order: 84
 - momism: "Who-all" 
   definition: "Plural of who" 
-  example: "Who-all did you go to France with?" 
+  example: "Who-all did you-all go to France with?" 
   mommentary: "Referring to the likelihood that the answer to the question has several parts" 
   order: 242
 - momism: "Whole kit and kaboodle" 
   order: 139
 - momism: "Whole shebangdasium" 
+  definition: "The whole shebang, everything, the entire thing" 
+  mommentary: "Kind of like 'the whole nine yards'" 
   order: 140
 - momism: "Whole shooting match" 
   definition: "The whole thing" 
