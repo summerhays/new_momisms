@@ -3,6 +3,7 @@
   order: 115
 - momism: "Academic medicine" 
   definition: "Medical research" 
+  example: "I used to work in academic medicine" 
   order: 222 
   links: "<img class='img_small' src='/assets/images/chemical-1293762_1280.png' alt='Test tube'>"
 - momism: "According to conventional wisdom" 
@@ -140,7 +141,7 @@
   order: 184
 - momism: "Chowhound" 
   definition: "Big eater" 
-  example: "She's being a real chow hound--I think she might be in a growth spurt!" 
+  example: "She's being a real chow hound — I think she might be in a growth spurt!" 
   order: 241
 - momism: "Chup chup" 
   definition: "An encouragement to move or hurry" 
@@ -427,6 +428,10 @@
   definition: "I'm getting so wise ;)" 
   example: "Your sister just about did me in with that three-hour walk. I'm not getting any younger, you know" 
   order: 32
+- momism: "I'm not long for this world" 
+  definition: "It's nearing my bedtime; I'm about to turn into a pumpkin" 
+  example: "If you want my help cleaning up, ask now. I'm not long for this world" 
+  order: 276
 - momism: "If you [insert the blank], your name is dog" 
   definition: "Your name is mud (cat version)" 
   order: 42 
@@ -557,7 +562,7 @@
   order: 72
 - momism: "Lost your mind" 
   definition: "(Exclamation) Are you crazy?" 
-  example: "You planted Rose of Sharon -- have you lost your mind?" 
+  example: "You planted Rose of Sharon — have you lost your mind?" 
   order: 271
 - momism: "Lovey" 
   definition: "Refers to her daughter" 
