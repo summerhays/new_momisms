@@ -286,6 +286,11 @@
   example: "This oatmeal is for the birds" 
   mommentary: "A momism from a surprising source: dad" 
   order: 205
+- momism: "For the life of me" 
+  definition: "Try though I might" 
+  example: "For the life of me, I can't figure out why no one else wants some of my extra spicy ulcer-guaranteed stir fry" 
+  mommentary: "Oh, hmm. I do say that. No one else? Good one!" 
+  order: 277
 - momism: "Full of beans" 
   definition: "Silly" 
   order: 76
@@ -592,6 +597,8 @@
   definition: "Waist" 
   order: 207
 - momism: "Month of Sundays" 
+  definition: "A long time (literally, a month of Sundays would be 30 weeks)" 
+  example: "I haven't seen a cassette player in a month of Sundays" 
   order: 121
 - momism: "More power to you, (son!)" 
   definition: "The usual definition is that one approves of what someone is doing and hopes it will be successful. However, in mom's case, there is also a skepticism that the scheme will be successful" 
@@ -741,6 +748,11 @@
 - momism: "Sanford Sharpie" 
   definition: "A permanent marker" 
   order: 87
+- momism: "Scads" 
+  definition: "many, lots, an abundance of" 
+  example: "There are scads of people in the grocery store today--what is this, the day before Thanksgiving?" 
+  mommentary: "Other people don't say 'scads'? Yet another Momism surprises the Mom. <3" 
+  order: 278
 - momism: "Scarcer than hen's teeth" 
   definition: "Extremely rare, nonexistent" 
   order: 89
@@ -951,6 +963,7 @@
   order: 232
 - momism: "Yes, cat. no, cat. maybe, cat" 
   definition: "Expression of sarcastic subordination to the cat" 
+  mommentary: "I think that one evolved during life with Milo, who I also referred to as 'the Mouthy One,' since she was always giving me an earful. Momism?" 
   order: 154
 - momism: "You have such a good [body part] for [task]" 
   definition: "Mother's preferred momism for describing an extraordinary skill" 
