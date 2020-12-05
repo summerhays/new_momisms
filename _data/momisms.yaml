@@ -422,6 +422,11 @@
   definition: "Mom's technological frustration at the camera in her pocket" 
   mommentary: "I wish it would quit taking pictures of the inside of my pocket, to be exact" 
   order: 153
+- momism: "I'll see what I can see" 
+  definition: "I have yet to gather evidence to make a conclusion on this topic but I'll look into it" 
+  example: "I haven't been down to the Custer Street Fair to look for birthday presents yet, but I'll see what I can see" 
+  mommentary: "Hmm. That does sound like something I'd say. As for others saying it, no clue. The usual figure of speech is 'I'll see what I can do,' I think, so it could be I coined my version to mean what I might perceive in the future, but not work that might be done." 
+  order: 281
 - momism: "I'm gonna go turn into a pumpkin" 
   definition: "Go to sleep" 
   order: 44 
@@ -590,6 +595,11 @@
 - momism: "Making a ruckus" 
   definition: "Making a lot of noise" 
   order: 33
+- momism: "Means business" 
+  definition: "Someone is serious about something, especially something about which it's laughable to take seriously" 
+  example: "She may just be playing with blocks but she has the killer baby look--she means business!" 
+  mommentary: "I think 'means business' is a momism only if it's said in a kind of condescending way. Like, a toddler who's playing with blocks with a serious expression on their face 'means business' in a momism sense but not so much an adult who's taking something that's serious seriously" 
+  order: 282
 - momism: "Meemer" 
   definition: "Vacuum cleaner (baby talk)" 
   order: 170
@@ -629,6 +639,11 @@
 - momism: "Not in great shape" 
   definition: "Not feeling well, not in good condition" 
   order: 14
+- momism: "Not out of the woods yet" 
+  definition: "Things are improving but not completely better yet" 
+  example: "I know your fever has gone down but you've still got quite a cough--you're not out of the woods yet!" 
+  order: 280 
+  links: "<img class='img_small' src='/assets/images/Often talking about getting over a cold but not exclusively' alt=''>"
 - momism: "Not to be too much of a linguist" 
   definition: "Mother is definitely too much of a linguist" 
   example: "Not to be too much of a linguist but what a diphtong!" 
