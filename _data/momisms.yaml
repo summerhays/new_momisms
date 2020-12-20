@@ -563,10 +563,18 @@
   definition: "With great speed, intensity, vigour, impact, or success" 
   example: "Don't worry, at restaurants, I tip like gangbusters" 
   order: 175
+- momism: "Like mother, like daughter" 
+  definition: "Modified from like father, like son. In the same manner from generation to generation" 
+  example: "You want to be a librarian? Like mother, like daughter." 
+  order: 283
 - momism: "Linguine listserv" 
   definition: "Mother's linguistics nerd listserv" 
   example: "I'm going to post that interesting link on Second Language Acquisition to the linguine listserv" 
   order: 112
+- momism: "Little" 
+  definition: "Young, a small child" 
+  example: "Your brother was a pain in the rear when he was little." 
+  order: 285
 - momism: "Lord love a duck" 
   definition: "(Exclamation)" 
   order: 72
@@ -860,6 +868,10 @@
   definition: "Imperative: leave" 
   mommentary: "From mom's mom" 
   order: 79
+- momism: "Takes after" 
+  definition: "resembles, inherited a trait," 
+  example: "You really take after your dear old mother" 
+  order: 284
 - momism: "Take off with" 
   definition: "To take" 
   order: 113
