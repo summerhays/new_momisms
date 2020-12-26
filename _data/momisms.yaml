@@ -294,6 +294,10 @@
 - momism: "Full of beans" 
   definition: "Silly" 
   order: 76
+- momism: "Fun a-tall" 
+  definition: "Fun at all" 
+  example: "No more supersized hearts. Bummer. Facebook is no fun a-tall anymore." 
+  order: 286
 - momism: "Gadzooks" 
   order: 31
 - momism: "Garden variety" 
@@ -460,6 +464,11 @@
   definition: "In my opinion" 
   example: "Your friend seems a little daft, in my view" 
   order: 245
+- momism: "In the overall scheme of things" 
+  definition: "All things considered, at the end of the day," 
+  example: "In the overall scheme of things, Facebook may still be useful to me, but it's no fun a-tall!" 
+  mommentary: "Other people don't say that?" 
+  order: 285
 - momism: "In your hot little hands" 
   definition: "In your hands" 
   example: "What channel shall I change to, now that I have the remote in my hot little hands?" 
@@ -571,10 +580,6 @@
   definition: "Mother's linguistics nerd listserv" 
   example: "I'm going to post that interesting link on Second Language Acquisition to the linguine listserv" 
   order: 112
-- momism: "Little" 
-  definition: "Young, a small child" 
-  example: "Your brother was a pain in the rear when he was little." 
-  order: 285
 - momism: "Lord love a duck" 
   definition: "(Exclamation)" 
   order: 72
