@@ -166,6 +166,10 @@
   definition: "Stop that" 
   order: 75 
   links: "<img class='img_small' src='/assets/images/ice.jpg' alt='Ice'>"
+- momism: "Crapola" 
+  definition: "Exclamation, variant of crap." 
+  example: "Crapola, my weather station fell off the salad plate." 
+  order: 287
 - momism: "Cross" 
   definition: "Angry and annoyed, snappish" 
   example: "She was quite cross and corrected me: 'it's woo-wee-sa!'" 
@@ -803,7 +807,7 @@
   order: 247
 - momism: "She could talk the leaves off a tree" 
   definition: "Someone often speaks at great length" 
-  mommentary: "That comes from Debbie Hotch, college roommate" 
+  mommentary: "That comes from a college roommate from Boston" 
   order: 186
 - momism: "Skedaddle" 
   definition: "Leave rapidly" 
