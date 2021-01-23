@@ -259,7 +259,7 @@
   order: 30
 - momism: "Egg-shaped" 
   order: 64
-- momism: "Far cry from [insert the blank]" 
+- momism: "Far cry from" 
   definition: "A long distance away" 
   order: 208
 - momism: "Fewidgewator" 
@@ -450,7 +450,7 @@
   definition: "It's nearing my bedtime; I'm about to turn into a pumpkin" 
   example: "If you want my help cleaning up, ask now. I'm not long for this world" 
   order: 276
-- momism: "If you [insert the blank], your name is dog" 
+- momism: "Your name is dog" 
   definition: "Your name is mud (cat version)" 
   order: 42 
   links: "<img class='img_small' src='/assets/images/name-mud.jpg' alt='Person submerged in mud'>"
