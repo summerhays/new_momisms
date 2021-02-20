@@ -218,7 +218,7 @@
   order: 78
 - momism: "Don't you start"
   definition: "Gesundheit. This is mom's response to a sneeze"
-  example: "Now don't **you** start." 
+  example: "Now, don't <b>you</b> start." 
   order: 288
 - momism: "Doozie" 
   definition: "Something large or excellent" 
