@@ -558,7 +558,6 @@
   order: 270
 - momism: "Let's get this show on the road" 
   definition: "Let's go" 
-  example: "Don't get cross with me!" 
   order: 68
 - momism: "Lickety-split" 
   definition: "Right away" 
@@ -981,6 +980,10 @@
   example: "With my terrific niece and nephews I've got it all, the whole shooting match!" 
   mommentary: "My daughter caught herself saying it the other day, then I said it today" 
   order: 108
+- momism: "Whomp" 
+  definition: "To hit" 
+  example: "I'd better take a walk before we get whomped with another snowstorm" 
+  order: 290
 - momism: "Wink" 
   definition: "A brief nap" 
   example: "I'm going to grab a quick wink" 
