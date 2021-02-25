@@ -216,9 +216,9 @@
 - momism: "Don't go away mad, just go away" 
   definition: "Imperative: leave" 
   order: 78
-- momism: "Don't you start"
-  definition: "Gesundheit. This is mom's response to a sneeze"
-  example: "Now, don't <b>you</b> start." 
+- momism: "Don't you start" 
+  definition: "Gesundheit. This is mom's response to a sneeze" 
+  example: "Now don't **you** start." 
   order: 288
 - momism: "Doozie" 
   definition: "Something large or excellent" 
@@ -454,10 +454,6 @@
   definition: "It's nearing my bedtime; I'm about to turn into a pumpkin" 
   example: "If you want my help cleaning up, ask now. I'm not long for this world" 
   order: 276
-- momism: "Your name is dog" 
-  definition: "Your name is mud (cat version)" 
-  order: 42 
-  links: "<img class='img_small' src='/assets/images/name-mud.jpg' alt='Person submerged in mud'>"
 - momism: "If you ask me" 
   definition: "In my opinion" 
   example: "Your friend seems a little dubious, if you ask me" 
@@ -654,6 +650,10 @@
 - momism: "No spring chicken" 
   definition: "Old" 
   order: 38
+- momism: "No way to live" 
+  definition: "Not particularly fulfilling, not a fun lifestyle." 
+  example: "No FreeGeek and no walks by the lake, this is no way to live" 
+  order: 289
 - momism: "Noggin" 
   definition: "Head" 
   order: 6
@@ -981,7 +981,7 @@
   example: "With my terrific niece and nephews I've got it all, the whole shooting match!" 
   mommentary: "My daughter caught herself saying it the other day, then I said it today" 
   order: 108
-- momism: "Winks" 
+- momism: "Wink" 
   definition: "A brief nap" 
   example: "I'm going to grab a quick wink" 
   order: 188
@@ -1014,6 +1014,10 @@
   definition: "Mother's preferred momism for describing an extraordinary skill" 
   example: "Dearheart, you have such a good eye for composition / Son, you have a great ear for idiosyncrasy" 
   order: 190
+- momism: "Your name is dog" 
+  definition: "Your name is mud (cat version)" 
+  order: 42 
+  links: "<img class='img_small' src='/assets/images/name-mud.jpg' alt='Person submerged in mud'>"
 - momism: "Your name is mud" 
   definition: "You're in trouble" 
   order: 41

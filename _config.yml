@@ -16,7 +16,8 @@ github:
 # Build settings
 markdown: kramdown
 #theme: jekyll-theme-tactile
-#plugins:
+plugins:
+  - jekyll-coffeescript
         #  - jekyll-feed
 
 tipue_search:
