@@ -272,6 +272,7 @@
   order: 200
 - momism: "Figment of my imagination" 
   definition: "Imaginary" 
+  example: "Are you growing or is this a figment of my imagination?" 
   order: 134
 - momism: "Finicky" 
   definition: "Synonym: picky, overly selective" 
@@ -326,6 +327,10 @@
 - momism: "Get boosted" 
   definition: "Get up, rouse" 
   order: 223
+- momism: "Get my act together" 
+  definition: "Getting ready" 
+  example: "I'll need to get my act together to come visit Canada this summer" 
+  order: 292
 - momism: "Give it the old college try" 
   definition: "To attempt something difficult" 
   order: 226
