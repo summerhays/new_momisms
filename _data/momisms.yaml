@@ -683,6 +683,10 @@
 - momism: "On the horn" 
   definition: "On the phone" 
   order: 218
+- momism: "On your case about" 
+  definition: "To nag" 
+  example: "So long as you smell, I'm going to be on your case about wearing deodorant" 
+  order: 294
 - momism: "Ornery" 
   definition: "Grumpy or irritable" 
   order: 11
@@ -886,7 +890,7 @@
   mommentary: "From mom's mom" 
   order: 79
 - momism: "Takes after" 
-  definition: "resembles, inherited a trait," 
+  definition: "Resembles, inherited a trait" 
   example: "You really take after your dear old mother" 
   order: 284
 - momism: "Take off with" 
@@ -921,6 +925,10 @@
 - momism: "Tougher than boiled owl" 
   definition: "Very hard to chew" 
   order: 66
+- momism: "Trial balloon" 
+  definition: "A first try" 
+  example: "Son, as the eldest, you're the trial balloon." 
+  order: 293
 - momism: "Trouper" 
   definition: "A loyal, dependable worker or participant in an undertaking" 
   order: 1
