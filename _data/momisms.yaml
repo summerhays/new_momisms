@@ -7,6 +7,8 @@
   order: 222 
   links: "<img class='img_small' src='/assets/images/chemical-1293762_1280.png' alt='Test tube'>"
 - momism: "According to conventional wisdom" 
+  definition: "I think this is right but if I'm wrong it isn't my fault." 
+  example: "According to conventional wisdom, you'll get a cold if you go to sleep with wet hair." 
   order: 96
 - momism: "After my own heart" 
   definition: "A preferred style" 
@@ -110,6 +112,8 @@
   example: "My son is playing with his new busybox, the piano" 
   order: 138
 - momism: "Butter-side-up" 
+  definition: "A bad thing happened but it could have been worse!" 
+  example: "The dog ran away but we got him home before mom found out, so we're butter-side-up." 
   order: 145 
   links: "<img class='img_small' src='/assets/images/butter_up.jpg' alt='Butter side up'>"
 - momism: "By any stretch of the imagination" 
@@ -617,6 +621,10 @@
 - momism: "Make yourself scarce" 
   definition: "Imperative: leave" 
   order: 77
+- momism: "Make a racket" 
+  definition: "Making loud and continuous noise" 
+  example: "Quit making such a racket; I can't hear myself think" 
+  order: 298
 - momism: "Making a ruckus" 
   definition: "Making a lot of noise" 
   order: 33
@@ -912,6 +920,8 @@
   definition: "It's going to rain really hard" 
   order: 279
 - momism: "Thee and me" 
+  definition: "Me too" 
+  example: "You're annoyed because there's no cheese left? Thee and me, son." 
   order: 62
 - momism: "These parts" 
   definition: "This area or neighbourhood" 
