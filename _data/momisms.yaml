@@ -126,7 +126,7 @@
 - momism: "Can't beat it with a stick!" 
   order: 155
 - momism: "Capisce" 
-  definition: "Mother's favorite Sicilian mafia reference, meaning 'Do you understand?'" 
+  definition: "Mother's favorite Sicilian mafia reference, meaning &ldquo;Do you understand?&rdquo;" 
   order: 26 
   links: "<img class='img_small' src='/assets/images/gotfather.jpg' alt='The Godfather'>"
 - momism: "Cat, stop tenderizing me!" 
@@ -218,7 +218,7 @@
   order: 78
 - momism: "Don't you start" 
   definition: "Gesundheit. This is mom's response to a sneeze" 
-  example: "Now don't **you** start." 
+  example: "Now don't <b>you</b> start." 
   order: 288
 - momism: "Doozie" 
   definition: "Something large or excellent" 
@@ -250,7 +250,7 @@
   order: 146
 - momism: "Duds" 
   definition: "Clothing" 
-  mommentary: "There used to be laundromats with names such as 'Duds and Suds,' back in the day" 
+  mommentary: "There used to be laundromats with names such as &ldquo;Duds and Suds&rdquo; back in the day" 
   order: 262
 - momism: "Dune buggy" 
   order: 128
@@ -287,7 +287,7 @@
   order: 268
 - momism: "Foggiest" 
   definition: "I don't know" 
-  example: "Mom, where's my blender? 'I haven't the foggiest, son'" 
+  example: "Mom, where's my blender? &ldquo;I haven't the foggiest, son&rdquo;" 
   order: 269 
   links: "<img class='img_small' src='/assets/images/fog.jpg' alt='Fog'>"
 - momism: "For the birds" 
@@ -331,6 +331,10 @@
   definition: "Getting ready" 
   example: "I'll need to get my act together to come visit Canada this summer" 
   order: 292
+- momism: "Getting up to" 
+  definition: "Doing" 
+  example: "What are you two getting up to in the cupboard?" 
+  order: 296
 - momism: "Give it the old college try" 
   definition: "To attempt something difficult" 
   order: 226
@@ -429,7 +433,7 @@
   definition: "(Exclamation)" 
   order: 34
 - momism: "Huh-what" 
-  definition: "Mother's odd aspirated h on question words that only began when she 'discovered she does it' in linguistics grad school" 
+  definition: "Mother's odd aspirated h on question words that only began when she &ldquo;discovered she does it&rdquo; in linguistics grad school" 
   example: "But son, huh-why is huh-what a momism? Huh-where did you get that idea and huh-when? Huh-who's idea is this?" 
   order: 103
 - momism: "Hunky-dory" 
@@ -442,7 +446,7 @@
 - momism: "I'll see what I can see" 
   definition: "I have yet to gather evidence to make a conclusion on this topic but I'll look into it" 
   example: "I haven't been down to the Custer Street Fair to look for birthday presents yet, but I'll see what I can see" 
-  mommentary: "Hmm. That does sound like something I'd say. As for others saying it, no clue. The usual figure of speech is 'I'll see what I can do,' I think, so it could be I coined my version to mean what I might perceive in the future, but not work that might be done." 
+  mommentary: "Hmm. That does sound like something I'd say. As for others saying it, no clue. The usual figure of speech is &ldquo;I'll see what I can do,&rdquo; I think, so it could be I coined my version to mean what I might perceive in the future, but not work that might be done." 
   order: 281
 - momism: "I'm gonna go turn into a pumpkin" 
   definition: "Go to sleep" 
@@ -489,7 +493,7 @@
 - momism: "Inquiring moms wish to know" 
   definition: "Someone is curious" 
   example: "Inquiring moms wish to know" 
-  mommentary: "I didn't invent that, you know. It's a variant on 'inquiring minds wish to know'" 
+  mommentary: "I didn't invent that, you know. It's a variant on &ldquo;inquiring minds wish to know&rdquo;" 
   order: 249
 - momism: "[Insert the blank] life" 
   definition: "Good morning" 
@@ -503,7 +507,7 @@
   definition: "Eye-rolling pun" 
   mommentary: "Mom dislikes goat cheese" 
   order: 130
-- momism: "It takes ten 'attaboys' to make up for one 'aw-shit'" 
+- momism: "It takes ten &ldquo;attaboys&rdquo; to make up for one &ldquo;aw-shit&rdquo;" 
   definition: "It's easier to prevent mistakes than to clean them up" 
   mommentary: "Honorary grand-momism" 
   order: 136
@@ -569,7 +573,7 @@
   order: 161
 - momism: "Like a dose of salts" 
   definition: "To consume something quickly" 
-  example: "We'd better buy kefir. You go through it like a dose of salts. *pause* Mom: You'd better go put that on the list" 
+  example: "We'd better buy kefir. You go through it like a dose of salts. <b><i>pause</b></i> Mom: You'd better go put that on the list" 
   order: 117
 - momism: "Like a gemstone in a rock tumbler" 
   definition: "Shaken but not stirred" 
@@ -618,8 +622,8 @@
   order: 33
 - momism: "Means business" 
   definition: "Someone is serious about something, especially something about which it's laughable to take seriously" 
-  example: "She may just be playing with blocks but she has the killer baby look--she means business!" 
-  mommentary: "I think 'means business' is a momism only if it's said in a kind of condescending way. Like, a toddler who's playing with blocks with a serious expression on their face 'means business' in a momism sense but not so much an adult who's taking something that's serious seriously" 
+  example: "She may just be playing with blocks but she has the killer baby look — she means business!" 
+  mommentary: "I think &ldquo;means business&rdquo; is a momism only if it's said in a kind of condescending way. Like, a toddler who's playing with blocks with a serious expression on their face &ldquo;means business&rdquo; in a momism sense but not so much an adult who's taking something that's serious seriously" 
   order: 282
 - momism: "Meemer" 
   definition: "Vacuum cleaner (baby talk)" 
@@ -634,6 +638,10 @@
 - momism: "More power to you, (son!)" 
   definition: "The usual definition is that one approves of what someone is doing and hopes it will be successful. However, in mom's case, there is also a skepticism that the scheme will be successful" 
   order: 193
+- momism: "Mouthy One" 
+  definition: "Nicknames for our cat Milo" 
+  example: "The Mouthy One has been fed but is still giving me an earful" 
+  order: 297
 - momism: "My brain went whiffle" 
   definition: "Synonym: I had a senior moment" 
   order: 215
@@ -773,7 +781,7 @@
   order: 212
 - momism: "Regular gulley-washer" 
   definition: "A powerful rainstorm" 
-  example: "Mom: 'It was a gully washer!' Me: 'What's a gully washer?' Mom: 'It's a momism, dear'" 
+  example: "Mom: &ldquo;It was a regular gully washer!&rdquo; Me: &ldquo;What's a gully washer?&rdquo; Mom: &ldquo;It's a momism, dear&rdquo;" 
   mommentary: "A regular gully-washer means it was a doozy of a rainstorm. The gully-washer is from the Texas side of the family, I believe." 
   order: 100
 - momism: "Roaring Around" 
@@ -797,7 +805,7 @@
 - momism: "Scads" 
   definition: "Many, lots, an abundance of" 
   example: "There are scads of people in the grocery store today--what is this, the day before Thanksgiving?" 
-  mommentary: "Other people don't say 'scads'? Yet another Momism surprises the Mom. <3" 
+  mommentary: "Other people don't say &ldquo;scads&rdquo;? Yet another Momism surprises the Mom. <3" 
   order: 278
 - momism: "Scarcer than hen's teeth" 
   definition: "Extremely rare, nonexistent" 
@@ -898,7 +906,7 @@
   order: 113
 - momism: "Taken with" 
   definition: "To like" 
-  example: "My daughter was quite taken with 'woo-wee-sa'" 
+  example: "My daughter was quite taken with &ldquo;woo-wee-sa&rdquo;" 
   order: 233
 - momism: "The bottom is going to drop out" 
   definition: "It's going to rain really hard" 
@@ -952,7 +960,7 @@
 - momism: "Volunteer" 
   definition: "A plant that grows spontaneously in the garden" 
   example: "I planted these and those, but those mystery flowers and the tomatoes are both volunteers!" 
-  mommentary: "Volunteers' is (or was) just ordinary gardening jargon. I have no idea how commonly used the word is in the modern era, especially outside the south..." 
+  mommentary: "&ldquo;Volunteers&rdquo; is (or was) just ordinary gardening jargon. I have no idea how commonly used the word is in the modern era, especially outside the south..." 
   order: 263 
   links: "<img class='img_small' src='/assets/images/volunteer.png' alt='Volunteer anyone?'>"
 - momism: "Went belly-up" 
@@ -969,7 +977,7 @@
   example: "Who got into the cookies?" 
   order: 183
 - momism: "What is the <b>matter</b> with you?!" 
-  definition: "&ldquo;Gadzooks!&rdquo; Mom demands &ldquo;what is the <b>matter</b> with you&rdquo; with a &ldquo;head of steam&rdquo; when she wants to know what &ldquo;hare brained scheme&rdquo; we &ldquo;dubious&rdquo; youngsters are getting up to, and whether we're &ldquo;in cahoots&rdquo; or &ldquo;roaring around&rdquo; alone" 
+  definition: "&ldquo;Gadzooks!&rdquo; Mom demands &ldquo;what is the <b>matter</b> with you&rdquo; with a &ldquo;head of steam&rdquo; when she wants to know what &ldquo;hare brained scheme&rdquo; we &ldquo;dubious&rdquo; youngsters are &ldquo;getting up to&rdquo;, and whether we're &ldquo;in cahoots&rdquo; or &ldquo;roaring around&rdquo; alone" 
   example: "What is the <b>matter</b> with you, feline — do you have kibbles for brains or are you just suicidal?" 
   order: 295
 - momism: "What-all" 
@@ -991,7 +999,7 @@
   order: 139
 - momism: "Whole shebangdasium" 
   definition: "The whole shebang, everything, the entire thing" 
-  mommentary: "Kind of like 'the whole nine yards'" 
+  mommentary: "Kind of like &ldquo;the whole nine yards&rdquo;" 
   order: 140
 - momism: "Whole shooting match" 
   definition: "The whole thing" 
@@ -1010,14 +1018,14 @@
   order: 171
 - momism: "Wonders never cease" 
   definition: "This is a surprising turn of events, how out of character for you" 
-  example: "Wonders never cease! First, adolescent life before noon and NOW you're doing the dishes willingly?" 
+  example: "Wonders never cease! First, adolescent life before noon and <b>now</b> you're doing the dishes willingly?" 
   order: 291
 - momism: "Woo-wee-sa" 
   definition: "Kidism for Louisa" 
-  mommentary: "My daughter used to be very taken with our neighbor Louisa except she pronounced it Eww-eesa. Mom started imitating her, saying 'eww-wee-sa' but she crossly corrected mother to 'woo-wee-sa'. This same daughter also used to spell Emily’s name 'MOE'" 
+  mommentary: "My daughter used to be very taken with our neighbor Louisa except she pronounced it Eww-eesa. Mom started imitating her, saying &ldquo;eww-wee-sa&rdquo; but she crossly corrected mother to &ldquo;woo-wee-sa.&rdquo; This same daughter also used to spell Emily’s name &ldquo;MOE&rdquo;" 
   order: 231
 - momism: "Wooze" 
-  definition: "Kidism for 'lose'" 
+  definition: "Kidism for &ldquo;lose&rdquo;" 
   example: "Here's my pen but don’t wooze it" 
   order: 230
 - momism: "Worrywart" 
@@ -1033,7 +1041,7 @@
   order: 232
 - momism: "Yes, cat. no, cat. maybe, cat" 
   definition: "Expression of sarcastic subordination to the cat" 
-  mommentary: "I think that one evolved during life with Milo, who I also referred to as 'The Mouthy One,' since she was always giving me an earful. Momism?" 
+  mommentary: "I think that one evolved during life with Milo, who I also referred to as &rdquo;The Mouthy One&rdquo; since she was always giving me an earful. Momism?" 
   order: 154
 - momism: "You have such a good [body part] for [task]" 
   definition: "Mother's preferred momism for describing an extraordinary skill" 
