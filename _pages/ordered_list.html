@@ -1,0 +1,43 @@
+---
+title: <i class="fas fa-clipboard-list down_a_bit"></i>&nbsp;The Full List in Chronological Order
+id: chrono_list
+---
+{% assign modulo = 10 %}
+<p>All <a href="/ordered_list.html" class="nolink nohover">{{ site.data.momisms.size }}</a> momisms in chronological order (<a href=/list>in alphabetical order here</a>)</p>
+<p>Click to see Mommentary, definitions (where known...), and some examples. If unavailable, <a href="/contribute.html">contribute one</a>.</p>
+<p>Or simulate conversation with our mother by hearing a <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="randomMomism()">random momism</button></p>
+<div class=center>
+  <span><button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="openAll()">Open all</button>&nbsp;
+  <button class="randombtn color-triad-2 w3-round-large w3-border w3-ripple" onclick="closeAll()">Close all</button>&nbsp;
+<div>&nbsp;</div>
+</div>
+<div class="center">
+	{% comment %}The code below is the numbered link at the top{% endcomment %}
+	{% assign ordering = site.data.momisms | sort: "order" %}
+{% assign counter = 0 %}{% for each in ordering %}{% assign modulo_slice = each.order | modulo: modulo %}
+   {% if modulo_slice == 0 or each.order == 1 %}
+{% assign counter = counter | plus: 1 %}
+<a class="larger_font darkturquoise" href="#{{ each.order }}">{{ each.order }}</a>&nbsp; {% if counter == 13 %}<br class="mobile_only">{% assign counter = 0 %}{% endif %}{% endif %}{% endfor %}</div>
+<div>&nbsp;</div>
+<div id="myDropdown" class="dropdown-content">
+	{% comment %}This is the filter{% endcomment %}
+      <input label="Filter momism list" class="w3-input w3-border w3-round" type="search" autocomplete=off placeholder="Filter by momism..." id="myInput" onkeyup="filterFunction(this)" onsearch="filterFunction(this)">
+      <div>
+{% assign counter = 0 %}{% assign modulo_slice = 0 %}
+{% for each in ordering %}{% assign counter = counter | plus: 1 %}{% assign modulo_slice = each.order | modulo: modulo %}
+{% if modulo_slice == 0 or each.order == 1 %}
+</div>
+<div class="sticky_anchor stanchor">
+<div class="filterbye">&nbsp;</div>
+<div class="abc"><a name="{{ each.order }}" class="nohover textwhite">&nbsp; {{ each.order }}</a></div>{% endif %}
+<button id="momism_id{{ each.order }}" onclick="toggleAccordion('{{ each.order }}')" class="list_button smiley turquoise wrap fix_anchor"><i id="caret{{ each.order }}" class="fas fa-caret-right caret"></i> &nbsp;&nbsp;{{ each.order }}. {{ each.momism }}</button>
+<div id="momism{{ each.order }}" class="w3-hide w3-container list_div">
+	<p>{% if each.definition %}{{ each.definition }}{% else %}<em>Definition unknown. <a href="/contribute.html">Contribute</a> one</em>{% endif %}</p>
+    {% if each.example %}<p><em>{{ each.example }}</em></p>{% endif %}
+    {% if each.mommentary %}<p>Mommentary: {{ each.mommentary }}</p>{% endif %}
+    {% if each.links and each.links != "" %}{% assign imgs = each.links | split: ", " %}<div class="gallery"><ul class="gallery__list">{% for img in imgs %}<li><figure>{{ img }}</figure></li>{% endfor %}</ul></div>{% endif %}
+    <p><a id="id{{ each.order }}" href="/ordered_list.html#momism_id{{ each.order }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ each.order }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ each.order }}">Copy to clipboard</span></a>)</span></p>
+</div>
+{% endfor %}
+<script src="/assets/js/filter.js"></script>
+<script src="/assets/js/copy.js"></script>

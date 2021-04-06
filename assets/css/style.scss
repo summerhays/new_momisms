@@ -334,7 +334,7 @@ input:checked + .slider:before {
 
 .nolink,.nolink:hover,.nolink:visited, .nolink:link {
     text-decoration: none;
-    cursor: pointer;
+    cursor: default;
    }
 
 .nohover:hover {
