@@ -1,6 +1,6 @@
 ---
 title: Full List
-id: old_list
+id: old_old_list
 ---
 # All momisms (245+)
 ### And their definitions (where known...)
