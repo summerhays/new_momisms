@@ -312,7 +312,7 @@
   rand: 47 
   dup: "no"
 - day: 100 
-  rand: 120 
+  rand: 118 
   dup: "no"
 - day: 101 
   rand: 280 
@@ -460,7 +460,7 @@
   rand: 158 
   dup: "no"
 - day: 146 
-  rand: 130 
+  rand: 132 
   dup: "no"
 - day: 147 
   rand: 135 
@@ -479,7 +479,7 @@
   rand: 101 
   dup: "yes"
 - day: 152 
-  rand: 118 
+  rand: 120 
   dup: "no"
 - day: 153 
   rand: 327 
@@ -1103,7 +1103,7 @@
   rand: 245 
   dup: "yes"
 - day: 347 
-  rand: 132 
+  rand: 130 
   dup: "no"
 - day: 348 
   rand: 199 

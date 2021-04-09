@@ -2,7 +2,7 @@
 title: <i class="far fa-lightbulb"></i>&nbsp; Miami English
 id: resources
 ---
-Not to be too much of a linguist (#[107](/list.html#momism_id107)), but here are some links about "Florida cracker" and Miami English:
+Not to be too much of a linguist (#[109](/list.html#momism_id109)), but here are some links about "Florida cracker" and Miami English:
 
 ### Highlights
 * [‘Miami English’ and the Linguistic Oddness of South Florida: South Beach speech is like no other](https://www.atlasobscura.com/articles/miami-accent){: target="_blank"}
