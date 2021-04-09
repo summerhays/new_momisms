@@ -285,14 +285,14 @@
   alt: 180 
   dup: "no"
 - day: 91 
-  rand: 35 
-  dup: "yes"
+  rand: 10 
+  dup: "no"
 - day: 92 
   rand: 112 
   dup: "no"
 - day: 93 
-  rand: 4 
-  dup: "yes"
+  rand: 32 
+  dup: "no"
 - day: 94 
   rand: 262 
   dup: "yes"
@@ -301,7 +301,7 @@
   dup: "no"
 - day: 96 
   rand: 72 
-  dup: "yes"
+  dup: "no"
 - day: 97 
   rand: 23 
   dup: "no"
@@ -327,7 +327,7 @@
   rand: 39 
   dup: "no"
 - day: 105 
-  rand: 130 
+  rand: 127 
   dup: "no"
 - day: 106 
   rand: 287 
@@ -411,7 +411,7 @@
   rand: 244 
   dup: "no"
 - day: 131 
-  rand: 32 
+  rand: 4 
   dup: "yes"
 - day: 132 
   rand: 141 
@@ -425,7 +425,7 @@
   alt: 167 
   dup: "no"
 - day: 135 
-  rand: 254 
+  rand: 14 
   dup: "no"
 - day: 136 
   rand: 232 
@@ -440,7 +440,7 @@
   rand: 99 
   dup: "yes"
 - day: 140 
-  rand: 14 
+  rand: 254 
   dup: "no"
 - day: 141 
   rand: 365 
@@ -460,7 +460,7 @@
   rand: 158 
   dup: "no"
 - day: 146 
-  rand: 127 
+  rand: 130 
   dup: "no"
 - day: 147 
   rand: 135 
@@ -479,7 +479,7 @@
   rand: 101 
   dup: "yes"
 - day: 152 
-  rand: 114 
+  rand: 118 
   dup: "no"
 - day: 153 
   rand: 327 
@@ -517,7 +517,6 @@
   dup: "no"
 - day: 163 
   rand: 298 
-  alt: 32 
   dup: "no"
 - day: 164 
   rand: 133 
@@ -683,7 +682,6 @@
   dup: "no"
 - day: 215 
   rand: 297 
-  alt: 72 
   dup: "no"
 - day: 216 
   rand: 58 
@@ -832,46 +830,46 @@
   dup: "no"
 - day: 263 
   rand: 200 
-  dup: "no"
+  dup: "yes"
 - day: 264 
   rand: 317 
   alt: 40 
-  dup: "yes"
+  dup: "no"
 - day: 265 
   rand: 229 
   dup: "no"
 - day: 266 
   rand: 172 
-  dup: "no"
+  dup: "yes"
 - day: 267 
   rand: 329 
   alt: 145 
-  dup: "yes"
+  dup: "no"
 - day: 268 
   rand: 272 
   dup: "no"
 - day: 269 
   rand: 175 
-  dup: "no"
+  dup: "yes"
 - day: 270 
   rand: 3 
   dup: "no"
 - day: 271 
   rand: 180 
-  dup: "no"
+  dup: "yes"
 - day: 272 
   rand: 364 
   alt: 53 
-  dup: "yes"
+  dup: "no"
 - day: 273 
   rand: 108 
   dup: "no"
 - day: 274 
   rand: 319 
   alt: 22 
-  dup: "yes"
+  dup: "no"
 - day: 275 
-  rand: 118 
+  rand: 114 
   dup: "no"
 - day: 276 
   rand: 247 
@@ -884,17 +882,17 @@
   dup: "no"
 - day: 279 
   rand: 53 
-  dup: "no"
+  dup: "yes"
 - day: 280 
   rand: 115 
-  dup: "no"
+  dup: "yes"
 - day: 281 
   rand: 96 
-  dup: "no"
+  dup: "yes"
 - day: 282 
   rand: 333 
   alt: 61 
-  dup: "yes"
+  dup: "no"
 - day: 283 
   rand: 275 
   dup: "no"
@@ -906,52 +904,52 @@
   dup: "no"
 - day: 286 
   rand: 152 
-  dup: "no"
+  dup: "yes"
 - day: 287 
   rand: 29 
-  dup: "no"
+  dup: "yes"
 - day: 288 
   rand: 45 
-  dup: "no"
+  dup: "yes"
 - day: 289 
   rand: 339 
   alt: 69 
-  dup: "yes"
+  dup: "no"
 - day: 290 
   rand: 305 
   alt: 224 
-  dup: "yes"
+  dup: "no"
 - day: 291 
   rand: 227 
   dup: "no"
 - day: 292 
   rand: 320 
   alt: 268 
-  dup: "yes"
+  dup: "no"
 - day: 293 
   rand: 309 
   alt: 92 
-  dup: "yes"
+  dup: "no"
 - day: 294 
   rand: 312 
   alt: 18 
-  dup: "yes"
+  dup: "no"
 - day: 295 
   rand: 81 
   dup: "no"
 - day: 296 
   rand: 66 
-  dup: "no"
+  dup: "yes"
 - day: 297 
   rand: 60 
-  dup: "no"
+  dup: "yes"
 - day: 298 
   rand: 69 
-  dup: "no"
+  dup: "yes"
 - day: 299 
   rand: 313 
   alt: 233 
-  dup: "yes"
+  dup: "no"
 - day: 300 
   rand: 15 
   dup: "no"
@@ -961,7 +959,7 @@
 - day: 302 
   rand: 356 
   alt: 197 
-  dup: "yes"
+  dup: "no"
 - day: 303 
   rand: 236 
   dup: "no"
@@ -977,25 +975,25 @@
 - day: 307 
   rand: 299 
   alt: 13 
-  dup: "yes"
+  dup: "no"
 - day: 308 
   rand: 146 
   dup: "no"
 - day: 309 
   rand: 352 
   alt: 99 
-  dup: "yes"
+  dup: "no"
 - day: 310 
   rand: 360 
   alt: 29 
-  dup: "yes"
+  dup: "no"
 - day: 311 
   rand: 131 
   dup: "no"
 - day: 312 
   rand: 363 
   alt: 250 
-  dup: "yes"
+  dup: "no"
 - day: 313 
   rand: 281 
   dup: "no"
@@ -1010,20 +1008,20 @@
   dup: "no"
 - day: 317 
   rand: 90 
-  dup: "no"
+  dup: "yes"
 - day: 318 
   rand: 331 
   alt: 182 
-  dup: "yes"
+  dup: "no"
 - day: 319 
   rand: 279 
-  dup: "no"
+  dup: "yes"
 - day: 320 
   rand: 164 
-  dup: "no"
+  dup: "yes"
 - day: 321 
   rand: 48 
-  dup: "no"
+  dup: "yes"
 - day: 322 
   rand: 57 
   dup: "no"
@@ -1032,18 +1030,18 @@
   dup: "no"
 - day: 324 
   rand: 20 
-  dup: "no"
+  dup: "yes"
 - day: 325 
   rand: 84 
   dup: "no"
 - day: 326 
   rand: 345 
   alt: 115 
-  dup: "yes"
+  dup: "no"
 - day: 327 
   rand: 301 
   alt: 4 
-  dup: "yes"
+  dup: "no"
 - day: 328 
   rand: 294 
   dup: "no"
@@ -1059,7 +1057,7 @@
 - day: 332 
   rand: 314 
   alt: 48 
-  dup: "yes"
+  dup: "no"
 - day: 333 
   rand: 243 
   dup: "no"
@@ -1080,10 +1078,10 @@
   dup: "no"
 - day: 339 
   rand: 163 
-  dup: "no"
+  dup: "yes"
 - day: 340 
   rand: 56 
-  dup: "no"
+  dup: "yes"
 - day: 341 
   rand: 231 
   dup: "no"
@@ -1092,18 +1090,18 @@
   dup: "no"
 - day: 343 
   rand: 171 
-  dup: "no"
+  dup: "yes"
 - day: 344 
   rand: 300 
   alt: 219 
-  dup: "yes"
+  dup: "no"
 - day: 345 
   rand: 328 
   alt: 171 
-  dup: "yes"
+  dup: "no"
 - day: 346 
   rand: 245 
-  dup: "no"
+  dup: "yes"
 - day: 347 
   rand: 132 
   dup: "no"
@@ -1124,16 +1122,16 @@
   dup: "no"
 - day: 353 
   rand: 174 
-  dup: "no"
+  dup: "yes"
 - day: 354 
   rand: 274 
   dup: "no"
 - day: 355 
   rand: 208 
-  dup: "no"
+  dup: "yes"
 - day: 356 
   rand: 221 
-  dup: "no"
+  dup: "yes"
 - day: 357 
   rand: 207 
   dup: "no"
@@ -1150,16 +1148,16 @@
   rand: 21 
   dup: "no"
 - day: 362 
-  rand: 10 
-  dup: "no"
+  rand: 35 
+  dup: "yes"
 - day: 363 
   rand: 366 
   alt: 164 
-  dup: "yes"
+  dup: "no"
 - day: 364 
   rand: 357 
   alt: 174 
-  dup: "yes"
+  dup: "no"
 - day: 365 
   rand: 46 
   dup: "no"
