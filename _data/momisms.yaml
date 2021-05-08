@@ -144,12 +144,12 @@
   example: "My son is playing with his new busybox, the piano" 
   date: "12/22/2010" 
   order: 143
-- momism: "Butter-side-up" 
+- momism: "Butter-side up" 
   definition: "A bad thing happened but it could have been worse!" 
-  example: "The dog ran away but we got him home before mom found out, so we're butter-side-up." 
+  example: "The dog ran away but we got him home before mom found out, so we're butter-side up." 
   date: "1/31/2011" 
   order: 149 
-  links: "<img class='img_small' src='/assets/images/butter_up.jpg' alt='Butter side up'>"
+  links: "<img class='img_small' src='/assets/images/butter_up.jpg' alt='Butter-side up'>"
 - momism: "By any stretch of the imagination" 
   date: "7/14/2013" 
   order: 205 
@@ -181,6 +181,11 @@
   definition: "To criticize" 
   date: "7/11/2012" 
   order: 187
+- momism: "Chin over the sink" 
+  definition: "To prevent crumbs, mom asked her children to eat with their chin over a plate/trash can/sink" 
+  mommentary: "Also known as chin over the trash can and chin over a plate" 
+  date: "4/18/2021" 
+  order: 302
 - momism: "Chowhound" 
   definition: "Big eater" 
   example: "She's being a real chow hound — I think she might be in a growth spurt!" 
@@ -215,6 +220,11 @@
   date: "3/8/2009" 
   order: 75 
   links: "<img class='img_small' src='/assets/images/ice.jpg' alt='Ice'>"
+- momism: "Coot" 
+  definition: "Someone confused, often because of age" 
+  example: "The ability to understand the smart phone is evading this old coot" 
+  date: "4/30/2021" 
+  order: 303
 - momism: "Copacetic" 
   definition: "All good, ok" 
   example: "Now that the squirrels have decided to leave my tomatoes alone, things are copacetic in the yard." 
@@ -1360,6 +1370,11 @@
   example: "Here's my pen but don’t wooze it" 
   date: "7/11/2018" 
   order: 230
+- momism: "Worrisome" 
+  definition: "Concerning" 
+  example: "That half American voters would choose George the Younger is worrisome in my view" 
+  date: "5/7/2021" 
+  order: 304
 - momism: "Worrywart" 
   definition: "Someone with a tendency to worry habitually, often needlessly" 
   date: "2/20/2009" 

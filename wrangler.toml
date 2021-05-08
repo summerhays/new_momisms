@@ -1,0 +1,9 @@
+name = "kv-momisms"
+type = 'webpack'
+account_id = '97b3978c8a470e685d89c08486f64a8f'
+route = 'https://mom.summerhays.net/*'
+zone_id = '779c6b4c4d644bb3598298c893daa1d8'
+usage_model = ''
+workers_dev = false
+target_type = "webpack"
+site = {bucket = "./_site",entry-point = "workers-site"}
