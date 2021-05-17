@@ -125,6 +125,11 @@
   date: "1/29/2009" 
   order: 35 
   links: "<img class='img_small' src='/assets/images/wall_bounce.jpg' alt='Wall bouncing'>"
+- momism: "Brown boy" 
+  definition: "Her eldest son" 
+  mommentary: "Considering his English heritage, I couldn't believe what a tan he could get!" 
+  date: "5/11/2021" 
+  order: 307
 - momism: "Bug in their ear about something" 
   example: "We'll try to put a bug in his ear about that" 
   date: "4/14/2009" 
@@ -907,6 +912,8 @@
   date: "11/1/2009" 
   order: 109
 - momism: "Nothing left of [someone] but a grease spot" 
+  definition: "An extreme experience, as in spontaneous combustion." 
+  mommentary: "Mom added this definition." 
   date: "2/13/2009" 
   order: 61
 - momism: "Oldie but a goodie" 
@@ -953,6 +960,11 @@
   definition: "Irritating" 
   date: "4/15/2009" 
   order: 85
+- momism: "Perch" 
+  definition: "Spot, lookout point" 
+  example: "The cat's favorite perch on the stairway" 
+  date: "5/12/2021" 
+  order: 306
 - momism: "Perfunctory" 
   date: "9/28/2009" 
   order: 103
@@ -1176,6 +1188,12 @@
   example: "Suffice it to say that the judge was furious when the invitation was withdrawn" 
   date: "1/29/2009" 
   order: 34
+- momism: "Super duper" 
+  definition: "Extraordinary" 
+  example: "Your family doctor was super duper." 
+  mommentary: "I got that from my supervisor in academic medicine. He's from the Bronx: &ldquo;supa dupa!&rdquo; What ever happened to the Rs?" 
+  date: "5/11/2021" 
+  order: 305
 - momism: "Sure as God made little green apples" 
   definition: "Certain" 
   date: "1/29/2009" 
