@@ -737,7 +737,9 @@
   date: "1/28/2009" 
   order: 11
 - momism: "Kiddely / kididely" 
-  definition: "Kids" 
+  definition: "Kids. Pronounced kiddle-ee" 
+  example: "You kiddlies and your busy boxes — David has his piano and now this!" 
+  mommentary: "Mareseatoatsanddoeseatoatsandlittlelambseativy, akid'lleativytoo, wouldn'tyou-ooo? I can't say that I coined kiddlie, but I've certainly done my part to perpetrate the word!" 
   date: "1/30/2013" 
   order: 198
 - momism: "Killer baby" 
@@ -1059,6 +1061,11 @@
   mommentary: "A regular gully-washer means it was a doozy of a rainstorm. The gully-washer is from the Texas side of the family, I believe." 
   date: "10/11/2009" 
   order: 106
+- momism: "Ride herd on" 
+  definition: "Surveil, keep close watch on" 
+  example: "Make sure someone rides herd on you after your vaccine" 
+  date: "5/26/2021" 
+  order: 308
 - momism: "Roaring Around" 
   date: "1/29/2009" 
   order: 16
@@ -1347,6 +1354,7 @@
   date: "7/24/2019" 
   order: 240
 - momism: "Whole kit and kaboodle" 
+  definition: "A bit like the whole nine yards; the entirety of, the whole set." 
   date: "6/14/2009" 
   order: 99
 - momism: "Whole shebangdasium" 
