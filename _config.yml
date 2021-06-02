@@ -16,7 +16,8 @@ github:
 # Build settings
 markdown: kramdown
 #theme: jekyll-theme-tactile
-#plugins:
+plugins:
+  - jemoji
 #  - jekyll-coffeescript
 #        #  - jekyll-feed
 

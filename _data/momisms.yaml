@@ -1,5 +1,6 @@
 - momism: "Abscond with" 
   definition: "To take" 
+  example: "The cat absconded with my sock in her mouth." 
   date: "4/1/2010" 
   order: 121
 - momism: "Academic medicine" 
@@ -376,6 +377,12 @@
   example: "*burp* Fermenter-mom lives!" 
   date: "3/22/2011" 
   order: 156
+- momism: "Fetch" 
+  definition: "Get" 
+  example: "Can you fetch me my glasses?" 
+  mommentary: "Kids: we're not dogs you know. Mom: Nonetheless, you three are very fetching!" 
+  date: "6/1/2021" 
+  order: 310
 - momism: "Fewidgewator" 
   definition: "Refridgerator" 
   mommentary: "Among my favorite kidisms; comes from blue-eyes" 
@@ -402,7 +409,7 @@
   order: 270
 - momism: "Foggiest" 
   definition: "I don't know" 
-  example: "Mom, where's my blender? &ldquo;I haven't the foggiest, son&rdquo;" 
+  example: "Mom, where's my blender? &ldquo;I haven't the foggiest, son.&rdquo;" 
   date: "7/26/2020" 
   order: 271 
   links: "<img class='img_small' src='/assets/images/fog.jpg' alt='Fog'>"
@@ -962,6 +969,12 @@
   definition: "Irritating" 
   date: "4/15/2009" 
   order: 85
+- momism: "Park oneself on" 
+  definition: "To sit" 
+  example: "I’m going to go park myself on a bench by Lake Michigan while you three go to the bathroom." 
+  mommentary: "I think that when I come up with a momism (give or take), I'm oftentimes trying to make an ordinary turn of phrase into something more interesting. "Get" is pretty ho-hum, "fetch" is a more interesting (& less often-used) equivalent; "sit," yawn, "park oneself," say what? I'm trying to fight linguistic boredom one momism at a time." 
+  date: "6/1/2021" 
+  order: 309
 - momism: "Perch" 
   definition: "Spot, lookout point" 
   example: "The cat's favorite perch on the stairway" 
@@ -1198,7 +1211,7 @@
 - momism: "Super duper" 
   definition: "Extraordinary" 
   example: "Your family doctor was super duper." 
-  mommentary: "I got that from my supervisor in academic medicine. He's from the Bronx: &ldquo;supa dupa!&rdquo; What ever happened to the Rs?" 
+  mommentary: "I got that from my supervisor in academic medicine. He's from the Bronx: &ldquo;supa dupa!&rdquo; What ever happened to the R?" 
   date: "5/11/2021" 
   order: 305
 - momism: "Sure as God made little green apples" 
@@ -1231,7 +1244,7 @@
   order: 119
 - momism: "Taken with" 
   definition: "To like" 
-  example: "My daughter was quite taken with &ldquo;woo-wee-sa&rdquo;" 
+  example: "My daughter was quite taken with &ldquo;woo-wee-sa.&rdquo;" 
   date: "7/12/2018" 
   order: 234
 - momism: "Tenderizing" 
