@@ -12,7 +12,7 @@ id: chrono_list
 </div>
 <div class="center">
 	{% comment %}The code below is the numbered link at the top{% endcomment %}
-	{% assign ordering = site.data.mom-csv | sort: "order" %}
+	{% assign ordering = site.data.mom-csv | sort: "sort_order" %}
 {% assign counter = 0 %}{% for each in ordering %}{% assign modulo_slice = each.order | modulo: modulo %}
    {% if modulo_slice == 0 or each.order == 1 %}
 {% assign counter = counter | plus: 1 %}
