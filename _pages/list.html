@@ -24,19 +24,20 @@ id: list
       <input label="Filter momism list" class="w3-input w3-border w3-round" type="search" autocomplete=off placeholder="Filter by momism..." id="myInput" onkeyup="filterFunction(this)" onsearch="filterFunction(this)">
       <div>
 {% for each in alpha_order %}{% assign counter = counter | plus: 1 %}{% assign nowslice = each.momism | slice: 0 %}
+{% assign order_integer = each.order | plus: 0 %}
 {% if nowslice == "[" %}{% assign nowslice = each.momism | slice: 1 %}{% endif %}
 {% unless nowslice == abc %}{% assign abc = each.momism | slice: 0 %}{% if abc == "[" %}{% assign abc = each.momism | slice: 1 %}{% endif %}
 </div>
 <div class="sticky_anchor stanchor">
 <div class="filterbye">&nbsp;</div>
 <div class="abc"><a name="{{ abc }}" class="nohover textwhite">&nbsp; {{ abc }}</a></div>{% endunless %}
-<button id="momism_id{{ each.order }}" onclick="toggleAccordion('{{ each.order }}')" class="list_button smiley turquoise wrap fix_anchor"><i id="caret{{ each.order }}" class="fas fa-caret-right caret"></i> &nbsp;&nbsp;{{ each.momism }}</button>
-<div id="momism{{ each.order }}" class="w3-hide w3-container list_div">
+<button id="momism_id{{ order_integer }}" onclick="toggleAccordion('{{ order_integer }}')" class="list_button smiley turquoise wrap fix_anchor"><i id="caret{{ order_integer }}" class="fas fa-caret-right caret"></i> &nbsp;&nbsp;{{ each.momism }}</button>
+<div id="momism{{ order_integer }}" class="w3-hide w3-container list_div">
 	<p>{% if each.definition %}{% assign defslice = each.definition | slice: -1 %}{{ each.definition }}{% unless defslice == "." or defslice == "?" or defslice == "!" or defslice == ";" %}.{% endunless %}{% else %}<em>Definition unknown. <a href="/contribute">Contribute one</a>.</em>{% endif %}</p>
     {% if each.example %}{% assign exampleslice = each.example | slice: -1 %}<p><em>{{ each.example }}{% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";" %}.{% endunless %}</em></p>{% endif %}
     {% if each.mommentary %}{% assign mommentaryslice = each.mommentary | slice: -1 %}<p>Mommentary: {{ each.mommentary }}{% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" %}.{% endunless %}</p>{% endif %}
     {% if each.links and each.links != "" %}{% assign imgs = each.links | split: ", " %}<div class="gallery"><ul class="gallery__list">{% for img in imgs %}<li><figure>{{ img }}</figure></li>{% endfor %}</ul></div>{% endif %}
-    <p>Momism ID #{{ each.order }}<a id="id{{ each.order }}" href="/list.html#momism_id{{ each.order }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ each.order }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ each.order }}">Copy to clipboard</span></a>)</span>, identified on {{ each.date }}.</p>
+    <p>Momism ID #{{ order_integer }}<a id="id{{ order_integer }}" href="/list.html#momism_id{{ order_integer }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ order_integer }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ order_integer }}">Copy to clipboard</span></a>)</span>, identified on {{ each.date }}.</p>
 </div>
 {% endfor %}
 <script src="/assets/js/filter.js"></script>

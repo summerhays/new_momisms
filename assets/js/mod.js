@@ -5,7 +5,7 @@ var allMomisms = [
 ];
 
 var randomNum = [
-{% for each in site.data.randday %}{day: {{ each.day }}, rand: {% if each.rand > site.data.mom-csv.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}}, {% endfor %}
+{% for each in site.data.randday %}{day: {{ each.day }}, rand: "{% comment %}Random momisms aren't yet stored as integers, so this makes the string an integer. Then, if the momism ID for the day is greater than the number of momisms, it assigns the alternate{% endcomment %}{% assign randy = each.rand | plus: 0 %}{% if randy > site.data.mom-csv.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}"}, {% endfor %}
 ];
 
 var today=new Date();
@@ -50,6 +50,7 @@ var defFinal =  arrayFinal.definition;
 var exFinal = arrayFinal.example;
 var mommFinal = arrayFinal.mommentary;
 var idFinal = arrayFinal.momism_id;
+var idFinalInteger = parseInt(idFinal, 10);
 var linkFinal = '/list.html#momism_id' + idFinal;
 
 document.getElementById("randomMom").innerHTML = modFinal;
@@ -75,7 +76,7 @@ if (typeof mommFinal === 'undefined') {
 } else {
   document.getElementById("randomMommentary").innerHTML = mommFinal;
 }
-document.getElementById("randomID").innerHTML = idFinal;
+document.getElementById("randomID").innerHTML = idFinalInteger;
 document.getElementById("today").innerHTML = today_date;
 document.getElementById("linkFinal2").href = linkFinal;
 // document.getElementById("linkFinal").setAttribute("href", linkFinal)
