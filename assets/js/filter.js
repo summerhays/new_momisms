@@ -55,7 +55,9 @@ function openAll() {
 }
 function closeAll() {
   for (i = 1; i < (list_button.length + 1); i++) {
+	  console.log("pre: i is " + i);
       var x = document.getElementById("momism" + i); // The div
+	  console.log("i is " + i + " and x is " + x);
     if (x.className.indexOf("w3-show") > -1) {
            toggleAccordion(i); 
     }
@@ -63,7 +65,7 @@ function closeAll() {
 }
 
 function randomMomism() {
-  var num = Math.floor(Math.random() * ({{ site.data.momisms.size }} - 1 + 1));
+  var num = Math.floor(Math.random() * ({{ site.data.mom-csv.size }} - 1 + 1));
 	var randLink = '/list.html#momism_id' + num;
 	  window.open(randLink,"_self");
         var x = document.getElementById("momism" + num); // The div

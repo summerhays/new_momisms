@@ -1,11 +1,11 @@
 ---
 ---
 var allMomisms = [
-{% for each in site.data.momisms %} {momism: "{{ each.momism }}",{% if each.definition %} definition: "{{ each.definition }}",{% endif %}{% if each.example %} example: "{{ each.example }}",{% endif %}{% if each.mommentary %} mommentary: "{{ each.mommentary }}",{% endif %} momism_id: "{{ each.order }}"},{% endfor %}
+{% for each in site.data.mom-csv %} {momism: "{{ each.momism }}",{% if each.definition %} definition: "{{ each.definition }}",{% endif %}{% if each.example %} example: "{{ each.example }}",{% endif %}{% if each.mommentary %} mommentary: "{{ each.mommentary }}",{% endif %} momism_id: "{{ each.order }}"},{% endfor %}
 ];
 
 var randomNum = [
-{% for each in site.data.randday %}{day: {{ each.day }}, rand: {% if each.rand > site.data.momisms.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}}, {% endfor %}
+{% for each in site.data.randday %}{day: {{ each.day }}, rand: {% if each.rand > site.data.mom-csv.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}}, {% endfor %}
 ];
 
 var today=new Date();
@@ -18,7 +18,7 @@ var today=new Date();
 // setInterval(increase, 1000);
 // 
 // function increase() {
-//     if (i < {{ site.data.momisms.size }}) {
+//     if (i < {{ site.data.mom-csv.size }}) {
 //       i++;
 //       x = i;
 //     }
