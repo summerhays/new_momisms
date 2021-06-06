@@ -415,6 +415,7 @@ footer > a:hover {
      display: block;
      white-space: nowrap;
      border-bottom: 3px solid $color-triad-2;
+     cursor: pointer
    }
    
    .main-nav > a:not(:first-child):hover {
@@ -430,6 +431,7 @@ footer > a:hover {
      margin-left: 70px;
      padding-top: 15px;
      transition: .3s;
+     cursor: pointer;
    }
 
    .main-nav .closebtn:hover {
