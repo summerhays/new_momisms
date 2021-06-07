@@ -39,15 +39,15 @@
 	   <div class=topline>
 		   <!-- <div class="extra_div"></div> -->
 		   <div class="menu" onclick="openNav()"><i class="fas fa-bars fa-lg gradient-menu"></i></div>
-		   <a label="Home link" href="/{% if page.id == "index" %}list{% endif %}" class="nolink banner {% unless page.id == "index" %}w3-animate-zoom{% endunless %}"><img src="{{ site.icon }}" alt="Confused smiley" height="55px" hspace="10px"></a>
+		   <a label="Home link" href="/{% if page.id == "index" %}list{% endif %}" class="banner {% unless page.id == "index" %}w3-animate-zoom{% endunless %}"><img src="{{ site.icon }}" alt="Confused smiley" height="55px" hspace="10px"></a>
 		<div></div>
 	   </div>
-                <a href="/" class="nolink banner color-1"><div class="title nolink">{{ site.title }}</div></a>
+                <a href="/" class="banner color-1"><div class="title">{{ site.title }}</div></a>
 	<nav>
           <div class="main-nav" id="myNav">	
-            <a href="javascript:void(0)" id="closeBtn" class="closebtn nolink" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" id="closeBtn" class="closebtn" onclick="closeNav()">&times;</a>
 	     {% for each in site.data.navigation.docs %}
-	     <a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %} class="navLinks nolink {% if page.url == each.url %} active{% endif %}">{{ each.icon }} {{ each.title }}</a>
+	     <a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %} class="navLinks {% if page.url == each.url %} active{% endif %}">{{ each.icon }} {{ each.title }}</a>
              {% endfor %}
 	  </div>
 	</nav>
@@ -70,7 +70,7 @@
 
 		<br><br>
 	     <div class="footer-small">Made with love by:</div>
-		<div class="footer-bottom"><a class=nolink href="https://www.summerhays.net">SummerSites</a></div>
+		<div class="footer-bottom"><a href="https://www.summerhays.net">SummerSites</a></div>
 	</footer>
   </div>
   </body>
