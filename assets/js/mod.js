@@ -1,11 +1,14 @@
 ---
 ---
 var allMomisms = [
-{% for each in site.data.mom-csv %} {momism: "{{ each.momism }}",{% if each.definition %} definition: "{{ each.definition }}",{% endif %}{% if each.example %} example: "{{ each.example }}",{% endif %}{% if each.mommentary %} mommentary: "{{ each.mommentary }}",{% endif %} momism_id: "{{ each.order }}"},{% endfor %}
+{% for each in site.data.mom-csv %} {momism: `{{ each.momism }}`,{% if each.definition %} definition: `{{ each.definition }}`,{% endif %}{% if each.example %} example: `{{ each.example }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
 ];
 
 var randomNum = [
-{% for each in site.data.randday %}{day: {{ each.day }}, rand: "{% comment %}Random momisms aren't yet stored as integers, so this makes the string an integer. Then, if the momism ID for the day is greater than the number of momisms, it assigns the alternate{% endcomment %}{% assign randy = each.rand | plus: 0 %}{% if randy > site.data.mom-csv.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}"}, {% endfor %}
+{% for each in site.data.randday %}{day: {{ each.day }}, rand: `{% comment %}
+
+	Random momisms aren't yet stored as integers, so this makes the string an integer. Then, if the momism ID for the day is greater than the number of momisms, it assigns the alternate momism
+	{% endcomment %}{% assign randy = each.rand | plus: 0 %}{% if randy > site.data.mom-csv.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}`}, {% endfor %}
 ];
 
 var today=new Date();
