@@ -54,7 +54,7 @@ var exFinal = arrayFinal.example;
 var mommFinal = arrayFinal.mommentary;
 var idFinal = arrayFinal.momism_id;
 var idFinalInteger = parseInt(idFinal, 10);
-var linkFinal = '/list.html#momism_id' + idFinal;
+var linkFinal = '/dictionary/' + idFinal;
 
 document.getElementById("randomMom").innerHTML = modFinal;
 if (typeof defFinal === 'undefined') {
@@ -84,8 +84,5 @@ document.getElementById("today").innerHTML = today_date;
 document.getElementById("linkFinal2").href = linkFinal;
 // document.getElementById("linkFinal").setAttribute("href", linkFinal)
 // document.getElementById("linkFinal2").setAttribute("href", linkFinal)
-
-
-
 
 // }

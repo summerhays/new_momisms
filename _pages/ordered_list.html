@@ -40,7 +40,7 @@ id: chrono_list
     {% if each.example %}<p><em>{{ each.example }}</em></p>{% endif %}
     {% if each.mommentary %}<p>Mommentary: {{ each.mommentary }}</p>{% endif %}
     {% if each.links and each.links != "" %}{% assign imgs = each.links | split: ", " %}<div class="gallery"><ul class="gallery__list">{% for img in imgs %}<li><figure>{{ img }}</figure></li>{% endfor %}</ul></div>{% endif %}
-    <p><a id="id{{ order_integer }}" href="/ordered_list.html#momism_id{{ order_integer }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ order_integer }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ order_integer }}">Copy to clipboard</span></a>)</span>, momism number #{{ order_integer }} identified on {{ each.date | date: "%B %-d, %Y" }}</p>
+    <p><a id="id{{ order_integer }}" href="/dictionary/{{ order_integer }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ order_integer }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ order_integer }}">Copy to clipboard</span></a>)</span>, momism number #{{ order_integer }} identified on {{ each.date | date: "%B %-d, %Y" }}</p>
 </div>
 {% endfor %}
 <script src="/assets/js/filter.js"></script>
