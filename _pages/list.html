@@ -37,7 +37,7 @@ id: list
     {% if each.example %}{% assign exampleslice = each.example | slice: -1 %}<p><em>{{ each.example }}{% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";"  or exampleslice == '"' %}.{% endunless %}</em></p>{% endif %}
     {% if each.mommentary %}{% assign mommentaryslice = each.mommentary | slice: -1 %}<p>Mommentary: {{ each.mommentary }}{% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}.{% endunless %}</p>{% endif %}
     {% if each.links and each.links != "" %}{% assign imgs = each.links | split: ", " %}<div class="gallery"><ul class="gallery__list">{% for img in imgs %}<li><figure>{{ img }}</figure></li>{% endfor %}</ul></div>{% endif %}
-    <p>Momism ID #{{ order_integer }}<a id="id{{ order_integer }}" href="/dictionary/{{ order_integer }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ order_integer }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ order_integer }}">Copy to clipboard</span></a>)</span>, identified on {{ each.date | date: "%B %-d, %Y" }}.</p>
+    <p>Momism ID #{{ order_integer }}<a id="id{{ order_integer }}" href="/dictionary/{{ each.order }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ order_integer }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ order_integer }}">Copy to clipboard</span></a>)</span>, identified on {{ each.date | date: "%B %-d, %Y" }}.</p>
 </div>
 {% endfor %}
 <script src="/assets/js/filter.js"></script>

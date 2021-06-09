@@ -2,18 +2,29 @@
 layout: default
 type: dictionary
 ---
-<p class=larger id="IDLabel">#{{ page.order }}</p>
+{% assign momism_id = page.order | plus: 0 %}
+{% assign prev_id = page.order | minus: 1 | downcase %}
+{% case prev_id.size %}
+  {% when 2 %}{% assign prev_id = prev_id | downcase | prepend: "0" %}
+  {% when 1 %}{% assign prev_id = prev_id | downcase | prepend: "00" %}
+{% endcase %}
+{% assign next_id = page.order | plus: 1 | downcase %}
+{% case next_id.size %}
+  {% when 2 %}{% assign next_id = next_id | downcase | prepend: "0" %}
+  {% when 1 %}{% assign next_id = next_id | downcase | prepend: "00" %}
+{% endcase %}
+<p class=larger id="IDLabel">#{{ momism_id }}</p>
 
-<a href="/list" class="nolink momism_card w3-panel w3-card-2 smiley w3-hover-pink w3-animate-zoom" style="padding: 6px 40px" id="hoverparent">
+<a href="/list" class="nolink momism_card w3-panel w3-card-2 smiley w3-hover-pink" style="padding: 6px 40px" id="hoverparent">
 	<i class="fas fa-quote-right color-triad-2-text w3-xxlarge"></i>
  <p class="w3-serif w3-xxlarge" id="randomMom">{{ page.momism }}</p>
  {% if page.definition %}<div id="defLabel" class="color-triad-2-text">{{ page.definition }}</div>{% else %}<div id="defLabel" class="color-triad-2-text">Definition unknown.</div>{% endif %}
  {% if page.example %}<div id="exLabel">{{ page.example }}</div>{% endif %}
  {% if page.mommentary %}<div id="mommLabel">Mommentary: {{ page.mommentary }}</div>{% endif %}
  <p>&nbsp;</p>
-</div>
+</a>
 
 <br>
 <br>
 
-<p class=center>Identified on {{ page.date | date: "%B %d %Y" }}.</p>
+<p class=center>{% unless page.order == "001" %}<a href="/dictionary/{{ prev_id }}" class=nolink>Previous momism</a> | {% endunless %}Identified on {{ page.date | date: "%B %d %Y" }}{% unless page.order == site.data.mom-csv.size %} | <a href="/dictionary/{{ next_id }}" class=nolink>Next momism</a>{% else %}.{% endunless %}</p>
