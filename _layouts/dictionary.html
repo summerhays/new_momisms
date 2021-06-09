@@ -2,7 +2,7 @@
 layout: default
 type: dictionary
 ---
-  <meta property="og:description" content={% if page.definition %}"{{ page.definition }}"{% else %}"Definition unknown"{% endif %}>
+<head><meta property="og:description" content={% if page.definition %}"{{ page.definition }}"{% else %}"Definition unknown"{% endif %}></head>
 {% assign momism_id = page.order | plus: 0 %}
 {% assign prev_id = page.order | minus: 1 | downcase %}
 {% case prev_id.size %}
