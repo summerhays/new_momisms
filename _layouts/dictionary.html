@@ -27,4 +27,4 @@ type: dictionary
 <br>
 <br>
 
-<p class=center>{% unless page.order == "001" %}<a href="/dictionary/{{ prev_id }}" class=nolink>Previous momism</a> | {% endunless %}Identified on {{ page.date | date: "%B %d %Y" }}{% unless page.order == site.data.mom-csv.size %} | <a href="/dictionary/{{ next_id }}" class=nolink>Next momism</a>{% else %}.{% endunless %}</p>
+<p class=center>{% unless page.order == "001" %}<a href="/dictionary/{{ prev_id }}" class=nolink>Previous momism</a> | {% endunless %}Identified on {{ page.date | date: "%B %d %Y" }}{% unless momism_id == site.data.mom-csv.size %} | <a href="/dictionary/{{ next_id }}" class=nolink>Next momism</a>{% else %}.{% endunless %}</p>
