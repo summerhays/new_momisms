@@ -61,6 +61,7 @@ page_gen:
       #    name: 'order'
     name_expr: record['order']
     title: 'momism'
+    og-description: 'definition'
       #    extension: 'md'
       #    
       #  - data: 'pets'
