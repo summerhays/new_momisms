@@ -55,13 +55,13 @@ defaults:
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 
 page_gen:
-  - data: 'momisms'
+  - data: 'mom-csv'
     template: 'dictionary'
-    dir: 'dictionary'
+    dir: 'fresh-dictionary'
       #    name: 'order'
     name_expr: record['order']
     title: 'momism'
-    extension: 'md'
+      #    extension: 'md'
       #    
       #  - data: 'pets'
       #    template: 'pet'
@@ -100,4 +100,3 @@ page_gen:
       #    template: 'profile'
       #    name: 'full_name'
       #    dir: 'hierarchy'
-      #    
