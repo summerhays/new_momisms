@@ -14,6 +14,9 @@ type: dictionary
   {% when 2 %}{% assign next_id = next_id | downcase | prepend: "0" %}
   {% when 1 %}{% assign next_id = next_id | downcase | prepend: "00" %}
 {% endcase %}
+{% assign defslice = page.definition | rstrip | slice: -1 %}
+{% assign exampleslice = page.example | rstrip | slice: -1 %}
+{% assign mommentaryslice = page.mommentary | rstrip | slice: -1 %}
 <p class=larger id="IDLabel">#{{ momism_id }}</p>
 
 <a href="/list" class="nolink momism_card w3-panel w3-card-2 smiley w3-hover-pink" style="padding: 6px 40px" id="hoverparent">
@@ -24,7 +27,6 @@ type: dictionary
  {% if page.mommentary %}<div id="mommLabel">Mommentary: {{ page.mommentary }}{% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}.{% endunless %}</div>{% endif %}
  <p>&nbsp;</p>
 </a>
-
 <br>
 <br>
 
