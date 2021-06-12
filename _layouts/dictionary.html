@@ -19,13 +19,13 @@ type: dictionary
 <a href="/list" class="nolink momism_card w3-panel w3-card-2 smiley w3-hover-pink" style="padding: 6px 40px" id="hoverparent">
 	<i class="fas fa-quote-right color-triad-2-text w3-xxlarge"></i>
  <p class="w3-serif w3-xxlarge" id="randomMom">{{ page.momism }}</p>
- {% if page.definition %}<div id="defLabel" class="color-triad-2-text">{{ page.definition }}</div>{% else %}<div id="defLabel" class="color-triad-2-text">Definition unknown.</div>{% endif %}
- {% if page.example %}<div id="exLabel">{{ page.example }}</div>{% endif %}
- {% if page.mommentary %}<div id="mommLabel">Mommentary: {{ page.mommentary }}</div>{% endif %}
+ {% if page.definition %}<div id="defLabel" class="color-triad-2-text">{{ page.definition }}{% unless defslice == "." or defslice == "?" or defslice == "!" or defslice == ";" or defslice == '"' %}.{% endunless %}</div>{% else %}<div id="defLabel" class="color-triad-2-text">Definition unknown.</div>{% endif %}
+ {% if page.example %}<div id="exLabel">{{ page.example }}{% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";"  or exampleslice == '"' %}.{% endunless %}</div>{% endif %}
+ {% if page.mommentary %}<div id="mommLabel">Mommentary: {{ page.mommentary }}{% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}.{% endunless %}</div>{% endif %}
  <p>&nbsp;</p>
 </a>
 
 <br>
 <br>
 
-<p class=center>{% unless page.order == "001" %}<a href="/dictionary/{{ prev_id }}" class=nolink>Previous momism</a> | {% endunless %}Identified on {{ page.date | date: "%B %d %Y" }}{% unless momism_id == site.data.mom-csv.size %} | <a href="/dictionary/{{ next_id }}" class=nolink>Next momism</a>{% else %}.{% endunless %}</p>
+<p class=center>{% unless page.order == "001" %}<a href="/dictionary/{{ prev_id }}" class=nolink>Previous momism</a> | {% endunless %}Identified {{ page.date | date: "%B %-d, %Y" }}{% unless momism_id == site.data.mom-csv.size %} | <a href="/dictionary/{{ next_id }}" class=nolink>Next momism</a>{% else %}.{% endunless %}</p>

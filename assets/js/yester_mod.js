@@ -12,7 +12,10 @@ var randomNum = [
 ];
 
 var today=new Date();
-const month = today.toLocaleString('default', { month: 'long' });
+var yesterday = new Date(today);
+yesterday.setDate(yesterday.getDate() -1);
+
+const month = yesterday.toLocaleString('default', { month: 'long' });
 
 // Testing, run through all momisms
 //
@@ -47,14 +50,15 @@ function periodatEnd(str) {
 // var testdate = new Date(2020, 5, 1);
 // console.log(daysIntoYear(testdate));
 
-var x = daysIntoYear(today) - 1;
+var x = daysIntoYear(today) - 2;
 
 var randforToday = randomNum[x];
 //
 // var randforToday = {day: 1, rand: 1,}; // Definition & example
 // var randforToday = {day: 1, rand: 16,}; // Definition & mommentary
 // var randforToday = {day: 1, rand: 18,}; // Definition, example, & mommentary
-var today_date = month + " " + today.getDate() + ", " + today.getFullYear();
+var yesterday_date1 = (yesterday).toString().split(' ').splice(1,3).join(' ');
+var yesterday_date = month + " " + yesterday.getDate() + ", " + yesterday.getFullYear();
 
 var arrayFinal = allMomisms.find( ({ momism_id }) => momism_id == randforToday.rand);
 
@@ -92,7 +96,7 @@ if (typeof mommFinal === 'undefined') {
   document.getElementById("randomMommentary").innerHTML = mommFinal;
 }
 document.getElementById("randomID").innerHTML = idFinalInteger;
-document.getElementById("today").innerHTML = today_date;
+document.getElementById("yesterday").innerHTML = yesterday_date;
 document.getElementById("linkFinal2").href = linkFinal;
 // document.getElementById("linkFinal").setAttribute("href", linkFinal)
 // document.getElementById("linkFinal2").setAttribute("href", linkFinal)

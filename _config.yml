@@ -8,19 +8,14 @@ url: "https://mom.summerhays.net" # the base hostname & protocol for your site, 
 # For testing
 # url: localhost:4000
 icon: /assets/images/confused-smiley.png
-#twitter_username: jekyllrb
-#github_username:  jekyll
-github:
-  is_project_page: false
 
 # Build settings
 markdown: kramdown
-#theme: jekyll-theme-tactile
 plugins:
   - jemoji
 #  - jekyll-datapage-generator
 #  - jekyll-coffeescript
-#        #  - jekyll-feed
+#  - jekyll-feed
 
 tipue_search:
   include:
@@ -61,7 +56,7 @@ page_gen:
       #    name: 'order'
     name_expr: record['order']
     title: 'momism'
-    og-description: 'definition'
+      # og-description: 'definition'
       #    extension: 'md'
       #    
       #  - data: 'pets'
