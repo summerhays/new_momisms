@@ -30,4 +30,6 @@ type: dictionary
 <br>
 <br>
 
-<p class=center>{% unless page.order == "001" %}<a href="/dictionary/{{ prev_id }}" class=nolink>Previous momism</a> | {% endunless %}Identified {{ page.date | date: "%B %-d, %Y" }}{% unless momism_id == site.data.mom-csv.size %} | <a href="/dictionary/{{ next_id }}" class=nolink>Next momism</a>{% else %}.{% endunless %}</p>
+<p class=center>Identified {{ page.date | date: "%B %-d, %Y" }}.</p>
+
+<p class=center>{% unless page.order == "001" %}<a class="w3-button w3-hover-pink smiley" href="../{{ prev_id }}" class=nolink><i class="fas fa-chevron-left"></i> Previous momism</a>{% unless momism_id == site.data.mom-csv.size %} | {% endunless %}{% endunless %}{% unless momism_id == site.data.mom-csv.size %}<a href="../{{ next_id }}" class="w3-button w3-hover-pink smiley">Next momism <i class="fas fa-chevron-right"></i></a>{% endunless %}</p>
