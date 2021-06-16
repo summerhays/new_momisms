@@ -3,7 +3,7 @@ title: <i class="far fa-lightbulb"></i>&nbsp; Miami English
 id: resources
 
 ---
-Not to be too much of a linguist (#[109](/dictionary/109)), but here are some links about "Florida cracker" and Miami English:
+Not to be too much of a linguist ([#109](/dictionary/109)), but here are some links about "Florida cracker" and Miami English:
 
 ### Highlights
 
