@@ -40,5 +40,7 @@ id: list
     <p>Momism ID #{{ order_integer }}<a id="id{{ order_integer }}" href="/dictionary/{{ each.order }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ order_integer }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ order_integer }}">Copy to clipboard</span></a>)</span>, identified {{ each.date | date: "%B %-d, %Y" }}.</p>
 </div>
 {% endfor %}
+</div>
+</div>
 <script src="/assets/js/filter.js"></script>
 <script src="/assets/js/copy.js"></script>

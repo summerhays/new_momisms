@@ -233,7 +233,7 @@ input:checked + .slider:before {
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
+  transform: scale(0);
   width: 140px;
 //  white-space: nowrap;
   background-color: #555;
@@ -243,11 +243,14 @@ input:checked + .slider:before {
   padding: 5px;
   position: absolute;
   z-index: 1;
-  bottom: 150%;
+  bottom: -1em;
   left: 50%;
   margin-left: -75px;
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: 
+    opacity ease-out 0.3s,
+    bottom ease-out 0.3s,
+    transform ease-out 0.3s;
 }
 
 .tooltip .tooltiptext::after {
@@ -262,7 +265,8 @@ input:checked + .slider:before {
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
+  transform: scale(1);
+  bottom: 120%;
   opacity: 1;
 }
 
