@@ -2,7 +2,7 @@
 layout: default
 type: dictionary
 ---
-<head><meta property="og:description" content={% if page.definition %}"{{ page.definition }}"{% else %}"Definition unknown"{% endif %}></head>
+<head><meta property="og:description" content={% if page.definition %}"{{ page.definition | smartify }}"{% else %}"Definition unknown"{% endif %}></head>
 {% assign momism_id = page.order | plus: 0 %}
 {% assign prev_id = page.order | minus: 1 | downcase %}
 {% case prev_id.size %}
@@ -21,10 +21,10 @@ type: dictionary
 
 <a href="/list" class="nolink momism_card w3-panel w3-card-2 smiley w3-hover-pink" style="padding: 6px 40px" id="hoverparent">
 	<i class="fas fa-quote-right color-triad-2-text w3-xxlarge"></i>
- <p class="w3-serif w3-xxlarge" id="randomMom">{{ page.momism }}</p>
- {% if page.definition %}<div id="defLabel" class="color-triad-2-text">{{ page.definition }}{% unless defslice == "." or defslice == "?" or defslice == "!" or defslice == ";" or defslice == '"' %}.{% endunless %}</div>{% else %}<div id="defLabel" class="color-triad-2-text">Definition unknown.</div>{% endif %}
- {% if page.example %}<div id="exLabel">{{ page.example }}{% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";"  or exampleslice == '"' %}.{% endunless %}</div>{% endif %}
- {% if page.mommentary %}<div id="mommLabel">Mommentary: {{ page.mommentary }}{% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}.{% endunless %}</div>{% endif %}
+ <p class="w3-serif w3-xxlarge" id="randomMom">{{ page.momism | smartify }}</p>
+ {% if page.definition %}<div id="defLabel" class="color-triad-2-text">{{ page.definition | smartify }}{% unless defslice == "." or defslice == "?" or defslice == "!" or defslice == ";" or defslice == '"' %}.{% endunless %}</div>{% else %}<div id="defLabel" class="color-triad-2-text">Definition unknown.</div>{% endif %}
+ {% if page.example %}<div id="exLabel">{{ page.example | smartify }}{% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";"  or exampleslice == '"' %}.{% endunless %}</div>{% endif %}
+ {% if page.mommentary %}<div id="mommLabel">Mommentary: {{ page.mommentary | smartify }}{% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}.{% endunless %}</div>{% endif %}
  <p>&nbsp;</p>
 </a>
 <br>

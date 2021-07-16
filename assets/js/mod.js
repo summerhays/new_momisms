@@ -1,7 +1,7 @@
 ---
 ---
 var allMomisms = [
-{% for each in site.data.mom-csv %} {momism: `{{ each.momism }}`,{% if each.definition %} definition: `{{ each.definition }}`,{% endif %}{% if each.example %} example: `{{ each.example }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
+{% for each in site.data.mom-csv %} {momism: `{{ each.momism | smartify }}`,{% if each.definition %} definition: `{{ each.definition | smartify }}`,{% endif %}{% if each.example %} example: `{{ each.example | smartify }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary | smartify }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
 ];
 
 var randomNum = [
