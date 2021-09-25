@@ -1,5 +1,6 @@
 ---
 title: <i class="far fa-id-badge"></i>&nbsp; About
+og-title: About
 id: about
 ---
 By Jove ([momism ID #47](/dictionary/047)),  a [searchable](/search) list of [all {{ site.data.mom-csv.size }}](/list) of mother's momisms — the whole shebangdasium ([#144](/dictionary/144)), compiled by her children (a.k.a. brown boy ([#307](/dictionary/307)), blue-eyes ([#14](/dictionary/014)), and baby doll ([#136](/dictionary/136))), since 2009, thanks to our good ears for language and our great fingers for typing ([#193](/dictionary/193)). Noting our mother's love for "of the day" websites such as NASA's [Astronomy Picture of the Day (APOD)](https://apod.nasa.gov/apod/){: rel="noopener" target="_blank"}, we designed this website to highlight one momism per day (MOD).
