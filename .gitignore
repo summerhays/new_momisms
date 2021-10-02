@@ -3,6 +3,7 @@ _site/
 _site
 Gemfile
 Gemfile.lock
+refresh-dictionary.sh
 backup
 backup/
 notes
