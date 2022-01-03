@@ -18,3 +18,5 @@ vendor/
 .github/
 notes
 notes/
+.bundle
+.bundle/
