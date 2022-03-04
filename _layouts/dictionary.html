@@ -17,14 +17,62 @@ type: dictionary
 {% assign defslice = page.definition | rstrip | slice: -1 %}
 {% assign exampleslice = page.example | rstrip | slice: -1 %}
 {% assign mommentaryslice = page.mommentary | rstrip | slice: -1 %}
-<p class=larger id="IDLabel">#{{ momism_id }}</p>
+<p class=larger id="IDLabel">
+  #{{ momism_id }}
+</p>
 
-<a href="/list" class="nolink momism_card w3-panel w3-card-2 smiley w3-hover-pink" style="padding: 6px 40px" id="hoverparent">
-	<i class="fas fa-quote-right color-triad-2-text w3-xxlarge"></i>
- <p class="w3-serif w3-xxlarge" id="randomMom">{{ page.momism | smartify }}</p>
- {% if page.definition %}<div id="defLabel" class="color-triad-2-text">{{ page.definition | smartify }}{% unless defslice == "." or defslice == "?" or defslice == "!" or defslice == ";" or defslice == '"' %}.{% endunless %}</div>{% else %}<div id="defLabel" class="color-triad-2-text">Definition unknown.</div>{% endif %}
- {% if page.example %}<div id="exLabel">{{ page.example | smartify }}{% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";"  or exampleslice == '"' %}.{% endunless %}</div>{% endif %}
- {% if page.mommentary %}<div id="mommLabel">Mommentary: {{ page.mommentary | smartify }}{% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}.{% endunless %}</div>{% endif %}
+<a 
+  href="/list" 
+  class="
+    nolink 
+    momism_card 
+    w3-panel 
+    w3-card-2 
+    smiley 
+    w3-hover-pink
+    " 
+  style="padding: 6px 40px" 
+  id="hoverparent"
+  >
+    <i class="fas fa-quote-right color-triad-2-text w3-xxlarge">
+    </i>
+    <p class="w3-serif w3-xxlarge" id="randomMom">
+      {{ page.momism | smartify }}
+    </p>
+
+{% if page.definition %}
+  <div id="defLabel" class="color-triad-2-text">
+    {% unless defslice == "." or defslice == "?" or defslice == "!" or defslice == ";" or defslice == '"' %}
+      {% assign definitiondot = '.' %}
+    {% endunless %}
+    {{ page.definition | smartify }}{{ definitiondot }}
+    {% assign definitiondot = '' %}
+  </div>
+{% else %}
+  <div id="defLabel" class="color-triad-2-text">
+    Definition unknown.
+  </div>
+{% endif %}
+
+{% if page.example %}
+  <div id="exLabel">
+    {% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";"  or exampleslice == '"' %}
+      {% assign exampledot = '.' %}
+    {% endunless %}
+    {{ page.example | smartify }}{{ exampledot }}
+    {% assign exampledot = '' %}
+  </div>
+{% endif %}
+
+{% if page.mommentary %}
+  <div id="mommLabel">
+    {% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}
+      {% assign mommentarydot = '.' %}
+    {% endunless %}
+    Mommentary: {{ page.mommentary | smartify }}{{ mommentarydot }}
+    {% assign mommentarydot = '' %}
+  </div>
+{% endif %}
  <p>&nbsp;</p>
 </a>
 <br>

@@ -18,6 +18,17 @@ layout: default
 <span id="randomMommentary"></span></div>
      <p>&nbsp;</p>
 	</div></a>
+    {% if each.links and each.links != "" %}
+      {% assign imgs = each.links | split: ", " %}
+      <div class="gallery" id=imgs>
+        <ul class="gallery__list">
+          {% for img in imgs %}
+          <li>
+            <figure>{{ img }}</figure>
+          </li>{% endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
     <br>
     <br>
