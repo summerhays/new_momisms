@@ -108,7 +108,7 @@ id: list
           {% unless defslice == "." or defslice == "?" or defslice == "!" or defslice == ";" or defslice == '"' %}
             {% assign defdot = '.' %}
           {% endunless %}
-          {{ each.definition | smartify }}{{ defdot }}
+          {{ each.definition | strip | smartify }}{{ defdot }}
           {% assign defdot = '' %}
         {% else %}
           <em>
@@ -124,7 +124,7 @@ id: list
           {% unless exampleslice == "." or exampleslice == "?" or exampleslice == "!" or exampleslice == ";"  or exampleslice == '"' %}
             {% assign exampledot = '.' %}
           {% endunless %}
-          {{ each.example | smartify }}{{ exampledot }}
+          {{ each.example | strip | smartify }}{{ exampledot }}
           {% assign exampledot = '' %}
         </em>
       </p>
@@ -136,7 +136,7 @@ id: list
         {% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}
           {% assign mommentarydot = '.' %}
         {% endunless %}
-        Mommentary: {{ each.mommentary | smartify }}{{ mommentarydot }}
+        Mommentary: {{ each.mommentary | strip | smartify }}{{ mommentarydot }}
         {% assign mommentarydot = '' %}
       </p>
     {% endif %}
