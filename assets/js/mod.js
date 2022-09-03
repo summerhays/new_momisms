@@ -66,7 +66,7 @@ var exFinal = periodatEnd(arrayFinal.example);
 var mommFinal = periodatEnd(arrayFinal.mommentary);
 var idFinal = arrayFinal.momism_id;
 var idFinalInteger = parseInt(idFinal, 10);
-var linkFinal = '/dictionary/' + idFinal;
+var linkFinal = 'https://m.sumrh.xyz/d/' + idFinal;
 var imgFinal = arrayFinal.link;
 
 document.getElementById("randomMom").innerHTML = modFinal;
