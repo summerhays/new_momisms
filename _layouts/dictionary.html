@@ -18,7 +18,11 @@ type: dictionary
 {% assign exampleslice = page.example | rstrip | slice: -1 %}
 {% assign mommentaryslice = page.mommentary | rstrip | slice: -1 %}
 <p class=larger id="IDLabel">
-  #{{ momism_id }}
+  <a
+      href="https://m.sumrh.xyz/d/{{ momism_id }}"
+    >
+    #{{ momism_id }}
+  </a>
 </p>
 
 <a 
