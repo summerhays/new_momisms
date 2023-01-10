@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 keywords: momisms, mom, expressions
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://mom.summerhays.net" # the base hostname & protocol for your site, e.g. http://example.com
-# For testing
+#  For testing
 # url: localhost:4000
 icon: /assets/images/confused-smiley.png
 
@@ -13,7 +13,7 @@ icon: /assets/images/confused-smiley.png
 markdown: kramdown
 plugins:
   - jemoji
-#  - jekyll-datapage-generator
+    #  - jekyll-datapage-generator
 #  - jekyll-coffeescript
 #  - jekyll-feed
 

@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
-#git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
-
-gem "github-pages"
-#gem "jekyll"
-## gem "jekyll-coffeescript"
-#gem "webrick"
-#gem "jemoji"
+# gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
+gem "webrick"
+gem "jemoji"
+# gem "jekyll-datapage-generator"
+# gem "jekyll-coffeescript"
