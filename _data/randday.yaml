@@ -461,7 +461,7 @@
   rand: "249" 
   dup: "no"
 - day: 155 
-  rand: "317" 
+  rand: "367" 
   dup: "no"
 - day: 156 
   rand: "307" 
@@ -716,7 +716,7 @@
   rand: "113" 
   dup: "no"
 - day: 240 
-  rand: "115" 
+  rand: "370" 
   dup: "no"
 - day: 241 
   rand: "155" 
@@ -797,7 +797,7 @@
   rand: "260" 
   dup: "no"
 - day: 267 
-  rand: "302" 
+  rand: "369" 
   dup: "no"
 - day: 268 
   rand: "077" 
@@ -962,7 +962,7 @@
   rand: "241" 
   dup: "no"
 - day: 322 
-  rand: "311" 
+  rand: "368" 
   dup: "no"
 - day: 323 
   rand: "262" 
