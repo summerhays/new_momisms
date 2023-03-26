@@ -17,10 +17,15 @@ type: dictionary
 {% assign defslice = page.definition | rstrip | slice: -1 %}
 {% assign exampleslice = page.example | rstrip | slice: -1 %}
 {% assign mommentaryslice = page.mommentary | rstrip | slice: -1 %}
+{% case momism_id.size %}
+  {% when 2 %}{% assign full_momism_id = momism_id | downcase | prepend: "0" %}
+  {% when 1 %}{% assign full_momism_id = momism_id | downcase | prepend: "00" %}
+  {% else %}{% assign full_momism_id = momism_id %}
+{% endcase %}
 <p class=larger id="IDLabel">
   <a
-      class=nolink
-      href="https://m.sumrh.xyz/d/{{ momism_id }}"
+      class="nolink test"
+      href="https://m.sumrh.xyz/d/{{ page.order }}"
     >
     #{{ momism_id }}
   </a>
