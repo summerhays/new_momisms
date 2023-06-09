@@ -7,6 +7,3 @@ title: Uploads
 ![# {{ count_me }}]({{ site.baseurl | replace_first: "/","" }}{{ image.path  }})
   {% endif  %}
 {% endfor  %}
-
-Go:
-{{ site.static_files.baseurl }}
