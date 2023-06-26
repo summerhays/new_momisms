@@ -11,15 +11,15 @@ docs:
   url: /list
   icon: <i class="fas fa-clipboard-list fa-fw fa-lg pink-text down_a_bit"></i>&nbsp;
   # <i class="fas fa-list-ul"></i>
-- title: Honorable Mentions/Honorable Horrors
+- title: Honorable Mentions
   url: /mentions
-  icon: <i class="fal fa-certificate fa-fw fa-lg pink-text"></i>&nbsp;
+  icon: <i class="fa-solid fa-award fa-fw fa-lg pink-text"></i>&nbsp;
 - title: Find a Momism
   url: /search
   icon: <i class="fas fa-search fa-fw fa-lg pink-text"></i>&nbsp;
 - title: Contribute a Momism
   url: /contribute
-  icon: <i class="fas fa-hand-holding-medical fa-fw fa-lg pink-text"></i>&nbsp;
+  icon: <i class="fa-solid fa-hand-holding-medical fa-fw fa-lg pink-text"></i>&nbsp;
   target: 
   # used to be newpage
 - title: Miami English

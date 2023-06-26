@@ -1,6 +1,6 @@
 ---
-title: <i class="fas fa-hand-holding-medical"></i>&nbsp;Contribute a Momism or add a definition
-og-title: Contribute a Momism or add a definition
+title: <i class="fa-solid fa-hand-holding-medical"></i>&nbsp;Contribute a Momism or Add a Definition
+og-title: Contribute a Momism or Add a Definition
 id: contribute
 ---
 <br>

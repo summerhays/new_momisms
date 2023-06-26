@@ -2,8 +2,8 @@
 og-title: Honourable mentions/horrors
 id: honorable
 ---
-<h2 class="title"><i class="fal fa-certificate"></i> &nbsp;Honorable Mentions/<a href="/dictionary/041">Honourable Horrors (#41)</a>)</h2>
-
+<h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Honorable Mentions/<a href="/dictionary/041">Honourable Horrors (#41)</a>)</h2>
+  
 Here's our list of momisms that don't quite make the cut:
 
 * *According to conventional wisdom*. Not sure anyone else talks like that but not sure it's a momism either.
