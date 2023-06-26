@@ -14,7 +14,7 @@ Here's our list of momisms that don't quite make the cut:
 * *No spring chicken*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
 * *Oh brother*. Ditto. Mom says it a lot but others do occasionally.
 * *Speak of the devil*. Seems to fit mother's melodrama well but other people do say this.
-* *Take a long walk off a short dock*.
+* *Take a long walk off a short dock*
 * *Three eggs in a basket is finer 'en fourteen in the chicken coop*. Apocryphal momism, used to tease mother’s strange sayings.
 * *Up the wazoo*. Seems to fit mother's melodrama well but other people do say this.
 * *Went the way of the dodo*
@@ -26,7 +26,7 @@ Mom is one of the few people we know who keeps saying kidisms from when we were 
 * *Fewidgewator*. Blue-eyes for refridgerator.
 * *Ka-broken*. Admittedly awesome kidism from blue-eyes, means broken.
 * *Meemer*. Blue-eyes for vacuum cleaner.
-* *Perpers/Lippers* Similarly, Blue-eyes for slippers. Perpers was "crossly" ([#64](/dictionary/064/)) corrected to "lippers."
+* *Perpers/Lippers*. Similarly, Blue-eyes for slippers. Perpers was "crossly" ([#64](/dictionary/064/)) corrected to "lippers."
 * *Splinker*. Admittedly awesome kidism from blue-eyes, means a splinter.
 * *Woo-wee-sa*. Kidism for Louisa. Mom started imitating the Killer Baby, saying "eww-wee-sa" but was "crossly" ([#64](/dictionary/064/)) corrected to "woo-wee-sa." 
   * This same daughter also used to spell Emily’s name "MOE."
