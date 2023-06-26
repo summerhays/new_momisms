@@ -963,7 +963,7 @@
   dup: "no"
 - day: 322 
   rand: "019" 
-  dup: "yes"
+  dup: "no"
 - day: 323 
   rand: "279" 
   dup: "no"
@@ -1061,8 +1061,8 @@
   rand: "065" 
   dup: "no"
 - day: 355 
-  rand: "019" 
-  dup: "yes"
+  rand: "355" 
+  dup: "no"
 - day: 356 
   rand: "174" 
   dup: "yes"

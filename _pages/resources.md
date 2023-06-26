@@ -3,7 +3,7 @@ title: <i class="far fa-lightbulb"></i>&nbsp; Miami English
 og-title: Miami English
 id: resources
 ---
-Not to be too much of a linguist ([#102](/dictionary/102)), but here are some links about "Florida cracker" and Miami English:
+Not to be too much of a linguist ([#103](/dictionary/103)), but here are some links about "Florida cracker" and Miami English:
 
 ### Highlights
 
@@ -28,10 +28,11 @@ Not to be too much of a linguist ([#102](/dictionary/102)), but here are some li
 ### A flavor of Miami:
 
 <div class="w3-content w3-section" style="max-width:500px">
-<img class="mySlides w3-animate-fading" src="/assets/images/Florida_East_Coast_Railway.jpeg" style="width:100%">
-<img class="mySlides w3-animate-fading" src="/assets/images/Nice_car.jpg" style="width:100%">
-<img class="mySlides w3-animate-fading" src="/assets/images/park_central.jpg" style="width:100%">
-<img class="mySlides w3-animate-fading" src="/assets/images/miami_beach.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/Florida_East_Coast_Railway.jpeg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/Nice_car.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/park_central.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/miami_beach.jpg" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/cars.JPG" style="width:100%">
 </div>
 
 <script src="/assets/js/carousel.js"></script>
