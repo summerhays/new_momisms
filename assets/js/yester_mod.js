@@ -1,7 +1,7 @@
 ---
 ---
 var allMomisms = [
-{% for each in site.data.mom-csv %} {momism: `{{ each.momism }}`,{% if each.definition %} definition: `{{ each.definition }}`,{% endif %}{% if each.example %} example: `{{ each.example }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
+{% for each in site.data.mom-csv %} {momism: `{{ each.momism | strip | smartify }}`,{% if each.definition %} definition: `{{ each.definition | strip | smartify }}`,{% endif %}{% if each.example %} example: `{{ each.example | strip | smartify }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary | strip | smartify }}`,{% endif %}{% if each.filename %} filename: `{{ each.filename | strip | smartify }}`,{% endif %}{% if each.alt %} alt: `{{ each.alt | strip | smartify }}`,{% endif %}{% if each.links %} links: `{{ each.links | strip | smartify }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
 ];
 
 var randomNum = [
@@ -71,6 +71,9 @@ var mommFinal = periodatEnd(arrayFinal.mommentary);
 var idFinal = arrayFinal.momism_id;
 var idFinalInteger = parseInt(idFinal, 10);
 var linkFinal = '/dictionary/' + idFinal;
+var imgFinal = arrayFinal.links;
+var imgSimpleFinal = '/assets/images/' + arrayFinal.filename;
+var altFinal = arrayFinal.alt;
 
 document.getElementById("randomMom").innerHTML = modFinal;
 if (typeof defFinal === 'undefined') {
@@ -95,6 +98,16 @@ if (typeof mommFinal === 'undefined') {
 } else {
   document.getElementById("randomMommentary").innerHTML = mommFinal;
 }
+
+if (typeof arrayFinal.filename === 'undefined') {
+  document.getElementById("imgs").style.display = "none";
+  document.getElementById("mommLabel").style.display = "none";
+} else {
+  document.getElementById("randomImage").src = imgSimpleFinal;
+  document.getElementById("randomImage").alt = altFinal;
+  //document.getElementById("caption").innerHTML = altFinal;
+}
+
 document.getElementById("randomID").innerHTML = idFinalInteger;
 document.getElementById("yesterday").innerHTML = yesterday_date;
 document.getElementById("linkFinal2").href = linkFinal;

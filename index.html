@@ -3,33 +3,37 @@ id: index
 layout: default
 ---
 <a href="/list" id="linkFinal2" class=nolink> 
-<p class=larger id="IDLabel">#
-<span id="randomID"></span></p></a>
+  <p class=larger id="IDLabel">#
+    <span id="randomID"></span>
+  </p>
+</a>
 
 <a href="/list" class=nolink>
-	<div class="momism_card w3-panel w3-card-2 smiley w3-hover-pink w3-animate-zoom" style="padding: 6px 40px" id="hoverparent">
+  <div class="momism_card w3-panel w3-card-2 smiley w3-hover-pink w3-animate-zoom" style="padding: 6px 40px" id="hoverparent">
     <i class="fas fa-quote-right color-triad-2-text w3-xxlarge"></i>
-  <p class="w3-serif w3-xxlarge" id="randomMom"></p>
-<div id="defLabel"></span>
-	<span id="randomDefinition" class="color-triad-2-text"></div>
-<div id="exLabel">
-	<span id="randomExample"></span></div>
-<div id="mommLabel">Mommentary: 
-<span id="randomMommentary"></span></div>
-     <p>&nbsp;</p>
-	</div></a>
-    {% if each.links and each.links != "" %}
-      {% assign imgs = each.links | split: ", " %}
+    <p class="w3-serif w3-xxlarge" id="randomMom"></p>
+    <div id="defLabel">
+      <span id="randomDefinition" class="color-triad-2-text"></span>
+    </div>
+    <div id="exLabel">
+      <span id="randomExample"></span>
+    </div>
+    <div id="mommLabel">Mommentary: 
+      <span id="randomMommentary"></span>
+    </div>
       <div class="gallery" id=imgs>
         <ul class="gallery__list">
-          {% for img in imgs %}
           <li>
-            <figure>{{ img }}</figure>
-          </li>{% endfor %}
+            <figure>
+	      <img src="" id=randomImage max-width=500px max-height=500px>
+	      <!---<figcaption id=caption></figcaption>--->
+            </figure>
+          </li>
         </ul>
       </div>
-    {% endif %}
-
+    <p>&nbsp;</p>
+  </div>
+</a>
     <br>
     <br>
     <p class=center>Momism of the Day for <span id="today"></span>.</p>

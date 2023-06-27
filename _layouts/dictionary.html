@@ -83,6 +83,19 @@ type: dictionary
     {% assign mommentarydot = '' %}
   </div>
 {% endif %}
+
+{% if page.filename %}
+<div class="gallery" id=imgs>
+  <ul class="gallery__list">
+    <li>
+      <figure>
+      <img src="/assets/images/{{ page.filename }}" alt="{{ page.alt }}" id=randomImage max-width=500px max-height=500px>
+      <!---<figcaption id=caption></figcaption>--->
+      </figure>
+    </li>
+  </ul>
+</div>
+{% endif %}
  <p>&nbsp;</p>
 </a>
 <br>
