@@ -12,7 +12,8 @@ Here's our list of momisms that don't quite make the cut:
 * *"Is that goat cheese? Ewe!"* This eye-rolling pun may be typical of our mother, but it's not a momism.
 * *Mind your Ps and Qs*. Mom does say this a lot, but other people do occasionnally.
 * *No spring chicken*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
-* *Oh brother*. Ditto. Mom says it a lot but others do occasionally.
+* *Off I went*. Ditto. Mom says it a lot but others do occasionally.
+* *Oh brother*. Ditto.
 * *Other people don't say that?*. Mom says this so often in response to our momist documentation that it's an honourable mention.
 * *Speak of the devil*. Seems to fit mother's melodrama well but other people do say this.
 * *Take a long walk off a short dock*
