@@ -9,6 +9,7 @@ Here's our list of momisms that don't quite make the cut:
 * *Coot*. Definition:  Someone confused, often because of age, as in "The ability to understand the smart phone is evading this old coot." Other people do say this, but we'd never heard it before mom did. 
 * *Gripe*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
 * *Hare-brained*
+* *Indeed*. Mother does end many a-sentence using this word, indeed. But this is an hono(u)rable mention/horror more than it is a momism.
 * *"Is that goat cheese? Ewe!"* This eye-rolling pun may be typical of our mother, but it's not a momism.
 * *Mind your Ps and Qs*. Mom does say this a lot, but other people do occasionnally.
 * *No spring chicken*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
