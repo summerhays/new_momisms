@@ -16,12 +16,14 @@ Here's our list of momisms that don't quite make the cut:
 * *Off I went*. Ditto. Mom says it a lot but others do occasionally.
 * *Oh brother*. Ditto.
 * *Other people don't say that?*. Mom says this so often in response to our momist documentation that it's an honourable mention.
+* *Reasonably well*. How mom claims she is doing 99% of the time. But I suppose we have heard other people say it.
 * *Somewhere along the line*. Definition: At some point. Do other people say this? We don't even know anymore, but figured we'd add it here while opinions roll in.
 * *Speak of the devil*. Seems to fit mother's melodrama well but other people do say this.
 * *Take a long walk off a short dock*
 * *Three eggs in a basket is finer 'en fourteen in the chicken coop*. Apocryphal momism, used to tease mother’s strange sayings.
 * *Up the wazoo*. Seems to fit mother's melodrama well but other people do say this.
-* *Went the way of the dodo*
+* *Went the way of the dodo*. Even restaurants can go the way of the dodo, apparently.
+* *What am I forgetting^*. What mom says whenever leaving the house.
 
 ### Kidisms
 Mom is one of the few people we know who keeps saying kidisms from when we were 2, nearly 40 years later. We suppose they are momisms but they belong on a separate list.
