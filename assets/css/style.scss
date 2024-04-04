@@ -276,7 +276,7 @@ input:checked + .slider:before {
 .gallery > .gallery__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(425px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 1rem;
   grid-auto-flow: dense;
   padding: 0;
@@ -296,10 +296,9 @@ input:checked + .slider:before {
   grid-row: span 2; /* Spans two rows */
 }
 .gallery > .gallery__list > li > figure > img {
-  width: 100%;
 //   height: 100%;
   max-width: min(100%,300px);
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 .img_container {
