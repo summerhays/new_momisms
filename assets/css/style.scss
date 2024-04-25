@@ -452,6 +452,9 @@ footer > a:hover {
    .main-nav .closebtn:hover {
 	   color: $smiley-color;
    }
+   #hoverparent {
+     min-width: 600px;
+   }
 }
 
 // Wide screen end
@@ -524,6 +527,9 @@ footer > a:hover {
     .img_container {
 	flex-direction: column;
     }
+  #hoverparent {
+     min-width: 275px;
+  }
 }
 // Narrow screen end
 
@@ -645,7 +651,6 @@ footer > a:hover {
 	display: flex;
 	flex-direction: column;
         width: min-content;
-        min-width: 500px;
 }
 
 #hoverparent:hover #defLabel,#hoverparent:hover #randomDefinition,#hoverparent:hover #mommLabel,#hoverparent:hover #randomMommentary,#hoverparent:hover #exLabel,#hoverparent:hover #randomExample {
