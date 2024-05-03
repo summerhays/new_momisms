@@ -1,7 +1,7 @@
 ---
 ---
 var allMomisms = [
-{% for each in site.data.mom-csv %} {momism: `{{ each.momism | strip | smartify }}`,{% if each.definition %} definition: `{{ each.definition | strip | smartify }}`,{% endif %}{% if each.example %} example: `{{ each.example | strip | smartify }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary | strip | smartify | markdownify }}`,{% endif %}{% if each.filename %} filename: `{{ each.filename | strip | smartify }}`,{% endif %}{% if each.alt %} alt: `{{ each.alt | strip | smartify }}`,{% endif %}{% if each.links %} links: `{{ each.links | strip | smartify }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
+{% for each in site.data.mom-csv %} {momism: `{{ each.momism | strip | smartify }}`,{% if each.definition %} definition: `{{ each.definition | strip | smartify }}`,{% endif %}{% if each.example %} example: `{{ each.example | strip | smartify }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary | strip | smartify }}`,{% endif %}{% if each.filename %} filename: `{{ each.filename | strip | smartify }}`,{% endif %}{% if each.alt %} alt: `{{ each.alt | strip | smartify }}`,{% endif %}{% if each.links %} links: `{{ each.links | strip | smartify }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
 ];
 
 var randomNum = [

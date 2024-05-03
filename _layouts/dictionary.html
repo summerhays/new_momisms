@@ -78,7 +78,7 @@ type: dictionary
     {% unless mommentaryslice == "." or mommentaryslice == "?" or mommentaryslice == "!" or mommentaryslice == ";" or mommentaryslice == '"' %}
       {% assign mommentarydot = '.' %}
     {% endunless %}
-    Mommentary: {{ page.mommentary | smartify | markdownify }}{{ mommentarydot }}
+    Mommentary: {{ page.mommentary | smartify }}{{ mommentarydot }}
     {% assign mommentarydot = '' %}
   </div>
 {% endif %}
