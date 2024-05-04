@@ -639,7 +639,7 @@
   dup: "no"
 - day: 214 
   rand: "184" 
-  dup: "yes"
+  dup: "no"
 - day: 215 
   rand: "168" 
   dup: "no"
@@ -813,7 +813,7 @@
   dup: "no"
 - day: 272 
   rand: "145" 
-  dup: "yes"
+  dup: "no"
 - day: 273 
   rand: "154" 
   dup: "no"
@@ -1046,7 +1046,7 @@
   rand: "189" 
   dup: "no"
 - day: 350 
-  rand: "018" 
+  rand: "375" 
   dup: "no"
 - day: 351 
   rand: "102" 
@@ -1079,14 +1079,14 @@
   rand: "156" 
   dup: "no"
 - day: 361 
-  rand: "145" 
-  dup: "yes"
+  rand: "018" 
+  dup: "no"
 - day: 362 
   rand: "214" 
   dup: "no"
 - day: 363 
-  rand: "184" 
-  dup: "yes"
+  rand: "374" 
+  dup: "no"
 - day: 364 
   rand: "335" 
   dup: "no"
