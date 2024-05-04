@@ -309,8 +309,10 @@ input:checked + .slider:before {
 }
 
 .img_size {
-  max-width: min(100%,300px);
-  max-height: min(100%,300px);
+  // max-width: min(100%,300px);
+  // max-height: min(100%,300px);
+  object-fit: cover;
+  max-width: 100%;
 }
 
 .imgs {
@@ -452,9 +454,6 @@ footer > a:hover {
    .main-nav .closebtn:hover {
 	   color: $smiley-color;
    }
-   #hoverparent {
-     min-width: 600px;
-   }
 }
 
 // Wide screen end
@@ -528,7 +527,7 @@ footer > a:hover {
 	flex-direction: column;
     }
   #hoverparent {
-     min-width: 275px;
+   //   min-width: 275px;
   }
 }
 // Narrow screen end
@@ -650,7 +649,8 @@ footer > a:hover {
 #hoverparent {
 	display: flex;
 	flex-direction: column;
-        width: min-content;
+        // width: min-content;
+        object-fit: cover;
 }
 
 #hoverparent:hover #defLabel,#hoverparent:hover #randomDefinition,#hoverparent:hover #mommLabel,#hoverparent:hover #randomMommentary,#hoverparent:hover #exLabel,#hoverparent:hover #randomExample {
