@@ -35,3 +35,24 @@ function openNav() {
   }
 }
 }
+
+//    2) Scroll to top button
+var IntersectionObserver1 = document.getElementById("intersectionObserver1");
+var ScrollToTopBtn = document.getElementById("topbtn");
+
+// 2) Intersection Observer (for scroll effects)
+let IntersectionObserverResult = new IntersectionObserver(callback1);
+// start observing the target element
+IntersectionObserverResult.observe(IntersectionObserver1);
+
+function callback1(entries, IntersectionObserverResult) {
+        entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Hide button
+      ScrollToTopBtn.classList.remove("topbtn__show");
+    } else {
+      // Show button
+      ScrollToTopBtn.classList.add("topbtn__show");
+    }
+  });
+}

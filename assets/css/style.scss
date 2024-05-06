@@ -5,6 +5,15 @@
 //@import "solid.scss";
 //@import "brands.scss";
 
+:root {
+  caret-color: $color-1;
+  accent-color: $color-pink;
+}
+
+::selection {
+  background: $color-triad-2;
+}
+
 html,body {
 	height: 100%;
 	max-width: 100%;
@@ -54,25 +63,63 @@ img {
 	max-width: $text-width;
 }
 
-/* scroll up button */
-#topbtn {
-  display: none;
+// for the topbtn
+#intersectionObserver1 {
+  position: absolute;
+  top: 0px;
+  height: 120vh;
+  max-height: 400px;
+  width: 0;
+} 
+
+
+// 7) Styling scroll to top button topbtn svg
+.svg-arrow {
+  fill: transparent;
+  stroke: $body-color-text;
+} 
+.svg-circle {
+  fill: $color-pink;
+  stroke: $color-pink;
+  transition: fill .3s ease, stroke .3s ease;
+}
+  
+.topbtn {
+  font-size: 0;
+  opacity: 0;
+  pointer-events: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 599;
-  font-size: 22px;
   border: none;
   outline: none;
-  background-color: $color-triad-2;
-  color: white;
+  background-color: transparent;
   cursor: pointer;
-  padding: 10px 16px;
-  transition: background-color .3s;
-}
+  margin: 0;
+  padding: 0;
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+  transition: opacity 100ms ease-in;
+  border-radius:50%;
+  & svg {
+    background-color: transparent
+  }
 
-#topbtn:hover {
-	background-color: $color-pink//$color-triad-2-dark;
+  &__show {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 300ms ease-in;
+  }
+
+  &:hover {
+    opacity: 1 !important;
+    // transform: scale(1.1);
+
+    .svg-circle {
+      fill: $color-triad-2;
+      stroke: $color-triad-2;
+    }
+  }
 }
 
 .momism_card {
@@ -235,6 +282,10 @@ input:checked + .slider:before {
   display: inline-block;
 }
 
+.tooltip-link {
+  text-decoration: none;
+}
+
 .tooltip .tooltiptext {
   transform: scale(0);
   width: 140px;
@@ -280,15 +331,18 @@ input:checked + .slider:before {
   grid-gap: 1rem;
   grid-auto-flow: dense;
   padding: 0;
+  margin-left: -4em;
 }
 /* This will create 2x images every 4 elements */
 
 .gallery > .gallery__list > li {
 	list-style-type: none;
         margin: auto;
+        display: grid;
+        place-items: center;
 }
 
-.gallery > .gallery__list > li > figure {
+.gallery > .gallery__list > li > img {
   height: 100%;
 }
 
@@ -296,9 +350,9 @@ input:checked + .slider:before {
   grid-column: span 2; /* Spans two columns */
   grid-row: span 2; /* Spans two rows */
 }
-.gallery > .gallery__list > li > figure > img {
+.gallery > .gallery__list > li > img {
 //   height: 100%;
-  max-width: min(100%,300px);
+  max-width: min(60%,300px);
   object-fit: scale-down;
 }
 
@@ -319,16 +373,6 @@ input:checked + .slider:before {
   display: flex;
   justify-content: center;
 }
-
-// .img_small {
-// 	width: 100%;
-// 	max-width: 400px;
-// //	width: 55%;
-// 	margin: 0 auto;
-// //    display: block;
-//     padding: 15px;
-//     text-align: center;
-// }
 
 .larger_font {
 	font-size: 120%;
@@ -383,6 +427,7 @@ footer {
 	width: 100%;
 	text-align: center;
 	background-color: $color-1;
+        line-height: 2; 
 }
 
 footer > a {
@@ -662,3 +707,69 @@ footer > a:hover {
 	color: $color-triad-2-dark;
 }
 
+// Styling PDF links and external links
+a[href$="\.pdf" i]::after {
+    font-family: "Font Awesome 6 Free";
+    content: '\f1c1';
+    font-weight: 400;
+    // font-size: .6em;
+    margin-left: .3em;
+    text-decoration: none;
+    background-color: inherit;
+    color: $color-1-dark;
+    display: inline-block;
+}
+
+// Styling external links
+a[href^="http" i]::after {
+    font-family: "Font Awesome 6 Free";
+    content: '\f35d';
+    font-weight: 900;
+    font-size: .6em;
+    margin: 0 0 .05em .4em;
+    color: $color-triad-2;
+    text-decoration: none;
+    background-color: transparent;
+    display: inline-block;
+}
+
+a[href^="https://m.smrh.xyz/d/" i]::after {
+  content: none;
+}
+
+a[href^="https://www.summerhays.net/" i]::after {
+  content: none;
+}
+
+// Creating a custom scroll bar, matching Quaker theme
+body::-webkit-scrollbar {
+  width: .5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: $scrollbar-back;
+  border-radius: 100vw;
+  margin-block: .05em;
+}
+
+body::-webkit-scrollbar-thumb {
+  //background-color: linear-gradient($color-1, $color-1-dark);
+  background-color: $color-1-light;
+  border: .05em solid $scrollbar-back;
+  opacity: 70%;
+  border-radius: 100vw;
+  transition: background .3s;
+  &:hover {
+    background-color: $color-1;
+  }
+  &:active {
+    background-color: $color-1-dark;
+  }
+}
+
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: $scrollbar-thumb $scrollbar-back ;
+  }
+}

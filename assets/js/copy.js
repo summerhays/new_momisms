@@ -44,6 +44,6 @@ function copyButton(id) {
     tooltip = document.getElementById(tooltipid);
     oldtext = tooltip.innerHTML;
     copyTextToClipboard(x);
-    tooltip.innerHTML = "Copied!";
+    tooltip.innerHTML = "Permalink copied!";
     setTimeout(function(){tooltip.innerHTML = oldtext;}, 8000);
 };

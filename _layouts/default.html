@@ -44,7 +44,10 @@
 {% endif %}
   </head>
 
-<body>
+<body id=toppoint>
+	<!-- Special div for intersectionObserver for the back to top button -->
+	<!-- Pressing the topBtn brings back to the top of the screen -->
+	<div class=intersectionObserver id="intersectionObserver1">&nbsp; </div>
 	<div id="content">
         <header>
 	   <div class=topline>
@@ -67,8 +70,22 @@
 		{% unless page.id == "index" or page.type == "dictionary" %}<h2 class="title">{{ page.title }}</h2>{% endunless %}
 		{% if page.description or page-description %}<h2 class="title">{{ page.description }}{{ page-description }}</h2>{% endif %}
 
-<!-- Return to top button -->
+<!-- Return to top button 
        <button title="Return to top of page" onclick="topFunction()" id="topbtn" class="w3-card-4 w3-circle" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
+	class="w3-card-4 w3-circle"
+-->
+    <a 
+        href="#toppoint"
+        aria-label="Return to top"
+        id="topbtn" 
+        class="topbtn" 
+        title="Return to top"
+        >
+        
+        {% include angle-circle-arrow-up.svg %}
+  
+      </a>
+
 
           {{ content }}
 	<br><br>
@@ -81,7 +98,7 @@
 
 		<br><br>
 	     <div class="footer-small">Made with love by:</div>
-		<div class="footer-bottom"><a class=nolink href="https://www.summerhays.net">SummerSites</a></div>
+		<div class="footer-bottom"><a class=nolink href="https://www.summerhays.net/">SummerSites</a></div>
 	</footer>
   </div>
   </body>
@@ -98,10 +115,10 @@
       console.log('ServiceWorker registration failed: ', err);
     });
   });
+<script src="/assets/js/scrollTop.js"></script>
 }
 	</script> -->
 <script src="/assets/js/openNav.js"></script>
-<script src="/assets/js/scrollTop.js"></script>
 <!-- Clicky tracking -->
 <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101253902);</script>
 <script async src="//static.getclicky.com/js"></script>

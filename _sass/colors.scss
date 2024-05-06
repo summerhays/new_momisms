@@ -1,7 +1,7 @@
 @import "font";
 $body-font-size: 17px;
 $body-color: white;
-$body-color-text: black;
+$body-color-text: #242424;
 $mob-pixels: 800px; 
 $color-1:  #f5782a;
 $color-1-light: #ffa959;
@@ -27,3 +27,5 @@ $footer-bottom-text: white;// $body-color-text;
 $alert-color: #bf5608;
 $alert-text-color: white;
 $alert-link-color: white;
+$scrollbar-back: white;
+$scrollbar-thumb: $color-triad-2;

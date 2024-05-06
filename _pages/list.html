@@ -147,13 +147,31 @@ id: list
         <ul class="gallery__list">
           {% for img in imgs %}
           <li class=img_li>
-            <figure class=imgs>{{ img }}</figure>
+            {{ img }}
           </li>{% endfor %}
         </ul>
       </div>
       {% endif %}
       <p>
-        Momism ID #{{ order_integer }}<a id="id{{ order_integer }}" href="https://m.smrh.xyz/d/{{ each.order }}"></a><span> (<a class=tooltip onclick="copyButton('id{{ order_integer }}')"><u>copy link</u><span class="tooltiptext" id="myTooltip_id{{ order_integer }}">Copy to clipboard</span></a>)</span>, identified {{ each.date | date: "%B %-d, %Y" }}.
+        Momism ID #{{ order_integer }}<a 
+		id="id{{ order_integer }}" 
+		class="tooltip-link"
+		href="https://m.smrh.xyz/d/{{ each.order }}"
+		>
+	</a>
+		<span> (<a 
+				class=tooltip 
+				onclick="copyButton('id{{ order_integer }}')"
+				>
+				<u>permom-link</u>
+				<span 
+					class="tooltiptext" 
+					id="myTooltip_id{{ order_integer }}"
+					>Copy to clipboard
+				</span>
+			</a>)</span>, identified {{ each.date | date: "%B %-d, %Y" }}.
+		<br>
+		<br>
       </p>
     </div>
   {% endfor %}
