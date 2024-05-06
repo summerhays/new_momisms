@@ -332,6 +332,7 @@ input:checked + .slider:before {
   grid-auto-flow: dense;
   padding: 0;
   margin-left: -4em;
+  max-width: 100%
 }
 /* This will create 2x images every 4 elements */
 
