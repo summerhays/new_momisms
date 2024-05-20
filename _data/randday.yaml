@@ -221,7 +221,7 @@
   rand: "136" 
   dup: "no"
 - day: 75 
-  rand: "143" 
+  rand: "148" 
   dup: "no"
 - day: 76 
   rand: "351" 
@@ -272,7 +272,7 @@
   rand: "100" 
   dup: "no"
 - day: 92 
-  rand: "148" 
+  rand: "143" 
   dup: "no"
 - day: 93 
   rand: "336" 
@@ -353,13 +353,13 @@
   rand: "153" 
   dup: "no"
 - day: 119 
-  rand: "109" 
+  rand: "112" 
   dup: "no"
 - day: 120 
   rand: "192" 
   dup: "no"
 - day: 121 
-  rand: "120" 
+  rand: "123" 
   dup: "no"
 - day: 122 
   rand: "084" 
@@ -386,7 +386,7 @@
   rand: "068" 
   dup: "no"
 - day: 130 
-  rand: "207" 
+  rand: "213" 
   dup: "no"
 - day: 131 
   rand: "060" 
@@ -437,7 +437,7 @@
   rand: "234" 
   dup: "no"
 - day: 147 
-  rand: "123" 
+  rand: "120" 
   dup: "no"
 - day: 148 
   rand: "069" 
@@ -455,7 +455,7 @@
   rand: "072" 
   dup: "no"
 - day: 153 
-  rand: "112" 
+  rand: "109" 
   dup: "no"
 - day: 154 
   rand: "323" 
@@ -1076,7 +1076,7 @@
   rand: "360" 
   dup: "no"
 - day: 360 
-  rand: "213" 
+  rand: "207" 
   dup: "no"
 - day: 361 
   rand: "018" 

@@ -334,6 +334,11 @@ input:checked + .slider:before {
   margin-left: calc(-4em + 16px);
   max-width: 100%
 }
+
+#myInput {
+  border: 1px dotted $color-pink;
+}
+
 /* This will create 2x images every 4 elements */
 
 .gallery > .gallery__list > li {
@@ -743,7 +748,7 @@ a[href^="https://www.summerhays.net/" i]::after {
   content: none;
 }
 
-// Creating a custom scroll bar, matching Quaker theme
+// Creating a custom scroll bar, matching momism theme
 body::-webkit-scrollbar {
   width: .5em;
 }

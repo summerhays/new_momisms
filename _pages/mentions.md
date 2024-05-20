@@ -2,14 +2,19 @@
 og-title: Honourable mentions/horrors
 id: honorable
 ---
-<h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Honorable Mentions/<a href="/dictionary/041">Honourable Horrors (#41)</a></h2>
+<h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Honorable Mentions/<a href="/dictionary/040">Honourable Horrors (#40)</a></h2>
   
 Here's our list of momisms that don't quite make the cut:
 
-* *Coot*. Definition: Someone confused, often because of age, as in "The ability to understand the smart phone is evading this old coot." Other people do say this, but we'd never heard it before mom did. 
+* *At the drop of a hat*. Definition: without delay or good reason.
+* *Bouncing off the walls*. Hyperactive. The behavior of young children at a high-sugar birthday party.
+* *Cheese thingy*. Homemade quesadilla.
+* *Coming down with something*. Contracting an illness.
+* *Coot*. Someone confused, often because of age, as in "The ability to understand the smart phone is evading this old coot." Other people do say this, but we'd never heard it before mom did. 
+* *Disaster waiting to happen*. A risky plan or situation.
 * *Gripe*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
-* *Hare-brained*
-* *Harrumph!*
+* *Hare-brained*. Dimwitted.
+* *Harrumph!*. (Exclamation).
 * *Indeed*. Mother does end many a-sentence using this word, *indeed*. But this is an hono(u)rable mention/horror more than it is a momism.
 * *"Is that goat cheese? Ewe!"* This eye-rolling pun may be typical of our mother, but it's not a momism.
 * *Mind your Ps and Qs*. Mom does say this a lot, but other people do occasionnally.
@@ -33,8 +38,8 @@ Mom is one of the few people we know who keeps saying kidisms from when we were 
 * *Fewidgewator*. Blue-eyes for refridgerator.
 * *Ka-broken*. Admittedly awesome kidism from blue-eyes, means broken.
 * *Meemer*. Blue-eyes for vacuum cleaner.
-* *Perpers/Lippers*. Similarly, Blue-eyes for slippers. Perpers was "crossly" ([#64](/dictionary/064/)) corrected to "lippers."
+* *Perpers/Lippers*. Similarly, Blue-eyes for slippers. Perpers was "crossly" ([#62](/dictionary/062/)) corrected to "lippers."
 * *Splinker*. Admittedly awesome kidism from blue-eyes, means a splinter.
-* *Woo-wee-sa*. Kidism for Louisa. Mom started imitating the Killer Baby, saying "eww-wee-sa" but was "crossly" ([#64](/dictionary/064/)) corrected to "woo-wee-sa." 
+* *Woo-wee-sa*. Kidism for Louisa. Mom started imitating the Killer Baby, saying "eww-wee-sa" but was "crossly" ([#64](/dictionary/062/)) corrected to "woo-wee-sa." 
   * This same daughter also used to spell Emily’s name "MOE," one of mother's preferred tales.
 * *Wooze*. To lose.
