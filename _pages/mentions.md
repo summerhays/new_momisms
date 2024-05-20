@@ -4,7 +4,7 @@ id: honorable
 ---
 <h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Honorable Mentions/<a href="/dictionary/040">Honourable Horrors (#40)</a></h2>
   
-Here's our list of momisms that don't quite make the cut:
+There are many words and phrases that mom says often, but that we have a [dim recollection](/dictionary/212/) of other people saying too.
 
 * *At the drop of a hat*. Definition: without delay or good reason.
 * *Bouncing off the walls*. Hyperactive. The behavior of young children at a high-sugar birthday party.
