@@ -16,8 +16,9 @@ There are many words and phrases that mom says often, but that we have a [dim re
 * *Hare-brained*. Dimwitted.
 * *Harrumph!*. (Exclamation).
 * *Indeed*. Mother does end many a-sentence using this word, *indeed*. But this is an hono(u)rable mention/horror more than it is a momism.
-* *"Is that goat cheese? Ewe!"* This eye-rolling pun may be typical of our mother, but it's not a momism.
-* *Mind your Ps and Qs*. Mom does say this a lot, but other people do occasionnally.
+* *Is that goat cheese? Ewe!* This eye-rolling pun may be typical of our mother, but it's not a momism.
+* *Lost cause*. Mom does say this a lot, but other people do occasionnally.
+* *Mind your Ps and Qs*. Ditto.
 * *No spring chicken*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
 * *Off I went*. Ditto. Mom says it a lot but others do occasionally.
 * *Oh brother*. Ditto.

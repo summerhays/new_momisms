@@ -740,7 +740,7 @@ a[href^="http" i]::after {
     display: inline-block;
 }
 
-a[href^="https://m.smrh.xyz/d/" i]::after {
+a[href^="https://m.smrh.xyz/" i]::after {
   content: none;
 }
 
