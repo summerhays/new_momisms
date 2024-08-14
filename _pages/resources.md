@@ -28,11 +28,11 @@ Not to be too much of a linguist ([#099](/dictionary/099)), but here are some li
 ### A flavor of Miami in the 1950s:
 
 <div class="w3-content w3-section" style="max-width:500px">
-<img class="mySlides w3-animate-fading" src="/assets/images/historic/Florida_East_Coast_Railway.jpeg" style="width:100%">
-<img class="mySlides w3-animate-fading" src="/assets/images/historic/Nice_car.jpg" style="width:100%">
-<img class="mySlides w3-animate-fading" src="/assets/images/historic/park_central.jpg" style="width:100%">
-<img class="mySlides w3-animate-fading" src="/assets/images/historic/miami_beach.jpg" style="width:100%">
-<img class="mySlides w3-animate-fading" src="/assets/images/historic/cars.JPG" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/Florida_East_Coast_Railway.avif" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/Nice_car.avif" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/park_central.avif" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/miami_beach.avif" style="width:100%">
+<img class="mySlides w3-animate-fading" src="/assets/images/historic/cars.avif" style="width:100%">
 </div>
 
 <script src="/assets/js/carousel.js"></script>

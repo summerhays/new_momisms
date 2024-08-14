@@ -7,7 +7,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://mom.summerhays.net" # the base hostname & protocol for your site, e.g. http://example.com
 #  For testing
 # url: localhost:4000
-icon: /assets/images/confused-smiley.png
+icon: /assets/images/confused-smiley.avif
 
 # Build settings
 markdown: kramdown
