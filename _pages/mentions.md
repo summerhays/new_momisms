@@ -12,6 +12,7 @@ There are many words and phrases that mom says often, but that we have a [dim re
 * *Coming down with something*. Contracting an illness.
 * *Coot*. Someone confused, often because of age, as in "The ability to understand the smart phone is evading this old coot." Other people do say this, but we'd never heard it before mom did. 
 * *Disaster waiting to happen*. A risky plan or situation.
+* *Give grey hair*. Accuses someone of causing undue stress leading to premature aging.
 * *Gripe*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
 * *Hare-brained*. Dimwitted.
 * *Harrumph!*. (Exclamation).
