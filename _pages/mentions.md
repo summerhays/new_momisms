@@ -16,6 +16,7 @@ There are many words and phrases that mom says often, but that we have a [dim re
 * *Gripe*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
 * *Hare-brained*. Dimwitted.
 * *Harrumph!*. (Exclamation).
+* *Have no sense*. To make poor or foolish decisions.
 * *Indeed*. Mother does end many a-sentence using this word, *indeed*. But this is an hono(u)rable mention/horror more than it is a momism.
 * *Is that goat cheese? Ewe!* This eye-rolling pun may be typical of our mother, but it's not a momism.
 * *Lost cause*. Mom does say this a lot, but other people do occasionnally.
