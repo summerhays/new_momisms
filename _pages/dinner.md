@@ -1,5 +1,5 @@
 ---
-title: <i class="fas fa-utensils"></i>&nbsp; Top 5 signs mom is enjoying dinner
+title: Top 5 Signs Mom is Enjoying Dinner &nbsp;<i class="fas fa-utensils"></i>
 og-title: dinner
 id: dinner
 ---
@@ -11,8 +11,8 @@ Index card found years later, signed by the three kids, dated July, 2003
 4. Dad seen avoiding dinner at all costs.
 5. While dad procures yogurt and cereal, the uneaten food on his plate spontaneously ignites.
 
-Alternate #5 suggested by Blue Eyes: "While dad is getting other food, the uneaten food at his plate disappears, leaving only a trail of smoke leading directly to mom's plate"
+Alternate #5 suggested by [Blue Eyes](/dictionary/012/): "While dad is getting other food, the uneaten food at his plate disappears, leaving only a trail of smoke leading directly to mom's plate"
 
 ## "Yum! This is right good!"
 
-The above is teasing mom's momism. What she really said was, "I didn't know you could cook like *that*!"
+The above ending to the index card was our way of teasing mom's momism. What she really said was, "I didn't know you could cook like *that*!"
