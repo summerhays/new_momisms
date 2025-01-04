@@ -15,4 +15,4 @@ Alternate #5 suggested by [Blue Eyes](/dictionary/012/): "While dad is getting o
 
 ## "Yum! This is right good!"
 
-The above ending to the index card was our way of teasing mom's momism. What she really said was, "I didn't know you could cook like *that*!"
+The above ending to the index card was our way of teasing mom's momism. What she really said was, "I didn't know you could cook like *that!*"
