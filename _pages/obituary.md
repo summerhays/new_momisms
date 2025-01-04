@@ -1,5 +1,5 @@
 ---
-title: <i class="fas fa-fan"></i>&nbsp; Obituary
+title: Obituary&nbsp; <i class="fas fa-fan"></i>
 og-title: Obituary
 id: obituary
 ---
