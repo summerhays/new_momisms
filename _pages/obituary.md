@@ -4,6 +4,7 @@ og-title: Obituary
 id: obituary
 ---
 Mom was born in 1951 near Miami, Florida. She passed away in Laramie, Wyoming in August, 2024 while tentatively moving to California to be closer to her grandchildren. 
+
 She graduated from Duke University, remained in Durham to work in medical research, then in 1981 moved to Evanston, Illinois where she lived the rest of her life and raised her children. During that time she wrote the newsletter for her kids’ school and worked in the Registrar’s Office at Kendall College, later obtaining a master’s degree in linguistics from Northeastern Illinois University. 
 
 She is survived by her children, two grandchildren, brother, sister, nephew, niece, and ex-husband. 
