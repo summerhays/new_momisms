@@ -2,7 +2,7 @@
 og-title: Honourable mentions/horrors
 id: honorable
 ---
-<h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Honorable Mentions/<a href="/dictionary/040">Honourable Horrors (#40)</a></h2>
+<h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Hono(u)rable Mentions/<a href="/dictionary/040">Horrors (#40)</a></h2>
   
 There are many words and phrases that mom says often, but that we have a [dim recollection](/dictionary/212/) of other people saying too.
 
