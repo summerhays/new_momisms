@@ -13,9 +13,12 @@ icon: /assets/images/confused-smiley.avif
 markdown: kramdown
 plugins:
   - jemoji
-    #  - jekyll-datapage-generator
+  - jekyll-datapage-generator
 #  - jekyll-coffeescript
 #  - jekyll-feed
+
+whitelist:
+  - jekyll-datapage-generator
 
 tipue_search:
   include:
