@@ -269,10 +269,10 @@
   rand: "312" 
   dup: "no"
 - day: 91 
-  rand: "100" 
+  rand: "143" 
   dup: "no"
 - day: 92 
-  rand: "143" 
+  rand: "100" 
   dup: "no"
 - day: 93 
   rand: "336" 
