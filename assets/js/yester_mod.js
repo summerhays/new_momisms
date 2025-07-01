@@ -1,15 +1,42 @@
 ---
 ---
+{% assign year = "now" | date: "%Y" %}
+// {% assign year = 2024 %}
+
+{% assign year_mod4 = year | modulo: 4 %}
+{% assign year_mod100 = year | modulo: 100 %}
+{% assign year_mod400 = year | modulo: 400 %}
+
+
+
+{% if year_mod4 == 0 %}
+  {% if year_mod100 == 0 %}
+    {% if year_mod400 == 0 %}
+      {% assign is_leap_year = true %}
+    {% else %}
+      {% assign is_leap_year = false %}
+    {% endif %}
+
+    {% else %}
+    {% assign is_leap_year = true %}
+    {% endif %}
+  {% else %}
+    {% assign is_leap_year = false %}
+  {% endif %}
+
+// console.log("Year: " + " {{ is_leap_year }}" + " 4: {{ year_mod4 }}" + " 100: {{ year_mod100 }}" + " 400: {{ year_mod100 }}" {% if is_leap_year %}+ "hi" {% endif %});
+
 var allMomisms = [
 {% for each in site.data.mom-csv %} {momism: `{{ each.momism | strip | smartify }}`,{% if each.definition %} definition: `{{ each.definition | strip | smartify }}`,{% endif %}{% if each.example %} example: `{{ each.example | strip | smartify }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary | strip | smartify }}`,{% endif %}{% if each.filename %} filename: `{{ each.filename | strip | smartify }}`,{% endif %}{% if each.alt %} alt: `{{ each.alt | strip | smartify }}`,{% endif %}{% if each.links %} links: `{{ each.links | strip | smartify }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
 ];
 
-var randomNum = [
-{% for each in site.data.randday %}{day: {{ each.day }}, rand: `{% comment %}
+{% for each in site.data.randday %}{% if each.day == 366 %}{% assign last_rand = each.rand %}{% endif %}{% endfor %}
 
-	Random momisms aren't yet stored as integers, so this makes the string an integer. Then, if the momism ID for the day is greater than the number of momisms, it assigns the alternate momism
-	{% endcomment %}{% assign randy = each.rand | plus: 0 %}{% if randy > site.data.mom-csv.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}`}, {% endfor %}
+var randomNum = [
+{% for each in site.data.randday %}{day: {% if each.day == 60 and is_leap_year %}366, rand: `{{ last_rand }}`}, {day: 60 {% else %}{{ each.day }}{% endif %}, rand: `{{ each.rand }}`}, {% endfor %}
 ];
+
+//{% for each in site.data.randday %}console.log("Test: " + {{ each.day.last }});{% endfor %}
 
 var today=new Date();
 var yesterday = new Date(today);
@@ -35,6 +62,8 @@ const month = yesterday.toLocaleString('default', { month: 'long' });
 function daysIntoYear(date){
     return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
 }
+
+const isLeap = year => new Date(year, 1, 29).getDate() === 29;
 
 function periodatEnd(str) {
   if (typeof str !== 'undefined') {

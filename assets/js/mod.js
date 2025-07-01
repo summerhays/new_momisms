@@ -4,11 +4,10 @@ var allMomisms = [
 {% for each in site.data.mom-csv %} {momism: `{{ each.momism | strip | smartify }}`,{% if each.definition %} definition: `{{ each.definition | strip | smartify }}`,{% endif %}{% if each.example %} example: `{{ each.example | strip | smartify }}`,{% endif %}{% if each.mommentary %} mommentary: `{{ each.mommentary | strip | smartify }}`,{% endif %}{% if each.filename %} filename: `{{ each.filename | strip | smartify }}`,{% endif %}{% if each.alt %} alt: `{{ each.alt | strip | smartify }}`,{% endif %}{% if each.links %} links: `{{ each.links | strip | smartify }}`,{% endif %} momism_id: `{{ each.order }}`},{% endfor %}
 ];
 
-var randomNum = [
-{% for each in site.data.randday %}{day: {{ each.day }}, rand: `{% comment %}
+{% for each in site.data.randday %}{% if each.day == 366 %}{% assign last_rand = each.rand %}{% endif %}{% endfor %}
 
-	Random momisms aren't yet stored as integers, so this makes the string an integer. Then, if the momism ID for the day is greater than the number of momisms, it assigns the alternate momism
-	{% endcomment %}{% assign randy = each.rand | plus: 0 %}{% if randy > site.data.mom-csv.size %}{{ each.alt }}{% else %}{{ each.rand }}{% endif %}`}, {% endfor %}
+var randomNum = [
+{% for each in site.data.randday %}{day: {% if each.day == 60 and is_leap_year %}366, rand: `{{ last_rand }}`}, {day: 60 {% else %}{{ each.day }}{% endif %}, rand: `{{ each.rand }}`}, {% endfor %}
 ];
 
 var today=new Date();
@@ -32,6 +31,8 @@ const month = today.toLocaleString('default', { month: 'long' });
 function daysIntoYear(date){
     return (Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) - Date.UTC(date.getFullYear(), 0, 0)) / 24 / 60 / 60 / 1000;
 }
+
+const isLeap = year => new Date(year, 1, 29).getDate() === 29;
 
 function periodatEnd(str) {
   if (typeof str !== 'undefined') {
