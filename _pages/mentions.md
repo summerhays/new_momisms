@@ -4,7 +4,7 @@ id: honorable
 ---
 <h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Hono(u)rable Mentions/<a href="/dictionary/040">Horrors (#40)</a></h2>
   
-There are many words and phrases that mom says often, but that we have a [dim recollection](/dictionary/210/) of other people saying too.
+There are many words and phrases that mom says often, but that we have a [dim recollection (#210)](/dictionary/210/) of other people saying too.
 
 * *At the drop of a hat*. Definition: without delay or good reason.
 * *Bouncing off the walls*. Hyperactive. The behavior of young children at a high-sugar birthday party.
