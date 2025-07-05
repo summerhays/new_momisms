@@ -4,7 +4,7 @@ id: honorable
 ---
 <h2 class="title"><i class="fa-solid fa-award"></i> &nbsp;Hono(u)rable Mentions/<a href="/dictionary/040">Horrors (#40)</a></h2>
   
-There are many words and phrases that mom says often, but that we have a [dim recollection](/dictionary/212/) of other people saying too.
+There are many words and phrases that mom says often, but that we have a [dim recollection](/dictionary/210/) of other people saying too.
 
 * *At the drop of a hat*. Definition: without delay or good reason.
 * *Bouncing off the walls*. Hyperactive. The behavior of young children at a high-sugar birthday party.
@@ -44,8 +44,8 @@ Mom is one of the few people we know who keeps saying kidisms from when we were 
 * *Fewidgewator*. Blue-eyes for refridgerator.
 * *Ka-broken*. Admittedly awesome kidism from blue-eyes, means broken.
 * *Meemer*. Blue-eyes for vacuum cleaner.
-* *Perpers/Lippers*. Similarly, Blue-eyes for slippers. Perpers was "crossly" ([#62](/dictionary/062/)) corrected to "lippers."
+* *Perpers/Lippers*. Similarly, Blue-eyes for slippers. Perpers was "crossly" ([#61](/dictionary/061/)) corrected to "lippers."
 * *Splinker*. Admittedly awesome kidism from blue-eyes, means a splinter.
-* *Woo-wee-sa*. Kidism for Louisa. Mom started imitating the Killer Baby, saying "eww-wee-sa" but was "crossly" ([#64](/dictionary/062/)) corrected to "woo-wee-sa." 
+* *Woo-wee-sa*. Kidism for Louisa. Mom started imitating the Killer Baby, saying "eww-wee-sa" but was "crossly" ([#61](/dictionary/061/)) corrected to "woo-wee-sa." 
   * This same daughter also used to spell Emily’s name "MOE," one of mother's preferred tales.
 * *Wooze*. To lose.

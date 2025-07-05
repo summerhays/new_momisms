@@ -13,3 +13,4 @@ Mom was an avid reader and researcher, loved walking along the lake, happily cha
 
 In memory of her, please feel free to make a donation to the [Native American Rights Fund](https://narf.org/){: rel="noopener" target="_blank"}, the [American Indian College Fund](https://collegefund.org/){: rel="noopener" target="_blank"}, or [Freegeek](https://www.freegeek.org/){: rel="noopener" target="_blank"}. If there is a Freegeek near you who sells computers rebuilt by volunteers, then please do support it.
 
+This website is also an "full of beans" homage to her memory.

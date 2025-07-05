@@ -7,17 +7,17 @@ See the hono(u)rable mentions/[horrors](/dictionary/040/) for further kidisms. T
 
 | Kidism | Translation | Source |
 | --- | --- | --- |
-| Seews | Shoes | [Killer baby](/dictionary/120/) |
+| Seews | Shoes | [Killer baby](/dictionary/118/) |
 | Nonis | Macaroni & cheese | [Blue-eyes](/dictionary/012/) |
-| K'tah | Kitty cat | [Brown boy](/dictionary/281/) |
+| K'tah | Kitty cat | [Brown boy](/dictionary/277/) |
 | Gink | Sink | [Blue-eyes](/dictionary/012/) |
-| Daiyo train | Metra heavy rail | [Brown boy](/dictionary/281/) |
-| Beeber | Gund Beaver | [Killer baby](/dictionary/120/) |
-| Lala | Granola | [Brown boy](/dictionary/281/) |
-| Hotmeal | Oatmeal | [Brown boy](/dictionary/281/) |
+| Daiyo train | Metra heavy rail | [Brown boy](/dictionary/277/) |
+| Beeber | Gund Beaver | [Killer baby](/dictionary/118/) |
+| Lala | Granola | [Brown boy](/dictionary/277/) |
+| Hotmeal | Oatmeal | [Brown boy](/dictionary/277/) |
 | Behave! | I am being have! | Mom as a child |
-| Lellow | Yellow | [Killer baby](/dictionary/120/) |
+| Lellow | Yellow | [Killer baby](/dictionary/118/) |
 | [Meemer](/mentions) | Vacuum cleaner | [Blue-eyes](/dictionary/012/) |
-| Hamaburger | Hamburger | [Brown boy](/dictionary/281/) |
+| Hamaburger | Hamburger | [Brown boy](/dictionary/277/) |
 | Fig mutants | Fig newtons | [Blue-eyes](/dictionary/012/) |
 | Bambaids | Bandaids | [Blue-eyes](/dictionary/012/) |
