@@ -15,6 +15,7 @@ There are many words and phrases that mom says often, but that we have a [dim re
 * *Disaster waiting to happen*. A risky plan or situation.
 * *Give grey hair*. Accuses someone of causing undue stress leading to premature aging.
 * *Gripe*. Mother does say this a **lot** but we suppose that doesn't automatically a momism make.
+* *Hang on for dear life*. To desperately hold on to something. We hear mom's voice in this phrase, but other people have said it.
 * *Hare-brained*. Dimwitted.
 * *Harrumph!*. (Exclamation).
 * *Have no sense*. To make poor or foolish decisions.
