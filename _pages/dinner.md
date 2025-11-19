@@ -11,7 +11,7 @@ Index card found years later, signed by the three kids, dated July, 2003
 4. Dad seen avoiding dinner at all costs.
 5. While dad procures yogurt and cereal, the uneaten food on his plate spontaneously ignites.
 
-Alternate #5 suggested by [Blue Eyes](/dictionary/012/): "While dad is getting other food, the uneaten food at his plate disappears, leaving only a trail of smoke leading directly to mom's plate"
+Alternate #5 suggested by Blue Eyes: "While dad is getting other food, the uneaten food at his plate disappears, leaving only a trail of smoke leading directly to mom's plate"
 
 ## "Yum! This is right good!"
 
