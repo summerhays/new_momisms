@@ -2,7 +2,7 @@
 // ---
 // Toggle light and dark mode
 
-// let darkMode = localStorage.getItem('darkMode');
+let darkMode = localStorage.getItem('darkMode');
 // const darkModeToggle = document.getElementById('dark-mode-toggle');
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
 const colorScheme = document.querySelector('meta[name="color-scheme"]');
@@ -23,16 +23,15 @@ darkModeToggle.addEventListener('click', () => {
   if (darkMode === 'lightmode') {
     enableDarkMode();
   }
-//  // if it hasn't been touched, let's see
-//  if (darkMode == null) {
-//    if (systemPreference.matches) {
-//      disableDarkMode();
-//    } else {
-//      enableDarkMode();
-//    }
-//  }
+  // if it hasn't been touched, let's see
+  if (darkMode == null) {
+    if (colorScheme === "light dark") {
+      enableDarkMode();
+    } else {
+      disableDarkMode();
+    }
+  }
 });
-let darkMode = localStorage.getItem('darkMode');
 
 const enableDarkMode = () => {
   // 1. Add the class to the body
