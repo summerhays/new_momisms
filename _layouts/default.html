@@ -55,7 +55,7 @@
 	   <div class=topline>
 		   <!-- <div class="extra_div"></div> -->
 		   <div class="menu" onclick="openNav()"><i class="fas fa-bars fa-lg gradient-menu"></i></div>
-		   <a label="Home link" href="/{% if page.id == "index" %}list{% endif %}" class="nolink banner {% unless page.id == "index" %}w3-animate-zoom{% endunless %}"><img src="{{ site.icon }}" alt="Confused smiley" height="55px" hspace="10px"></a>
+       <a label="Home link" href="/{% if page.id == "index" %}list{% endif %}" class="nolink banner {% if page.id == "about" %}w3-spin {% endif %}{% unless page.id == "index" %}w3-animate-zoom{% endunless %}"><img src="{{ site.icon }}" alt="Confused smiley" height="55px" hspace="10px"></a>
 		<div></div>
 	   </div>
                 <a href="/" class="nolink banner color-1"><div class="title nolink">{{ site.title }}</div></a>
