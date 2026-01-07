@@ -1,6 +1,6 @@
 ---
 ---
-@import "colors.scss";
+@use "colors.scss";
 /*
 Tipue Search 6.1
 Copyright (c) 2017 Tipue
@@ -14,19 +14,19 @@ http://www.tipue.com/search
 
 #tipue_search_input, #tipue_search_foot_boxes
 {
-     font: 300 14px/1 $font-sans;
+     font: 300 14px/1 var(--font-sans);
 }
 #tipue_search_results_count, #tipue_search_warning, .tipue_search_content_url, .tipue_search_content_debug, .tipue_search_related_text
 {
-     font: 300 14px/1.7 $font-sans;
+     font: 300 14px/1.7 var(--font-sans);
 }
 .tipue_search_content_title
 {
-     font: 100 2em/1.7 $font-sans;
+     font: 100 2em/1.7 var(--font-sans);
 }
 .tipue_search_content_text, .tipue_search_related_title
 {
-     font: 300 15px/1.7 $font-sans;
+     font: 300 15px/1.7 var(--font-sans);
 }
 .tipue_search_content_bold, .tipue_search_related_bold
 {
@@ -39,7 +39,7 @@ http://www.tipue.com/search
 
 #tipue_search_input
 {
-     color: #333;
+     color: light-dark(oklch(0.3211 0 0),oklch(0.6789 0 0));
      max-width: 210px;
 	padding: 17px;
 	border: 1px solid #e3e3e3;

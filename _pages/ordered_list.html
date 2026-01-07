@@ -32,7 +32,7 @@ id: chrono_list
 {% assign order_integer = each.order | plus: 0 %}{% assign modulo_slice = order_integer | modulo: modulo %}
 {% if modulo_slice == 0 or order_integer == 1 %}
 </div>
-<div class="sticky_anchor stanchor">
+<div class="sticky_anchor">
 <div class="filterbye">&nbsp;</div>
 <div class="abc"><a name="{{ order_integer }}" class="nohover textwhite">&nbsp; {{ order_integer }}</a></div>{% endif %}
 <button id="momism_id{{ order_integer }}" onclick="toggleAccordion('{{ order_integer }}')" class="list_button smiley turquoise wrap fix_anchor"><i id="caret{{ order_integer }}" class="fas fa-caret-right caret"></i> &nbsp;&nbsp;{{ order_integer }}. {{ each.momism }}</button>

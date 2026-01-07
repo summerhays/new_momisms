@@ -1,47 +1,49 @@
+---
+---
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="{{ site.title }}">
-  <meta name="keywords" content="{{ site.keywords }}">
-  <meta name="author" content="{{ site.title }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffa959">
-  <meta property="og:title" content='{% if page.og-title %}{{ page.og-title }}{% else %}{{ page.title }}{% endif %}'>
-  <meta property="og:site_name" content='{{ site.title }}'>
-  <meta property="og:url" content="{% if page.type == "dictionary" %}{{ site.url }}/dictionary/{{ page.order }}/{% else %}{{ site.url }}{{ page.url }}{% endif %}">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="en_US">
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="{{ site.url }}/assets/images/confused-smiley.avif" />
-  <meta property="fb:app_id" content="299421778303061">
+    <meta name="description" content="{{ site.title }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="author" content="{{ site.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffa959">
+    <meta name="color-scheme" content="light dark">
+    <meta property="og:title" content='{% if page.og-title %}{{ page.og-title }}{% else %}{{ page.title }}{% endif %}'>
+    <meta property="og:site_name" content='{{ site.title }}'>
+    <meta property="og:url" content="{% if page.type == "dictionary" %}{{ site.url }}/dictionary/{{ page.order }}/{% else %}{{ site.url }}{{ page.url }}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="{{ site.url }}/assets/images/confused-smiley.avif" />
+    <meta property="fb:app_id" content="299421778303061">
   {% comment %}<meta property="og:description" content='{% if page.og-description %}{{ page.og-description }}{% else %}{{ page.title }}{% endif %}'>{% endcomment %}
   <html lang="en">
-  <link rel="icon" type="image/jpg" href="/favicon.ico">
- <link rel="preload" href="/assets/G-webfonts/AmaticSC-Regular.ttf" as="font" type="font/ttf" crossorigin>
- <link rel="preload" href="/assets/G-webfonts/Andika-Regular.ttf" as="font" type="font/ttf" crossorigin>
- <!---  <link href='https://fonts.googleapis.com/css?family=Amatic SC|Andika' rel='stylesheet'> --->
-     <link rel="stylesheet" href="/assets/css/w3.css">
-     <link rel="stylesheet" href="/assets/css/fontawesome.css">
-     <link rel="stylesheet" href="/assets/css/solid.css">
-     <link rel="stylesheet" href="/assets/css/brands.css">
-     <link rel="stylesheet" href="/assets/css/style.css">
-     <link rel="manifest" href="/manifest.webmanifest">
-     <link rel="apple-touch-icon" href="/favicon.ico">
-     <title>{{ site.title }}</title>
-
-     {% comment %}  if page.tipue_search_active or layout.tipue_search_active {% endcomment %}
-     {% if page.id == "search" %}
-  <!---<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400"> -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- <link rel="stylesheet" href="{{ "/tipuesearch/css/normalize.css" | relative_url }}"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-    <script src="{{ "/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
-    <link rel="stylesheet" href="{{ "/tipuesearch/css/tipuesearch.css" | relative_url }}">
-    <script src="{{ "/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
-    <script src="{{ "/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
-{% endif %}
+    <link rel="icon" type="image/jpg" href="/favicon.ico">
+    <link rel="preload" href="/assets/G-webfonts/AmaticSC-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="/assets/G-webfonts/Andika-Regular.ttf" as="font" type="font/ttf" crossorigin>
+    <!---  <link href='https://fonts.googleapis.com/css?family=Amatic SC|Andika' rel='stylesheet'> --->
+    <!--- <link rel="stylesheet" href="/assets/css/w3.css"> --->
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/solid.css">
+    <link rel="stylesheet" href="/assets/css/brands.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="apple-touch-icon" href="/favicon.ico">
+    <title>{{ site.title }}</title>
+    {% comment %}  if page.tipue_search_active or layout.tipue_search_active {% endcomment %}
+    {% if page.id == "search" %}
+      <!---<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400"> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- <link rel="stylesheet" href="{{ "/tipuesearch/css/normalize.css" | relative_url }}"> -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+      <script src="{{ "/tipuesearch/tipuesearch_content.js" | relative_url }}"></script>
+      <link rel="stylesheet" href="{{ "/tipuesearch/css/tipuesearch.css" | relative_url }}">
+      <script src="{{ "/tipuesearch/tipuesearch_set.js" | relative_url }}"></script>
+      <script src="{{ "/tipuesearch/tipuesearch.min.js" | relative_url }}"></script>
+    {% endif %}
   </head>
 
 <body id=toppoint>
@@ -94,11 +96,12 @@
 		<br>
 		{% for each in site.data.navigation.docs %}
                 <a href="{{ each.url }}" {% if each.target %}target="_blank"{% endif %} class="{% if page.url == each.url %}{% endif %}">{{ each.title }}</a>
-             {% endfor %}
+             {% endfor %}&nbsp;&nbsp; {% include toggle-dark-mode.html %}
+
 
 		<br><br>
 	     <div class="footer-small">Made with love by:</div>
-		<div class="footer-bottom"><a class=nolink href="https://www.summerhays.net/">SummerSites</a></div>
+		<div class="footer-bottom"><a class=nolink href="https://www.summerhays.me/">SummerSites</a></div>
 	</footer>
   </div>
   </body>
@@ -119,6 +122,7 @@
 }
 	</script> -->
 <script src="/assets/js/openNav.js"></script>
+<script src="/assets/js/darkmode.js" crossorigin></script>   
 <!-- Clicky tracking -->
 <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101253902);</script>
 <script async src="//static.getclicky.com/js"></script>

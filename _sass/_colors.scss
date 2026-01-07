@@ -1,0 +1,93 @@
+// @import "font";
+
+@font-face {
+  font-family: "Andika";
+  src: url(/assets/G-webfonts/Andika-Regular.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amatic SC";
+  src: url(/assets/G-webfonts/AmaticSC-Regular.ttf);
+  font-display: swap;
+}
+
+$mob-pixels: 800px; 
+// $body-font-size: 17px;
+// $nav-font-size: 1em;
+// $font-serif: 'Amatic SC', Georgia, serif;
+// $font-sans: Andika, Helvetica, Arial, sans-serif;
+// $font-mono: "Courier New", "Open Sans", Courier, monospace; 
+// $header-font-size: 140%;
+// $text-width: 50em;
+// 
+// $body-color: white;
+// $body-color-text: oklch(0.2603 0 0); // #242424;
+// $color-1: oklch(0.7074 0.1752 47.85); // #f5782a; //Orange Apricot
+// $color-1-dt:  oklch(0.604 0.1615 46.2); // #cc5b14;
+// $color-1-light: oklch(0.8046 0.1392 61.53); //#ffa959;
+// $color-1-dark: oklch(0.5532 0.1625 43.45); // #bc4900;
+// // $color-1-new-dark: oklch(0.9136 0.1086 90.47);
+// 
+// // $color-triad-1: oklch(0.8482 0.2687 141.62); // #42f52a; // Not used
+// $color-triad-2: oklch(0.8734 0.1506 182.14); // #2af5dd; //Turquoise
+// 
+// $color-triad-2-dt: oklch(0.7594 0.1339 181.85); // #14ccb7;
+// $color-triad-2-dark: oklch(0.5747 0.1019 180.89); // #0a8c7c; Turquoise dark: 
+// $color-triad-2-new-dark: oklch(0.6872 0.137283 169.178); // #00b58c; // The turquoise is already a 200 colour, we're supposed to choose one https://m2.material.io/design/color/dark-theme.html#ui-application
+// 
+// $color-pink: oklch(0.6062 0.2298 9.63); // #e91e63;
+// $color-pink-dt: oklch(0.5698 0.2119 9.28); // #d5205c;
+// $color-pink-new-dark: oklch(0.7654 0.1272 359.57); // #f48fb0; // Pink is a 500, and this is a 200. We'll see!
+// 
+// // $color-analogy: #a7f52a; // Not used
+// // $color-complement: oklch(0.5015 0.2615 267.69); // #2a42f5; // Not used
+// $color-active: $color-1-dark;
+// 
+// $smiley-color: oklch(0.9797 0.1147 108.34); // #ffffa2;
+// $smiley-color-dt: oklch(0.4424 0.0941 109.7); // #575705;
+// 
+// $header-color-text: $body-color-text;
+// $nav-color-text: $body-color-text;
+// $footer-bottom: $color-1-dark;
+// $footer-bottom-text: white;// $body-color-text;
+// $scrollbar-back: white;
+// $scrollbar-thumb: $color-triad-2;
+
+html,:root {
+  --mob-pixels: 800px; 
+  --body-font-size: 17px;
+  --nav-font-size: 1em;
+  --font-serif: 'Amatic SC', Georgia, serif;
+  --font-sans: Andika, Helvetica, Arial, sans-serif;
+  --font-mono: "Courier New", "Open Sans", Courier, monospace; 
+  --header-font-size: 140%;
+  --text-width: 50em;
+    --color-pink: light-dark(oklch(0.6062 0.2298 9.63), oklch(0.7782 0.1484 9.63)); //#e91e63
+
+    --body-color: light-dark(oklch(0.9491 0 0), oklch(0.1822 0 0));
+    --body-color-text: light-dark(oklch(0.2603 0 0), white); // #242424;
+    --color-1: light-dark(oklch(0.7074 0.1752 47.85), oklch(0.4842 0.1316 47.85)); // #f5782a; //Orange, for dark I was trying: oklch(0.821 0.1218 47.85)
+//     --color-1-dt: light-dark(oklch(0.604 0.1615 46.2), ); // #cc5b14 
+    --color-1-light: light-dark(oklch(0.8046 0.1392 61.53), oklch(0.5702 0.1392 61.53));
+    --color-1-dark: light-dark(oklch(0.5532 0.1625 43.45), oklch(0.4691 0.1295 43.45)); // #cb5c0a
+//    --color-1-new-dark: light-dark(oklch(0.9136 0.1086 90.47), );
+//     --color-complement: light-dark(oklch(0.5015 0.2615 267.69), );
+ //   --color-triad-1: light-dark(oklch(0.8482 0.2687 141.62), ); // Not used
+    --color-triad-2: light-dark(oklch(0.8734 0.1506 182.14), oklch(0.5097 0.0995 182.4)); //Turquoise
+//    --color-triad-2-dt: light-dark(oklch(0.7594 0.1339 181.85), );
+    --color-triad-2-dark: light-dark(oklch(0.5747 0.1019 182.14), oklch(0.8188 0.0953125 180.89)); // #068c7d Dark turquoise
+//    --color-triad-2-new-dark: light-dark(oklch(0.6872 0.137283 169.178), ); // The turquoise is already a 200 colour, we're supposed to choose one https://m2.material.io/design/color/dark-theme.html#ui-application
+    --color-pink: light-dark(oklch(0.6062 0.2298 9.63), oklch(0.7782 0.1484 9.63)); //#e91e63
+//    --color-pink-dt: light-dark(oklch(0.5698 0.2119 9.28), );
+//    --color-pink-new-dark: light-dark(oklch(0.7654 0.1272 359.57), ); // Pink is a 500, and this is a 200. We'll see!
+    --color-active: var(--color-1-dark);
+    --smiley-color: light-dark(oklch(0.9797 0.1147 108.34), oklch(0.4424 0.0941 109.7));
+//    --smiley-color-dt: light-dark(oklch(0.4424 0.0941 109.7), );
+    --header-color-text: var(--body-color-text);
+    --nav-color-text: var(--body-color-text);
+    --footer-bottom: var(--color-1-dark);
+    --footer-bottom-text: light-dark(white, oklch(0.2603 0 0)); // #242424;
+    --scrollbar-back: light-dark(oklch(0.9491 0 0), oklch(0.1822 0 0));
+    --scrollbar-thumb: var(--color-triad-2);
+}
