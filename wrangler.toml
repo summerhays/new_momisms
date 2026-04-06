@@ -6,4 +6,5 @@ zone_id = '779c6b4c4d644bb3598298c893daa1d8'
 usage_model = ''
 workers_dev = false
 target_type = "webpack"
-site = {bucket = "./_site",entry-point = "workers-site"}
+pages_build_output_dir = "./_site"
+site = { bucket = "./_site", entry-point = "workers-site" }
