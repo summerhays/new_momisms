@@ -1,7 +1,7 @@
 title: Momism of the Day (MOD)
 email: mom@summerhays.net
 description: >- # this means to ignore newlines until "baseurl:"
-        All {{ site.data.mom-csv.size }} momisms, all in one place
+  All {{ site.data.mom-csv.size }} momisms, all in one place
 keywords: momisms, mom, expressions
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://mom.summerhays.net" # the base hostname & protocol for your site, e.g. http://example.com
@@ -26,11 +26,10 @@ tipue_search:
   exclude:
     files: [search.html]
 
-include: ['_pages',".htaccess"]
+include: ["_pages", ".htaccess", "_redirects"]
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "_pages" # an empty string here means all files in the project
       type: "pages"
     values:
@@ -49,19 +48,20 @@ defaults:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 
 page_gen:
-  - data: 'mom-csv'
-    template: 'dictionary'
-    dir: 'fresh-dictionary'
+  - data: "mom-csv"
+    template: "dictionary"
+    dir:
+      "fresh-dictionary"
       #    name: 'order'
     name_expr: record['order']
-    title: 'momism'
+    title:
+      "momism"
       # og-description: 'definition'
       #    extension: 'md'
-      #    
+      #
       #  - data: 'pets'
       #    template: 'pet'
       #    name: 'pet_name'
